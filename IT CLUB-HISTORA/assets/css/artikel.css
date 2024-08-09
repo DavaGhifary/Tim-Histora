@@ -1,7 +1,18 @@
-.artikel {
-    background-color: #191919;
+
+body {
+    background-color: hsl(0, 0%, 10%);
     color: #ece7e7;
     font-family: 'Inter';
+}
+
+.img-like {
+    width: 15px;
+    height: 15px;
+}
+
+.uk-font {
+    margin-left: -15px;
+    font-size: small;
 }
 
 .ukuran {

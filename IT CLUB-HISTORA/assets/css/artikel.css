@@ -1,0 +1,17 @@
+.artikel {
+    background-color: #191919;
+    color: #ece7e7;
+    font-family: 'Inter';
+}
+
+.ukuran {
+    font-size: small;
+}
+
+.line-spacing {
+    line-height: 1.6;
+}
+
+.text-justify{
+    text-align: justify;
+}

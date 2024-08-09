@@ -1,723 +1,199 @@
 [
-    {
-        "periode": "1780 - 1815",
-        "sejarah": [
-            {
-                "judul": "Pemerintahan Gubernur Jenderal Van Den Bosch",
-                "deskripsi": "Pemerintahan Van Den Bosch di Hindia Belanda yang memperkenalkan sistem tanam paksa.",
-                "tahun": 1830,
-                "tokoh": ["Van Den Bosch"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Perang Paderi",
-                "deskripsi": "Perang antara kaum Paderi dan Belanda di Sumatera Barat yang berlangsung dari 1803 hingga 1837.",
-                "tahun": 1803,
-                "tokoh": ["Tuanku Imam Bonjol"],
-                "koordinat": {
-                    "latitude": -0.9640,
-                    "longitude": 100.4180
-                }
-            },
-            {
-                "judul": "Penerapan Sistem Tanam Paksa",
-                "deskripsi": "Sistem pertanian yang memaksa petani untuk menanam tanaman ekspor dan memberikan hasil kepada pemerintah Belanda.",
-                "tahun": 1830,
-                "tokoh": ["Van Den Bosch"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Perjanjian Bukit Tinggi",
-                "deskripsi": "Perjanjian yang mengakhiri Perang Paderi pada tahun 1825.",
-                "tahun": 1825,
-                "tokoh": ["Tuanku Imam Bonjol"],
-                "koordinat": {
-                    "latitude": -0.9640,
-                    "longitude": 100.4180
-                }
-            },
-            {
-                "judul": "Pembangunan Jalan Raya Anyer-Panarukan",
-                "deskripsi": "Proyek besar infrastruktur yang dilaksanakan oleh Daendels untuk mempercepat pergerakan militer dan ekonomi.",
-                "tahun": 1808,
-                "tokoh": ["Herman Willem Daendels"],
-                "koordinat": {
-                    "latitude": -6.1583,
-                    "longitude": 106.1420
-                }
-            },
-            {
-                "judul": "Kedatangan Belanda di Bali",
-                "deskripsi": "Ekspedisi Belanda untuk menguasai Bali yang berlangsung dari 1846 hingga 1849.",
-                "tahun": 1846,
-                "tokoh": ["J.P. Graaf van den Bosch"],
-                "koordinat": {
-                    "latitude": -8.4095,
-                    "longitude": 115.1889
-                }
-            },
-            {
-                "judul": "Penaklukan Makassar",
-                "deskripsi": "Penaklukan Makassar oleh Belanda pada tahun 1667, menandai akhir dari perlawanan besar terhadap kolonialisasi.",
-                "tahun": 1667,
-                "tokoh": ["Raden Patah"],
-                "koordinat": {
-                    "latitude": -5.1477,
-                    "longitude": 119.4320
-                }
-            },
-            {
-                "judul": "Perjanjian London",
-                "deskripsi": "Perjanjian yang mengatur batas-batas wilayah antara Belanda dan Inggris di Indonesia pada tahun 1824.",
-                "tahun": 1824,
-                "tokoh": ["Robert K. Abercromby"],
-                "koordinat": {
-                    "latitude": 51.5074,
-                    "longitude": -0.1278
-                }
-            },
-            {
-                "judul": "Pembangunan Pelabuhan Batavia",
-                "deskripsi": "Pengembangan pelabuhan penting di Batavia (sekarang Jakarta) yang berlangsung di akhir abad ke-18.",
-                "tahun": 1799,
-                "tokoh": ["Daendels"],
-                "koordinat": {
-                    "latitude": -6.1751,
-                    "longitude": 106.8650
-                }
-            },
-            {
-                "judul": "Kedatangan Kapal Belanda di Makassar",
-                "deskripsi": "Kedatangan kapal Belanda di Makassar pada tahun 1797 untuk mengatur perdagangan.",
-                "tahun": 1797,
-                "tokoh": ["Cornelis de Houtman"],
-                "koordinat": {
-                    "latitude": -5.1477,
-                    "longitude": 119.4320
-                }
-            }
-        ]
-    },
-    {
-        "periode": "1815 - 1850",
-        "sejarah": [
-            {
-                "judul": "Perang Padri",
-                "deskripsi": "Konflik besar antara kaum Paderi dan Belanda di Sumatera Barat yang berlangsung hingga 1837.",
-                "tahun": 1830,
-                "tokoh": ["Tuanku Imam Bonjol"],
-                "koordinat": {
-                    "latitude": -0.9640,
-                    "longitude": 100.4180
-                }
-            },
-            {
-                "judul": "Perjanjian Koning",
-                "deskripsi": "Perjanjian yang ditandatangani pada tahun 1830, mengakhiri Perang Diponegoro.",
-                "tahun": 1830,
-                "tokoh": ["Pangeran Diponegoro"],
-                "koordinat": {
-                    "latitude": -7.5704,
-                    "longitude": 110.8255
-                }
-            },
-            {
-                "judul": "Kedatangan Belanda di Bali",
-                "deskripsi": "Ekspedisi Belanda ke Bali untuk menaklukkan pulau tersebut dan mengakhiri perlawanan lokal.",
-                "tahun": 1846,
-                "tokoh": ["J.P. Graaf van den Bosch"],
-                "koordinat": {
-                    "latitude": -8.4095,
-                    "longitude": 115.1889
-                }
-            },
-            {
-                "judul": "Perang Aceh",
-                "deskripsi": "Konflik antara Belanda dan Aceh yang dimulai pada 1873 dan berlangsung hingga 1904.",
-                "tahun": 1873,
-                "tokoh": ["Teuku Umar"],
-                "koordinat": {
-                    "latitude": 5.5500,
-                    "longitude": 95.3167
-                }
-            },
-            {
-                "judul": "Perjanjian Raffles",
-                "deskripsi": "Perjanjian yang ditandatangani pada tahun 1814, yang mengakhiri kekuasaan Inggris dan mengembalikan Indonesia ke Belanda.",
-                "tahun": 1814,
-                "tokoh": ["Sir Thomas Stamford Raffles"],
-                "koordinat": {
-                    "latitude": 1.2903,
-                    "longitude": 103.8519
-                }
-            },
-            {
-                "judul": "Pendirian Koninklijk Instituut voor de Tropen",
-                "deskripsi": "Pendirian lembaga penelitian untuk studi tropis di Amsterdam yang berlangsung pada tahun 1851.",
-                "tahun": 1851,
-                "tokoh": ["Jan Pieter Marie"],
-                "koordinat": {
-                    "latitude": 52.3731,
-                    "longitude": 4.8922
-                }
-            },
-            {
-                "judul": "Penerapan Sistem Tanam Paksa di Jawa",
-                "deskripsi": "Implementasi sistem tanam paksa yang mengharuskan petani menanam komoditas ekspor untuk keuntungan Belanda.",
-                "tahun": 1830,
-                "tokoh": ["Van Den Bosch"],
-                "koordinat": {
-                    "latitude": -7.7972,
-                    "longitude": 110.3705
-                }
-            },
-            {
-                "judul": "Kedatangan Belanda di Minangkabau",
-                "deskripsi": "Pendudukan Belanda di Minangkabau yang terjadi pada tahun 1821.",
-                "tahun": 1821,
-                "tokoh": ["J.H. van Roijen"],
-                "koordinat": {
-                    "latitude": -0.9640,
-                    "longitude": 100.4180
-                }
-            },
-            {
-                "judul": "Penaklukan Makassar",
-                "deskripsi": "Penaklukan Makassar oleh Belanda pada tahun 1667.",
-                "tahun": 1667,
-                "tokoh": ["Raden Patah"],
-                "koordinat": {
-                    "latitude": -5.1477,
-                    "longitude": 119.4320
-                }
-            },
-            {
-                "judul": "Perjanjian Linggarjati",
-                "deskripsi": "Perjanjian yang ditandatangani pada tahun 1946 antara Belanda dan Indonesia untuk mengakui kedaulatan Indonesia.",
-                "tahun": 1946,
-                "tokoh": ["Sukarno", "Hatta", "Van Mook"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            }
-        ]
-    },
-    {
-        "periode": "1850 - 1885",
-        "sejarah": [
-            {
-                "judul": "Perang Ace",
-                "deskripsi": "Konflik antara Belanda dan Aceh yang dimulai pada 1873 dan berlangsung hingga 1904.",
-                "tahun": 1873,
-                "tokoh": ["Teuku Umar"],
-                "koordinat": {
-                    "latitude": 5.5500,
-                    "longitude": 95.3167
-                }
-            },
-            {
-                "judul": "Perjanjian Raffles",
-                "deskripsi": "Perjanjian yang ditandatangani pada tahun 1814, yang mengembalikan kekuasaan Belanda setelah Inggris.",
-                "tahun": 1814,
-                "tokoh": ["Sir Thomas Stamford Raffles"],
-                "koordinat": {
-                    "latitude": 1.2903,
-                    "longitude": 103.8519
-                }
-            },
-            {
-                "judul": "Penerapan Sistem Tanam Paksa",
-                "deskripsi": "Sistem pertanian yang memaksa petani untuk menanam tanaman ekspor dan memberikan hasil kepada pemerintah Belanda.",
-                "tahun": 1830,
-                "tokoh": ["Van Den Bosch"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Pendirian Koninklijk Instituut voor de Tropen",
-                "deskripsi": "Pendirian lembaga penelitian untuk studi tropis di Amsterdam yang berlangsung pada tahun 1851.",
-                "tahun": 1851,
-                "tokoh": ["Jan Pieter Marie"],
-                "koordinat": {
-                    "latitude": 52.3731,
-                    "longitude": 4.8922
-                }
-            },
-            {
-                "judul": "Perang Padri",
-                "deskripsi": "Perang antara kaum Paderi dan Belanda di Sumatera Barat yang berlangsung hingga 1837.",
-                "tahun": 1830,
-                "tokoh": ["Tuanku Imam Bonjol"],
-                "koordinat": {
-                    "latitude": -0.9640,
-                    "longitude": 100.4180
-                }
-            },
-            {
-                "judul": "Perjanjian Koning",
-                "deskripsi": "Perjanjian yang mengakhiri Perang Diponegoro pada tahun 1830.",
-                "tahun": 1830,
-                "tokoh": ["Pangeran Diponegoro"],
-                "koordinat": {
-                    "latitude": -7.5704,
-                    "longitude": 110.8255
-                }
-            },
-            {
-                "judul": "Kedatangan Belanda di Bali",
-                "deskripsi": "Ekspedisi Belanda ke Bali untuk menaklukkan pulau tersebut dan mengakhiri perlawanan lokal.",
-                "tahun": 1846,
-                "tokoh": ["J.P. Graaf van den Bosch"],
-                "koordinat": {
-                    "latitude": -8.4095,
-                    "longitude": 115.1889
-                }
-            },
-            {
-                "judul": "Penerapan Sistem Tanam Paksa di Jawa",
-                "deskripsi": "Implementasi sistem tanam paksa yang mengharuskan petani menanam komoditas ekspor untuk keuntungan Belanda.",
-                "tahun": 1830,
-                "tokoh": ["Van Den Bosch"],
-                "koordinat": {
-                    "latitude": -7.7972,
-                    "longitude": 110.3705
-                }
-            },
-            {
-                "judul": "Kedatangan Belanda di Minangkabau",
-                "deskripsi": "Pendudukan Belanda di Minangkabau yang terjadi pada tahun 1821.",
-                "tahun": 1821,
-                "tokoh": ["J.H. van Roijen"],
-                "koordinat": {
-                    "latitude": -0.9640,
-                    "longitude": 100.4180
-                }
-            },
-            {
-                "judul": "Penaklukan Makassar",
-                "deskripsi": "Penaklukan Makassar oleh Belanda pada tahun 1667.",
-                "tahun": 1667,
-                "tokoh": ["Raden Patah"],
-                "koordinat": {
-                    "latitude": -5.1477,
-                    "longitude": 119.4320
-                }
-            }
-        ]
-    },
-    {
-        "periode": "1885 - 1920",
-        "sejarah": [
-            {
-                "judul": "Pendirian Budi Utomo",
-                "deskripsi": "Budi Utomo didirikan pada tahun 1908 sebagai organisasi pergerakan nasional pertama di Indonesia.",
-                "tahun": 1908,
-                "tokoh": ["Dr. Wahidin Sudirohusodo"],
-                "koordinat": {
-                    "latitude": -7.7972,
-                    "longitude": 110.3705
-                }
-            },
-            {
-                "judul": "Sumpah Pemuda",
-                "deskripsi": "Deklarasi yang dihasilkan dari Kongres Pemuda II pada 28 Oktober 1928, menyatakan persatuan dan kesatuan bangsa Indonesia.",
-                "tahun": 1928,
-                "tokoh": ["Sukarno", "Mohammad Hatta"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Perjanjian Linggarjati",
-                "deskripsi": "Perjanjian yang ditandatangani pada tahun 1946 antara Belanda dan Indonesia untuk mengakui kedaulatan Indonesia.",
-                "tahun": 1946,
-                "tokoh": ["Sukarno", "Hatta", "Van Mook"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Kedatangan Belanda di Aceh",
-                "deskripsi": "Ekspedisi militer Belanda ke Aceh pada akhir abad ke-19.",
-                "tahun": 1873,
-                "tokoh": ["Teuku Umar"],
-                "koordinat": {
-                    "latitude": 5.5500,
-                    "longitude": 95.3167
-                }
-            },
-            {
-                "judul": "Pendiriannya Sarekat Islam",
-                "deskripsi": "Sarekat Islam didirikan pada tahun 1911 sebagai organisasi untuk memperjuangkan hak-hak ekonomi dan sosial rakyat Indonesia.",
-                "tahun": 1911,
-                "tokoh": ["Semaun"],
-                "koordinat": {
-                    "latitude": -7.7972,
-                    "longitude": 110.3705
-                }
-            },
-            {
-                "judul": "Perjuangan di Bali",
-                "deskripsi": "Perlawanan rakyat Bali terhadap kolonialisasi Belanda pada akhir abad ke-19.",
-                "tahun": 1906,
-                "tokoh": ["I Gusti Ngurah Rai"],
-                "koordinat": {
-                    "latitude": -8.4095,
-                    "longitude": 115.1889
-                }
-            },
-            {
-                "judul": "Perjuangan di Minangkabau",
-                "deskripsi": "Konflik antara Belanda dan rakyat Minangkabau pada akhir abad ke-19.",
-                "tahun": 1890,
-                "tokoh": ["Datuk Katamso"],
-                "koordinat": {
-                    "latitude": -0.9640,
-                    "longitude": 100.4180
-                }
-            },
-            {
-                "judul": "Perkembangan di Batavia",
-                "deskripsi": "Pengembangan infrastruktur dan administrasi di Batavia (Jakarta) pada akhir abad ke-19.",
-                "tahun": 1890,
-                "tokoh": ["Herman Willem Daendels"],
-                "koordinat": {
-                    "latitude": -6.1751,
-                    "longitude": 106.8650
-                }
-            },
-            {
-                "judul": "Penerapan Sistem Pendidikan Barat",
-                "deskripsi": "Implementasi sistem pendidikan Barat oleh pemerintah kolonial Belanda pada akhir abad ke-19.",
-                "tahun": 1880,
-                "tokoh": ["Raden Mas Soewardi Soerjaningrat"],
-                "koordinat": {
-                    "latitude": -7.7972,
-                    "longitude": 110.3705
-                }
-            },
-            {
-                "judul": "Konferensi Nasional Pertama",
-                "deskripsi": "Konferensi pertama yang diadakan oleh organisasi pergerakan nasional di Indonesia pada awal abad ke-20.",
-                "tahun": 1912,
-                "tokoh": ["R.M. Soetardjo"],
-                "koordinat": {
-                    "latitude": -7.7972,
-                    "longitude": 110.3705
-                }
-            }
-        ]
-    },
-    {
-        "periode": "1920 - 1955",
-        "sejarah": [
-            {
-                "judul": "Konferensi Asia-Afrika",
-                "deskripsi": "Konferensi yang diadakan di Bandung pada April 1955, yang mempertemukan negara-negara Asia dan Afrika untuk membahas kerjasama internasional.",
-                "tahun": 1955,
-                "tokoh": ["Sukarno", "Nehru", "Gamal Abdel Nasser"],
-                "koordinat": {
-                    "latitude": -6.9175,
-                    "longitude": 107.6191
-                }
-            },
-            {
-                "judul": "Proklamasi Kemerdekaan Indonesia",
-                "deskripsi": "Deklarasi kemerdekaan Indonesia pada 17 Agustus 1945 yang dibacakan oleh Sukarno dan Mohammad Hatta.",
-                "tahun": 1945,
-                "tokoh": ["Sukarno", "Mohammad Hatta"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Perang Kemerdekaan Indonesia",
-                "deskripsi": "Perang yang terjadi antara Indonesia dan Belanda setelah proklamasi kemerdekaan Indonesia, berlangsung hingga 1949.",
-                "tahun": 1945,
-                "tokoh": ["Sukarno", "Mohammad Hatta"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Kongres Pemuda II",
-                "deskripsi": "Kongres yang berlangsung pada 28-30 Oktober 1928, menghasilkan Sumpah Pemuda yang menyatakan persatuan bangsa Indonesia.",
-                "tahun": 1928,
-                "tokoh": ["Sukarno", "Mohammad Hatta"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Perjanjian Linggarjati",
-                "deskripsi": "Perjanjian yang ditandatangani pada 15 November 1946 antara Indonesia dan Belanda untuk mengakui kemerdekaan Indonesia.",
-                "tahun": 1946,
-                "tokoh": ["Sukarno", "Mohammad Hatta", "Van Mook"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Pendirian Partai Komunis Indonesia",
-                "deskripsi": "Partai Komunis Indonesia (PKI) didirikan pada tahun 1920 sebagai partai politik dengan ideologi komunisme.",
-                "tahun": 1920,
-                "tokoh": ["Semaun", "H.A. Salim"],
-                "koordinat": {
-                    "latitude": -7.7972,
-                    "longitude": 110.3705
-                }
-            },
-            {
-                "judul": "Kedatangan Jepang di Indonesia",
-                "deskripsi": "Pendudukan Jepang di Indonesia selama Perang Dunia II, dimulai pada 1942 hingga 1945.",
-                "tahun": 1942,
-                "tokoh": ["Jenderal Kumakichi Harada"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Konferensi Malino",
-                "deskripsi": "Konferensi yang diadakan pada 1946 di Malino untuk merundingkan hubungan antara Indonesia dan Belanda.",
-                "tahun": 1946,
-                "tokoh": ["Sutan Sjahrir", "Hatta", "Van Mook"],
-                "koordinat": {
-                    "latitude": -5.0156,
-                    "longitude": 119.4412
-                }
-            },
-            {
-                "judul": "Penerimaan Indonesia dalam PBB",
-                "deskripsi": "Indonesia diterima sebagai anggota Perserikatan Bangsa-Bangsa (PBB) pada tahun 1950.",
-                "tahun": 1950,
-                "tokoh": ["Sukarno"],
-                "koordinat": {
-                    "latitude": 40.7128,
-                    "longitude": -74.0060
-                }
-            },
-            {
-                "judul": "Pemilihan Umum Pertama",
-                "deskripsi": "Pemilihan umum pertama di Indonesia pasca-kemerdekaan yang diadakan pada tahun 1955.",
-                "tahun": 1955,
-                "tokoh": ["Sukarno"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            }
-        ]
-    },
-    {
-        "periode": "1955 - 1990",
-        "sejarah": [
-            {
-                "judul": "G30S/PKI",
-                "deskripsi": "Gerakan 30 September/PKI adalah kudeta militer yang gagal dan merupakan salah satu peristiwa penting dalam sejarah Indonesia pada 1965.",
-                "tahun": 1965,
-                "tokoh": ["Suharto", "Sukarno"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Konferensi Asia-Afrika",
-                "deskripsi": "Konferensi yang diadakan di Bandung pada April 1955, mempertemukan negara-negara Asia dan Afrika untuk membahas kerjasama internasional.",
-                "tahun": 1955,
-                "tokoh": ["Sukarno", "Nehru", "Gamal Abdel Nasser"],
-                "koordinat": {
-                    "latitude": -6.9175,
-                    "longitude": 107.6191
-                }
-            },
-            {
-                "judul": "Pembentukan ORMAS (Organisasi Massa)",
-                "deskripsi": "Pembentukan berbagai organisasi massa sebagai bagian dari kebijakan politik Orde Baru.",
-                "tahun": 1960,
-                "tokoh": ["Suharto"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Dekrit Presiden 1959",
-                "deskripsi": "Dekrit Presiden Sukarno pada 5 Juli 1959 yang membubarkan Konstituante dan kembali ke UUD 1945.",
-                "tahun": 1959,
-                "tokoh": ["Sukarno"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Pembangunan Jembatan Suramadu",
-                "deskripsi": "Proyek jembatan Suramadu yang menghubungkan Surabaya dan Madura, dimulai pada tahun 1980-an.",
-                "tahun": 1986,
-                "tokoh": ["Suharto"],
-                "koordinat": {
-                    "latitude": -7.2504,
-                    "longitude": 112.7680
-                }
-            },
-            {
-                "judul": "Reformasi 1998",
-                "deskripsi": "Gerakan reformasi yang memunculkan perubahan besar dalam politik Indonesia, termasuk pengunduran diri Presiden Suharto pada Mei 1998.",
-                "tahun": 1998,
-                "tokoh": ["Suharto", "Abdurrahman Wahid"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Pendirian Universitas Indonesia",
-                "deskripsi": "Pendirian Universitas Indonesia di Jakarta yang menjadi salah satu institusi pendidikan tertinggi di negara ini.",
-                "tahun": 1950,
-                "tokoh": ["Sukarno"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Pembangunan Irian Jaya",
-                "deskripsi": "Upaya pembangunan dan integrasi wilayah Irian Jaya (Papua) ke dalam negara Republik Indonesia.",
-                "tahun": 1960,
-                "tokoh": ["Sukarno"],
-                "koordinat": {
-                    "latitude": -2.5000,
-                    "longitude": 140.7000
-                }
-            },
-            {
-                "judul": "Deklarasi Jakarta",
-                "deskripsi": "Deklarasi yang mengatur prinsip-prinsip dasar politik luar negeri Indonesia pada tahun 1956.",
-                "tahun": 1956,
-                "tokoh": ["Sukarno"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Pembentukan Bank Indonesia",
-                "deskripsi": "Pembentukan Bank Indonesia sebagai bank sentral pada tahun 1953.",
-                "tahun": 1953,
-                "tokoh": ["Sukarno"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Gerakan 30 September/PKI",
-                "deskripsi": "Gerakan 30 September/PKI adalah kudeta militer yang gagal pada 1965, mengakibatkan peralihan kekuasaan dari Sukarno ke Suharto.",
-                "tahun": 1965,
-                "tokoh": ["Suharto", "Sukarno"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Pembangunan Jakarta",
-                "deskripsi": "Proyek pembangunan Jakarta yang pesat pada era Orde Baru, termasuk pembangunan gedung-gedung tinggi dan infrastruktur.",
-                "tahun": 1970,
-                "tokoh": ["Suharto"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Proyek Transmigrasi",
-                "deskripsi": "Program pemerintah untuk memindahkan penduduk dari daerah padat penduduk ke daerah yang kurang penduduk, terutama ke bagian luar Jawa.",
-                "tahun": 1960,
-                "tokoh": ["Suharto"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Pemilihan Umum 1971",
-                "deskripsi": "Pemilihan umum pertama di era Orde Baru di bawah kepemimpinan Suharto.",
-                "tahun": 1971,
-                "tokoh": ["Suharto"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Penerapan Pancasila sebagai Dasar Negara",
-                "deskripsi": "Pancasila diresmikan sebagai dasar negara Indonesia pada tahun 1965, menggantikan UUD 1945.",
-                "tahun": 1965,
-                "tokoh": ["Suharto"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Konferensi Ekonomi Asia",
-                "deskripsi": "Konferensi ekonomi yang diadakan pada tahun 1970 untuk membahas kerjasama ekonomi di Asia.",
-                "tahun": 1970,
-                "tokoh": ["Suharto"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Krisis Moneter 1997-1998",
-                "deskripsi": "Krisis ekonomi yang melanda Indonesia dan memicu ketidakstabilan politik serta perubahan besar dalam pemerintahan.",
-                "tahun": 1997,
-                "tokoh": ["Suharto", "BJ Habibie"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Reformasi 1998",
-                "deskripsi": "Gerakan reformasi yang mengakhiri kekuasaan Suharto dan membawa perubahan besar dalam struktur politik dan sosial Indonesia.",
-                "tahun": 1998,
-                "tokoh": ["Suharto", "Abdurrahman Wahid"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            },
-            {
-                "judul": "Pengakuan Kedaulatan Indonesia",
-                "deskripsi": "Pengakuan kedaulatan Indonesia oleh Belanda pada 27 Desember 1949, mengakhiri konflik kemerdekaan.",
-                "tahun": 1949,
-                "tokoh": ["Sukarno", "Mohammad Hatta"],
-                "koordinat": {
-                    "latitude": -6.2088,
-                    "longitude": 106.8456
-                }
-            }
-
-        ]
-    }
+  {
+    "periode": "1740 - 1850",
+    "sejarah": [
+      {
+        "judul": "Pembantaian warga Tionghoa di Batavia",
+        "deskripsi": "Pembantaian warga Tionghoa di Batavia terjadi pada tanggal 9 Oktober 1740, ketika pasukan Belanda menyerang dan membantai komunitas Tionghoa di Batavia (sekarang Jakarta). Peristiwa ini merupakan puncak dari ketegangan yang telah lama terjadi antara masyarakat Tionghoa dan pemerintah kolonial Belanda. Konflik ini berakar dari ketidakpuasan terhadap kebijakan ekonomi dan politik Belanda serta ketegangan sosial antara komunitas lokal dan pendatang Tionghoa.",
+        "tahun": 1740,
+        "tokoh": ["Gustaaf Willem baron van Imhoff"],
+        "image": "../../",
+        "image_tokoh": "../../",
+        "koordinat": [-6.138555960849016, 106.81690343568376]
+      },
+      {
+        "judul": "Pendirian Kantor Pos Pertama di Batavia",
+        "deskripsi": "Pada tahun 1746, Kantor Pos pertama didirikan di Batavia, yang kini dikenal sebagai Jakarta. Pendirian kantor pos ini merupakan langkah penting dalam pengembangan sistem komunikasi di wilayah Hindia Belanda. Kantor pos ini memungkinkan pengiriman surat dan paket dengan lebih efisien, yang mendukung administrasi kolonial dan perdagangan.",
+        "tahun": 1746,
+        "tokoh": ["Gustaaf Willem baron van Imhoff"],
+        "image": "../../",
+        "image_tokoh": "../../",
+        "koordinat": [-6.2088, 106.8456]
+      },
+      {
+        "judul": "Perjanjian Giyanti",
+        "deskripsi": "Perjanjian Giyanti ditandatangani pada tahun 1755 antara pihak Kerajaan Mataram dan VOC. Perjanjian ini membagi Kerajaan Mataram menjadi dua kesultanan: Kasunanan Surakarta dan Kasultanan Ngayogyakarta. Pangeran Mangkubumi, yang kemudian dikenal sebagai Sultan Hamengkubuwono I, mendapatkan wilayah Yogyakarta, sementara wilayah Surakarta diberikan kepada Gusti Raden Mas Said, yang dikenal sebagai Sultan Susuhunan Pakubuwono III. Perjanjian ini merupakan bagian dari upaya VOC untuk mengendalikan dan memecah belah kekuatan lokal di Jawa.",
+        "tahun": 1755,
+        "tokoh": [
+          "Gusti Raden Mas Said, Pangeran Mangkubumi, dan Gubernur Jenderal Jacob Mossel"
+        ],
+        "image": "../../",
+        "image_tokoh": "../../",
+        "koordinat": [-7.7972, 110.3695]
+      },
+      {
+        "judul": "Pembubaran VOC",
+        "deskripsi": "Pada tahun 1799, Vereenigde Oost-Indische Compagnie (VOC) atau Perusahaan Hindia Timur Belanda dibubarkan. VOC, yang didirikan pada tahun 1602, merupakan salah satu perusahaan dagang pertama yang memiliki monopoli perdagangan di Asia Tenggara, termasuk Indonesia. Faktor-faktor yang menyebabkan pembubaran VOC termasuk masalah keuangan yang parah, korupsi internal, dan persaingan bisnis yang semakin ketat. Pembubaran VOC menandai akhir dari era kolonial Belanda yang dikuasai oleh perusahaan dagang, dan memulai era baru di bawah pemerintahan langsung Belanda melalui pemerintah kolonial.",
+        "tahun": 1799,
+        "tokoh": [
+          "Gubernur Jenderal Pieter J. van Hoorn, Gubernur Jenderal Daendels"
+        ],
+        "image": "../../",
+        "image_tokoh": "../../",
+        "koordinat": [-6.2088, 106.8456]
+      },
+      {
+        "judul": "Pengambilalihan Kepulauan Nusantara oleh Pemerintah Belanda",
+        "deskripsi": "Pada tahun 1800, Pemerintah Belanda mengambil alih kepemilikan Kepulauan Nusantara dari VOC dan menamakannya sebagai Hindia Belanda. Pengambilalihan ini dilakukan setelah VOC dibubarkan pada tahun 1799. Pemerintah Belanda kemudian memerintah wilayah ini secara langsung. Gubernur Jenderal Herman Willem Daendels adalah salah satu tokoh penting yang memimpin administrasi kolonial pada masa awal Hindia Belanda. Penamaan Hindia Belanda menandai era baru dalam sejarah kolonial Indonesia, dengan struktur administrasi dan kebijakan yang lebih terpusat dari pemerintah Belanda.",
+        "tahun": 1800,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Gubernur Jenderal Herman Willem Daendels"],
+        "koordinat": [-6.2088, 106.8456]
+      },
+      {
+        "judul": "Perang Padri",
+        "deskripsi": "Perang Padri adalah konflik yang terjadi di Sumatera Barat dari tahun 1803 hingga 1837. Konflik ini melibatkan kaum Padri yang dipimpin oleh Tuanku Imam Bonjol melawan kekuasaan Belanda dan penguasa lokal. Kaum Padri memperjuangkan penerapan hukum Islam yang lebih ketat dan menolak penguasa adat yang dianggap tidak sesuai dengan syariat Islam. Perang ini merupakan bagian dari upaya Belanda untuk memperkuat kekuasaannya di Sumatera Barat.",
+        "tahun": 1803,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": [
+          "Tuanku Imam Bonjol",
+          "Haji Abdul Malik Karim Amrullah (Hamka)"
+        ],
+        "koordinat": [-0.845, 100.235]
+      },
+      {
+        "judul": "Pengangkatan Herman Willem Daendels sebagai Gubernur Jenderal Hindia Belanda",
+        "deskripsi": "Pada tahun 1808, Herman Willem Daendels resmi diangkat sebagai Gubernur Jenderal Hindia Belanda yang ke-36. Pengangkatan ini terjadi setelah Belanda mengambil alih kepemilikan Kepulauan Nusantara dari VOC dan menamakannya sebagai Hindia Belanda. Daendels dikenal karena kebijakan reformis dan upayanya untuk memperkuat administrasi kolonial serta membangun infrastruktur penting, termasuk Jalan Raya Pos, yang menghubungkan ujung barat dan timur Jawa.",
+        "tahun": 1808,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Herman Willem Daendels"],
+        "koordinat": [-6.2088, 106.8456]
+      },
+      {
+        "judul": "Pengangkatan Thomas Stamford Raffles sebagai Wakil Gubernur Jenderal",
+        "deskripsi": "Pada tahun 1811, Thomas Stamford Raffles diangkat sebagai Wakil Gubernur Jenderal untuk wilayah Jawa dan Daerah Seberang. Pengangkatan ini terjadi setelah Inggris mengambil alih kendali atas Hindia Belanda dari Belanda selama periode pendudukan Inggris. Raffles dikenal karena kebijakan reformisnya yang meliputi pembaruan administratif, penghapusan perbudakan, dan pengembangan infrastruktur serta kebijakan ekonomi yang inovatif. Raffles juga terkenal dengan upayanya dalam pengumpulan dan pelestarian artefak budaya serta penelitiannya tentang sejarah dan kebudayaan lokal.",
+        "tahun": 1811,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Thomas Stamford Raffles"],
+        "koordinat": [-6.2088, 106.8456]
+      },
+      {
+        "judul": "Perang Diponegoro",
+        "deskripsi": "Perang Diponegoro, yang berlangsung dari tahun 1825 hingga 1830, adalah salah satu konflik terbesar dan paling signifikan dalam sejarah perjuangan melawan kolonialisme Belanda di Indonesia. Dipimpin oleh Pangeran Diponegoro, seorang bangsawan Jawa dan pemimpin perlawanan, perang ini merupakan upaya untuk melawan ekspansi dan penindasan pemerintah kolonial Belanda di pulau Jawa. Konflik ini melibatkan berbagai taktik perang gerilya dan berhasil mendapatkan dukungan luas dari rakyat Jawa. Perang Diponegoro berakhir dengan penangkapan Pangeran Diponegoro pada tahun 1830, yang menandai berakhirnya perjuangan besar melawan kekuasaan kolonial Belanda di Jawa.",
+        "tahun": 1825,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Pangeran Diponegoro"],
+        "koordinat": [-7.7956, 110.3695]
+      },
+      {
+        "judul": "Penghapusan Hukum Adat Tawan Karang oleh Kerajaan Badung",
+        "deskripsi": "Pada tahun 1842, Kerajaan Badung di Bali menyepakati penghapusan hukum adat Tawan Karang, yang sebelumnya memberi hak pada raja untuk menyita kapal yang terdampar di wilayah kekuasaannya. Penghapusan ini merupakan hasil dari intervensi Belanda yang menginginkan penghapusan praktik yang dianggap merugikan perdagangan dan kedaulatan kolonial. Kebijakan ini kemudian diikuti oleh kerajaan-kerajaan lain di Bali sebagai bagian dari penyesuaian terhadap kebijakan kolonial Belanda yang lebih luas di wilayah tersebut.",
+        "tahun": 1842,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Raja Badung"],
+        "koordinat": [-8.6547, 115.2167]
+      }
+    ]
+  },
+  {
+    "periode": "1859 - 1894",
+    "sejarah": [
+      {
+        "judul": "Dimulainya Perang Banjar",
+        "deskripsi": "Perang Banjar dimulai pada tahun 1859 dan berlangsung hingga tahun 1863. Perang ini adalah konflik antara Kerajaan Banjar di Kalimantan Selatan dan pemerintah kolonial Belanda. Dipimpin oleh Pangeran Antasari, perlawanan ini muncul sebagai reaksi terhadap penindasan dan kebijakan ekspansi Belanda yang merugikan Kerajaan Banjar. Perang Banjar melibatkan pertempuran sengit dan strategi gerilya yang dilakukan oleh pasukan Kerajaan Banjar. Konflik ini menandai salah satu periode penting dalam perjuangan melawan kolonialisme Belanda di Kalimantan.",
+        "tahun": 1859,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Pangeran Antasari"],
+        "koordinat": [-3.3195, 114.5917]
+      },
+      {
+        "judul": "Peresmian Layanan Kereta Api Pertama oleh NIS",
+        "deskripsi": "Pada tahun 1867, pemerintah kolonial Belanda melalui Nederlandsche Indische Spoorweg Maatschappij (NIS) meresmikan layanan kereta api pertamanya di Semarang. Peresmian ini menandai dimulainya era transportasi kereta api di Hindia Belanda, yang merupakan bagian dari upaya modernisasi infrastruktur dan pengembangan ekonomi kolonial. Jalur kereta api ini menghubungkan Semarang dengan daerah sekitarnya dan memainkan peran penting dalam memfasilitasi transportasi barang dan penumpang, serta mendukung eksploitasi ekonomi sumber daya di wilayah tersebut.",
+        "tahun": 1867,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Nederlandsche Indische Spoorweg Maatschappij (NIS)"],
+        "koordinat": [-6.9663, 110.4178]
+      },
+      {
+        "judul": "Kedatangan Belanda di Bali",
+        "deskripsi": "Pada tahun 1846, ekspedisi Belanda di Bali, dipimpin oleh J.P. Graaf van den Bosch, bertujuan menaklukkan pulau dan mengakhiri perlawanan lokal. Meskipun menghadapi perlawanan sengit dari penduduk Bali, ekspedisi ini berhasil menguasai sebagian besar wilayah, menandai awal periode kolonial Belanda yang lebih ketat di pulau tersebut.",
+        "tahun": 1846,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["J.P. Graaf van den Bosch"],
+        "koordinat": [-8.4095, 115.1889]
+      },
+      {
+        "judul": "Perang Aceh",
+        "deskripsi": "Perang Aceh adalah konflik antara Belanda dan Kesultanan Aceh yang berlangsung dari 1873 hingga 1904. Belanda berusaha menguasai Aceh, sementara Sultan Aceh dan pasukannya, termasuk Teuku Umar, bertahan keras melawan penjajahan, mengakibatkan pertarungan sengit dan dampak besar bagi kedua belah pihak.",
+        "tahun": 1873,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Teuku Umar"],
+        "koordinat": [5.55, 95.3167]
+      },
+      {
+        "judul": "Perjanjian Raffles",
+        "deskripsi": "Perjanjian Raffles, ditandatangani pada 1814, mengakhiri kekuasaan Inggris di Indonesia dan mengembalikannya ke Belanda. Perjanjian ini, hasil perundingan antara Inggris dan Belanda, menandai berakhirnya periode singkat kekuasaan Inggris di bawah Sir Thomas Stamford Raffles dan memperkuat kendali Belanda di Indonesia.",
+        "tahun": 1814,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Sir Thomas Stamford Raffles"],
+        "koordinat": [1.2903, 103.8519]
+      },
+      {
+        "judul": "Pendirian Koninklijk Instituut voor de Tropen",
+        "deskripsi": "Pendirian Koninklijk Instituut voor de Tropen (KIT) pada tahun 1851 di Amsterdam adalah langkah penting dalam penelitian mengenai wilayah tropis, termasuk ekonomi, budaya, dan kesehatan. Lembaga ini mendukung kebijakan kolonial Belanda dan didirikan dengan peran penting dari Jan Pieter Marie.",
+        "tahun": 1851,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Jan Pieter Marie"],
+        "koordinat": [52.3731, 4.8922]
+      },
+      {
+        "judul": "Penerapan Sistem Tanam Paksa di Jawa",
+        "deskripsi": "Penerapan Sistem Tanam Paksa di Jawa pada tahun 1830 memaksa petani menanam komoditas ekspor untuk keuntungan Belanda. Diterapkan oleh Van Den Bosch, sistem ini membebani petani dengan kewajiban menyerahkan hasil tanaman mereka kepada pemerintah kolonial, berdampak negatif pada kondisi sosial dan ekonomi lokal.",
+        "tahun": 1830,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Van Den Bosch"],
+        "koordinat": [-7.7972, 110.3705]
+      },
+      {
+        "judul": "Kedatangan Belanda di Minangkabau",
+        "deskripsi": "Kedatangan Belanda di Minangkabau pada tahun 1821, dipimpin oleh J.H. van Roijen, menandai awal pendudukan kolonial di Sumatra Barat. Pendudukan ini dihadapkan pada perlawanan dari masyarakat lokal, mempengaruhi struktur sosial dan politik serta memperkuat kontrol Belanda di wilayah tersebut.",
+        "tahun": 1821,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["J.H. van Roijen"],
+        "koordinat": [-0.964, 100.418]
+      },
+      {
+        "judul": "Perang Lombok",
+        "deskripsi": "Perang Lombok, berlangsung dari 1894 hingga 1895, adalah konflik bersenjata antara Belanda dan Kerajaan Lombok di Nusa Tenggara Barat. Perang ini merupakan bagian dari upaya Belanda untuk menguasai wilayah Lombok dan Sumbawa. Dipimpin oleh Raden Mas Tumenggung, pasukan Lombok berjuang keras melawan invasi Belanda, yang akhirnya berhasil menguasai wilayah tersebut dan mengintegrasikannya ke dalam kekuasaan kolonial Belanda.",
+        "tahun": 1894,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Raden Mas Tumenggung"],
+        "koordinat": [-8.6167, 116.1333]
+      },
+      {
+        "judul": "Perjanjian Linggarjati",
+        "deskripsi": "Perjanjian Linggarjati, ditandatangani pada tahun 1946, adalah kesepakatan antara Belanda dan Indonesia yang melibatkan Sukarno, Hatta, dan Van Mook. Perjanjian ini mengakui kedaulatan Indonesia atas wilayah Jawa, Madura, dan Sumatra, serta menetapkan bahwa Indonesia akan menjadi negara federasi di bawah pengawasan Belanda. Kesepakatan ini merupakan langkah awal menuju pengakuan penuh kemerdekaan Indonesia yang tercapai pada akhir 1949.",
+        "tahun": 1946,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Sukarno", "Hatta", "Van Mook"],
+        "koordinat": [-6.2088, 106.8456]
+      }
+    ]
+  }
 ]

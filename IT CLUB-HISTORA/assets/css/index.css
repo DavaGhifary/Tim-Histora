@@ -100,3 +100,11 @@ body {
   padding: 10px;
   border-radius: 5px;
 }
+
+.margin-bottom-navbar {
+  margin-top: 100px;
+}
+
+.blur {
+  backdrop-filter: blur(10px);
+}

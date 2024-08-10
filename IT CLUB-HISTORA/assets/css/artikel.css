@@ -26,3 +26,11 @@ body {
 .text-justify{
     text-align: justify;
 }
+
+.active{
+    color: #ece7e7 !important;
+}
+
+.color-text{
+    color: #ece7e7 !important;
+}

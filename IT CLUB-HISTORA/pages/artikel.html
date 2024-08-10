@@ -9,67 +9,78 @@
     
     <!-- Css -->
     <link rel="stylesheet" href="../assets/css/artikel.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
 
 <div class="artikel">
     
     <!-- Navbar Start -->
-    <div class="">
-      <nav class="navbar navbar-expand-lg mx-4">
-        <div class="container-fluid">
-          <p class="" href="#">HISTORA</p>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item ms-4 opacity-75">
-                <p class="" aria-current="page" href="#">BERANDA</p>
-              </li>
-              <li class="nav-item ms-4 opacity-75">
-                <p class="" href="#">GALERI</p>
-              </li>
-              <li class="nav-item ms-4">
-                <p class="text-decoration-underline" href="#">ARTIKEL</p>
-              </li>
-              <li class="nav-item ms-4 opacity-75">
-                <p class="" href="#">TIMELINE</p>
-              </li>
-            </ul>
-            <div class="d-flex gap-3">
-              <p>Write</p>
-              <p>Sign in</p>
-            </div>
+    <nav class="navbar blur navbar-header fixed-top navbar-expand-lg mx-4">
+      <div class="container-fluid">
+        <a class="navbar-brand text-link" href="#">HISTORA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-link opacity-75" aria-current="page" href="#"
+                >BERANDA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-link opacity-75" href="#">GALERI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-link text-decoration-underline" href="#">ARTIKEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-link opacity-75" href="#">TIMELINE</a>
+            </li>
+          </ul>
+          <div class="navbar-text text-link d-flex gap-3">
+            <button class="write gap-1">
+              <img src="../assets/icon/Vector-write.png" width="19" class="" alt="" />
+              <p class="text-write fw-light">Write</p>
+            </button>
+            <button class="ButtonSign">Sign in</button>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
     <!-- Navbar End -->
 
     <!-- Filter Start -->
-    <div class="container">
+    <div class="container margin-bottom-navbar">
       <div class="row row-cols-auto">
         <div class="col">
-          <img src="../assets/img/img-artikel/filter-vector.png" alt="" width="20" height="16">
+          <ul class="nav nav-underline">
+            <li>
+              <a href=""><img src="../assets/img/img-artikel/filter-vector.png" class="mt-3" alt="" width="20" height="16"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-color fw-normal" aria-current="page" href="#">Populer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-color" href="#">Terbaru</a>
+            </li>
+            </li>
+          </ul>
         </div>
-        <div class="col">
-          <p><u>Populer</u></p>
-        </div>
-        <div class="col">Terbaru</div>
       </div>
     </div>
     <!-- Filter End -->
@@ -102,7 +113,7 @@
               <p class="uk-font mt-1 fw-light">99.8k</p>
             </div>
             <div class="col">
-              <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+              <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
             </div>
             <div class="col">
               <p class="uk-font mt-1 fw-light">8</p>
@@ -117,7 +128,7 @@
     <!-- 1 end -->
     <!-- 2 start -->
 
-        <div class="container mt-4 border-bottom border-succes p-5">
+    <div class="container mt-4 border-bottom border-succes p-5">
       <div class="row">
         <div class="col">
           <img src="../assets/img/img-artikel/kedatanganBangsaEropa.png" alt="" width="528">
@@ -145,7 +156,7 @@
                 <p class="uk-font mt-1 fw-light">12.4k</p>
               </div>
               <div class="col">
-                <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+                <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
               </div>
               <div class="col">
                 <p class="uk-font mt-1 fw-light">5</p>
@@ -183,7 +194,7 @@
               <p class="uk-font mt-1 fw-light">19k</p>
             </div>
             <div class="col">
-              <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+              <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
             </div>
             <div class="col">
               <p class="uk-font mt-1 fw-light">18</p>
@@ -225,7 +236,7 @@
                 <p class="uk-font mt-1 fw-light">12.4k</p>
               </div>
               <div class="col">
-                <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+                <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
               </div>
               <div class="col">
                 <p class="uk-font mt-1 fw-light">5</p>
@@ -262,7 +273,7 @@
               <p class="uk-font mt-1 fw-light">204</p>
             </div>
             <div class="col">
-              <img class="img-like" src="../assets/img/img-artikel/dislike.png" alt="">
+              <img class="img-like opacity" src="../assets/img/img-artikel/dislike.png" alt="">
             </div>
             <div class="col">
               <p class="uk-font mt-1 fw-light">18</p>

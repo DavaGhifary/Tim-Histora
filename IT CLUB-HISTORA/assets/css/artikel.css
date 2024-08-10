@@ -3,6 +3,7 @@ body {
     background-color: hsl(0, 0%, 10%);
     color: #ece7e7;
     font-family: 'Inter';
+    
 }
 
 .img-like {
@@ -27,10 +28,18 @@ body {
     text-align: justify;
 }
 
-.active{
+.margin-bottom-navbar {
+    margin-top: 100px;
+}
+
+.text-color {
     color: #ece7e7 !important;
 }
 
-.color-text{
-    color: #ece7e7 !important;
+.blur {
+    backdrop-filter: blur(10px);
+}
+
+.opacity {
+    opacity: .80;
 }

@@ -1,0 +1,38 @@
+
+.gallery-section {
+    width: 100%;
+    max-width: 1200px;
+    height: 306px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    position: relative;
+}
+
+.gallery-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery-text {
+  position: absolute;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 2;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.margin-bottom-navbar{
+  margin-top: 100px;
+}
+

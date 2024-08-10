@@ -1,0 +1,31 @@
+/* start-navbar */
+.navbar-header {
+  height: 60px;
+}
+
+.text-link {
+  color: #ffff;
+}
+.write {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.text-write {
+  color: #ffff;
+  margin: 0;
+}
+.ButtonSign {
+  background: transparent;
+  border: none;
+  color: #ffff;
+}
+.text-link {
+  color: #ffff !important;
+}
+.blur {
+  backdrop-filter: blur(10px);
+}
+/* end-navbaar */

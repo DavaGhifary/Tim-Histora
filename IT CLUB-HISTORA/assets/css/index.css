@@ -5,7 +5,7 @@
 }
 
 body {
- background-color: #0F0F0F;
+  background-color: #0f0f0f;
 }
 
 #header {
@@ -16,10 +16,45 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+#header .beranda {
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+#header .beranda .button {
+  background: transparent;
+  border: none;
+}
 
-.navbar-header{
+#header .beranda .title_judul .main {
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+  color: #ffff;
+}
+
+#header .beranda .button img {
+  width: 2rem;
+}
+
+.navbar-header {
   height: 60px;
 }
-.text-link{
- color: #ffff;
+.text-link {
+  color: #ffff;
+}
+.write {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.text-write {
+  color: #ffff;
+  margin: 0;
+}
+.ButtonSign {
+  background: transparent;
+  border: none;
+  color: #ffff;
 }

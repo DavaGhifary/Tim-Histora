@@ -29,6 +29,14 @@
 .blur {
   backdrop-filter: blur(10px);
 }
+
+.background-color-toggle{
+  background-color: #ece7e7;
+}
+
+.opacity-icon-write {
+  opacity: .80;
+}
 /* end-navbaar */
 
 

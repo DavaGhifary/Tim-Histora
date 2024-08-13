@@ -1,11 +1,11 @@
-
 .gallery-section {
     width: 100%;
-    max-width: 1200px;
-    height: 306px;
+    max-width: 800px;
+    height: 200px;
+    margin:0 auto;
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 30px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -19,6 +19,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  filter: brightness(0.3);
 }
 
 .gallery-text {
@@ -34,5 +35,17 @@
 
 .margin-bottom-navbar{
   margin-top: 100px;
+}
+
+.card-img{
+  border: none !important;
+  margin: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.container-card{
+  display: flex;
+  margin: 10px;
 }
 

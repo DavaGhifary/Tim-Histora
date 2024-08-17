@@ -1,0 +1,43 @@
+
+.footer{
+    background-color: #242424;
+    height: 36vh;
+    position: relative;
+  }
+  .bg-footer img{
+    margin-inline: 180px;
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container_footer {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding-top: 20px;
+  }
+  
+  .header_footer{
+    text-align: center;
+  }
+  
+  .body_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 100px;
+  }
+  
+  .isi_footer_1{
+    display: flex;
+    color: #ffff;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .footer_footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+  }

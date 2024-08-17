@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nama": "Keris Kencana",
+        "image": "./img/img-landingPage/img-senjata/Senjata-1.png",
+        "power": "75/100",
+        "range": "1 meter",
+        "heavy": "2 kg",
+        "material":["Besi Paduan", "Emas"],
+        "deskripsi": "Keris Kencana adalah senjata legendaris dengan kekuatan magis, simbol kekuasaan, dan sering dipakai dalam upacara penting. Dikenal dengan desain elegan, tajam, dan hulu berornamen emas."
+    },
+    {
+        "id": 2,
+        "nama": "Bedog Satria",
+        "image": "./img/img-landingPage/img-senjata/Senjata-2.png",
+        "power": "80/100 ",
+        "range": "1 meter",
+        "heavy": "3 kg",
+        "material":["Baja Kuat"],
+        "deskripsi": "Bedog Satria adalah senjata tradisional yang kuat untuk pertempuran jarak dekat, dengan desain kokoh, bilah lebar dan tajam, serta pegangan kuat, ideal untuk serangan berat dan pertahanan."
+    },
+    {
+        "id": 3,
+        "nama": "Bambu Runcing",
+        "image": "./img/img-landingPage/img-senjata/Senjata-2.png",
+        "power": "40/100",
+        "range": "1 meter",
+        "heavy": "0.5 kg",
+        "material":["Bambu"],
+        "deskripsi": "Bambu Rucing adalah senjata tradisional ringan dari bambu, ideal untuk serangan cepat dan pertarungan jarak dekat, serta latihan seni bela diri."
+    },
+    {
+        "id": 4,
+        "nama": "Pistol Defender",
+        "image": "./img/img-landingPage/img-senjata/Senjata-2.png",
+        "power": "70/100",
+        "range": "50 meter",
+        "heavy": "1 kg",
+        "material":["Baja", "plastik"],
+        "deskripsi": "Pistol Defender adalah senjata ringan untuk pertahanan diri dengan daya hancur memadai dan jangkauan efisien. Dikenal karena pegangan ergonomis dan sistem pemicu responsif."
+    },
+    {
+        "id": 5,
+        "nama": "Senapan Angin PCP Grand Mauser",
+        "image": "./img/img-landingPage/img-senjata/Senjata-2.png",
+        "power": "1100",
+        "range": "40-60 meter",
+        "heavy": "3,5 kg",
+        "material":["Kayu mangga hutan", "Baja seamless", "Alumunium Aloy", "Stainless"],
+        "deskripsi": "Senapa Angin PCP Mauser adalah senapan angin berjenis pre-charged pneumatic (PCP) yang dirancang untuk keperluan olahraga dan berburu."
+    },
+    {
+        "id": 6,
+        "nama": "Molotov Cocktail",
+        "image": "./img/img-landingPage/img-senjata/Senjata-2.png",
+        "power": "80/100",
+        "range": "20 meter",
+        "heavy": "0.5 kg",
+        "material":["Botol Kaca", "Bensin", "Kain"],
+        "deskripsi": "Molotov Cocktail adalah senjata pembakar yang menghasilkan api besar dan kerusakan area, efektif untuk membakar musuh dan menciptakan penghalang api dalam pertempuran."
+    },
+    {
+        "id": 7,
+        "nama": "Kujang",
+        "image": "./img/img-landingPage/img-senjata/Senjata-2.png",
+        "power": "75/100",
+        "range": "1 meter",
+        "heavy": "1.5 kg",
+        "material":["Logam Kualitas Tinggi"],
+        "deskripsi": "Kujang adalah senjata tradisional Jawa Barat dengan bentuk unik dan tajam. Digunakan dalam pertempuran dan upacara adat, kujang simbol kehormatan dan keahlian bela diri."
+    },
+    {
+        "id": 8,
+        "nama": "Mandau",
+        "image": "./img/img-landingPage/img-senjata/Senjata-2.png",
+        "power": "85/100",
+        "range": "1 meter",
+        "heavy": "2 kg",
+        "material":[ "Logam Berkualitas Tinggi", "Kayu"],
+        "deskripsi": "Mandau adalah senjata tradisional Dayak Kalimantan dengan bilah lebar dan tajam, simbol keberanian dan keahlian dalam pertempuran dan upacara adat."
+    }
+]

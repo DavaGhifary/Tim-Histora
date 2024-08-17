@@ -2,15 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Inter';
 }
 
 body {
   background-color: #0f0f0f;
   background-color: #0f0f0f !important;
 }
-
+/* homePage */
 #header {
-  background-image: url("../img/img-homePage.png");
+  background-image: url("../img/imgHomePage.png");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -28,7 +29,7 @@ body {
 }
 
 #header .beranda .title_judul .main {
-  margin-top: 10rem;
+  margin-top: 16rem;
   margin-bottom: 15rem;
   color: #ffff;
 }
@@ -37,10 +38,352 @@ body {
   width: 2rem;
 }
 
-#highlight {
+.tagline {
+  font-size: 25px;
+}
+/* end homePage */
+
+/* page nusantara */
+.page-nusantara{
   background-image: url("../img/bg-aksara.png");
-  width: 100%;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.content_nusantara{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.value_nusantara{
+  display: flex;
+}
+
+.desc_nusantara{
+  width: 20rem;
+}
+
+.value_desc_nusantara{
+  width: 20rem;
+}
+
+.img-arrow{
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.img-dulu{
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.img_arrow_right{
+  width: 10rem;
+}
+
+.text_nusantara{
+  width: 20rem;
+  font-size: 14px;
+  text-align: justify;
+  margin-inline: 25px;
+}
+
+.img-sekarang{
+  width: 20rem;
+}
+
+
+/* end page nusantara */
+
+/* start highlight artikel */
+#highlight {
+  background-image: url("../img/bg-aksara.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.highlight_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gambar_teks {
+  position: relative;
+}
+
+.gambar_highlight_1 img {
+  width: 910px;
+  height: 350px;
+}
+
+.gambar_highlight_2 img {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.teks_gambar_highlight {
+  background-color: #161616;
+  color: #ffff;
+  position: absolute;
+  padding: 35px;
+  width: 500px;
+  height: 250px;
+  top: 98%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 3%;
+}
+/* end higliht artikel */
+
+
+/* Timeline */
+.timeline {
+  height: 100vh;
+  margin-top: 7vh;
+}
+.timeline .main .judul_timeline {
+  color: white;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.timeline .main .deskripsi {
+  color: #ffff;
+}
+.timeline .main .group-button {
+  margin-top: 3vh;
+}
+.timeline .main .group-button button {
+  background-color: transparent;
+  border: none;
+  margin: 5px;
+}
+.timeline .main .group-button .tahun {
+  font-size: 25px;
+  font-weight: 600;
+  color: #989393;
+}
+.timeline .main .group-button .line {
+  width: 11vw;
+  height: 10px;
+  background-color: #d9d9d9;
+  margin-top: -20px;
+}
+.timeline .main .group-button .tahun-active {
+  color: #af8f6f;
+}
+.timeline .main .group-button .line-active {
+  background-color: #af8f6f;
+}
+.timeline .main .value-timeline {
+  width: 70vw;
+}
+.timeline .main .value-timeline p {
+  font-size: 18px;
+}
+.timeline .main .value-timeline .line {
+  width: 80px;
+  height: 3px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+/* End Timeline */
+
+/* start barang sejarah */
+.barang_bersejarah {
+  background-image: url(../img/bg-aksara.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_barang {
+  width: 900px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.tab_box {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 3px solid rgba(229, 229, 229);
+  gap: 15px;
+  position: relative;
+}
+
+.tab_box .tab_btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffff;
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.tab_box .tab_btn.active {
+  color: #af8f6f;
+}
+.content_box {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.card-senjata {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+@media (max-width: 500px) {
+  .card-senjata {
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 900px) {
+  .card-senjata {
+    grid-template-columns: auto auto;
+  }
+}
+
+.card-artefac-kerajaan {
+  display: flex;
+}
+
+.card-lukisan {
+  display: flex;
+}
+
+.card-mata-uang {
+  display: flex;
+}
+
+.content_box .content {
+  display: none;
+  animation: moving 0.5s ease;
+}
+
+@keyframes moving {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.content_box .content.active {
+  display: block;
+}
+
+.line_barang {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  width: 90px;
+  height: 3px;
+  background-color: #af8f6f;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-img {
+  width: 13rem;
+  background-color: transparent;
+  border: 1px solid #af8f6f;
+  border-radius: 10px;
+  margin: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px !important;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  position: absolute;
+  background: #9b9b9b73;
+  border-radius: 10px;
+  color: white;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.atribut {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card-body .power .name_power {
+  width: 40px;
+  border-bottom: 1px solid white;
+}
+
+.card-img:hover .card-body {
+  top: 0;
+}
+
+/* end barang sejarah */
+
+/* highligt_galeri */
+.highligt_galeri {
+  background-image: url(../img/bg-aksara.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_galeri {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_galeri{
+  color: #ffff;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.button_selengkapnya {
+  width: 8rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #af8f6f;
+  border-radius: 18px;
+  color: #ffff;
+}
+.icon_galeri {
+  padding-left: 8px;
 }

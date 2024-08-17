@@ -10,16 +10,25 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
+    <!-- css -->
     <link rel="stylesheet" href="./assets/css/index.css" />
     <link rel="stylesheet" href="./assets/css/navbar.css" />
-
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-
     <!-- homepage -->
     <header id="header">
-      <nav class="navbar blur navbar-header fixed-top navbar-expand-lg mx-4">
-        <div class="container-fluid">
+      <nav class="navbar blur navbar-header fixed-top navbar-expand-lg">
+        <div class="container-fluid blur">
           <a class="navbar-brand text-link" href="#">HISTORA</a>
           <button
             class="navbar-toggler"
@@ -35,7 +44,10 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-link text-decoration-underline" aria-current="page" href="#"
+                <a
+                  class="nav-link text-link text-decoration-underline"
+                  aria-current="page"
+                  href="#"
                   >BERANDA</a
                 >
               </li>
@@ -51,7 +63,12 @@
             </ul>
             <div class="navbar-text text-link d-flex gap-3">
               <button class="write gap-1">
-                <img src="./assets/icon/Vector-write.png" width="19" class="" alt="" />
+                <img
+                  src="./assets/icon/Vector-write.png"
+                  width="19"
+                  class=""
+                  alt=""
+                />
                 <p class="text-write fw-light">Write</p>
               </button>
               <button class="ButtonSign">Sign in</button>
@@ -73,14 +90,542 @@
     </header>
     <!-- homepage -->
 
-    <div id="highlight">
-      <div class="teks"></div>
+    <div class="page-nusantara">
+      <div class="content_nusantara">
+        <div class="content_page">
+          <div class="nusantara">
+            <h2 class="text-white text-center">
+              Perubahan Indonesia dari zaman nusantara sampai saat ini
+            </h2>
+          </div>
+          <div class="value_nusantara">
+            <div class="dulu">
+              <img
+                src="./assets/img/img-landingPage/img-dulu.png"
+                class="img-dulu"
+                alt=""
+              />
+              <p class="text-white text-center pt-4">1336</p>
+            </div>
+            <div class="desc_nusantara">
+              <div class="value_desc_nusantara">
+                <p class="text-white text-center">17 Agustus 1945</p>
+                <div class="img-arrow">
+                  <img
+                    src="./assets/icon/Arrow-longRight.png"
+                    class="img_arrow_right"
+                    alt=""
+                  />
+                </div>
+
+                <p class="text_nusantara text-white">
+                  Istilah "Nusantara," yang digunakan sejak abad ke-14 oleh
+                  Kerajaan Majapahit untuk merujuk pada kepulauan yang kini
+                  dikenal sebagai Indonesia, digantikan oleh nama "Hindia
+                  Belanda" pada tahun 1800 setelah Belanda mengambil alih
+                  wilayah tersebut dari VOC dan menjadikannya koloni. Perubahan
+                  nama ini mencerminkan transisi dari pengaruh lokal ke
+                  kekuasaan kolonial. Pada 17 Agustus 1945, setelah kemerdekaan
+                  Indonesia diproklamasikan, nama "Indonesia" diadopsi untuk
+                  mencerminkan identitas dan kedaulatan bangsa yang baru
+                  merdeka, menggantikan nama kolonial "Hindia Belanda."
+                </p>
+              </div>
+            </div>
+            <div class="sekarang">
+              <img
+                src="./assets/img/img-landingPage/img-sekarang.png"
+                class="img-sekarang"
+                alt=""
+              />
+              <p class="text-white text-center">Sekarang</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <div id="highlight">
+      <div class="highlight_page">
+        <div class="highlight_page_artikel">
+          <h2 class="text-white text-center pb-2">
+            Persahabatan Soekarno dan Kartosoewirjo
+          </h2>
+          <div class="gambar_teks">
+            <div class="gambar_highlight_1">
+              <img src="./assets/img/img-landingPage/imagePage2_1.png" alt="" />
+            </div>
+            <div class="gambar_highlight_2">
+              <img
+                src="./assets/img/img-landingPage/imageSoekarno.png"
+                alt=""
+              />
+            </div>
+            <div class="teks_gambar_highlight">
+              <p>
+                Soekarno dan Kartosoewirjo adalah dua tokoh penting dalam
+                sejarah Indonesia yang awalnya bersahabat erat. Mereka bertemu
+                di Bandung pada 1920-an, di mana Soekarno sebagai mahasiswa dan
+                aktivis nasionalis, serta Kartosoewirjo sebagai aktivis Islam,
+                sering bekerja sama dan saling bertukar ide untuk meraih
+                kemerdekaan dari penjajahan Belanda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="timeline">
+      <div class="main">
+        <h1 class="judul_timeline">Timeline Sejarah Indonesia</h1>
+        <div class="d-flex justify-content-center">
+          <p class="deskripsi">
+            Menampilkan Peristiwa Bersejarah di Nusantara Melalui Timeline Dan
+            Peta Interaktif
+          </p>
+        </div>
+        <div class="group-button">
+          <div class="d-flex justify-content-center">
+            <button>
+              <p class="tahun">1780 - 1815</p>
+              <div class="line"></div>
+            </button>
+            <button>
+              <p class="tahun">1815 - 1850</p>
+              <div class="line"></div>
+            </button>
+            <button class="">
+              <p class="tahun tahun-active">1850 - 1885</p>
+              <div class="line line-active"></div>
+            </button>
+            <button>
+              <p class="tahun">1885 - 1920</p>
+              <div class="line"></div>
+            </button>
+            <button>
+              <p class="tahun">1920 - 1955</p>
+              <div class="line"></div>
+            </button>
+            <button>
+              <p class="tahun">1955 - 1990</p>
+              <div class="line"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <!-- <section
+      class="infografis bg-transparent"
+      id="Infografis"
+      style="border-radius: 10px"
+    >
+      <div class="main bg-transparent">
+        <div class="d-flex justify-content-center bg-transparent">
+          <iframe
+            src="./pages/map.html"
+            frameborder="0"
+            style="width: 90vw; height: 40vw"
+          ></iframe>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Map -->
+
+    <section class="barang_bersejarah">
+      <div class="container_barang">
+        <div class="tab_box">
+          <button class="tab_btn active">Senjata</button>
+          <button class="tab_btn">Artefac Kerajaan</button>
+          <button class="tab_btn">lukisan</button>
+          <button class="tab_btn">Mata uang</button>
+          <div class="line_barang"></div>
+        </div>
+        <div class="content_box">
+          <div class="content active">
+            <div class="card-senjata">
+              <div class="card-img">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h4 class="title_name">Kris</h4>
+                  <hr />
+                  <div class="atribut">
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">1100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">1100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">1100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">1100</p>
+                    </div>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      Keris Kencana adalah senjata legendaris dengan kekuatan
+                      magis, simbol kekuasaan, dan sering dipakai dalam upacara
+                      penting. Dikenal dengan desain elegan, tajam, dan hulu
+                      berornamen emas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-img">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-2.png"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h4 class="title_name">Kris</h4>
+                </div>
+              </div>
+              <div class="card-img">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-3.png"
+                  alt="..."
+                />
+              </div>
+              <div class="card-img">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-4.png"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="card-senjata">
+              <div class="card-img">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-5.png"
+                  alt="..."
+                />
+              </div>
+              <div class="card-img">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-6.png"
+                  alt="..."
+                />
+              </div>
+              <div class="card-img">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-7.png"
+                  alt="..."
+                />
+              </div>
+              <div class="card-img">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-8.png"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="card-artefac-kerajaan">
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="card-artefac-kerajaan">
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="card-lukisan">
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="card-lukisan">
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="card-mata-uang">
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="card-mata-uang">
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card card-img" style="width: 13rem">
+                <img
+                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highligt_galeri">
+      <div class="galeri">
+        <div class="nav_galeri">
+          <p class="text_galeri">Galeri</p>
+          <button class="button_selengkapnya">
+            Lihat Semua
+            <img
+              src="./assets/icon/Arrow-right.png"
+              class="icon_galeri"
+              alt=""
+            />
+          </button>
+        </div>
+
+        <div class="galeri_landingPage">
+          <div class="d-flex">
+            <div class="">
+              <div class="p-2">
+                <img
+                  src="./assets/img/img-landingPage/galeri-1.png"
+                  width="360"
+                  alt=""
+                />
+              </div>
+              <div class="p-2">
+                <img
+                  src="./assets/img/img-landingPage/galeri-2.png"
+                  width="360"
+                  alt=""
+                />
+              </div>
+              <div class="p-2">
+                <img
+                  src="./assets/img/img-landingPage/galeri-3.png"
+                  width="360"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="">
+              <div class="p-2">
+                <img
+                  src="./assets/img/img-landingPage/galeri-4.png"
+                  width="248"
+                  alt=""
+                />
+              </div>
+              <div class="p-2">
+                <img
+                  src="./assets/img/img-landingPage/galeri-5.png"
+                  width="252"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="">
+              <div class="p-2">
+                <img
+                  src="./assets/img/img-landingPage/galeri-6.png"
+                  width="248"
+                  alt=""
+                />
+              </div>
+              <div class="p-2">
+                <img
+                  src="./assets/img/img-landingPage/galeri-7.png"
+                  width="252"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="bg-footer">
+        <img src="./assets/img/peta_footer.png" alt="" />
+      </div>
+      <div class="container_footer">
+        <div class="header_footer">
+          <h2 class="text-white">HISTORA</h2>
+          <p class="text-white">Mempertemukan Masa Lalu dan Masa Kini</p>
+        </div>
+        <div class="body_footer">
+          <div class="isi_footer_1">
+            <img src="./assets/icon/icon-telp.png" class="p-2" alt="" />
+            0878-1284-5006
+          </div>
+          <div class="isi_footer_1">
+            <img src="./assets/icon/icon-message.png" class="p-2" alt="" />
+            itclubsmk5bdg@gmail.com
+          </div>
+        </div>
+        <div class="footer_footer">
+          <p class="text-white">© copyright 2024 Histora.itclub5.my.id</p>
+        </div>
+      </div>
+    </footer>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./assets/js/index.js"></script>
 </html>

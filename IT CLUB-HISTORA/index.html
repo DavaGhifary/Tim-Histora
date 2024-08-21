@@ -14,8 +14,8 @@
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/index.css" />
     <link rel="stylesheet" href="./assets/css/navbar.css" />
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -62,7 +62,7 @@
               </li>
             </ul>
             <div class="navbar-text text-link d-flex gap-3">
-              <button class="write gap-1">
+              <button class="write gap-1" type="button" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
                 <img
                   src="./assets/icon/Vector-write.png"
                   width="19"
@@ -188,16 +188,16 @@
         <div class="group-button">
           <div class="d-flex justify-content-center">
             <button>
-              <p class="tahun">1780 - 1815</p>
-              <div class="line"></div>
+              <p class="tahun tahun-active">1780 - 1815</p>
+              <div class="line line-active""></div>
             </button>
             <button>
               <p class="tahun">1815 - 1850</p>
               <div class="line"></div>
             </button>
             <button class="">
-              <p class="tahun tahun-active">1850 - 1885</p>
-              <div class="line line-active"></div>
+              <p class="tahun">1850 - 1885</p>
+              <div class="line"></div>
             </button>
             <button>
               <p class="tahun">1885 - 1920</p>
@@ -214,25 +214,24 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Map -->
-    <!-- <section
-      class="infografis bg-transparent"
-      id="Infografis"
-      style="border-radius: 10px"
-    >
-      <div class="main bg-transparent">
-        <div class="d-flex justify-content-center bg-transparent">
-          <iframe
-            src="./pages/map.html"
-            frameborder="0"
-            style="width: 90vw; height: 40vw"
-          ></iframe>
+      <!-- Map -->
+      <section
+        class="infografis bg-transparent"
+        id="Infografis"
+        style="border-radius: 10px"
+      >
+        <div class="main bg-transparent">
+          <div class="d-flex justify-content-center bg-transparent">
+            <iframe
+              src="./pages/map.html"
+              frameborder="0"
+              style="width: 90vw; height: 40vw"
+            ></iframe>
+          </div>
         </div>
-      </div>
-    </section> -->
-    <!-- End Map -->
+      </section>
+      <!-- End Map -->
+    </section>
 
     <section class="barang_bersejarah">
       <div class="container_barang">
@@ -246,31 +245,32 @@
         <div class="content_box">
           <div class="content active">
             <div class="card-senjata">
+              <!-- keris -->
               <div class="card-img">
                 <img
                   src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h4 class="title_name">Kris</h4>
+                  <h5 class="title_name">Keris Kencana</h5>
                   <hr />
                   <div class="atribut">
                     <div class="power">
                       <p class="name_power">Power</p>
-                      <p class="value_power">1100</p>
+                      <p class="value_power">75/100</p>
                     </div>
                     <div class="power">
-                      <p class="name_power">Power</p>
-                      <p class="value_power">1100</p>
+                      <p class="name_power">range</p>
+                      <p class="value_power">1 m</p>
                     </div>
                     <div class="power">
-                      <p class="name_power">Power</p>
-                      <p class="value_power">1100</p>
+                      <p class="name_power">heavy</p>
+                      <p class="value_power">2 kg</p>
                     </div>
-                    <div class="power">
-                      <p class="name_power">Power</p>
-                      <p class="value_power">1100</p>
-                    </div>
+                  </div>
+                  <div class="material">
+                    <p class="name_material">material</p>
+                    <p class="value_power">Besi Paduan<br>Emas</p>
                   </div>
                   <div class="desc">
                     <p>
@@ -282,52 +282,245 @@
                   </div>
                 </div>
               </div>
+              <!-- Bedog Satria -->
               <div class="card-img">
                 <img
                   src="./assets/img/img-landingPage/img-senjata/Senjata-2.png"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h4 class="title_name">Kris</h4>
+                  <h5 class="title_name">Bedog Satria</h5>
+                  <hr />
+                  <div class="atribut">
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">80/100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">range</p>
+                      <p class="value_power">1 m</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">heavy</p>
+                      <p class="value_power">3 kg</p>
+                    </div>
+                  </div>
+                  <div class="material">
+                    <p class="name_material">material</p>
+                    <p class="value_power">Baja Kuat</p>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      Bedog Satria adalah senjata tradisional yang kuat untuk pertempuran jarak dekat, dengan desain kokoh, bilah lebar dan tajam, serta pegangan kuat, ideal untuk serangan berat dan pertahanan.
+                    </p>
+                  </div>
                 </div>
               </div>
+              <!-- Bambu Runcing -->
               <div class="card-img">
                 <img
                   src="./assets/img/img-landingPage/img-senjata/Senjata-3.png"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Bambu Runcing</h5>
+                  <hr />
+                  <div class="atribut">
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">40/100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">range</p>
+                      <p class="value_power">1 m</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">heavy</p>
+                      <p class="value_power">0.5 kg</p>
+                    </div>
+                  </div>
+                  <div class="material">
+                    <p class="name_material">material</p>
+                    <p class="value_power">Bambu</p>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      Bambu Rucing adalah senjata tradisional ringan dari bambu, ideal untuk serangan cepat dan pertarungan jarak dekat, serta latihan seni bela diri.
+                    </p>
+                  </div>
+                </div>
               </div>
+              <!-- Pistol Defender -->
               <div class="card-img">
                 <img
                   src="./assets/img/img-landingPage/img-senjata/Senjata-4.png"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Pistol Defender</h5>
+                  <hr />
+                  <div class="atribut">
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">70/100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">range</p>
+                      <p class="value_power">50 m</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">heavy</p>
+                      <p class="value_power">1 kg</p>
+                    </div>
+                  </div>
+                  <div class="material">
+                    <p class="name_material">material</p>
+                    <p class="value_power">Baja <br> plastik</p>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      Pistol Defender adalah senjata ringan untuk pertahanan diri dengan daya hancur memadai dan jangkauan efisien. Dikenal karena pegangan ergonomis dan sistem pemicu responsif.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="card-senjata">
+              <!-- Senapan Angin PCP Grand Mauser -->
               <div class="card-img">
                 <img
                   src="./assets/img/img-landingPage/img-senjata/Senjata-5.png"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Senapan Angin PCP Grand Mauser</h5>
+                  <hr />
+                  <div class="atribut">
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">1100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">range</p>
+                      <p class="value_power">40-60 m</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">heavy</p>
+                      <p class="value_power">3.5 kg</p>
+                    </div>
+                  </div>
+                  <div class="material">
+                    <p class="name_material">material</p>
+                    <p class="value_power">Kayu mangga hutan <br>Baja seamless <br>Alumunium Aloy <br>Stainless</p>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      Senapa Angin PCP Mauser adalah senapan angin berjenis pre-charged pneumatic (PCP) yang dirancang untuk keperluan olahraga dan berburu.
+                    </p>
+                  </div>
+                </div>
               </div>
+              <!-- Molotov Cocktail -->
               <div class="card-img">
                 <img
                   src="./assets/img/img-landingPage/img-senjata/Senjata-6.png"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Molotov Cocktail</h5>
+                  <hr />
+                  <div class="atribut">
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">80/100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">range</p>
+                      <p class="value_power">20 m</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">heavy</p>
+                      <p class="value_power">0.5 kg</p>
+                    </div>
+                  </div>
+                  <div class="material">
+                    <p class="name_material">material</p>
+                    <p class="value_power">Botol Kaca <br>Bensin <br>Kain</p>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      Molotov Cocktail adalah senjata pembakar yang menghasilkan api besar dan kerusakan area, efektif untuk membakar musuh dan menciptakan penghalang api dalam pertempuran.
+                    </p>
+                  </div>
+                </div>
               </div>
+              <!-- Kujang -->
               <div class="card-img">
                 <img
                   src="./assets/img/img-landingPage/img-senjata/Senjata-7.png"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Kujang</h5>
+                  <hr />
+                  <div class="atribut">
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">75/100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">range</p>
+                      <p class="value_power">1 m</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">heavy</p>
+                      <p class="value_power">1.5 kg</p>
+                    </div>
+                  </div>
+                  <div class="material">
+                    <p class="name_material">material</p>
+                    <p class="value_power">Logam Kualitas Tinggi</p>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      Kujang adalah senjata tradisional Jawa Barat dengan bentuk unik dan tajam. Digunakan dalam pertempuran dan upacara adat, kujang simbol kehormatan dan keahlian bela diri.
+                    </p>
+                  </div>
+                </div>
               </div>
+              <!-- Mandau -->
               <div class="card-img">
                 <img
                   src="./assets/img/img-landingPage/img-senjata/Senjata-8.png"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Mandau</h5>
+                  <hr />
+                  <div class="atribut">
+                    <div class="power">
+                      <p class="name_power">Power</p>
+                      <p class="value_power">85/100</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">range</p>
+                      <p class="value_power">1 m</p>
+                    </div>
+                    <div class="power">
+                      <p class="name_power">heavy</p>
+                      <p class="value_power">2 kg</p>
+                    </div>
+                  </div>
+                  <div class="material">
+                    <p class="name_material">material</p>
+                    <p class="value_power">Logam Berkualitas Tinggi <br>Kayu</p>
+                  </div>
+                  <div class="desc">
+                    <p>
+                      Mandau adalah senjata tradisional Dayak Kalimantan dengan bilah lebar dan tajam, simbol keberanian dan keahlian dalam pertempuran dan upacara adat.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -397,7 +590,7 @@
             <div class="card-lukisan">
               <div class="card card-img" style="width: 13rem">
                 <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  src="./assets/img/img-landingPage/img-lukisan/Lukisan-Soedjojono-Self-Portrait-1959.webp"
                   class="card-img-top"
                   alt="..."
                 />
@@ -621,6 +814,52 @@
         </div>
       </div>
     </footer>
+
+
+
+
+
+
+
+<!-- Fullscreen Modal -->
+<div class="modal fade" id="fullscreenModal" tabindex="-1" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content" style="background-color: #0f0f0f;">
+      <button type="button" class="btn-close m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body" style="height: 100vh; display: flex; align-items: center; justify-content: center;"">
+        <div class="form_artikel">
+          <h2 class="text-white">Bagikan Pengetahuan Anda</h2>
+          <div class="form_top">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Default file input example</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+          </div>
+          <div class="mb-3 w-75">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="button" class="">Upload</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -628,4 +867,10 @@
     crossorigin="anonymous"
   ></script>
   <script src="./assets/js/index.js"></script>
+
+
+
+
+
+
 </html>

@@ -90,56 +90,17 @@
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    // var regions = {
-    //   "Kalimantan": {
-    //     "coords": [-1.0, 114.0],
-    //     "disasters": "Total Bencana Alam: 4\nGunung Berapi: 2\nTsunami: 1\nAngin Puting Beliung: 1"
-    //   },
-    //   "Sumatera": {
-    //     "coords": [0.7893, 102.7896],
-    //     "disasters": "Total Bencana Alam: 6\nGunung Berapi: 3\nTsunami: 2\nAngin Puting Beliung: 1"
-    //   },
-    //   "Jawa": {
-    //     "coords": [-7.6145, 110.7122],
-    //     "disasters": "Total Bencana Alam: 8\nGunung Berapi: 4\nTsunami: 2\nAngin Puting Beliung: 2"
-    //   },
-    //   "Sulawesi": {
-    //     "coords": [-1.4304, 121.4456],
-    //     "disasters": "Total Bencana Alam: 5\nGunung Berapi: 2\nTsunami: 1\nAngin Puting Beliung: 2"
-    //   },
-    //   "Papua": {
-    //     "coords": [-4.2699, 138.0803],
-    //     "disasters": "Total Bencana Alam: 3\nGunung Berapi: 1\nTsunami: 1\nAngin Puting Beliung: 1"
-    //   },
-    //   "Bali": {
-    //     "coords": [-8.3405, 115.0920],
-    //     "disasters": "Total Bencana Alam: 2\nGunung Berapi: 1\nTsunami: 0\nAngin Puting Beliung: 1"
-    //   }
-    // };
-
     // Ikon Kustom
     var iconGempa = L.divIcon({
-      html: '<img src="../assets/image/gempa.svg" style="width:25px;"/>',
+      html: '<img src="../assets/icon/Vector-lokasi.png" style="width:25px;"/>',
       className: 'wave-div-icon',
-      iconSize: [30, 30],
-      iconAnchor: [15, 15]
-    });
-    var iconTsunami = L.divIcon({
-      html: '<img src="../assets/image/tsunami.png" style="width:25px;"/>',
-      className: 'wave-div-icon',
-      iconSize: [30, 30],
-      iconAnchor: [15, 15]
-    });
-    var iconVolcano = L.divIcon({
-      html: '<img src="../assets/image/volcano.svg" style="width:25px;"/>',
-      className: 'wave-div-icon',
-      iconSize: [30, 30],
-      iconAnchor: [15, 15]
+      iconSize: [20, 20],
+      iconAnchor: [10, 10]
     });
 
     function fetchData() {
       // gempa
-      fetch('../assets/json/gempa.json')
+      fetch('../assets/json/1859-1894.json')
         .then((res) => {
           if (!res.ok) {
             throw new Error('Network response was not ok ' + res.statusText);
@@ -151,10 +112,10 @@
             if (gempa.koordinat.length > 0) {
               L.marker(gempa.koordinat, { icon: iconGempa }).addTo(map).on('click', function (e) {
                 // var regionName = this.getPopup().getContent();
-                document.getElementById('region-title').innerText = gempa.nama;
+                document.getElementById('region-title').innerText = gempa.judul;
                 document.getElementById('disaster-info').innerText = gempa.deskripsi;
                 document.getElementById('lokasi').innerText = gempa.lokasi;
-                document.getElementById('tanggal').innerText = gempa.tanggal;
+                document.getElementById('tanggal').innerText = gempa.tahun;
                 document.getElementById('magnitudo').innerText = gempa.magnitudo;
                 document.getElementById('korban-jiwa').innerText = gempa.korban_jiwa;
                 document.getElementById('info-card').style.display = 'block';
@@ -165,71 +126,8 @@
         .catch((error) => {
           console.error('There has been a problem with your fetch operation:', error);
         });
-
-      // tsunami
-      fetch('../assets/json/tsunami.json')
-        .then((res) => {
-          if (!res.ok) {
-            throw new Error('Network response was not ok ' + res.statusText);
-          }
-          return res.json();
-        })
-        .then((data) => {
-          data.forEach(tsunami => {
-            if (tsunami.koordinat.length > 0) {
-              L.marker(tsunami.koordinat, { icon: iconTsunami }).addTo(map).on('click', function (e) {
-                // var regionName = this.getPopup().getContent();
-                document.getElementById('region-title').innerText = tsunami.nama;
-                document.getElementById('disaster-info').innerText = tsunami.deskripsi;
-                document.getElementById('lokasi').innerText = tsunami.lokasi;
-                document.getElementById('tanggal').innerText = tsunami.tanggal;
-                document.getElementById('magnitudo').innerText = tsunami.magnitudo;
-                document.getElementById('korban-jiwa').innerText = tsunami.korban_jiwa;
-                document.getElementById('info-card').style.display = 'block';
-              }).bindPopup(tsunami);
-            }
-          });
-        })
-        .catch((error) => {
-          console.error('There has been a problem with your fetch operation:', error);
-        });
-      // Gunung meletus
-      fetch('../assets/json/erupsi.json')
-        .then((res) => {
-          if (!res.ok) {
-            throw new Error('Network response was not ok ' + res.statusText);
-          }
-          return res.json();
-        })
-        .then((data) => {
-          data.forEach(volcano => {
-            if (volcano.koordinat.length > 0) {
-              L.marker(volcano.koordinat, { icon: iconVolcano }).addTo(map).on('click', function (e) {
-                // var regionName = this.getPopup().getContent();
-                document.getElementById('region-title').innerText = volcano.nama;
-                document.getElementById('disaster-info').innerText = volcano.deskripsi;
-                document.getElementById('lokasi').innerText = vulcanos.lokasi;
-                document.getElementById('tanggal').innerText = vulcanos.tanggal;
-                document.getElementById('magnitudo').innerText = vulcanos.magnitudo;
-                document.getElementById('korban-jiwa').innerText = vulcanos.korban_jiwa;
-                document.getElementById('info-card').style.display = 'block';
-              }).bindPopup(volcano);
-            }
-          });
-        })
-        .catch((error) => {
-          console.error('There has been a problem with your fetch operation:', error);
-        });
+    
     }
-
-    // for (var region in regions) {
-    //   L.marker(regions[region].coords, { icon: iconGempa }).addTo(map).on('click', function (e) {
-    //     var regionName = this.getPopup().getContent();
-    //     document.getElementById('region-title').innerText = regionName;
-    //     document.getElementById('disaster-info').innerText = regions[regionName].disasters;
-    //     document.getElementById('info-card').style.display = 'block';
-    //   }).bindPopup(region);
-    // }
 
     fetchData()
   </script>

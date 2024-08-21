@@ -45,7 +45,7 @@ body {
 
 /* page nusantara */
 .page-nusantara{
-  background-image: url("../img/bg-aksara.png");
+  background-image: url("../img/bg-aksara3.png");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,10 +64,13 @@ body {
 
 .desc_nusantara{
   width: 20rem;
+  display: flex;
+  justify-content: center;
 }
 
 .value_desc_nusantara{
   width: 20rem;
+  padding-inline: 10px;
 }
 
 .img-arrow{
@@ -90,11 +93,10 @@ body {
   width: 20rem;
   font-size: 14px;
   text-align: justify;
-  margin-inline: 25px;
 }
 
 .img-sekarang{
-  width: 20rem;
+  width: 17rem;
 }
 
 
@@ -102,7 +104,7 @@ body {
 
 /* start highlight artikel */
 #highlight {
-  background-image: url("../img/bg-aksara.png");
+  background-image: url("../img/bg-aksara3.png");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -205,7 +207,7 @@ body {
 
 /* start barang sejarah */
 .barang_bersejarah {
-  background-image: url(../img/bg-aksara.png);
+  background-image: url(../img/bg-aksara3.png);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -335,14 +337,38 @@ body {
   padding: 10px;
 }
 
+.title_name{
+  font-size: 16px;
+}
+
 .atribut {
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-.card-body .power .name_power {
+.card-body .power {
   width: 40px;
+}
+
+.name_power{
+  font-size: 11px;
   border-bottom: 1px solid white;
+  margin: 0;
+}
+
+.value_power{
+font-size: 11px;
+}
+.name_material{
+  width: 50px;
+  font-size: 11px;
+  border-bottom: 1px solid white;
+  margin: 0;
+}
+
+.desc p{
+  font-size: 11px;
+  text-align: justify;
 }
 
 .card-img:hover .card-body {

@@ -30,13 +30,13 @@
   backdrop-filter: blur(10px);
 }
 
-.background-color-toggle{
+/* .background-color-toggle{
   background-color: #ece7e7;
 }
 
 .opacity-icon-write {
   opacity: .80;
-}
+} */
 /* end-navbaar */
 
 
@@ -49,7 +49,7 @@
 
 
 /* Test */
-.navbar .navbar-brand {
+/* .navbar .navbar-brand {
   font-size: 30px;
 }
 .navbar .nav-item {
@@ -62,5 +62,5 @@
 .fa-bars {
   color: #007bff;
   font-size: 30px;
-}
+} */
 

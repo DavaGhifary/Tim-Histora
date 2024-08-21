@@ -1,0 +1,92 @@
+[
+  {
+    "judul": "Dimulainya Perang Banjar",
+    "deskripsi": "Perang Banjar dimulai pada tahun 1859 dan berlangsung hingga tahun 1863. Perang ini adalah konflik antara Kerajaan Banjar di Kalimantan Selatan dan pemerintah kolonial Belanda. Dipimpin oleh Pangeran Antasari, perlawanan ini muncul sebagai reaksi terhadap penindasan dan kebijakan ekspansi Belanda yang merugikan Kerajaan Banjar. Perang Banjar melibatkan pertempuran sengit dan strategi gerilya yang dilakukan oleh pasukan Kerajaan Banjar. Konflik ini menandai salah satu periode penting dalam perjuangan melawan kolonialisme Belanda di Kalimantan.",
+    "tahun": 1859,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["Pangeran Antasari"],
+    "koordinat": [-3.3195, 114.5917]
+  },
+  {
+    "judul": "Peresmian Layanan Kereta Api Pertama oleh NIS",
+    "deskripsi": "Pada tahun 1867, pemerintah kolonial Belanda melalui Nederlandsche Indische Spoorweg Maatschappij (NIS) meresmikan layanan kereta api pertamanya di Semarang. Peresmian ini menandai dimulainya era transportasi kereta api di Hindia Belanda, yang merupakan bagian dari upaya modernisasi infrastruktur dan pengembangan ekonomi kolonial. Jalur kereta api ini menghubungkan Semarang dengan daerah sekitarnya dan memainkan peran penting dalam memfasilitasi transportasi barang dan penumpang, serta mendukung eksploitasi ekonomi sumber daya di wilayah tersebut.",
+    "tahun": 1867,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["Nederlandsche Indische Spoorweg Maatschappij (NIS)"],
+    "koordinat": [-6.9663, 110.4178]
+  },
+  {
+    "judul": "Kedatangan Belanda di Bali",
+    "deskripsi": "Pada tahun 1846, ekspedisi Belanda di Bali, dipimpin oleh J.P. Graaf van den Bosch, bertujuan menaklukkan pulau dan mengakhiri perlawanan lokal. Meskipun menghadapi perlawanan sengit dari penduduk Bali, ekspedisi ini berhasil menguasai sebagian besar wilayah, menandai awal periode kolonial Belanda yang lebih ketat di pulau tersebut.",
+    "tahun": 1846,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["J.P. Graaf van den Bosch"],
+    "koordinat": [-8.4095, 115.1889]
+  },
+  {
+    "judul": "Perang Aceh",
+    "deskripsi": "Perang Aceh adalah konflik antara Belanda dan Kesultanan Aceh yang berlangsung dari 1873 hingga 1904. Belanda berusaha menguasai Aceh, sementara Sultan Aceh dan pasukannya, termasuk Teuku Umar, bertahan keras melawan penjajahan, mengakibatkan pertarungan sengit dan dampak besar bagi kedua belah pihak.",
+    "tahun": 1873,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["Teuku Umar"],
+    "koordinat": [5.55, 95.3167]
+  },
+  {
+    "judul": "Perjanjian Raffles",
+    "deskripsi": "Perjanjian Raffles, ditandatangani pada 1814, mengakhiri kekuasaan Inggris di Indonesia dan mengembalikannya ke Belanda. Perjanjian ini, hasil perundingan antara Inggris dan Belanda, menandai berakhirnya periode singkat kekuasaan Inggris di bawah Sir Thomas Stamford Raffles dan memperkuat kendali Belanda di Indonesia.",
+    "tahun": 1814,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["Sir Thomas Stamford Raffles"],
+    "koordinat": [1.2903, 103.8519]
+  },
+  {
+    "judul": "Pendirian Koninklijk Instituut voor de Tropen",
+    "deskripsi": "Pendirian Koninklijk Instituut voor de Tropen (KIT) pada tahun 1851 di Amsterdam adalah langkah penting dalam penelitian mengenai wilayah tropis, termasuk ekonomi, budaya, dan kesehatan. Lembaga ini mendukung kebijakan kolonial Belanda dan didirikan dengan peran penting dari Jan Pieter Marie.",
+    "tahun": 1851,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["Jan Pieter Marie"],
+    "koordinat": [52.3731, 4.8922]
+  },
+  {
+    "judul": "Penerapan Sistem Tanam Paksa di Jawa",
+    "deskripsi": "Penerapan Sistem Tanam Paksa di Jawa pada tahun 1830 memaksa petani menanam komoditas ekspor untuk keuntungan Belanda. Diterapkan oleh Van Den Bosch, sistem ini membebani petani dengan kewajiban menyerahkan hasil tanaman mereka kepada pemerintah kolonial, berdampak negatif pada kondisi sosial dan ekonomi lokal.",
+    "tahun": 1830,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["Van Den Bosch"],
+    "koordinat": [-7.7972, 110.3705]
+  },
+  {
+    "judul": "Kedatangan Belanda di Minangkabau",
+    "deskripsi": "Kedatangan Belanda di Minangkabau pada tahun 1821, dipimpin oleh J.H. van Roijen, menandai awal pendudukan kolonial di Sumatra Barat. Pendudukan ini dihadapkan pada perlawanan dari masyarakat lokal, mempengaruhi struktur sosial dan politik serta memperkuat kontrol Belanda di wilayah tersebut.",
+    "tahun": 1821,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["J.H. van Roijen"],
+    "koordinat": [-0.964, 100.418]
+  },
+  {
+    "judul": "Perang Lombok",
+    "deskripsi": "Perang Lombok, berlangsung dari 1894 hingga 1895, adalah konflik bersenjata antara Belanda dan Kerajaan Lombok di Nusa Tenggara Barat. Perang ini merupakan bagian dari upaya Belanda untuk menguasai wilayah Lombok dan Sumbawa. Dipimpin oleh Raden Mas Tumenggung, pasukan Lombok berjuang keras melawan invasi Belanda, yang akhirnya berhasil menguasai wilayah tersebut dan mengintegrasikannya ke dalam kekuasaan kolonial Belanda.",
+    "tahun": 1894,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["Raden Mas Tumenggung"],
+    "koordinat": [-8.6167, 116.1333]
+  },
+  {
+    "judul": "Perjanjian Linggarjati",
+    "deskripsi": "Perjanjian Linggarjati, ditandatangani pada tahun 1946, adalah kesepakatan antara Belanda dan Indonesia yang melibatkan Sukarno, Hatta, dan Van Mook. Perjanjian ini mengakui kedaulatan Indonesia atas wilayah Jawa, Madura, dan Sumatra, serta menetapkan bahwa Indonesia akan menjadi negara federasi di bawah pengawasan Belanda. Kesepakatan ini merupakan langkah awal menuju pengakuan penuh kemerdekaan Indonesia yang tercapai pada akhir 1949.",
+    "tahun": 1946,
+    "image": "../../",
+    "image_tokoh": "../../",
+    "tokoh": ["Sukarno", "Hatta", "Van Mook"],
+    "koordinat": [-6.2088, 106.8456]
+  }
+]

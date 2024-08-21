@@ -39,3 +39,9 @@ body {
 .opacity {
     opacity: .80;
 }
+
+/* artikel(click) */
+.profil{
+    bottom: -150px;
+    left: 50px;
+}

@@ -1,47 +1,60 @@
-
 body {
-    background-color: hsl(0, 0%, 10%);
-    color: #ece7e7;
-    font-family: 'Inter';
-    
+  background-color: hsl(0, 0%, 10%);
+  color: #ece7e7;
+  font-family: "Inter";
 }
 
 .img-like {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }
 
 .uk-font {
-    margin-left: -15px;
-    font-size: small;
+  margin-left: -15px;
+  font-size: small;
 }
 
 .ukuran {
-    font-size: small;
+  font-size: small;
 }
 
 .line-spacing {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
-.text-justify{
-    text-align: justify;
+.text-justify {
+  text-align: justify;
 }
 
 .margin-bottom-navbar {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .text-color {
-    color: #ece7e7 !important;
+  color: #ece7e7 !important;
 }
 
 .opacity {
-    opacity: .80;
+  opacity: 0.8;
 }
 
 /* artikel(click) */
-.profil{
-    bottom: -150px;
-    left: 50px;
+.profil {
+  bottom: -150px;
+  left: 50px;
+}
+
+.userProfil {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  float: right;
+  margin-top: 60px;
+  padding: 10px;
+  gap: 10px;
+  border-left: 1px solid white;
+}
+.nameProfil{
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
 }

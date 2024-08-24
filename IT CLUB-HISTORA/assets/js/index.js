@@ -45,4 +45,44 @@ tabs.forEach((tab, index) => {
   });
 });
 
+// // wrong
+// document.addEventListener('DOMContentLoaded', function () {
+//   var modalElement = document.getElementById('exampleModal');
+//   modalElement.addEventListener('show.bs.modal', function (event) {
+//     var button = event.relatedTarget;
+//     var imgSrc = button.getAttribute('data-img-src');
+//     var title = button.getAttribute('data-title');
+//     var description = button.getAttribute('data-description');
 
+//     var modalTitle = modalElement.querySelector('.modal-title');
+//     var modalImage = modalElement.querySelector('#modalImage');
+//     var modalDescription = modalElement.querySelector('#modalDescription');
+
+//     modalTitle.textContent = title;
+//     modalImage.src = imgSrc;
+//     modalDescription.textContent = description;
+//   });
+// });
+
+function setActiveTab(tab) {
+  const tabs = document.querySelectorAll('.tabs-profile .nav-link');
+  tabs.forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var modal = document.getElementById('exampleModal');
+  var modalImage = modal.querySelector('#modalImage');
+  var modalTitle = modal.querySelector('#exampleModalLabel');
+  var modalDescription = modal.querySelector('#modalDescription p');
+
+  modal.addEventListener('show.bs.modal', function(event) {
+    // Get the clicked image element
+    var image = event.relatedTarget;
+
+    // Update modal content
+    modalImage.src = image.getAttribute('data-image');
+    modalTitle.textContent = image.getAttribute('data-title');
+    modalDescription.textContent = image.getAttribute('data-description');
+  });
+});

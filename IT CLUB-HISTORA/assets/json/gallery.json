@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Pejuang Kemerdekaan",
+    "image": "../assets/img/img-gallery/img-gallery-5.jpeg",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "title": "Jendral Soedirman",
+    "image": "../assets/img/img-gallery/sudirman.jpg",
+    "description": "Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
+  },
+  {
+    "id": 3,
+    "title": "Abdul Haris Nasution",
+    "image": "../assets/img/img-gallery/Abdul_Haris_Nasution.jpg",
+    "description": "Jenderal Besar TNI (Purn.) Dr. (H.C.)Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal berpangkat tinggi dan politikus Indonesia.Ia bertugas di militer selama Revolusi Nasional Indonesia dan ia tetap di militer selama gejolak berikutnya dari demokrasi Parlementer dan Demokrasi Terpimpin."
+  },
+  {
+    "id": 4,
+    "title": "Fatmawati Soekarno",
+    "image": "../assets/img/img-gallery/Fatmawati_Soekarno.jpeg",
+    "description": "Hj. Fatmawati Soekarno adalah istri dari Presiden Indonesia pertama Soekarno. Ia menjadi Ibu Negara Indonesia pertama dari tahun 1945 hingga tahun 1967 dan merupakan istri ke-3 dari presiden pertama Indonesia yaitu Soekarno dan merupakan ibunda dari presiden kelima, Megawati Soekarnoputri."
+  },
+  {
+    "id": 5,
+    "title": "Card 5",
+    "image": "../assets/img/img-gallery/sudirman.jpg",
+    "description": "Deskripsi Card 5"
+  },
+  {
+    "id": 6,
+    "title": "Card 6",
+    "image": "../assets/img/img-gallery/sudirman.jpg",
+    "description": "Deskripsi Card 6"
+  }
+]

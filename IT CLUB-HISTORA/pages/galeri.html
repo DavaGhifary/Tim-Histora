@@ -9,14 +9,22 @@
   <link rel="stylesheet" href="../assets/css/navbar.css">
   <link rel="stylesheet" href="../assets/css/artikel.css">
   <link rel="stylesheet" href="../assets/css/gallery.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
+
 <body>
 
-  <!-- navbar Page Gallery -->
+  <!-- Navbar Page Gallery -->
   <nav class="navbar blur navbar-header fixed-top navbar-expand-lg mx-4">
     <div class="container-fluid">
       <a class="navbar-brand text-link" href="#">HISTORA</a>
@@ -27,13 +35,13 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-link opacity-75" aria-current="page" href="#">BERANDA</a>
+            <a class="nav-link text-link opacity-75" aria-current="page" href="../index.html">BERANDA</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-link text-decoration-underline opacity-75" href="#">GALERI</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-link" href="#">ARTIKEL</a>
+            <a class="nav-link text-link opacity-75" href="../pages/artikel.html">ARTIKEL</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-link opacity-75" href="#">TIMELINE</a>
@@ -41,7 +49,7 @@
         </ul>
         <div class="navbar-text text-link d-flex gap-3">
           <button class="write gap-1">
-            <img src="../assets/icon/Vector-write.png" width="19" class="" alt="" />
+            <img src="../assets/icon/Vector-write.png" width="19" alt="Write Icon" />
             <p class="text-write fw-light">Write</p>
           </button>
           <button class="ButtonSign">Sign in</button>
@@ -49,113 +57,447 @@
       </div>
     </div>
   </nav>
-  <!-- end navbar -->
+  <!-- End Navbar -->
 
-  <!-- image Gallery -->
+  <!-- Image Gallery -->
   <div class="container text-center margin-bottom-navbar">
     <div class="row">
       <div class="col align-self-center">
         <div class="gallery-section">
-          <img src="../assets/img/img-gallery/img-gallery.jpg" alt="">
+          <img src="../assets/img/img-gallery/img-gallery.jpg" alt="Gallery Image">
           <div class="gallery-text">GALLERY SEJARAH INDONESIA</div>
         </div>
       </div>
     </div>
   </div>
+  <!-- End Image Gallery -->
 
-  <!-- filter start-->
+  <!-- Filter Start -->
   <div class="container mt-4">
     <div class="row row-cols-auto">
       <div class="col">
-        <ul class="nav nav-underline">
+        <ul class="nav nav-underline" id="myTab" role="tablist">
           <li>
-            <img src="../assets/img/img-artikel/filter-vector.png" class="mt-3" alt="" width="20" height="16">
+            <img src="../assets/img/img-artikel/filter-vector.png" class="mt-3" alt="Filter Icon" width="20"
+              height="16">
           </li>
-          <li class="nav-item">
-            <a class="nav-link active text-color fw-normal" aria-current="page" href="#">Populer</a>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active text-color fw-normal" id="populer-tab" data-bs-toggle="tab" href="#populer"
+              role="tab" aria-controls="populer" aria-selected="true">Populer</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-color" href="#">Terbaru</a>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-color" id="terbaru-tab" data-bs-toggle="tab" href="#terbaru" role="tab"
+              aria-controls="terbaru" aria-selected="false">Terbaru</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-color" href="#">Foto</a>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-color" id="foto-tab" data-bs-toggle="tab" href="#foto" role="tab"
+              aria-controls="foto" aria-selected="false">Foto</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-color" href="#">Video</a>
-          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-color" id="video-tab" data-bs-toggle="tab" href="#video" role="tab"
+              aria-controls="video" aria-selected="false">Video</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
-  <!-- filter End-->
+  <!-- Filter End -->
 
-  <!-- Image Gallery Grid -->
+  <!-- Content Section -->
   <div class="container mt-2">
-    <div class="container-card">
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-5.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-5.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-5.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-5.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-5.jpeg" class="card-img-top" alt="...">
-      </div>
-    </div>
-    <div class="container-card">
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-4.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-4.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-4.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-4.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card card-img " style="width: 15rem;">
-        <img src="../assets/img/img-gallery/img-gallery-4.jpeg" class="card-img-top" alt="...">
-      </div>
-    </div>
-    <div class="container gallery-container">
-      <div class="row">
-        <!-- Card 1 -->
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Landscape 1">
+    <div class="tab-content">
+      <div class="tab-pane active" id="populer" role="tabpanel" aria-labelledby="populer-tab">
+        <!-- Populer Content -->
+        <div class="container mt-2">
+          <div class="container-card">
+            <div class="card card-img" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="2">
+              <img src="../assets/img/img-gallery/sudirman.jpg" class="img-fluid" alt="Modal Image"
+                style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-title="Jenderal Soedirman"
+                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
+                data-image="../assets/img/img-gallery/sudirman.jpg" />
+            </div>
+            <div class="card card-img" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="1">
+              <img src="../assets/img/img-gallery/img-gallery-5.jpeg" class="img-fluid" alt="Modal Image"
+                style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-title="Pejuang Kemerdekaan"
+                data-description="Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal besar dan politikus Indonesia. Ia berperan penting dalam militer selama Revolusi Nasional Indonesia dan terus aktif dalam militer selama periode demokrasi parlementer dan Demokrasi Terpimpin."
+                data-image="../assets/img/img-gallery/img-gallery-5.jpeg" />
+            </div>
+            <div class="card card-img" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="3">
+              <img src="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg" class="img-fluid" alt="Modal Image"
+                style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-title="Jenderal Soedirman"
+                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
+                data-image="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg" />
+            </div>
+            <div class="card card-img" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="../assets/img/img-gallery/img-gallery-4.jpeg" data-title="judul 1" class="card-img-top"
+                alt="Gallery Image 4">
+            </div>
+            <div class="card card-img" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="3">
+            <img src="../assets/img/img-gallery/Fatmawati_Soekarno.jpeg" class="img-fluid" alt="Modal Image"
+              style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-title="Fatmawati Soekarno"
+              data-description="Hj. Fatmawati Soekarno adalah istri dari Presiden Indonesia pertama Soekarno. Ia menjadi Ibu Negara Indonesia pertama dari tahun 1945 hingga tahun 1967 dan merupakan istri ke-3 dari presiden pertama Indonesia yaitu Soekarno dan merupakan ibunda dari presiden kelima, Megawati Soekarnoputri."
+              data-image="../assets/img/img-gallery/Fatmawati_Soekarno.jpeg" />
+          </div>
+          </div>
+          <div class="container gallery-container">
+            <div class="row mt-2">
+              <!-- Card 1 -->
+              <div class="col-md-4 mb-2">
+                <div class="card">
+                  <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="card-img-top" alt="Landscape 1">
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="card-img-top" alt="Landscape 2">
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="card-img-top" alt="Landscape 3">
+                </div>
+              </div>
+              <!-- video -->
+              <div class="col-md-6 mb-4">
+                <div class="card">
+                  <iframe class="card-img-top" width="100%" height="300"
+                    src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="card">
+                  <iframe class="card-img-top" width="100%" height="300"
+                    src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- Card 2 -->
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Landscape 2">
+      </div>
+
+      <!-- Terbaru Content -->
+      <div class="tab-pane fade" id="terbaru" role="tabpanel" aria-labelledby="terbaru-tab">
+        <div class="container">
+          <div class="container-card">
+            <div class="card card-img" style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="2">
+              <img src="../assets/img/img-gallery/img-gallery-5.jpeg" class="img-fluid" alt="Modal Image"
+                style="width: 15rem;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-title="Pejuang Kemerdekaan"
+                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
+                data-image="../assets/img/img-gallery/img-gallery-5.jpeg" />
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-3.jpeg" class="card-img-top" alt="Latest Image 2">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-3.jpeg" class="card-img-top" alt="Latest Image 3">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-3.jpeg" class="card-img-top" alt="Latest Image 4">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-3.jpeg" class="card-img-top" alt="Latest Image 5">
+            </div>
+          </div>
+          <div class="container-card">
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Latest Image 6">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Latest Image 7">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Latest Image 8">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Latest Image 9">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Latest Image 10">
+            </div>
           </div>
         </div>
-        <!-- Card 3 -->
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Landscape 3">
+      </div>
+
+      <!-- Foto Content -->
+      <div class="tab-pane fade" id="foto" role="tabpanel" aria-labelledby="foto-tab">
+        <div class="container">
+          <div class="container-card">
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-1.jpeg" class="card-img-top" alt="Photo Image 1">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-1.jpeg" class="card-img-top" alt="Photo Image 2">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-1.jpeg" class="card-img-top" alt="Photo Image 3">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-1.jpeg" class="card-img-top" alt="Photo Image 4">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-1.jpeg" class="card-img-top" alt="Photo Image 5">
+            </div>
+          </div>
+          <div class="container-card">
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Photo Image 6">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Photo Image 7">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Photo Image 8">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Photo Image 9">
+            </div>
+            <div class="card card-img" style="width: 15rem;">
+              <img src="../assets/img/img-gallery/img-gallery-2.jpeg" class="card-img-top" alt="Photo Image 10">
+            </div>
           </div>
         </div>
-        <!-- Card 4 -->
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Landscape 4">
+      </div>
+
+      <!-- Video Content -->
+      <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+        <div class="container">
+          <div class="row row-cols-auto">
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300"
+                  src="https://youtu.be/cNjKtVwKZqo?si=DtH0XOe13FiL4Q4G" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- End Content Section -->
 
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 800px;">
+      <div class="modal-content">
+        <div class="modal-body d-flex">
+          <div class="modal-left d-flex justify-content-center">
+            <img id="modalImage" src="" class="img-fluid" alt="Modal Image"
+              style="width: 100%;" />
+          </div>
+          <div id="modalDescription" class="ms-3">
+            <div class="button-header mb-4">
+              <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <h5 class="modal-title text-center" id="exampleModalLabel"></h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- End Modal -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="bg-footer">
+      <img src="../assets/img/peta_footer.png" alt="" />
+    </div>
+    <div class="container_footer">
+      <div class="header_footer">
+        <h2 class="text-white">HISTORA</h2>
+        <p class="text-white">Mempertemukan Masa Lalu dan Masa Kini</p>
+      </div>
+      <div class="body_footer">
+        <div class="isi_footer_1">
+          <img src="../assets/icon/icon-telp.png" class="p-2" alt="" />
+          0878-1284-5006
+        </div>
+        <div class="isi_footer_1">
+          <img src="../assets/icon/icon-message.png" class="p-2" alt="" />
+          itclubsmk5bdg@gmail.com
+        </div>
+      </div>
+      <div class="footer_footer">
+        <p class="text-white">© copyright 2024 Histora.itclub5.my.id</p>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

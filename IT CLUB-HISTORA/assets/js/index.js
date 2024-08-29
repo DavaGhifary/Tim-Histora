@@ -23,7 +23,7 @@ buttons.forEach((button) => {
     button.querySelector(".tahun").classList.add("tahun-active");
     button.querySelector(".line").classList.add("line-active");
 
-    updateTimelineDetails(button.querySelector(".tahun").textContent);
+    // updateTimelineDetails(button.querySelector(".tahun").textContent);
   });
 });
 
@@ -40,8 +40,10 @@ tabs.forEach((tab, index) => {
     var line = document.querySelector(".line_barang");
     line.style.width = e.target.offsetWidth + "px";
     line.style.left = e.target.offsetLeft + "px";
-    all_content.forEach(content => {content.classList.remove('active')});
-    all_content[index].classList.add('active');
+    all_content.forEach((content) => {
+      content.classList.remove("active");
+    });
+    all_content[index].classList.add("active");
   });
 });
 
@@ -65,24 +67,24 @@ tabs.forEach((tab, index) => {
 // });
 
 function setActiveTab(tab) {
-  const tabs = document.querySelectorAll('.tabs-profile .nav-link');
-  tabs.forEach(t => t.classList.remove('active'));
-  tab.classList.add('active');
+  const tabs = document.querySelectorAll(".tabs-profile .nav-link");
+  tabs.forEach((t) => t.classList.remove("active"));
+  tab.classList.add("active");
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  var modal = document.getElementById('exampleModal');
-  var modalImage = modal.querySelector('#modalImage');
-  var modalTitle = modal.querySelector('#exampleModalLabel');
-  var modalDescription = modal.querySelector('#modalDescription p');
+document.addEventListener("DOMContentLoaded", function () {
+  var modal = document.getElementById("exampleModal");
+  var modalImage = modal.querySelector("#modalImage");
+  var modalTitle = modal.querySelector("#exampleModalLabel");
+  var modalDescription = modal.querySelector("#modalDescription p");
 
-  modal.addEventListener('show.bs.modal', function(event) {
+  modal.addEventListener("show.bs.modal", function (event) {
     // Get the clicked image element
     var image = event.relatedTarget;
 
     // Update modal content
-    modalImage.src = image.getAttribute('data-image');
-    modalTitle.textContent = image.getAttribute('data-title');
-    modalDescription.textContent = image.getAttribute('data-description');
+    modalImage.src = image.getAttribute("data-image");
+    modalTitle.textContent = image.getAttribute("data-title");
+    modalDescription.textContent = image.getAttribute("data-description");
   });
 });

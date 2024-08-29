@@ -1,4 +1,3 @@
-
 /* start-navbar */
 .navbar-header {
   height: 60px;
@@ -26,10 +25,17 @@
 .text-link {
   color: #ffff !important;
 }
-.blur {
+.navbar-blur {
   backdrop-filter: blur(10px);
 }
 
+.text-color {
+  color: #ece7e7 !important;
+}
+
+.ButtonNavbar {
+  outline: none;
+}
 /* .background-color-toggle{
   background-color: #ece7e7;
 }
@@ -38,15 +44,6 @@
   opacity: .80;
 } */
 /* end-navbaar */
-
-
-
-
-
-
-
-
-
 
 /* Test */
 /* .navbar .navbar-brand {
@@ -63,4 +60,3 @@
   color: #007bff;
   font-size: 30px;
 } */
-

@@ -1,139 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Map Indonesia</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <style>
-    body {
-      background: transparent;
-    }
-    #map {
-      height: 90vh !important;
-      width: 80%;
-      margin: 0 auto;
-      border-radius: 10px;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Indonesia</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/map.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="popup" id="popup">
+      <div class="popup_content">
+        <div class="popup_header">
+          <p class="text_tahun">1946</p>
+          <a href="#" class="popup_close">&times;</a>
+        </div>
+        <div class="popup_body">
+          <div class="popup_text">
+            <h2 class="text-white">Perjanjian Linggarjati</h2>
+            <p class="popup_desc">
+              Perjanjian yang ditandatangani pada 15 November 1946 antara
+              Indonesia dan Belanda dikenal sebagai Perjanjian Linggarjati.
+              Perjanjian ini merupakan langkah penting dalam pengakuan
+              kemerdekaan Indonesia oleh Belanda setelah proklamasi kemerdekaan
+              pada 17 Agustus 1945. Dalam perjanjian ini, Belanda mengakui de
+              facto pemerintahan Republik Indonesia yang meliputi Jawa, Madura,
+              dan Sumatera, serta menyetujui pembentukan negara federal
+              Indonesia. Selain itu, perjanjian ini menetapkan batas wilayah dan
+              mengatur hubungan diplomatik dan kerjasama ekonomi antara kedua
+              negara.
+            </p>
+          </div>
+          <div class="popup_img">
+            <img
+              src="../assets/img/img-landingPage/sukarno-dan-kartosuwiryo 2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-    .info-card {
-      position: absolute;
-      bottom: 100px;
-      right: 200px;
-      background: white;
-      padding: 10px 20px 10px 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-      z-index: 1000;
-      /* Memastikan kartu berada di depan */
-      font-family: 'Poppins', sans-serif;
-      width: 25vw;
-      height: 16vw;
-      backdrop-filter: blur(5px);
-      background-color: transparent;
-    }
-    #region-title {
-      font-weight: 600;
-    }
-  </style>
-</head>
-<body>
-  <div id="map"></div>
-  <div class="info-card d-flex flex-column justify-content-evenly" id="info-card" style="display: none;">
-    <h2 id="region-title"></h2>
-    <p id="disaster-info"></p>
-    <table class="mb-3 d-block">
-      <tr>
-        <td>Lokasi</td>
-        <td class="px-3">:</td>
-        <td id="lokasi"></td>
-      </tr>
-      <tr>
-        <td>Tanggal</td>
-        <td class="px-3">:</td>
-        <td id="tanggal"></td>
-      </tr>
-      <tr>
-        <td>Magnitudo</td>
-        <td class="px-3">:</td>
-        <td id="magnitudo"></td>
-      </tr>
-      <tr>
-        <td>Korban Jiwa</td>
-        <td class="px-3">:</td>
-        <td id="korban-jiwa"></td>
-      </tr>
-    </table>
-  </div>
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script>
-    var map = L.map('map').setView([3, 100], 4);
-
-    // Membatasi peta hanya di wilayah Indonesia
-    var bounds = [
-      [-11, 94], // South West Indonesia
-      [6, 141]  // North East Indonesia
-    ];
-    map.setMaxBounds(bounds);
-    map.on('drag', function () {
-      map.panInsideBounds(bounds, { animate: false });
-    });
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    // Ikon Kustom
-    var iconGempa = L.divIcon({
-      html: '<img src="../assets/icon/Vector-lokasi.png" style="width:25px;"/>',
-      className: 'wave-div-icon',
-      iconSize: [20, 20],
-      iconAnchor: [10, 10]
-    });
-
-    function fetchData() {
-      // gempa
-      fetch('../assets/json/1859-1894.json')
-        .then((res) => {
-          if (!res.ok) {
-            throw new Error('Network response was not ok ' + res.statusText);
-          }
-          return res.json();
-        })
-        .then((data) => {
-          data.forEach(gempa => {
-            if (gempa.koordinat.length > 0) {
-              L.marker(gempa.koordinat, { icon: iconGempa }).addTo(map).on('click', function (e) {
-                // var regionName = this.getPopup().getContent();
-                document.getElementById('region-title').innerText = gempa.judul;
-                document.getElementById('disaster-info').innerText = gempa.deskripsi;
-                document.getElementById('lokasi').innerText = gempa.lokasi;
-                document.getElementById('tanggal').innerText = gempa.tahun;
-                document.getElementById('magnitudo').innerText = gempa.magnitudo;
-                document.getElementById('korban-jiwa').innerText = gempa.korban_jiwa;
-                document.getElementById('info-card').style.display = 'block';
-              }).bindPopup(gempa);
-            }
-          });
-        })
-        .catch((error) => {
-          console.error('There has been a problem with your fetch operation:', error);
-        });
-    
-    }
-
-    fetchData()
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
+    <script src="../assets/js/map.js"></script>
+    <script src="../assets/js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

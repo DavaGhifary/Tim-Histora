@@ -4,7 +4,7 @@
     "deskripsi": "Pembantaian warga Tionghoa di Batavia terjadi pada tanggal 9 Oktober 1740, ketika pasukan Belanda menyerang dan membantai komunitas Tionghoa di Batavia (sekarang Jakarta). Peristiwa ini merupakan puncak dari ketegangan yang telah lama terjadi antara masyarakat Tionghoa dan pemerintah kolonial Belanda. Konflik ini berakar dari ketidakpuasan terhadap kebijakan ekonomi dan politik Belanda serta ketegangan sosial antara komunitas lokal dan pendatang Tionghoa.",
     "tahun": 1740,
     "tokoh": ["Gustaaf Willem baron van Imhoff"],
-    "image": "../../",
+    "image": "../assets/img/img-map/1740-1850/Pembantaian warga Tionghoa di Batavia",
     "image_tokoh": "../../",
     "koordinat": [-6.138555960849016, 106.81690343568376]
   },
@@ -52,7 +52,7 @@
     "judul": "Perang Padri",
     "deskripsi": "Perang Padri adalah konflik yang terjadi di Sumatera Barat dari tahun 1803 hingga 1837. Konflik ini melibatkan kaum Padri yang dipimpin oleh Tuanku Imam Bonjol melawan kekuasaan Belanda dan penguasa lokal. Kaum Padri memperjuangkan penerapan hukum Islam yang lebih ketat dan menolak penguasa adat yang dianggap tidak sesuai dengan syariat Islam. Perang ini merupakan bagian dari upaya Belanda untuk memperkuat kekuasaannya di Sumatera Barat.",
     "tahun": 1803,
-    "image": "../../",
+    "image": "../assets/img/img-map/1740-1850/Perang_Padri.jpg",
     "image_tokoh": "../../",
     "tokoh": ["Tuanku Imam Bonjol", "Haji Abdul Malik Karim Amrullah (Hamka)"],
     "koordinat": [-0.845, 100.235]
@@ -79,7 +79,7 @@
     "judul": "Perang Diponegoro",
     "deskripsi": "Perang Diponegoro, yang berlangsung dari tahun 1825 hingga 1830, adalah salah satu konflik terbesar dan paling signifikan dalam sejarah perjuangan melawan kolonialisme Belanda di Indonesia. Dipimpin oleh Pangeran Diponegoro, seorang bangsawan Jawa dan pemimpin perlawanan, perang ini merupakan upaya untuk melawan ekspansi dan penindasan pemerintah kolonial Belanda di pulau Jawa. Konflik ini melibatkan berbagai taktik perang gerilya dan berhasil mendapatkan dukungan luas dari rakyat Jawa. Perang Diponegoro berakhir dengan penangkapan Pangeran Diponegoro pada tahun 1830, yang menandai berakhirnya perjuangan besar melawan kekuasaan kolonial Belanda di Jawa.",
     "tahun": 1825,
-    "image": "../../",
+    "image": "../assets/img/img-map/1740-1850/Perang_Diponegoro.jpg",
     "image_tokoh": "../../",
     "tokoh": ["Pangeran Diponegoro"],
     "koordinat": [-7.7956, 110.3695]

@@ -1,43 +1,156 @@
+.footer {
+  background-color: #242424;
+  height: 36vh;
+  position: relative;
+}
+.bg-footer img {
+  margin-inline: 180px;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+}
 
-.footer{
+.container_footer {
+  position: absolute;
+  width: 100%;
+  height: 36vh;
+  top: 0;
+  padding-top: 20px;
+}
+
+.header_footer {
+  text-align: center;
+}
+
+.body_footer {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 100px;
+}
+
+.isi_footer_1 {
+  display: flex;
+  color: #ffff;
+  height: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer_footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .footer {
     background-color: #242424;
+    width: 100%;
     height: 36vh;
     position: relative;
   }
-  .bg-footer img{
-    margin-inline: 180px;
-    width: 60rem;
+  .bg-footer {
+    height: 36vh;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
-  
+
+  .bg-footer img {
+    width: 38rem;
+    display: flex;
+  }
+
   .container_footer {
     position: absolute;
     width: 100%;
+    height: 36vh;
     top: 0;
     padding-top: 20px;
   }
-  
-  .header_footer{
+
+  .header_footer {
     text-align: center;
   }
-  
-  .body_footer{
+
+  .body_footer {
     display: flex;
     justify-content: space-between;
     margin-inline: 100px;
   }
-  
-  .isi_footer_1{
+
+  .isi_footer_1 {
     display: flex;
     color: #ffff;
     height: 20px;
     align-items: center;
     padding: 10px;
   }
-  
-  .footer_footer{
+
+  .footer_footer {
     display: flex;
     justify-content: center;
     padding-top: 80px;
   }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    background-color: #242424;
+    width: 100%;
+    height: 36vh;
+    position: relative;
+  }
+  .bg-footer {
+    height: 36vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-footer img {
+    width: 28rem;
+    display: flex;
+  }
+
+  .container_footer {
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    top: 0;
+    padding-top: 40px;
+  }
+
+  .header_footer {
+    text-align: center;
+  }
+
+  .body_footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+  }
+
+  .isi_footer_1 {
+    display: flex;
+    color: #ffff;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .isi_footer_1 img {
+    width: 3rem;
+  }
+
+  .isi_footer_1 p {
+    font-size: 14px;
+  }
+
+  .footer_footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+  }
+}

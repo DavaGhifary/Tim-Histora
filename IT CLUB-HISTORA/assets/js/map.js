@@ -23,6 +23,7 @@ var iconGempa = L.divIcon({
 
 var markers = [];
 
+// Function to load map data
 function loadMapData(jsonFile) {
   console.log("Fetching data from:", "../assets/json/" + jsonFile);
   fetch("../assets/json/" + jsonFile)
@@ -34,6 +35,7 @@ function loadMapData(jsonFile) {
     })
     .then((data) => {
       console.log("Data loaded:", data);
+
       // Remove existing markers
       markers.forEach((marker) => map.removeLayer(marker));
       markers = [];
@@ -62,22 +64,25 @@ function loadMapData(jsonFile) {
 }
 
 // Update the button click handlers
-const buttons = document.querySelectorAll(".group-button button");
+let buttons = document.querySelectorAll(".group-button button"); // Change 'const' to 'let'
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
+    // Remove active classes from all buttons
     buttons.forEach((btn) => {
       btn.querySelector(".tahun").classList.remove("tahun-active");
       btn.querySelector(".line").classList.remove("line-active");
     });
 
+    // Add active classes to the clicked button
     button.querySelector(".tahun").classList.add("tahun-active");
     button.querySelector(".line").classList.add("line-active");
 
+    // Retrieve the data-key from the clicked button
     const jsonFile = button.getAttribute("data-key");
+    console.log("Loading data from:", jsonFile);
     if (jsonFile) {
-      console.log("Loading data from:", jsonFile);
-      loadMapData(jsonFile);
+      loadMapData(jsonFile); // Load new data based on the button's data-key
     } else {
       console.error("No data-key found on the button");
     }
@@ -85,8 +90,9 @@ buttons.forEach((button) => {
 });
 
 // Load initial map data
-loadMapData("1740-1850.json");
+loadMapData("1859-1894.json");
 
+// Popup close event listener
 document.querySelector(".popup_close").addEventListener("click", (e) => {
   e.preventDefault(); // Prevent default anchor behavior
   document.getElementById("popup").style.display = "none";

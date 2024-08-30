@@ -55,7 +55,7 @@
                 <img src="./assets/icon/Vector-write.png" width="19" class="ms-2 opacity-icon-write" alt="" />
                 <p class="text-write fw-light fs-6">Write</p>
               </button>
-              <button class="ButtonSign fw-light fs-6">Sign in</button>
+              <button class="ButtonSign fw-light fs-6" data-bs-toggle="modal" data-bs-target="#fullscreenModalSign">Sign in</button>
             </div>
           </div>
         </div>
@@ -86,18 +86,18 @@
             <div class="dulu">
               <img
                 src="./assets/img/img-landingPage/img-dulu.png"
-                class="img-dulu"
+                class="img-dulu mx-auto"
                 alt=""
               />
               <p class="text-white text-center pt-4">1336</p>
             </div>
             <div class="desc_nusantara">
               <div class="value_desc_nusantara">
-                <p class="text-white text-center">17 Agustus 1945</p>
+                <p class="text-white text-center text_nusantara_tahun">17 Agustus 1945</p>
                 <div class="img-arrow">
                   <img
                     src="./assets/icon/Arrow-longRight.png"
-                    class="img_arrow_right"
+                    class="img_arrow_right" 
                     alt=""
                   />
                 </div>
@@ -179,19 +179,19 @@
               <p class="tahun">1815 - 1850</p>
               <div class="line"></div>
             </button>
-            <button class="">
+            <button data-key="">
               <p class="tahun">1850 - 1885</p>
               <div class="line"></div>
             </button>
-            <button>
+            <button data-key="">
               <p class="tahun">1885 - 1920</p>
               <div class="line"></div>
             </button>
-            <button>
+            <button data-key="1920-1955.json">
               <p class="tahun">1920 - 1955</p>
               <div class="line"></div>
             </button>
-            <button>
+            <button data-key="">
               <p class="tahun">1955 - 1990</p>
               <div class="line"></div>
             </button>
@@ -514,6 +514,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Prasasti Ciaruteun</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Prasasti Ciaruteun adalah salah satu prasasti batu tertua di Indonesia yang berasal dari masa Kerajaan Tarumanagara, sekitar abad ke-5 Masehi. Prasasti ini ditemukan di tepi Sungai Ciaruteun, dekat desa Ciaruteun Hilir, Kecamatan Cibungbulang, Kabupaten Bogor, Jawa Barat. Prasasti ini sangat penting karena memberikan gambaran tentang kehidupan politik, budaya, dan agama di masa itu.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -521,6 +530,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Harihara</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Harihara adalah dewa dalam mitologi Hindu yang merupakan gabungan dari dua dewa besar, Vishnu dan Shiva. Nama "Harihara" berasal dari gabungan kata "Hari," yang merupakan nama lain untuk Vishnu, dan "Hara," yang merupakan nama lain untuk Shiva. Sosok Harihara melambangkan persatuan antara kedua prinsip atau energi kosmik yang mewakili penciptaan, pemeliharaan, dan kehancuran alam semesta.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -528,6 +546,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Prasasti Kota Kapur</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Prasasti Kota Kapur adalah salah satu prasasti kuno dari masa Kerajaan Sriwijaya, sebuah kerajaan maritim besar yang berpusat di Sumatra dan berkembang pesat pada abad ke-7 hingga abad ke-13. Prasasti ini ditemukan di Desa Kota Kapur, di Pulau Bangka, Indonesia, pada tahun 1892 oleh seorang arkeolog Belanda bernama J.K. van der Meulen.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -535,6 +562,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Prasasti Kedukan Bukit</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Prasasti Kedukan Bukit adalah salah satu prasasti tertua di Indonesia, yang berasal dari abad ke-7 Masehi. Prasasti ini ditemukan pada tahun 1920 di tepi Sungai Tatang, dekat Palembang, Sumatera Selatan, di sebuah bukit kecil yang disebut Kedukan Bukit. Prasasti Kedukan Bukit ditulis dalam aksara Pallawa dan bahasa Melayu Kuno.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -542,27 +578,63 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Prasasti Talang Tuo</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Prasasti Talang Tuo adalah salah satu prasasti penting dari zaman Kerajaan Sriwijaya di Sumatra, Indonesia. Prasasti ini ditemukan pada tahun 1920 di daerah Talang Tuo, yang terletak di dekat Palembang, Sumatra Selatan. Prasasti Talang Tuo dipahatkan pada sebuah batu berukuran sekitar 50 cm x 80 cm dan menggunakan aksara Pallawa dalam bahasa Melayu Kuno.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_Canggal.jpg"
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Prasasti Canggal</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Prasasti Canggal adalah salah satu prasasti penting dari masa awal Kerajaan Mataram Kuno di Jawa Tengah, Indonesia. Prasasti ini dikenal sebagai salah satu bukti tertulis tertua yang ada di Indonesia dan memberikan informasi tentang sejarah awal kerajaan Hindu di Jawa.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  src="./assets/img/img-landingPage/Artefac-kerajaan/Arca_Prajnaparamita.JPG"
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Arca Prajñāpāramitā</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Arca Prajñāpāramitā adalah salah satu arca (patung) terkenal dari periode klasik sejarah Indonesia, yang berasal dari masa Kerajaan Singhasari pada abad ke-13. Arca ini menggambarkan dewi Prajñāpāramitā, yang dalam ajaran Buddha Mahayana dikenal sebagai dewi kebijaksanaan transendental dan dianggap sebagai personifikasi dari kitab suci Prajñāpāramitā Sūtra.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
+                  src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_tugu.jpg"
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Prasasti Tugu</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Prasasti Tugu adalah salah satu prasasti peninggalan Kerajaan Tarumanegara, yang merupakan salah satu kerajaan Hindu tertua di Indonesia. Prasasti ini ditemukan di Kampung Batutumbu, Tugu, Jakarta Utara, dan saat ini disimpan di Museum Nasional Indonesia di Jakarta.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -787,21 +859,11 @@
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="title_name">Bali Life</h5>
+                  <h5 class="title_name">Tahun 800-1600M</h5>
                   <hr class="m-1" />
-                  <div class="atribut_lukisan">
-                    <div class="seniman">
-                      <p class="name_seniman">Seniman</p>
-                      <p class="value_seniman">Lee Man Fong</p>
-                    </div>
-                    <div class="seniman">
-                      <p class="name_seniman">Tahun</p>
-                      <p class="value_seniman">1913</p>
-                    </div>
-                  </div>
                   <div class="desc_seniman">
                     <p>
-                      Lukisan ini merepresentasikan kehidupan masyarakat pedesaan di Bali kala itu. Mulai dari anak-anak yang bermain, petani bekerja, dan perempuan menyiapkan sesaji.
+                      Pada masa tersebut, transaksi jual beli masih banyak dilakukan dengan menggunakan emas dan perak. Produksi koin pertama bahkan berasal dari Dinasti Syailendra (Kerajaan Mataram) pada abad ke-9 hingga ke-12.
                     </p>
                   </div>
                 </div>
@@ -812,6 +874,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Tahun 1600-1942</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Pada tahun ini, orang-orang Eropa mulai berdatangan ke Indonesia dan membawa mata uang masing-masing terutama dalam bidang perdagangan. Hal tersebut menjadikan masyarakat Indonesia juga banyak menggunakan mata uang bangsa kolonial ini.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -819,6 +890,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Tahun 1942-1944</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Pada kala itu adalah masa penjajahan Jepang. Terutama pada tahun 1942, Jepang berhasil menginvasi pemerintahan Hindia Belanda dan mengambil alih seluruh negeri. Hal tersebut menjadikan Jepang membawa mata uangnya sendiri lalu membubarkan bank-bank bentukan Indonesia, termasuk De Javasche Bank.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -826,6 +906,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Tahun 1945-1948</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Pada tahun ini, Indonesia sudah merdeka dan pemerintah pun dapat mencetak mata uang sendiri, dengan menerbitkan ORI atau Oeang Repoeblik Indonesia. Namun, karena saat itu juga negara masih dalam keadaan kacau, akhirnya peredaran ORI menjadi tersendat.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -833,6 +922,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Tahun 1975</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Pada tahun 1975, terdapat seri baru yang dirilis dan diedarkan di masyarakat Indonesia. Yakni nominal Rp1.000 dengan gambar Pangeran Diponegoro, nominal Rp5.000 dengan gambar nelayan, dan nominal Rp10.000 dengan gambar relief Candi Borobudur.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -840,6 +938,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Tahun 1992</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Pada tahun 1992, Bank Indonesia memperkenalkan seri baru dari mata uang Rupiah yang mencakup beberapa denominasi, baik dalam bentuk koin maupun uang kertas. Seri ini membawa desain baru yang mencerminkan kebudayaan, tokoh, dan kekayaan alam Indonesia.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -847,6 +954,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Tahun 1993</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Pada tahun ini, terbit seri terbaru yakni dengan nominal Rp50.000 dengan gambar Presiden Soeharto. Bahan yang digunakan dalam mencetak uang tersebut adalah plastik polymer dengan pengaman “Holografis” Soeharto, bukan watermark yang biasa digunakan.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div class="card card-img" style="width: 13rem">
                 <img
@@ -854,6 +970,15 @@
                   class="card-img-top"
                   alt="..."
                 />
+                <div class="card-body">
+                  <h5 class="title_name">Tahun 1998</h5>
+                  <hr class="m-1" />
+                  <div class="desc_seniman">
+                    <p>
+                      Pada masa ini, pecahan Rp100.000 yang bergambar Soekarno, Moh. Hatta, dan teks proklamasi diedarkan. Pecahan tersebut dicetak di Australia dan Thailand, menggunakan material plastik polymer.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -956,15 +1081,15 @@
         <div class="body_footer">
           <div class="isi_footer_1">
             <img src="./assets/icon/icon-telp.png" class="p-2" alt="" />
-            0878-1284-5006
+           <p class="m-0">0878-1284-5006</p>
           </div>
           <div class="isi_footer_1">
             <img src="./assets/icon/icon-message.png" class="p-2" alt="" />
-            itclubsmk5bdg@gmail.com
+           <p class="m-0">itclubsmk5bdg@gmail.com</p> 
           </div>
         </div>
         <div class="footer_footer">
-          <p class="text-white">© copyright 2024 Histora.itclub5.my.id</p>
+          <p class="text-white m-0">© copyright 2024 Histora.itclub5.my.id</p>
         </div>
       </div>
     </footer>
@@ -1007,6 +1132,34 @@
             <textarea class="form-control-artikel d-block" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <button type="button" class="Btn_Upload">Upload</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal Sign -->
+
+<div class="modal fade" id="fullscreenModalSign" tabindex="-1" aria-labelledby="fullscreenModalLabelsign" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content" style="background-color: #0f0f0f;">
+      <button type="button" class="btn btnClose m-3" data-bs-dismiss="modal" aria-label="Close"><img src="./assets/icon/close.svg" width="30" height="30" class="imgClose" alt=""></button>
+      <div class="modal-body" style="height: 100vh; display: flex; align-items: center; justify-content: center;"">
+        <div class="form_artikel">
+          <h2 class="text-white text-center mb-5">Join Histora</h2>
+          <div class="d-grid gap-4 mx-auto my-auto">
+            <button type="button" class="d-flex justify-content-center align-items-center rounded-pill border-0 ps-4 pe-5 py-3">
+              <img src="./assets/icon/google 1.png" style="width: 1.5rem;" class="me-5" alt="">
+              <p class="mb-0 me-5">Masuk Melalui Google</p>
+            </button>
+            <button type="button" class="d-flex justify-content-center align-items-center rounded-pill border-0 ps-4 pe-5 py-3">
+              <img src="./assets/icon/fb 1.png" style="width: 1.5rem;" class="me-5" alt="">
+              <p class="mb-0 me-5">Masuk Melalui Google</p>
+            </button>
+            <p class="mb-0 mx-auto mt-2 text-white">Butuh Bantuan? <a href="" class="link-underline link-underline-opacity-0">Hubungi kami</a></p>
+          </div>
         </div>
         </div>
     </div>

@@ -4,9 +4,9 @@
     "deskripsi": "Pembantaian warga Tionghoa di Batavia terjadi pada tanggal 9 Oktober 1740, ketika pasukan Belanda menyerang dan membantai komunitas Tionghoa di Batavia (sekarang Jakarta). Peristiwa ini merupakan puncak dari ketegangan yang telah lama terjadi antara masyarakat Tionghoa dan pemerintah kolonial Belanda. Konflik ini berakar dari ketidakpuasan terhadap kebijakan ekonomi dan politik Belanda serta ketegangan sosial antara komunitas lokal dan pendatang Tionghoa.",
     "tahun": 1740,
     "tokoh": ["Gustaaf Willem baron van Imhoff"],
-    "image": "../assets/img/img-map/1740-1850/Pembantaian warga Tionghoa di Batavia",
+    "image": "../assets/img/img-map/1740-1850/Pembantaian_warga_Tionghoa _di_Batavia.jpg",
     "image_tokoh": "../../",
-    "koordinat": [-6.138555960849016, 106.81690343568376]
+    "koordinat": [-6.1377, 106.817]
   },
   {
     "judul": "Pendirian Kantor Pos Pertama di Batavia",
@@ -15,7 +15,7 @@
     "tokoh": ["Gustaaf Willem baron van Imhoff"],
     "image": "../../",
     "image_tokoh": "../../",
-    "koordinat": [-6.2088, 106.8456]
+    "koordinat": [-6.137, 106.815]
   },
   {
     "judul": "Perjanjian Giyanti",

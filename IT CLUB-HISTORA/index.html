@@ -1,221 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Histora</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Histora</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-    <!-- css -->
-    <link rel="stylesheet" href="./assets/css/index.css" />
-    <link rel="stylesheet" href="./assets/css/navbar.css" />
-    <link rel="stylesheet" href="./assets/css/footer.css" />
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="stylesheet" href="./assets/css/navbar.css" />
+  <link rel="stylesheet" href="./assets/css/footer.css" />
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- homepage -->
-    <header id="header">
-      <nav class="navbar navbar-blur fixed-top navbar-expand-lg overflow-x-hidden">
-        <div class="container">
-          <a class="navbar-brand text-color fs-6" href="#">HISTORA</a>
-          <button class="navbar-toggler background-color-toggle ButtonNavbar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto mx-auto">
-              <li class="nav-item">
-                <a class="nav-link text-link text-decoration-underline fs-6" aria-current="page" href="#"
-                  >BERANDA</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-link opacity-75 fs-6" href="./pages/galeri.html">GALERI</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-link opacity-75 fs-6" href="#">ARTIKEL</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-link opacity-75 fs-6" href="#timeline">TIMELINE</a>
-              </li>
-            </ul>
-            <div class="navbar-text text-link d-flex gap-3 justify-content-between">
-              <button class="write gap-1" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
-                <img src="./assets/icon/Vector-write.png" width="19" class="ms-2 opacity-icon-write" alt="" />
-                <p class="text-write fw-light fs-6">Write</p>
-              </button>
-              <button class="ButtonSign fw-light fs-6" data-bs-toggle="modal" data-bs-target="#fullscreenModalSign">Sign in</button>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <section class="d-flex justify-content-center beranda">
-        <div class="title_judul">
-          <div class="main">
-            <h1 class="judul">HISTORA</h1>
-            <p class="tagline">Mempertemukan Masa lalu dan Masa kini</p>
-          </div>
-          <a href="#page-nusantara" class="button bouncing-button">
-            <img src="./assets/icon/Vector-arrow-down.png" alt="" />
-          </a>
-        </div>
-      </section>
-    </header>
-    <!-- homepage -->
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+<body>
+  <!-- homepage -->
+  <header id="header">
+    <nav class="navbar navbar-blur fixed-top navbar-expand-lg overflow-x-hidden">
+      <div class="container">
+        <a class="navbar-brand text-color fs-6" href="#">HISTORA</a>
+        <button class="navbar-toggler background-color-toggle ButtonNavbar" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="page-nusantara" id="page-nusantara">
-      <div class="content_nusantara">
-        <div class="content_page">
-          <div class="nusantara">
-            <h2 class="text-white text-center">
-              Perubahan Indonesia dari zaman nusantara sampai saat ini
-            </h2>
-          </div>
-          <div class="value_nusantara">
-            <div class="dulu">
-              <img
-                src="./assets/img/img-landingPage/img-dulu.png"
-                class="img-dulu mx-auto"
-                alt=""
-              />
-              <p class="text-white text-center pt-4">1336</p>
-            </div>
-            <div class="desc_nusantara">
-              <div class="value_desc_nusantara">
-                <p class="text-white text-center text_nusantara_tahun">17 Agustus 1945</p>
-                <div class="img-arrow">
-                  <img
-                    src="./assets/icon/Arrow-longRight.png"
-                    class="img_arrow_right" 
-                    alt=""
-                  />
-                </div>
-
-                <p class="text_nusantara text-white">
-                  Istilah "Nusantara," yang digunakan sejak abad ke-14 oleh
-                  Kerajaan Majapahit untuk merujuk pada kepulauan yang kini
-                  dikenal sebagai Indonesia, digantikan oleh nama "Hindia
-                  Belanda" pada tahun 1800 setelah Belanda mengambil alih
-                  wilayah tersebut dari VOC dan menjadikannya koloni. Perubahan
-                  nama ini mencerminkan transisi dari pengaruh lokal ke
-                  kekuasaan kolonial. Pada 17 Agustus 1945, setelah kemerdekaan
-                  Indonesia diproklamasikan, nama "Indonesia" diadopsi untuk
-                  mencerminkan identitas dan kedaulatan bangsa yang baru
-                  merdeka, menggantikan nama kolonial "Hindia Belanda."
-                </p>
-              </div>
-            </div>
-            <div class="sekarang">
-              <img
-                src="./assets/img/img-landingPage/img-sekarang.png"
-                class="img-sekarang"
-                alt=""
-              />
-              <p class="text-white text-center">Sekarang</p>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-link text-decoration-underline fs-6" aria-current="page" href="#">BERANDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-link opacity-75 fs-6" href="./pages/galeri.html">GALERI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-link opacity-75 fs-6" href="#">ARTIKEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-link opacity-75 fs-6" href="#timeline">TIMELINE</a>
+            </li>
+          </ul>
+          <div class="navbar-text text-link d-flex gap-3 justify-content-between">
+            <button class="write gap-1" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
+              <img src="./assets/icon/Vector-write.png" width="19" class="ms-2 opacity-icon-write" alt="" />
+              <p class="text-write fw-light fs-6">Write</p>
+            </button>
+            <button class="ButtonSign fw-light fs-6" data-bs-toggle="modal" data-bs-target="#fullscreenModalSign">Sign
+              in</button>
           </div>
         </div>
       </div>
-    </div>
+    </nav>
+    <section class="d-flex justify-content-center beranda">
+      <div class="title_judul">
+        <div class="main">
+          <h1 class="judul">HISTORA</h1>
+          <p class="tagline">Mempertemukan Masa lalu dan Masa kini</p>
+        </div>
+        <a href="#page-nusantara" class="button bouncing-button">
+          <img src="./assets/icon/Vector-arrow-down.png" alt="" />
+        </a>
+      </div>
+    </section>
+  </header>
+  <!-- homepage -->
 
-    <div id="highlight">
-      <div class="highlight_page">
-        <div class="highlight_page_artikel">
-          <h2 class="text-white text-center pb-2">
-            Persahabatan Soekarno dan Kartosoewirjo
+  <div class="page-nusantara" id="page-nusantara">
+    <div class="content_nusantara">
+      <div class="content_page">
+        <div class="nusantara">
+          <h2 class="text-white text-center">
+            Perubahan Indonesia dari zaman nusantara sampai saat ini
           </h2>
-          <div class="gambar_teks">
-            <div class="gambar_highlight_1">
-              <img src="./assets/img/img-landingPage/imagePage2_1.png" alt="" />
-            </div>
-            <div class="gambar_highlight_2">
-              <img
-                src="./assets/img/img-landingPage/imageSoekarno.png"
-                alt=""
-              />
-            </div>
-            <div class="teks_gambar_highlight">
-              <p class="text-desc-highlight">
-                Soekarno dan Kartosoewirjo adalah dua tokoh penting dalam
-                sejarah Indonesia yang awalnya bersahabat erat. Mereka bertemu
-                di Bandung pada 1920-an, di mana Soekarno sebagai mahasiswa dan
-                aktivis nasionalis, serta Kartosoewirjo sebagai aktivis Islam,
-                sering bekerja sama dan saling bertukar ide untuk meraih
-                kemerdekaan dari penjajahan Belanda.
+        </div>
+        <div class="value_nusantara">
+          <div class="dulu">
+            <img src="./assets/img/img-landingPage/img-dulu.png" class="img-dulu mx-auto" alt="" />
+            <p class="text-white text-center pt-4">1336</p>
+          </div>
+          <div class="desc_nusantara">
+            <div class="value_desc_nusantara">
+              <p class="text-white text-center text_nusantara_tahun">17 Agustus 1945</p>
+              <div class="img-arrow">
+                <img src="./assets/icon/Arrow-longRight.png" class="img_arrow_right" alt="" />
+              </div>
+
+              <p class="text_nusantara text-white">
+                Istilah "Nusantara," yang digunakan sejak abad ke-14 oleh
+                Kerajaan Majapahit untuk merujuk pada kepulauan yang kini
+                dikenal sebagai Indonesia, digantikan oleh nama "Hindia
+                Belanda" pada tahun 1800 setelah Belanda mengambil alih
+                wilayah tersebut dari VOC dan menjadikannya koloni. Perubahan
+                nama ini mencerminkan transisi dari pengaruh lokal ke
+                kekuasaan kolonial. Pada 17 Agustus 1945, setelah kemerdekaan
+                Indonesia diproklamasikan, nama "Indonesia" diadopsi untuk
+                mencerminkan identitas dan kedaulatan bangsa yang baru
+                merdeka, menggantikan nama kolonial "Hindia Belanda."
               </p>
             </div>
           </div>
+          <div class="sekarang">
+            <img src="./assets/img/img-landingPage/img-sekarang.png" class="img-sekarang" alt="" />
+            <p class="text-white text-center">Sekarang</p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <section class="timeline" id="timeline">
-      <div class="main">
-        <h1 class="judul_timeline">Timeline Sejarah Indonesia</h1>
-        <div class="d-flex justify-content-center">
-          <p class="deskripsi">
-            Menampilkan Peristiwa Bersejarah di Nusantara Melalui Timeline Dan
-            Peta Interaktif
-          </p>
-        </div>
-        <div class="group-button">
-          <div class="d-flex justify-content-center">
-            <button data-key="1740-1850.json">
-              <p class="tahun tahun-active">1780 - 1815</p>
-              <div class="line line-active""></div>
-            </button>
-            <button data-key="1859-1894.json">
-              <p class="tahun">1815 - 1850</p>
-              <div class="line"></div>
-            </button>
-            <button data-key="">
-              <p class="tahun">1850 - 1885</p>
-              <div class="line"></div>
-            </button>
-            <button data-key="">
-              <p class="tahun">1885 - 1920</p>
-              <div class="line"></div>
-            </button>
-            <button data-key="1920-1955.json">
-              <p class="tahun">1920 - 1955</p>
-              <div class="line"></div>
-            </button>
-            <button data-key="">
-              <p class="tahun">1955 - 1990</p>
-              <div class="line"></div>
-            </button>
+  <div id="highlight">
+    <div class="highlight_page">
+      <div class="highlight_page_artikel">
+        <h2 class="text-white text-center pb-2">
+          Persahabatan Soekarno dan Kartosoewirjo
+        </h2>
+        <div class="gambar_teks">
+          <div class="gambar_highlight_1">
+            <img src="./assets/img/img-landingPage/imagePage2_1.png" alt="" />
+          </div>
+          <div class="gambar_highlight_2">
+            <img src="./assets/img/img-landingPage/imageSoekarno.png" alt="" />
+          </div>
+          <div class="teks_gambar_highlight">
+            <p class="text-desc-highlight">
+              Soekarno dan Kartosoewirjo adalah dua tokoh penting dalam
+              sejarah Indonesia yang awalnya bersahabat erat. Mereka bertemu
+              di Bandung pada 1920-an, di mana Soekarno sebagai mahasiswa dan
+              aktivis nasionalis, serta Kartosoewirjo sebagai aktivis Islam,
+              sering bekerja sama dan saling bertukar ide untuk meraih
+              kemerdekaan dari penjajahan Belanda.
+            </p>
           </div>
         </div>
       </div>
-      <!-- Map -->
-      <section
-        class="infografis bg-transparent"
-        id="Infografis"
-        style="border-radius: 10px"
-      >
-        <div class="main bg-transparent">
-          <div class="d-flex justify-content-center bg-transparent">
-            <iframe
-              src="./pages/map.html"
-              frameborder="0"
-              style="width: 90vw; height: 40vw"
-            ></iframe>
-          </div>
+    </div>
+  </div>
+
+  <section class="timeline" id="timeline">
+    <div class="main">
+      <h1 class="judul_timeline">Timeline Sejarah Indonesia</h1>
+      <div class="d-flex justify-content-center">
+        <p class="deskripsi">
+          Menampilkan Peristiwa Bersejarah di Nusantara Melalui Timeline Dan
+          Peta Interaktif
+        </p>
+      </div>
+      <div class="group-button">
+        <div class="d-flex justify-content-center">
+          <button class="LoadMapData" data-key="1740-1850.json">
+            <p class="tahun tahun-active">1780 - 1815</p>
+            <div class="line line-active""></div>
+            </button>
+            <button class=" LoadMapData" data-key=" 1859-1894.json">
+              <p class="tahun">1815 - 1850</p>
+              <div class="line"></div>
+          </button>
+          <button class="LoadMapData" data-key="">
+            <p class="tahun">1850 - 1885</p>
+            <div class="line"></div>
+          </button>
+          <button class="LoadMapData" data-key="">
+            <p class="tahun">1885 - 1920</p>
+            <div class="line"></div>
+          </button>
+          <button class="LoadMapData" data-key="1920-1955.json">
+            <p class="tahun">1920 - 1955</p>
+            <div class="line"></div>
+          </button>
+          <button class="LoadMapData" data-key="">
+            <p class="tahun">1955 - 1990</p>
+            <div class="line"></div>
+          </button>
         </div>
-      </section>
-      <!-- End Map -->
+      </div>
+    </div>
+    <!-- Map -->
+    <section class="infografis bg-transparent" id="Infografis" style="border-radius: 10px">
+      <div class="main bg-transparent">
+        <div class="d-flex justify-content-center bg-transparent">
+          <iframe src="./pages/map.html" frameborder="0" style="width: 90vw; height: 40vw"></iframe>
+        </div>
+      </div>
     </section>
+    <!-- End Map -->
+  </section>
 
   <section id="frame_barang_sejarah">
     <div class="barang_bersejarah">
@@ -232,10 +205,7 @@
             <div class="card-senjata">
               <!-- keris -->
               <div class="card-img">
-                <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-1.png"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-senjata/Senjata-1.png" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Keris Kencana</h5>
                   <hr />
@@ -269,10 +239,7 @@
               </div>
               <!-- Bedog Satria -->
               <div class="card-img">
-                <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-2.png"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-senjata/Senjata-2.png" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Bedog Satria</h5>
                   <hr />
@@ -296,17 +263,15 @@
                   </div>
                   <div class="desc">
                     <p>
-                      Bedog Satria adalah senjata tradisional yang kuat untuk pertempuran jarak dekat, dengan desain kokoh, bilah lebar dan tajam, serta pegangan kuat, ideal untuk serangan berat dan pertahanan.
+                      Bedog Satria adalah senjata tradisional yang kuat untuk pertempuran jarak dekat, dengan desain
+                      kokoh, bilah lebar dan tajam, serta pegangan kuat, ideal untuk serangan berat dan pertahanan.
                     </p>
                   </div>
                 </div>
               </div>
               <!-- Bambu Runcing -->
               <div class="card-img">
-                <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-3.png"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-senjata/Senjata-3.png" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Bambu Runcing</h5>
                   <hr />
@@ -330,17 +295,15 @@
                   </div>
                   <div class="desc">
                     <p>
-                      Bambu Rucing adalah senjata tradisional ringan dari bambu, ideal untuk serangan cepat dan pertarungan jarak dekat, serta latihan seni bela diri.
+                      Bambu Rucing adalah senjata tradisional ringan dari bambu, ideal untuk serangan cepat dan
+                      pertarungan jarak dekat, serta latihan seni bela diri.
                     </p>
                   </div>
                 </div>
               </div>
               <!-- Pistol Defender -->
               <div class="card-img">
-                <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-4.png"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-senjata/Senjata-4.png" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Pistol Defender</h5>
                   <hr />
@@ -364,17 +327,15 @@
                   </div>
                   <div class="desc">
                     <p>
-                      Pistol Defender adalah senjata ringan untuk pertahanan diri dengan daya hancur memadai dan jangkauan efisien. Dikenal karena pegangan ergonomis dan sistem pemicu responsif.
+                      Pistol Defender adalah senjata ringan untuk pertahanan diri dengan daya hancur memadai dan
+                      jangkauan efisien. Dikenal karena pegangan ergonomis dan sistem pemicu responsif.
                     </p>
                   </div>
                 </div>
               </div>
               <!-- Senapan Angin PCP Grand Mauser -->
               <div class="card-img">
-                <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-5.png"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-senjata/Senjata-5.png" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Senapan Angin PCP Grand Mauser</h5>
                   <hr />
@@ -398,17 +359,15 @@
                   </div>
                   <div class="desc">
                     <p>
-                      Senapa Angin PCP Mauser adalah senapan angin berjenis pre-charged pneumatic (PCP) yang dirancang untuk keperluan olahraga dan berburu.
+                      Senapa Angin PCP Mauser adalah senapan angin berjenis pre-charged pneumatic (PCP) yang dirancang
+                      untuk keperluan olahraga dan berburu.
                     </p>
                   </div>
                 </div>
               </div>
               <!-- Molotov Cocktail -->
               <div class="card-img">
-                <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-6.png"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-senjata/Senjata-6.png" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Molotov Cocktail</h5>
                   <hr />
@@ -432,17 +391,15 @@
                   </div>
                   <div class="desc">
                     <p>
-                      Molotov Cocktail adalah senjata pembakar yang menghasilkan api besar dan kerusakan area, efektif untuk membakar musuh dan menciptakan penghalang api dalam pertempuran.
+                      Molotov Cocktail adalah senjata pembakar yang menghasilkan api besar dan kerusakan area, efektif
+                      untuk membakar musuh dan menciptakan penghalang api dalam pertempuran.
                     </p>
                   </div>
                 </div>
               </div>
               <!-- Kujang -->
               <div class="card-img">
-                <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-7.png"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-senjata/Senjata-7.png" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Kujang</h5>
                   <hr />
@@ -466,17 +423,15 @@
                   </div>
                   <div class="desc">
                     <p>
-                      Kujang adalah senjata tradisional Jawa Barat dengan bentuk unik dan tajam. Digunakan dalam pertempuran dan upacara adat, kujang simbol kehormatan dan keahlian bela diri.
+                      Kujang adalah senjata tradisional Jawa Barat dengan bentuk unik dan tajam. Digunakan dalam
+                      pertempuran dan upacara adat, kujang simbol kehormatan dan keahlian bela diri.
                     </p>
                   </div>
                 </div>
               </div>
               <!-- Mandau -->
               <div class="card-img">
-                <img
-                  src="./assets/img/img-landingPage/img-senjata/Senjata-8.png"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-senjata/Senjata-8.png" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Mandau</h5>
                   <hr />
@@ -500,7 +455,8 @@
                   </div>
                   <div class="desc">
                     <p>
-                      Mandau adalah senjata tradisional Dayak Kalimantan dengan bilah lebar dan tajam, simbol keberanian dan keahlian dalam pertempuran dan upacara adat.
+                      Mandau adalah senjata tradisional Dayak Kalimantan dengan bilah lebar dan tajam, simbol keberanian
+                      dan keahlian dalam pertempuran dan upacara adat.
                     </p>
                   </div>
                 </div>
@@ -510,129 +466,127 @@
           <div class="content">
             <div class="card-artefac-kerajaan">
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/Artefac-kerajaan/Ciaruteun.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/Artefac-kerajaan/Ciaruteun.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Prasasti Ciaruteun</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Prasasti Ciaruteun adalah salah satu prasasti batu tertua di Indonesia yang berasal dari masa Kerajaan Tarumanagara, sekitar abad ke-5 Masehi. Prasasti ini ditemukan di tepi Sungai Ciaruteun, dekat desa Ciaruteun Hilir, Kecamatan Cibungbulang, Kabupaten Bogor, Jawa Barat. Prasasti ini sangat penting karena memberikan gambaran tentang kehidupan politik, budaya, dan agama di masa itu.
+                      Prasasti Ciaruteun adalah salah satu prasasti batu tertua di Indonesia yang berasal dari masa
+                      Kerajaan Tarumanagara, sekitar abad ke-5 Masehi. Prasasti ini ditemukan di tepi Sungai Ciaruteun,
+                      dekat desa Ciaruteun Hilir, Kecamatan Cibungbulang, Kabupaten Bogor, Jawa Barat. Prasasti ini
+                      sangat penting karena memberikan gambaran tentang kehidupan politik, budaya, dan agama di masa
+                      itu.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/Artefac-kerajaan/Harihara.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/Artefac-kerajaan/Harihara.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Harihara</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Harihara adalah dewa dalam mitologi Hindu yang merupakan gabungan dari dua dewa besar, Vishnu dan Shiva. Nama "Harihara" berasal dari gabungan kata "Hari," yang merupakan nama lain untuk Vishnu, dan "Hara," yang merupakan nama lain untuk Shiva. Sosok Harihara melambangkan persatuan antara kedua prinsip atau energi kosmik yang mewakili penciptaan, pemeliharaan, dan kehancuran alam semesta.
+                      Harihara adalah dewa dalam mitologi Hindu yang merupakan gabungan dari dua dewa besar, Vishnu dan
+                      Shiva. Nama "Harihara" berasal dari gabungan kata "Hari," yang merupakan nama lain untuk Vishnu,
+                      dan "Hara," yang merupakan nama lain untuk Shiva. Sosok Harihara melambangkan persatuan antara
+                      kedua prinsip atau energi kosmik yang mewakili penciptaan, pemeliharaan, dan kehancuran alam
+                      semesta.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_Kota_Kapur.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_Kota_Kapur.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Prasasti Kota Kapur</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Prasasti Kota Kapur adalah salah satu prasasti kuno dari masa Kerajaan Sriwijaya, sebuah kerajaan maritim besar yang berpusat di Sumatra dan berkembang pesat pada abad ke-7 hingga abad ke-13. Prasasti ini ditemukan di Desa Kota Kapur, di Pulau Bangka, Indonesia, pada tahun 1892 oleh seorang arkeolog Belanda bernama J.K. van der Meulen.
+                      Prasasti Kota Kapur adalah salah satu prasasti kuno dari masa Kerajaan Sriwijaya, sebuah kerajaan
+                      maritim besar yang berpusat di Sumatra dan berkembang pesat pada abad ke-7 hingga abad ke-13.
+                      Prasasti ini ditemukan di Desa Kota Kapur, di Pulau Bangka, Indonesia, pada tahun 1892 oleh
+                      seorang arkeolog Belanda bernama J.K. van der Meulen.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_Kedukan_Bukit_3.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_Kedukan_Bukit_3.jpg"
+                  class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Prasasti Kedukan Bukit</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Prasasti Kedukan Bukit adalah salah satu prasasti tertua di Indonesia, yang berasal dari abad ke-7 Masehi. Prasasti ini ditemukan pada tahun 1920 di tepi Sungai Tatang, dekat Palembang, Sumatera Selatan, di sebuah bukit kecil yang disebut Kedukan Bukit. Prasasti Kedukan Bukit ditulis dalam aksara Pallawa dan bahasa Melayu Kuno.
+                      Prasasti Kedukan Bukit adalah salah satu prasasti tertua di Indonesia, yang berasal dari abad ke-7
+                      Masehi. Prasasti ini ditemukan pada tahun 1920 di tepi Sungai Tatang, dekat Palembang, Sumatera
+                      Selatan, di sebuah bukit kecil yang disebut Kedukan Bukit. Prasasti Kedukan Bukit ditulis dalam
+                      aksara Pallawa dan bahasa Melayu Kuno.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/Artefac-kerajaan/Talang_Tuo_Inscription.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/Artefac-kerajaan/Talang_Tuo_Inscription.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Prasasti Talang Tuo</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Prasasti Talang Tuo adalah salah satu prasasti penting dari zaman Kerajaan Sriwijaya di Sumatra, Indonesia. Prasasti ini ditemukan pada tahun 1920 di daerah Talang Tuo, yang terletak di dekat Palembang, Sumatra Selatan. Prasasti Talang Tuo dipahatkan pada sebuah batu berukuran sekitar 50 cm x 80 cm dan menggunakan aksara Pallawa dalam bahasa Melayu Kuno.
+                      Prasasti Talang Tuo adalah salah satu prasasti penting dari zaman Kerajaan Sriwijaya di Sumatra,
+                      Indonesia. Prasasti ini ditemukan pada tahun 1920 di daerah Talang Tuo, yang terletak di dekat
+                      Palembang, Sumatra Selatan. Prasasti Talang Tuo dipahatkan pada sebuah batu berukuran sekitar 50
+                      cm x 80 cm dan menggunakan aksara Pallawa dalam bahasa Melayu Kuno.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_Canggal.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_Canggal.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Prasasti Canggal</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Prasasti Canggal adalah salah satu prasasti penting dari masa awal Kerajaan Mataram Kuno di Jawa Tengah, Indonesia. Prasasti ini dikenal sebagai salah satu bukti tertulis tertua yang ada di Indonesia dan memberikan informasi tentang sejarah awal kerajaan Hindu di Jawa.
+                      Prasasti Canggal adalah salah satu prasasti penting dari masa awal Kerajaan Mataram Kuno di Jawa
+                      Tengah, Indonesia. Prasasti ini dikenal sebagai salah satu bukti tertulis tertua yang ada di
+                      Indonesia dan memberikan informasi tentang sejarah awal kerajaan Hindu di Jawa.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/Artefac-kerajaan/Arca_Prajnaparamita.JPG"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/Artefac-kerajaan/Arca_Prajnaparamita.JPG" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Arca Prajñāpāramitā</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Arca Prajñāpāramitā adalah salah satu arca (patung) terkenal dari periode klasik sejarah Indonesia, yang berasal dari masa Kerajaan Singhasari pada abad ke-13. Arca ini menggambarkan dewi Prajñāpāramitā, yang dalam ajaran Buddha Mahayana dikenal sebagai dewi kebijaksanaan transendental dan dianggap sebagai personifikasi dari kitab suci Prajñāpāramitā Sūtra.
+                      Arca Prajñāpāramitā adalah salah satu arca (patung) terkenal dari periode klasik sejarah
+                      Indonesia, yang berasal dari masa Kerajaan Singhasari pada abad ke-13. Arca ini menggambarkan dewi
+                      Prajñāpāramitā, yang dalam ajaran Buddha Mahayana dikenal sebagai dewi kebijaksanaan transendental
+                      dan dianggap sebagai personifikasi dari kitab suci Prajñāpāramitā Sūtra.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_tugu.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/Artefac-kerajaan/Prasasti_tugu.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Prasasti Tugu</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Prasasti Tugu adalah salah satu prasasti peninggalan Kerajaan Tarumanegara, yang merupakan salah satu kerajaan Hindu tertua di Indonesia. Prasasti ini ditemukan di Kampung Batutumbu, Tugu, Jakarta Utara, dan saat ini disimpan di Museum Nasional Indonesia di Jakarta.
+                      Prasasti Tugu adalah salah satu prasasti peninggalan Kerajaan Tarumanegara, yang merupakan salah
+                      satu kerajaan Hindu tertua di Indonesia. Prasasti ini ditemukan di Kampung Batutumbu, Tugu,
+                      Jakarta Utara, dan saat ini disimpan di Museum Nasional Indonesia di Jakarta.
                     </p>
                   </div>
                 </div>
@@ -642,11 +596,8 @@
           <div class="content">
             <div class="card-lukisan">
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-lukisan/Memimpin-Pertempuran-1940-1960.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-lukisan/Memimpin-Pertempuran-1940-1960.jpg"
+                  class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Memimpin Pertempuran</h5>
                   <hr class="m-1" />
@@ -662,17 +613,16 @@
                   </div>
                   <div class="desc_seniman">
                     <p>
-                      lukisan ini menceritakan tentang sengitnya pertempuran Pangeran Diponegoro melawan Belanda. Pangeran Diponegoro dengan gagah berani diatas kuda, mengenakan jubah putih kebesaran, memimpin pertempuran, berlatar belakang kobaran api.
+                      lukisan ini menceritakan tentang sengitnya pertempuran Pangeran Diponegoro melawan Belanda.
+                      Pangeran Diponegoro dengan gagah berani diatas kuda, mengenakan jubah putih kebesaran, memimpin
+                      pertempuran, berlatar belakang kobaran api.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-lukisan/Raden_Saleh_Diponegoro.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-lukisan/Raden_Saleh_Diponegoro.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">The Arrest of Pangeran Diponegoro</h5>
                   <hr class="m-1" />
@@ -688,7 +638,9 @@
                   </div>
                   <div class="desc_seniman">
                     <p>
-                      Penangkapan Pangeran Diponegoro (Gevangenname van Prins Diponegoro) adalah nama lukisan tahun 1857 karya Raden Saleh, yang menggambarkan penangkapan Pangeran Diponegoro oleh Letnan Jenderal Hendrik Merkus de Kock pada tanggal 28 Maret 1830.
+                      Penangkapan Pangeran Diponegoro (Gevangenname van Prins Diponegoro) adalah nama lukisan tahun 1857
+                      karya Raden Saleh, yang menggambarkan penangkapan Pangeran Diponegoro oleh Letnan Jenderal Hendrik
+                      Merkus de Kock pada tanggal 28 Maret 1830.
                     </p>
                   </div>
                 </div>
@@ -696,16 +648,14 @@
               <div class="card card-img" style="width: 13rem">
                 <img
                   src="./assets/img/img-landingPage/img-lukisan//Declaration_of_Independence_(1819),_by_John_Trumbull.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                  class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Deklarasi Kemerdekaan (Trumbull)</h5>
                   <hr class="m-1" />
                   <div class="atribut_lukisan">
                     <div class="seniman">
                       <p class="name_seniman">Seniman</p>
-                      <p class="value_seniman">	John Trumbull</p>
+                      <p class="value_seniman"> John Trumbull</p>
                     </div>
                     <div class="seniman">
                       <p class="name_seniman">Tahun</p>
@@ -714,7 +664,9 @@
                   </div>
                   <div class="desc_seniman">
                     <p>
-                      Penangkapan Pangeran Diponegoro (Gevangenname van Prins Diponegoro) adalah nama lukisan tahun 1857 karya Raden Saleh, yang menggambarkan penangkapan Pangeran Diponegoro oleh Letnan Jenderal Hendrik Merkus de Kock pada tanggal 28 Maret 1830.
+                      Penangkapan Pangeran Diponegoro (Gevangenname van Prins Diponegoro) adalah nama lukisan tahun 1857
+                      karya Raden Saleh, yang menggambarkan penangkapan Pangeran Diponegoro oleh Letnan Jenderal Hendrik
+                      Merkus de Kock pada tanggal 28 Maret 1830.
                     </p>
                   </div>
                 </div>
@@ -722,9 +674,7 @@
               <div class="card card-img" style="width: 13rem">
                 <img
                   src="./assets/img/img-landingPage/img-lukisan/The_Submission_of_Prince_Dipo_Negoro_to_General_De_Kock.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                  class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Boschbrand</h5>
                   <hr class="m-1" />
@@ -740,17 +690,15 @@
                   </div>
                   <div class="desc_seniman">
                     <p>
-                    Lukisan ini menampilkan suasana malam dengan kebakaran yang membara di hutan, menciptakan kontras dramatis antara cahaya api dan latar belakang gelap.
+                      Lukisan ini menampilkan suasana malam dengan kebakaran yang membara di hutan, menciptakan kontras
+                      dramatis antara cahaya api dan latar belakang gelap.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-lukisan/lukisan_pemburuan_rusa.jpeg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-lukisan/lukisan_pemburuan_rusa.jpeg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Pemburuan Rusa</h5>
                   <hr class="m-1" />
@@ -766,17 +714,15 @@
                   </div>
                   <div class="desc_seniman">
                     <p>
-                      Lukisan bertajuk Perburuan Rusa atau The Deer Hunt karya Raden Saleh yang dibuat pada 1846. Lukisan ini menggambarkan perjuangan manusia dalam bertahan hidup.
+                      Lukisan bertajuk Perburuan Rusa atau The Deer Hunt karya Raden Saleh yang dibuat pada 1846.
+                      Lukisan ini menggambarkan perjuangan manusia dalam bertahan hidup.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-lukisan/the_ruins_and_the_piano.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-lukisan/the_ruins_and_the_piano.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">The Ruins and The piano</h5>
                   <hr class="m-1" />
@@ -792,17 +738,15 @@
                   </div>
                   <div class="desc_seniman">
                     <p>
-                      Lukisan ini seolah menggambarkan dunia yang sudah berantakan dan seorang pria di sudut lukisan yang berjalan ke kejauhan seperti hendak meninggalkan semuanya.
+                      Lukisan ini seolah menggambarkan dunia yang sudah berantakan dan seorang pria di sudut lukisan
+                      yang berjalan ke kejauhan seperti hendak meninggalkan semuanya.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-lukisan/A_view_of_mount_megamendung.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-lukisan/A_view_of_mount_megamendung.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">A View of Mount Megamendung</h5>
                   <hr class="m-1" />
@@ -818,17 +762,14 @@
                   </div>
                   <div class="desc_seniman">
                     <p>
-                      Lukisan ini menampilkan pemandangan alam di wilayah Megamendung, Puncak, Bogor. A View of Mount Megamendung mengambarkan sebuah pemandangan yang dituangkan dalam kanvas berukuran 134 x 165,5 cm.
+                      Lukisan ini menampilkan pemandangan alam di wilayah Megamendung, Puncak, Bogor. A View of Mount
+                      Megamendung mengambarkan sebuah pemandangan yang dituangkan dalam kanvas berukuran 134 x 165,5 cm.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-lukisan/Bali_life.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-lukisan/Bali_life.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Bali Life</h5>
                   <hr class="m-1" />
@@ -844,7 +785,8 @@
                   </div>
                   <div class="desc_seniman">
                     <p>
-                      Lukisan ini merepresentasikan kehidupan masyarakat pedesaan di Bali kala itu. Mulai dari anak-anak yang bermain, petani bekerja, dan perempuan menyiapkan sesaji.
+                      Lukisan ini merepresentasikan kehidupan masyarakat pedesaan di Bali kala itu. Mulai dari anak-anak
+                      yang bermain, petani bekerja, dan perempuan menyiapkan sesaji.
                     </p>
                   </div>
                 </div>
@@ -854,129 +796,119 @@
           <div class="content">
             <div class="card-mata-uang">
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-mataUang/uang-tahun-800-1600M.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-mataUang/uang-tahun-800-1600M.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Tahun 800-1600M</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Pada masa tersebut, transaksi jual beli masih banyak dilakukan dengan menggunakan emas dan perak. Produksi koin pertama bahkan berasal dari Dinasti Syailendra (Kerajaan Mataram) pada abad ke-9 hingga ke-12.
+                      Pada masa tersebut, transaksi jual beli masih banyak dilakukan dengan menggunakan emas dan perak.
+                      Produksi koin pertama bahkan berasal dari Dinasti Syailendra (Kerajaan Mataram) pada abad ke-9
+                      hingga ke-12.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-mataUang/uang-tahun-1600-1942.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-mataUang/uang-tahun-1600-1942.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Tahun 1600-1942</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Pada tahun ini, orang-orang Eropa mulai berdatangan ke Indonesia dan membawa mata uang masing-masing terutama dalam bidang perdagangan. Hal tersebut menjadikan masyarakat Indonesia juga banyak menggunakan mata uang bangsa kolonial ini.
+                      Pada tahun ini, orang-orang Eropa mulai berdatangan ke Indonesia dan membawa mata uang
+                      masing-masing terutama dalam bidang perdagangan. Hal tersebut menjadikan masyarakat Indonesia juga
+                      banyak menggunakan mata uang bangsa kolonial ini.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-mataUang/uang-tahun-1942-1944.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-mataUang/uang-tahun-1942-1944.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Tahun 1942-1944</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Pada kala itu adalah masa penjajahan Jepang. Terutama pada tahun 1942, Jepang berhasil menginvasi pemerintahan Hindia Belanda dan mengambil alih seluruh negeri. Hal tersebut menjadikan Jepang membawa mata uangnya sendiri lalu membubarkan bank-bank bentukan Indonesia, termasuk De Javasche Bank.
+                      Pada kala itu adalah masa penjajahan Jepang. Terutama pada tahun 1942, Jepang berhasil menginvasi
+                      pemerintahan Hindia Belanda dan mengambil alih seluruh negeri. Hal tersebut menjadikan Jepang
+                      membawa mata uangnya sendiri lalu membubarkan bank-bank bentukan Indonesia, termasuk De Javasche
+                      Bank.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-mataUang/uang-tahun-1945-1948.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-mataUang/uang-tahun-1945-1948.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Tahun 1945-1948</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Pada tahun ini, Indonesia sudah merdeka dan pemerintah pun dapat mencetak mata uang sendiri, dengan menerbitkan ORI atau Oeang Repoeblik Indonesia. Namun, karena saat itu juga negara masih dalam keadaan kacau, akhirnya peredaran ORI menjadi tersendat.
+                      Pada tahun ini, Indonesia sudah merdeka dan pemerintah pun dapat mencetak mata uang sendiri,
+                      dengan menerbitkan ORI atau Oeang Repoeblik Indonesia. Namun, karena saat itu juga negara masih
+                      dalam keadaan kacau, akhirnya peredaran ORI menjadi tersendat.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-mataUang/uang-1975.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-mataUang/uang-1975.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Tahun 1975</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Pada tahun 1975, terdapat seri baru yang dirilis dan diedarkan di masyarakat Indonesia. Yakni nominal Rp1.000 dengan gambar Pangeran Diponegoro, nominal Rp5.000 dengan gambar nelayan, dan nominal Rp10.000 dengan gambar relief Candi Borobudur.
+                      Pada tahun 1975, terdapat seri baru yang dirilis dan diedarkan di masyarakat Indonesia. Yakni
+                      nominal Rp1.000 dengan gambar Pangeran Diponegoro, nominal Rp5.000 dengan gambar nelayan, dan
+                      nominal Rp10.000 dengan gambar relief Candi Borobudur.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-mataUang/uang-1992.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-mataUang/uang-1992.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Tahun 1992</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Pada tahun 1992, Bank Indonesia memperkenalkan seri baru dari mata uang Rupiah yang mencakup beberapa denominasi, baik dalam bentuk koin maupun uang kertas. Seri ini membawa desain baru yang mencerminkan kebudayaan, tokoh, dan kekayaan alam Indonesia.
+                      Pada tahun 1992, Bank Indonesia memperkenalkan seri baru dari mata uang Rupiah yang mencakup
+                      beberapa denominasi, baik dalam bentuk koin maupun uang kertas. Seri ini membawa desain baru yang
+                      mencerminkan kebudayaan, tokoh, dan kekayaan alam Indonesia.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-mataUang/uang-1993.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-mataUang/uang-1993.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Tahun 1993</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Pada tahun ini, terbit seri terbaru yakni dengan nominal Rp50.000 dengan gambar Presiden Soeharto. Bahan yang digunakan dalam mencetak uang tersebut adalah plastik polymer dengan pengaman “Holografis” Soeharto, bukan watermark yang biasa digunakan.
+                      Pada tahun ini, terbit seri terbaru yakni dengan nominal Rp50.000 dengan gambar Presiden Soeharto.
+                      Bahan yang digunakan dalam mencetak uang tersebut adalah plastik polymer dengan pengaman
+                      “Holografis” Soeharto, bukan watermark yang biasa digunakan.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="card card-img" style="width: 13rem">
-                <img
-                  src="./assets/img/img-landingPage/img-mataUang/uang-reformasi-1999.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
+                <img src="./assets/img/img-landingPage/img-mataUang/uang-reformasi-1999.jpg" class="card-img-top"
+                  alt="..." />
                 <div class="card-body">
                   <h5 class="title_name">Tahun 1998</h5>
                   <hr class="m-1" />
                   <div class="desc_seniman">
                     <p>
-                      Pada masa ini, pecahan Rp100.000 yang bergambar Soekarno, Moh. Hatta, dan teks proklamasi diedarkan. Pecahan tersebut dicetak di Australia dan Thailand, menggunakan material plastik polymer.
+                      Pada masa ini, pecahan Rp100.000 yang bergambar Soekarno, Moh. Hatta, dan teks proklamasi
+                      diedarkan. Pecahan tersebut dicetak di Australia dan Thailand, menggunakan material plastik
+                      polymer.
                     </p>
                   </div>
                 </div>
@@ -989,113 +921,74 @@
   </section>
 
 
-    <section class="highligt_galeri">
-      <div class="galeri">
-        <div class="nav_galeri">
-          <p class="text_galeri">Galeri</p>
-          <button class="button_selengkapnya">
-            Lihat Semua
-            <img
-              src="./assets/icon/Arrow-right.png"
-              class="icon_galeri"
-              alt=""
-            />
-          </button>
-        </div>
+  <section class="highligt_galeri">
+    <div class="galeri">
+      <div class="nav_galeri">
+        <p class="text_galeri">Galeri</p>
+        <button class="button_selengkapnya">
+          Lihat Semua
+          <img src="./assets/icon/Arrow-right.png" class="icon_galeri" alt="" />
+        </button>
+      </div>
 
-        <div class="galeri_landingPage">
-          <div class="img-galeri">
-            <div class="">
-              <div class="p-2">
-                <img
-                  src="./assets/img/img-landingPage/galeri-1.png"
-                  width="360"
-                  alt=""
-                  class="img-1"
-                />
-              </div>
-              <div class="p-2">
-                <img
-                  src="./assets/img/img-landingPage/galeri-2.png"
-                  width="360"
-                  alt=""
-                  class="img-1"
-                />
-              </div>
-              <div class="p-2">
-                <img
-                  src="./assets/img/img-landingPage/galeri-3.png"
-                  width="360"
-                  alt=""
-                  class="img-1"
-                />
-              </div>
+      <div class="galeri_landingPage">
+        <div class="img-galeri">
+          <div class="">
+            <div class="p-2">
+              <img src="./assets/img/img-landingPage/galeri-1.png" width="360" alt="" class="img-1" />
             </div>
-            <div class="">
-              <div class="p-2">
-                <img
-                  src="./assets/img/img-landingPage/galeri-4.png"
-                  width="248"
-                  alt=""
-                  class="img-2"
-                />
-              </div>
-              <div class="p-2">
-                <img
-                  src="./assets/img/img-landingPage/galeri-5.png"
-                  width="252"
-                  alt=""
-                  class="img-2"
-                />
-              </div>
+            <div class="p-2">
+              <img src="./assets/img/img-landingPage/galeri-2.png" width="360" alt="" class="img-1" />
             </div>
-            <div class="">
-              <div class="p-2">
-                <img
-                  src="./assets/img/img-landingPage/galeri-6.png"
-                  width="248"
-                  alt=""
-                  class="img-3"
-                />
-              </div>
-              <div class="p-2">
-                <img
-                  src="./assets/img/img-landingPage/galeri-7.png"
-                  width="252"
-                  alt=""
-                  class="img-3"
-                />
-              </div>
+            <div class="p-2">
+              <img src="./assets/img/img-landingPage/galeri-3.png" width="360" alt="" class="img-1" />
+            </div>
+          </div>
+          <div class="">
+            <div class="p-2">
+              <img src="./assets/img/img-landingPage/galeri-4.png" width="248" alt="" class="img-2" />
+            </div>
+            <div class="p-2">
+              <img src="./assets/img/img-landingPage/galeri-5.png" width="252" alt="" class="img-2" />
+            </div>
+          </div>
+          <div class="">
+            <div class="p-2">
+              <img src="./assets/img/img-landingPage/galeri-6.png" width="248" alt="" class="img-3" />
+            </div>
+            <div class="p-2">
+              <img src="./assets/img/img-landingPage/galeri-7.png" width="252" alt="" class="img-3" />
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer">
-      <div class="bg-footer">
-        <img src="./assets/img/peta_footer.png" alt="" />
+  <footer class="footer">
+    <div class="bg-footer">
+      <img src="./assets/img/peta_footer.png" alt="" />
+    </div>
+    <div class="container_footer">
+      <div class="header_footer">
+        <h2 class="text-white">HISTORA</h2>
+        <p class="text-white">Mempertemukan Masa Lalu dan Masa Kini</p>
       </div>
-      <div class="container_footer">
-        <div class="header_footer">
-          <h2 class="text-white">HISTORA</h2>
-          <p class="text-white">Mempertemukan Masa Lalu dan Masa Kini</p>
+      <div class="body_footer">
+        <div class="isi_footer_1">
+          <img src="./assets/icon/icon-telp.png" class="p-2" alt="" />
+          <p class="m-0">0878-1284-5006</p>
         </div>
-        <div class="body_footer">
-          <div class="isi_footer_1">
-            <img src="./assets/icon/icon-telp.png" class="p-2" alt="" />
-           <p class="m-0">0878-1284-5006</p>
-          </div>
-          <div class="isi_footer_1">
-            <img src="./assets/icon/icon-message.png" class="p-2" alt="" />
-           <p class="m-0">itclubsmk5bdg@gmail.com</p> 
-          </div>
-        </div>
-        <div class="footer_footer">
-          <p class="text-white m-0">© copyright 2024 Histora.itclub5.my.id</p>
+        <div class="isi_footer_1">
+          <img src="./assets/icon/icon-message.png" class="p-2" alt="" />
+          <p class="m-0">itclubsmk5bdg@gmail.com</p>
         </div>
       </div>
-    </footer>
+      <div class="footer_footer">
+        <p class="text-white m-0">© copyright 2024 Histora.itclub5.my.id</p>
+      </div>
+    </div>
+  </footer>
 
 
 
@@ -1103,13 +996,14 @@
 
 
 
-<!-- Fullscreen Modal -->
-<div class="modal fade" id="fullscreenModal" tabindex="-1" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-fullscreen">
-    <div class="modal-content" style="background-color: #0f0f0f;">
-      <button type="button" class="btn btnClose m-3" data-bs-dismiss="modal" aria-label="Close"><img src="./assets/icon/close.svg" width="30" height="30" class="imgClose" alt=""></button>
-      <div class="modal-body" style="height: 100vh; display: flex; align-items: center; justify-content: center;"">
-        <div class="form_artikel">
+  <!-- Fullscreen Modal -->
+  <div class="modal fade" id="fullscreenModal" tabindex="-1" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content" style="background-color: #0f0f0f;">
+        <button type="button" class="btn btnClose m-3" data-bs-dismiss="modal" aria-label="Close"><img
+            src="./assets/icon/close.svg" width="30" height="30" class="imgClose" alt=""></button>
+        <div class="modal-body" style="height: 100vh; display: flex; align-items: center; justify-content: center;"">
+        <div class=" form_artikel">
           <h2 class="text-white text-center">Bagikan Pengetahuan Anda</h2>
           <div class="form_top">
             <div class="form_top_left">
@@ -1126,7 +1020,8 @@
               <div class="m-0">
                 <p class="text-white">Upload Gambar/video</p>
                 <input type="file" id="uploadBtn">
-                <label for="uploadBtn" class="labelUpload"><img src="./assets/icon/upload.svg" width="18" height="15" alt="">Click Upload file</label>
+                <label for="uploadBtn" class="labelUpload"><img src="./assets/icon/upload.svg" width="18" height="15"
+                    alt="">Click Upload file</label>
               </div>
             </div>
           </div>
@@ -1136,38 +1031,43 @@
           </div>
           <button type="button" class="Btn_Upload">Upload</button>
         </div>
-        </div>
+      </div>
     </div>
   </div>
-</div>
+  </div>
 
 
 
-<!-- Modal Sign -->
+  <!-- Modal Sign -->
 
-<div class="modal fade" id="fullscreenModalSign" tabindex="-1" aria-labelledby="fullscreenModalLabelsign" aria-hidden="true">
-  <div class="modal-dialog modal-fullscreen">
-    <div class="modal-content" style="background-color: #0f0f0f;">
-      <button type="button" class="btn btnClose m-3" data-bs-dismiss="modal" aria-label="Close"><img src="./assets/icon/close.svg" width="30" height="30" class="imgClose" alt=""></button>
-      <div class="modal-body" style="height: 100vh; display: flex; align-items: center; justify-content: center;"">
-        <div class="form_artikel">
+  <div class="modal fade" id="fullscreenModalSign" tabindex="-1" aria-labelledby="fullscreenModalLabelsign"
+    aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content" style="background-color: #0f0f0f;">
+        <button type="button" class="btn btnClose m-3" data-bs-dismiss="modal" aria-label="Close"><img
+            src="./assets/icon/close.svg" width="30" height="30" class="imgClose" alt=""></button>
+        <div class="modal-body" style="height: 100vh; display: flex; align-items: center; justify-content: center;"">
+        <div class=" form_artikel">
           <h2 class="text-white text-center mb-5">Join Histora</h2>
           <div class="d-grid gap-4 mx-auto my-auto">
-            <button type="button" class="d-flex justify-content-center align-items-center rounded-pill border-0 ps-4 pe-5 py-3">
+            <button type="button"
+              class="d-flex justify-content-center align-items-center rounded-pill border-0 ps-4 pe-5 py-3">
               <img src="./assets/icon/google 1.png" style="width: 1.5rem;" class="me-5" alt="">
               <p class="mb-0 me-5">Masuk Melalui Google</p>
             </button>
-            <button type="button" class="d-flex justify-content-center align-items-center rounded-pill border-0 ps-4 pe-5 py-3">
+            <button type="button"
+              class="d-flex justify-content-center align-items-center rounded-pill border-0 ps-4 pe-5 py-3">
               <img src="./assets/icon/fb 1.png" style="width: 1.5rem;" class="me-5" alt="">
               <p class="mb-0 me-5">Masuk Melalui Google</p>
             </button>
-            <p class="mb-0 mx-auto mt-2 text-white">Butuh Bantuan? <a href="" class="link-underline link-underline-opacity-0">Hubungi kami</a></p>
+            <p class="mb-0 mx-auto mt-2 text-white">Butuh Bantuan? <a href=""
+                class="link-underline link-underline-opacity-0">Hubungi kami</a></p>
           </div>
         </div>
-        </div>
+      </div>
     </div>
   </div>
-</div>
+  </div>
 
 
 
@@ -1175,21 +1075,19 @@
 
 
 
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-  <!-- Navbar -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- Navbar -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 
-  <script src="./assets/js/map.js"></script>
-  <script src="./assets/js/index.js"></script>
+<script src="./assets/js/map.js"></script>
+<script src="./assets/js/index.js"></script>
 
 
 

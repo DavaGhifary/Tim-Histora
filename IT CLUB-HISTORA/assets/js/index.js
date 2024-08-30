@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navbar = document.querySelector(".navbar");
+  
+// Load initial map data
+loadMapData("1859-1894.json");
 
   window.addEventListener("scroll", function () {
     if (window.scrollY > 50) {
@@ -26,6 +29,18 @@ buttonsTImeLine.forEach((button) => {
     // updateTimelineDetails(button.querySelector(".tahun").textContent);
   });
 });
+
+const loadMapBtn = document.getElementsByClassName('LoadMapData');
+console.log(loadMapBtn)
+if(loadMapBtn.length > 0){
+  for (let btn = 0; btn < loadMapBtn.length; btn++) {
+    const elementBtn = loadMapBtn[btn];
+    elementBtn.addEventListener('click', function (e) {
+      const fileJson = elementBtn.getAttribute('data-key');
+      loadMapData(fileJson);
+    })
+  }
+}
 
 // barang sejarah
 const tabs = document.querySelectorAll(".tab_btn");

@@ -89,8 +89,6 @@ buttons.forEach((button) => {
   });
 });
 
-// Load initial map data
-loadMapData("1859-1894.json");
 
 // Popup close event listener
 document.querySelector(".popup_close").addEventListener("click", (e) => {

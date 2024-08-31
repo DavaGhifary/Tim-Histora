@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/artikel.css">
+    <link rel="stylesheet" href="../assets/css/gallery.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Navbar Page Gallery -->
+    <nav class="navbar blur navbar-header fixed-top navbar-expand-lg mx-4">
+        <div class="container-fluid">
+            <a class="navbar-brand text-link" href="#">HISTORA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-link opacity-75" aria-current="page" href="../index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-link text-decoration-underline opacity-75" href="#">GALERI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-link opacity-75" href="../pages/artikel.html">ARTIKEL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-link opacity-75" href="#">TIMELINE</a>
+                    </li>
+                </ul>
+                <div class="navbar-text text-link d-flex gap-3">
+                    <button class="write gap-1">
+                        <img src="../assets/icon/Vector-write.png" width="19" alt="Write Icon" />
+                        <p class="text-write fw-light">Write</p>
+                    </button>
+                    <button class="ButtonSign">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- section profile -->
+    <section class="profile">
+        <div class="profile-background">
+        </div>
+        <div class="profile-avatar">
+            <img src="../assets/img/img-artikel/avatar.png" class="profile-img" alt="">
+        </div>
+        <div class="profile-name">
+            <p class="nama">Histora</p>
+            <p>Histora adalah aplikasi sejarah yang memudahkan untuk kalangan pencinta sejarah , di website Histora ini
+                users bisa membuat konten sejarah apapun itu tetapi harus sejarah yang akurat.</p>
+            <p>5 Postingan</p>
+        </div>
+    </section>
+    <!-- end profile -->
+
+    <!-- tabs profile -->
+    <div class="tabs-profile">
+        <ul class="nav line" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button"
+                    role="tab" aria-controls="all" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="accepted-tab" data-bs-toggle="tab" data-bs-target="#accepted" type="button"
+                    role="tab" aria-controls="accepted" aria-selected="false">Accepted</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pending-tab" data-bs-toggle="tab" data-bs-target="#pending" type="button"
+                    role="tab" aria-controls="pending" aria-selected="false">Pending</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="rejected-tab" data-bs-toggle="tab" data-bs-target="#rejected" type="button"
+                    role="tab" aria-controls="rejected" aria-selected="false">Rejected</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <!-- Tab All -->
+            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                <!-- Konten untuk tab All -->
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">“Ada 3 bangsa Eropa yang datang ke Indonesia. Bangsa
+                                        pertama adalah bangsa Portugis yang mendarat di Malaka tahun 1511, terus lanjut
+                                        ke Maluku tahun 1512. Lalu, bangsa Eropa yang kedua adalah bangsa Spanyol yang
+                                        mendarat di Maluku pada tahun 1521. Terakhir adalah bangsa Belanda yang mendarat
+                                        di Banten tahun 1596.”</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-rejected"></div>
+                                    <p class="rejected mb-0 ms-2">Rejected</p>
+                                </div>
+                                <img src="../assets/img/img-profile/bangsa-eropa.png" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-pending"></div>
+                                    <p class="pending mb-0 ms-2">Pending</p>
+                                </div>
+                                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tambahkan konten dari tab lain jika diperlukan -->
+                <div class="profile-container py-3 mb-4">
+                    <div class="profile-card">
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-accepted"></div>
+                                    <p class="accepted mb-0 ms-2">Accepted</p>
+                                </div>
+                                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Tab Accepted -->
+            <div class="tab-pane fade" id="accepted" role="tabpanel" aria-labelledby="accepted-tab">
+                <!-- Konten untuk tab Accepted -->
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-accepted"></div>
+                                    <p class="accepted mb-0 ms-2">Accepted</p>
+                                </div>
+                                <img src="../assets/img/img-profile/bangsa-eropa.png" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-accepted"></div>
+                                    <p class="accepted mb-0 ms-2">Accepted</p>
+                                </div>
+                                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-accepted"></div>
+                                    <p class="accepted mb-0 ms-2">Accepted</p>
+                                </div>
+                                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tab Pending -->
+            <div class="tab-pane fade" id="pending" role="tabpanel" aria-labelledby="pending-tab">
+                <!-- Konten untuk tab Pending -->
+
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <!-- Konten Pending di sini -->
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-pending"></div>
+                                    <p class="pending mb-0 ms-2">Pending</p>
+                                </div>
+                                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <!-- Konten Pending di sini -->
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-pending"></div>
+                                    <p class="pending mb-0 ms-2">Pending</p>
+                                </div>
+                                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tab Rejected -->
+            <div class="tab-pane fade" id="rejected" role="tabpanel" aria-labelledby="rejected-tab">
+                <!-- Konten untuk tab Rejected -->
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-rejected"></div>
+                                    <p class="rejected mb-0 ms-2">Rejected</p>
+                                </div>
+                                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-rejected"></div>
+                                    <p class="rejected mb-0 ms-2">Rejected</p>
+                                </div>
+                                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container py-3">
+                    <div class="profile-card">
+                        <div class="row">
+                            <div class="col-md-8 px-4">
+                                <div class="card-block px-3 gap-1 profile-text">
+                                    <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                                    <p class="card-subtitle mt-2"><img src="../assets/img/img-artikel/avatar.png"
+                                            alt="">Rafi Insan Karim | 24 Maret 2024</p>
+                                    <p class="card-text mt-4">Belanda baru datang ke Banten pada 1596 dalam ekspedisi
+                                        Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602,
+                                        terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil
+                                        alih kekuasaan Portugis.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div class="icon-rejected"></div>
+                                    <p class="rejected mb-0 ms-2">Rejected</p>
+                                </div>
+                                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end tabs profile -->
+
+
+    <!-- card profile -->
+    <!-- <div class="profile-container">
+        <div class="profile-card">
+            <div class="card-body">
+                <h5 class="card-title">Kedatangan Bangsa Eropa</h5>
+                <p class="card-author">oleh Kisara Kartan | 24 Maret 2024</p>
+                <p class="card-text">Belanda baru datang ke Banten pada 1596 dalam ekspedisi Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602, terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil alih kekuasaan Portugis.</p>
+            </div>
+            <div class="card-image">
+                <img src="../assets/img/img-artikel/g30spki.png" alt="Image description">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- end card profile -->
+
+
+
+
+
+    <!-- footer -->
+    <!-- <footer class="footer">
+        <div class="bg-footer">
+            <img src="../assets/img/peta_footer.png" alt="" />
+        </div>
+        <div class="container_footer">
+            <div class="header_footer">
+                <h2 class="text-white">HISTORA</h2>
+                <p class="text-white">Mempertemukan Masa Lalu dan Masa Kini</p>
+            </div>
+            <div class="body_footer">
+                <div class="isi_footer_1">
+                    <img src="../assets/icon/icon-telp.png" class="p-2" alt="" />
+                    0878-1284-5006
+                </div>
+                <div class="isi_footer_1">
+                    <img src="../assets/icon/icon-message.png" class="p-2" alt="" />
+                    itclubsmk5bdg@gmail.com
+                </div>
+            </div>
+            <div class="footer_footer">
+                <p class="text-white">© copyright 2024 Histora.itclub5.my.id</p>
+            </div>
+        </div>
+    </footer> -->
+    <!-- end footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../assets/js/index.js"></script>
+</body>
+
+</html>

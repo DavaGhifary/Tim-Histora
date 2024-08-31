@@ -4,9 +4,9 @@
 
 .gallery-section {
     width: 100%;
-    max-width: 800px;
-    height: 200px;
-    margin:0 auto;
+    max-width: 1717px;
+    height: 300px;
+    margin: 0 auto;
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #333;
+    /* background-color: #333; */
     position: relative;
 }
 
@@ -53,32 +53,30 @@
 
 .container-card{
   display: flex;
-  margin: 10px;
+  margin: 10px auto;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .gallery-container{
   border: none !important;
+  /* margin-left: 100px; */
 }
-
+.gallery-container .row{
+  justify-content: center;
+}
+.modal-lanscape{
+  
+}
 .card-img-top {
   height: 190px; 
   object-fit: cover;
   cursor: pointer !important;
 }
 .card-video{
-  width: 50%;
+  width: 50px;
 }
 .nav-link.active {
   color: #af8f6f !important;
-}
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .card {
@@ -90,7 +88,8 @@
 }
 #modalImage{
   border-radius: 10px!important;
-  width: 30px;
+  width:  600px;
+  height: auto;
 }
 .modal-body{
   background-color: #161616;
@@ -99,6 +98,7 @@
   color: #ffffff;
   font-size: 1rem;
 }
+
 .button-header{
   width: 100% !important;
 }

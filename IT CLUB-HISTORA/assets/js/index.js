@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // JS Timeline
-const buttons = document.querySelectorAll(".group-button button");
+const buttonsTImeLine = document.querySelectorAll(".group-button button");
 
-buttons.forEach((button) => {
+buttonsTImeLine.forEach((button) => {
   button.addEventListener("click", () => {
-    buttons.forEach((btn) => {
+    buttonsTImeLine.forEach((btn) => {
       btn.querySelector(".tahun").classList.remove("tahun-active");
       btn.querySelector(".line").classList.remove("line-active");
     });
@@ -23,9 +23,18 @@ buttons.forEach((button) => {
     button.querySelector(".tahun").classList.add("tahun-active");
     button.querySelector(".line").classList.add("line-active");
 
-    // updateTimelineDetails(button.querySelector(".tahun").textContent);
+    // Retrieve the data-key from the clicked button
+    const jsonFile = button.getAttribute("data-key");
+    console.log("Loading data from:", jsonFile);
+    if (jsonFile) {
+      loadMapData(jsonFile); // Load new data based on the button's data-key
+    } else {
+      console.error("No data-key found on the button");
+    }
   });
 });
+
+loadMapData("1859-1894.json");
 
 // barang sejarah
 const tabs = document.querySelectorAll(".tab_btn");

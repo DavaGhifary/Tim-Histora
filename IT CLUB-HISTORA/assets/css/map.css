@@ -60,7 +60,7 @@ body {
   height: 280px;
 }
 
-@media (max-width: 800px) {
+@media only screen and (min-width: 500px) and (max-width: 800px) {
   body {
     background: transparent;
   }
@@ -73,13 +73,13 @@ body {
 
   .popup {
     position: absolute;
-    bottom: 100px;
-    right: 120px;
-    padding: 30px 40px 40px 40px;
+    bottom: 32px;
+    right: 0;
+    padding: 20px 30px 30px 30px;
     border-radius: 10px;
     z-index: 1000;
-    width: 980px;
-    height: 35vw;
+    width: 720px;
+    height: 40vw;
     background-color: #252424;
     display: none;
   }
@@ -92,33 +92,34 @@ body {
 
   .text_tahun {
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     margin: 0;
   }
 
   .popup_close {
     color: white;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .popup_body {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 25px;
   }
 
   .popup_text {
-    width: 520px;
+    width: 440px;
   }
   .popup_desc {
     color: white;
     text-align: justify;
-    font-size: 0.9rem;
-    padding-top: 40px;
+    font-size: 0.7rem;
+    padding-top: 20px;
   }
 
   .popup_img img {
-    width: 300px;
+    width: 180px;
+    height: 180px;
   }
 }

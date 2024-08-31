@@ -227,11 +227,16 @@ body {
 /* End Timeline */
 
 /* start barang sejarah */
-.barang_bersejarah {
+#frame_barang_sejarah {
   background-image: url(../img/bg-aksara3.png);
-  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  height: 130vh;
+}
+
+.barang_bersejarah {
+  height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -591,7 +596,7 @@ input[type="file"] {
     background-image: url("../img/bg-aksara3.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    background-position: center;
     height: 100vh;
   }
 
@@ -752,11 +757,16 @@ input[type="file"] {
   /* End Timeline */
 
   /* start barang sejarah */
-  .barang_bersejarah {
+  #frame_barang_sejarah {
     background-image: url(../img/bg-aksara3.png);
-    height: 130vh;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 130vh;
+  }
+
+  .barang_bersejarah {
+    height: 140vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1186,11 +1196,16 @@ input[type="file"] {
   /* End Timeline */
 
   /* start barang sejarah */
-  .barang_bersejarah {
+  #frame_barang_sejarah {
     background-image: none;
-    height: 150vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 150vh;
+  }
+
+  .barang_bersejarah {
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;

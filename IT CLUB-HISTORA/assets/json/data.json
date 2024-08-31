@@ -102,6 +102,88 @@
     ]
   },
   {
+    "periode": "1850 - 1885",
+    "sejarah": [
+      {
+        "judul": "Perang Banjar",
+        "deskripsi": "Pangeran Antasari menjadi simbol perlawanan dan memimpin serangan-serangan gerilya terhadap pos-pos Belanda. Perlawanan ini berlangsung selama beberapa dekade, meskipun pada akhirnya Belanda berhasil menguasai wilayah tersebut sepenuhnya. Perang Banjar meninggalkan dampak signifikan terhadap sejarah perjuangan rakyat Kalimantan melawan penjajahan kolonial.",
+        "tahun": 1859,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Pangeran Antasari"],
+        "koordinat": [-3.316667, 114.583333]
+      },
+      {
+        "judul": "Perang Aceh",
+        "deskripsi": "Perang Aceh dipicu oleh keinginan Belanda untuk menguasai seluruh Nusantara, termasuk Aceh yang merupakan wilayah strategis dengan kekayaan alam melimpah dan posisinya di jalur perdagangan internasional. Aceh menolak untuk tunduk pada kekuasaan Belanda dan mempertahankan kemerdekaannya. Perang Aceh meninggalkan dampak yang signifikan terhadap sejarah Indonesia, menjadi simbol perlawanan terhadap kolonialisme dan inspirasi bagi perjuangan kemerdekaan Indonesia di masa berikutnya.",
+        "tahun": 1873,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Sultan Alauddin Mahmud Syah II"],
+        "koordinat": [5.554167, 95.317500]
+      }
+    ]
+  },
+  {
+    "periode": "1885 - 1920",
+    "sejarah": [
+      {
+        "judul": "Penemuan fosil dan artefak Pithecanthropus Erectus",
+        "deskripsi": "Pithecanthropus erectus, yang berarti 'manusia kera yang berdiri tegak.' Nama ini kemudian diubah menjadi Homo erectus. Penemuan ini memberikan bukti awal tentang keberadaan manusia purba yang bisa berjalan tegak dan merupakan salah satu temuan penting dalam studi evolusi manusia. Homo erectus dianggap sebagai nenek moyang langsung dari Homo sapiens. Penemuan ini membantu memajukan pemahaman tentang evolusi manusia dan menunjukkan bahwa manusia purba telah menyebar di wilayah Asia Tenggara jauh sebelum manusia modern muncul.",
+        "tahun": 1891,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Eugène Dubois"],
+        "koordinat": [-7.433333, 111.350000]
+    },
+    {
+        "judul": "Intervensi Belanda di Lombok",
+        "deskripsi": " Pulau Lombok dikuasai oleh kerajaan lokal, yaitu Kerajaan Mataram, yang diperintah oleh raja-raja Sasak dan Bali. Ketegangan antara kerajaan lokal dan Belanda meningkat karena perlawanan terhadap kontrol dan pajak yang diberlakukan oleh Belanda. Pada tahun 1894, Belanda melancarkan ekspedisi militer besar-besaran ke Lombok. Ekspedisi ini dipimpin oleh Jenderal Vetter dan berakhir dengan penaklukan Mataram. Banyak korban jiwa, termasuk di kalangan penduduk sipil. Kerajaan Mataram dihancurkan, dan Lombok jatuh di bawah kontrol langsung Belanda.",
+        "tahun": 1894,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Pietro Carlo Alberto van Ham"],
+        "koordinat": [-8.566667, 116.100000]
+    },
+    {
+        "judul": "Organisasi 'Boedi Oetomo' berdiri",
+        "deskripsi": "Organisasi ini didirikan dengan tujuan untuk memajukan pendidikan dan kesejahteraan rakyat pribumi, serta meningkatkan kesadaran dan rasa nasionalisme di kalangan masyarakat Indonesia. Organisasi ini berperan penting dalam membangkitkan kesadaran nasional dan menjadi salah satu pelopor pergerakan nasional di Indonesia. Meskipun awalnya lebih bersifat kultural dan pendidikan, Boedi Oetomo membuka jalan bagi organisasi-organisasi pergerakan nasionalis lainnya yang kemudian menjadi lebih politis. Boedi Oetomo merupakan tonggak awal pergerakan kemerdekaan Indonesia dan memainkan peran kunci dalam sejarah perjuangan nasional untuk meraih kemerdekaan dari kolonialisme.",
+        "tahun": 1908,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Soetomo"],
+        "koordinat": [-6.200000, 106.816667]
+    },
+    {
+        "judul": "Pemberontakan Rakyat Tolitoli",
+        "deskripsi": "Pemberontakan ini mencerminkan ketidakadilan yang dialami rakyat dan ditujukan melawan penguasa lokal yang bekerja sama dengan Belanda. Pemerintah Belanda merespons dengan tindakan represif, mengerahkan pasukan untuk menindak pemberontakan, dan menghukum peserta dengan berat. Meskipun pemberontakan ini berhasil dipadamkan, dampaknya memperkuat kesadaran nasional dan semangat anti-kolonial di Indonesia, serta berkontribusi pada perjuangan menuju kemerdekaan.",
+        "tahun": 1919,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Haji Muhammad Said"],
+        "koordinat": [-1.333333, 120.833333]
+    },
+    {
+        "judul": "Perang Banjar",
+        "deskripsi": "Pangeran Antasari menjadi simbol perlawanan dan memimpin serangan-serangan gerilya terhadap pos-pos Belanda. Perlawanan ini berlangsung selama beberapa dekade, meskipun pada akhirnya Belanda berhasil menguasai wilayah tersebut sepenuhnya. Perang Banjar meninggalkan dampak signifikan terhadap sejarah perjuangan rakyat Kalimantan melawan penjajahan kolonial.",
+        "tahun": 1859,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Pangeran Antasari"],
+        "koordinat": [-3.316667, 114.583333]
+    },
+    {
+        "judul": "Perang Aceh",
+        "deskripsi": "Perang Aceh dipicu oleh keinginan Belanda untuk menguasai seluruh Nusantara, termasuk Aceh yang merupakan wilayah strategis dengan kekayaan alam melimpah dan posisinya di jalur perdagangan internasional. Aceh menolak untuk tunduk pada kekuasaan Belanda dan mempertahankan kemerdekaannya. Perang Aceh meninggalkan dampak yang signifikan terhadap sejarah Indonesia, menjadi simbol perlawanan terhadap kolonialisme dan inspirasi bagi perjuangan kemerdekaan Indonesia di masa berikutnya.",
+        "tahun": 1873,
+        "image": "../../",
+        "image_tokoh": "../../",
+        "tokoh": ["Sultan Alauddin Mahmud Syah II"],
+        "koordinat": [5.554167, 95.317500]
+    }
+    ]
+  },
+  {
     "periode": "1859 - 1894",
     "sejarah": [
       {

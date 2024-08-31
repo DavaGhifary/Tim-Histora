@@ -212,7 +212,7 @@ const articles = [
                         ${article.isi}
                     </p>
                 </div>
-            </div>
+            </div><button class=" button-back btn btn-dark  mt-4 mb-3" onclick="goBack()">Kembali</button>
         </div>
         <div class="userProfil">
             <div class="">
@@ -223,7 +223,6 @@ const articles = [
                 <p class="date-profil text-size">${article.date}</p>
             </div>
         </div>
-        <button class="position-absolute button-back btn btn-dark  mt-4" onclick="goBack()">Kembali</button>
     </div>
     </div>
 

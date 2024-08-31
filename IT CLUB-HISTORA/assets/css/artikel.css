@@ -128,9 +128,7 @@ body {
 }
 
 .button-back{
-  left: 0%;
-  top: 100%;
-
+  margin-left: 60px;
 }
 
 .text-size{
@@ -292,5 +290,11 @@ body {
 }
 @media (max-width: 1152px) {
 }
-@media (max-width: 1400px) {
+@media (min-width: 1440px) {
+  .button-back{
+    left: 0%;
+    top: 100%;
+    margin-top: 580px;
+    margin-left: 150px;
+  }
 }

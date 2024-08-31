@@ -1,0 +1,18 @@
+[
+       {
+         "judul": "Perang Banjar",
+         "deskripsi": "Pangeran Antasari menjadi simbol perlawanan dan memimpin serangan-serangan gerilya terhadap pos-pos Belanda. Perlawanan ini berlangsung selama beberapa dekade, meskipun pada akhirnya Belanda berhasil menguasai wilayah tersebut sepenuhnya. Perang Banjar meninggalkan dampak signifikan terhadap sejarah perjuangan rakyat Kalimantan melawan penjajahan kolonial.",
+         "tahun": 1859,
+         "tokoh": ["Pangeran Antasari"],
+         "koordinat": [-3.316667, 114.583333]
+       },
+       {
+         "judul": "Perang Aceh",
+         "deskripsi": "Perang Aceh dipicu oleh keinginan Belanda untuk menguasai seluruh Nusantara, termasuk Aceh yang merupakan wilayah strategis dengan kekayaan alam melimpah dan posisinya di jalur perdagangan internasional. Aceh menolak untuk tunduk pada kekuasaan Belanda dan mempertahankan kemerdekaannya. Perang Aceh meninggalkan dampak yang signifikan terhadap sejarah Indonesia, menjadi simbol perlawanan terhadap kolonialisme dan inspirasi bagi perjuangan kemerdekaan Indonesia di masa berikutnya.",
+         "tahun": 1873,
+         "image": "../../",
+         "image_tokoh": "../../",
+         "tokoh": ["Sultan Alauddin Mahmud Syah II"],
+         "koordinat": [5.554167, 95.317500]
+       }
+     ]	

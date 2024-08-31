@@ -1,0 +1,300 @@
+body {
+  background-color: hsl(0, 0%, 10%);
+  color: #ece7e7;
+  font-family: "Inter";
+}
+
+.img-like {
+  width: 15px;
+  height: 15px;
+}
+
+.uk-font {
+  margin-left: -15px;
+  font-size: small;
+}
+
+.ukuran {
+  font-size: small;
+}
+
+.line-spacing {
+  line-height: 1.6;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.margin-bottom-navbar {
+  margin-top: 100px;
+}
+
+.text-color {
+  color: #ece7e7 !important;
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+.artikel-bg {
+  width: 1300px;
+  height: 192px;
+}
+
+.artikel-profil {
+  width: 245px;
+  height: 325px;
+}
+
+.descriptionArtikel {
+  font-size: 16px;
+}
+
+.date-profil {
+  font-size: 16px;
+}
+
+.avatar {
+  width: 51px;
+  height: 48px;
+}
+
+.position{
+  margin-right: 100px;
+}
+.date-position{
+  margin-left: 100px;
+}
+.date-position2{
+  margin-left: 190px;
+}
+
+/* artikel( click) */
+.profil {
+  bottom: -150px;
+  left: 50px;
+}
+
+.userProfil {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  float: right;
+  margin-top: 60px;
+  padding: 10px;
+  gap: 10px;
+  border-left: 1px solid white;
+}
+.nameProfil {
+  border-bottom: 1px solid white;
+  margin-bottom: 5px;
+}
+/* artikel(click) end */
+.margin {
+  margin-top: 300px;
+}
+
+.author-artikel {
+  font-size: 16px;
+}
+
+.title-artikel {
+  font-size: 26px;
+}
+
+.description-artikel {
+  font-size: 16px;
+}
+
+.garis {
+  font-size: 14px;
+}
+
+.avatar-artikel {
+  width: 30px;
+}
+
+.konten-img{
+  width: 528px;
+  height: 267px;
+
+}
+
+.goyang{
+  margin-left: -30px;
+  margin-right: 30px;
+}
+
+.button-back{
+  margin-left: 60px;
+}
+
+.text-size{
+  font-size: 12px;
+}
+
+.filter{
+  font-size: 16px;
+}
+
+.filter-image{
+  width: 20px;
+  height: 16px;
+}
+/* Footer */
+
+.footer {
+  background-color: #242424;
+  height: 260px;
+  position: relative;
+}
+.bg-footer img {
+  margin-inline: 180px;
+  width: 60rem;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.container_footer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding-top: 20px;
+}
+
+.header_footer {
+  text-align: center;
+}
+
+.body_footer {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 100px;
+}
+
+.isi_footer_1 {
+  display: flex;
+  color: #ffff;
+  height: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer_footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 820px) {
+  .artikel-bg {
+    width: 700px;
+  }
+  .artikel-profil {
+    width: 125px;
+    height: 175px;
+  }
+  .namaTokoh {
+    font-size: 16px;
+  }
+  .title-artikel2 {
+    font-size: 22px;
+  }
+  .descriptionArtikel {
+    font-size: 14px;
+  }
+  .nameProfil {
+    font-size: 10px;
+  }
+  .date-profil {
+    font-size: 10px;
+  }
+  .userProfil {
+    width: 150px;
+  }
+  .avatar {
+    width: 45px;
+    height: 40px;
+  }
+  .margin {
+    margin-top: 420px;
+  }
+  .footer {
+    height: 250px;
+    background-color: #242424;
+  }
+  .bg-footer img {
+    width: 600px;
+    height: 250px;
+    margin-inline: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .ukuran {
+    margin-left: -20px;
+    font-size: 8px;
+  }
+  .author-artikel {
+    margin-left: -15px;
+    font-size: 10px;
+  }
+  .garis {
+    margin-left: -15px;
+    font-size: 15px;
+  }
+  .title-artikel {
+    font-size: 14px;
+  }
+  .description-artikel {
+    font-size: 10px;
+    width: 300px;
+  }
+  .date-position{
+    margin-right: 0px;
+  }
+  .avatar-artikel{
+    width: 15px;
+    margin-top: -5px;
+  }
+  .img-like{
+    margin-top: -7px;
+    width: 7px;
+    height: 7px;
+  }
+  .uk-font{
+    font-size: 8px;
+  }
+  .konten-img{
+    width: 350px;
+    height: 200px;
+    
+  }
+  .filter{
+    font-size: 8px;
+  }
+  .filter-image{
+    width: 18px;
+    height: 14px;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 1152px) {
+}
+@media (min-width: 1440px) {
+  .button-back{
+    left: 0%;
+    top: 100%;
+    margin-top: 580px;
+    margin-left: 150px;
+  }
+}

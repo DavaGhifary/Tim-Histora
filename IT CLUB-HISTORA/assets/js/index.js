@@ -23,18 +23,9 @@ buttonsTImeLine.forEach((button) => {
     button.querySelector(".tahun").classList.add("tahun-active");
     button.querySelector(".line").classList.add("line-active");
 
-    // Retrieve the data-key from the clicked button
-    const jsonFile = button.getAttribute("data-key");
-    console.log("Loading data from:", jsonFile);
-    if (jsonFile) {
-      loadMapData(jsonFile); // Load new data based on the button's data-key
-    } else {
-      console.error("No data-key found on the button");
-    }
+    // updateTimelineDetails(button.querySelector(".tahun").textContent);
   });
 });
-
-loadMapData("1859-1894.json");
 
 // barang sejarah
 const tabs = document.querySelectorAll(".tab_btn");

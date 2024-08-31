@@ -594,7 +594,7 @@ input[type="file"] {
   /* page nusantara */
   .page-nusantara {
     background-image: url("../img/bg-aksara3.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -654,7 +654,7 @@ input[type="file"] {
   #highlight {
     background-image: url("../img/bg-aksara3.png");
     height: 100vh;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }

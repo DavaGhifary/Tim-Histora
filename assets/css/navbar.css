@@ -36,6 +36,50 @@
 .ButtonNavbar {
   outline: none;
 }
+
+/* Base styles for the navbar */
+.navbar-nav .nav-link {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #ffffff; /* Base color for links */
+  transition: color 0.3s ease;
+}
+
+/* Initial state of the underline */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0; /* Start width of underline */
+  height: 2px; /* Thickness of underline */
+  background-color: #ffffff; /* Color of underline */
+  transition: width 0.3s ease; /* Transition effect */
+}
+
+/* Hover state of the underline */
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link:focus::after {
+  width: 100%; /* Full width on hover */
+}
+
+/* Active link style */
+.navbar-nav .nav-link.active {
+  color: #ffffff; /* Active link color */
+}
+
+/* Underline for active link */
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Full width underline for active state */
+  height: 2px; /* Thickness of underline */
+  background-color: #ffffff; /* Color of underline */
+}
+
 /* .background-color-toggle{
   background-color: #ece7e7;
 }

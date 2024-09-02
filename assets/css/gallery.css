@@ -105,6 +105,13 @@
 .close-btn{
   float: right;
 }
+.uk-yt{
+  width: 474px;
+  height: 300px;
+}
+.margin-start{
+  margin-left: 47px;
+}
 
 @media (max-width: 500px){
   #modalImage{
@@ -114,5 +121,11 @@
   #modalDescription{
     color: #ffffff;
     font-size: 1rem;
+  }
+  .uk-yt{
+    width: 351px;
+  }
+  .margin-start{
+    margin-left: 0px;
   }
 }

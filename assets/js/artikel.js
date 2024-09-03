@@ -328,7 +328,7 @@ function updateUI(path) {
         <img src="../assets/img/img-artikel/${article.imgBg}"" alt=""  class="img-fluid artikel-bg"> 
 
         <div class="row position-absolute profil">
-            <div class="col d-block">
+            <div class="col d-block padding">
 
                 <img src="../assets/img/img-artikel/${article.imgTokoh}" class="img-fluid artikel-profil" alt=""> 
 
@@ -337,10 +337,10 @@ function updateUI(path) {
                 </div>
             </div>
         </div>
-        <div class="position-absolute mt-5 ms-5">
-            <div class="row justify-content-center">
+        <div class="position-absolute mt-5">
+            <div class="row justify-content-center padding">
                 <div class="col-6 text-justify">
-                    <h1 class="text-center line-spacing title-artikel2">${article.title}</h1>
+                    <h1 class="text-center line-spacing title-artikel2 width">${article.title}</h1>
                     <p class="descriptionArtikel">
                         ${article.isi}
                     </p>

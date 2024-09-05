@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navbar = document.querySelector(".navbar");
-  
-// Load initial map data
-loadMapData("1859-1894.json");
+
+  // Load initial map data
+  loadMapData("1859-1894.json");
 
   window.addEventListener("scroll", function () {
     if (window.scrollY > 50) {
@@ -25,20 +25,18 @@ buttonsTImeLine.forEach((button) => {
 
     button.querySelector(".tahun").classList.add("tahun-active");
     button.querySelector(".line").classList.add("line-active");
-
-    // updateTimelineDetails(button.querySelector(".tahun").textContent);
   });
 });
 
-const loadMapBtn = document.getElementsByClassName('LoadMapData');
-console.log(loadMapBtn)
-if(loadMapBtn.length > 0){
+const loadMapBtn = document.getElementsByClassName("LoadMapData");
+console.log(loadMapBtn);
+if (loadMapBtn.length > 0) {
   for (let btn = 0; btn < loadMapBtn.length; btn++) {
     const elementBtn = loadMapBtn[btn];
-    elementBtn.addEventListener('click', function (e) {
-      const fileJson = elementBtn.getAttribute('data-key');
+    elementBtn.addEventListener("click", function (e) {
+      const fileJson = elementBtn.getAttribute("data-key");
       loadMapData(fileJson);
-    })
+    });
   }
 }
 
@@ -82,16 +80,33 @@ tabs.forEach((tab, index) => {
 // });
 
 function setActiveTab(tab) {
-  const tabs = document.querySelectorAll('.tabs-profile .nav-link');
-  tabs.forEach(t => t.classList.remove('active'));
-  tab.classList.add('active');
+  const tabs = document.querySelectorAll(".tabs-profile .nav-link");
+  tabs.forEach((t) => t.classList.remove("active"));
+  tab.classList.add("active");
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  var modal = document.getElementById('exampleModal');
-  var modalImage = modal.querySelector('#modalImage');
-  var modalTitle = modal.querySelector('#exampleModalLabel');
-  var modalDescription = modal.querySelector('#modalDescription p');
+document.addEventListener("DOMContentLoaded", function () {
+  var modal = document.getElementById("exampleModal");
+  var modalImage = modal.querySelector("#modalImage");
+  var modalTitle = modal.querySelector("#exampleModalLabel");
+  var modalDescription = modal.querySelector("#modalDescription p");
+
+  modal.addEventListener("show.bs.modal", function (event) {
+    // Get the clicked image element
+    var image = event.relatedTarget;
+
+    // Update modal content
+    modalImage.src = image.getAttribute("data-image");
+    modalTitle.textContent = image.getAttribute("data-title");
+    modalDescription.textContent = image.getAttribute("data-description");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var modal = document.getElementById("modalImageLandscape");
+  var modalImage = modal.querySelector("#modalImage_landscape");
+  var modalTitle = modal.querySelector("#modalImageLandscape");
+  var modalDescription = modal.querySelector("#modalDescriptionLandscape p");
 
   modal.addEventListener("show.bs.modal", function (event) {
     // Get the clicked image element

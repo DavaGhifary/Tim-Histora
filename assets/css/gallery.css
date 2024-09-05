@@ -1,21 +1,21 @@
 .opacity {
-  opacity: .80;
+  opacity: 0.8;
 }
 
 .gallery-section {
-    width: 100%;
-    max-width: 1717px;
-    height: 300px;
-    margin: 0 auto;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: #333; */
-    position: relative;
+  width: 100%;
+  max-width: 1717px;
+  height: 300px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #333; */
+  position: relative;
 }
 
 .gallery-section img {
@@ -37,11 +37,11 @@
   border-radius: 5px;
 }
 
-.margin-bottom-navbar{
+.margin-bottom-navbar {
   margin-top: 100px;
 }
 
-.card-img{
+.card-img {
   border: 1px solid white;
   border: transparent !important;
   margin: 5px;
@@ -51,28 +51,43 @@
   cursor: pointer !important;
 }
 
-.container-card{
+.container-card {
   display: flex;
   margin: 10px auto;
   justify-content: center;
   flex-wrap: wrap;
 }
-.gallery-container{
+.gallery-container {
   border: none !important;
   /* margin-left: 100px; */
 }
-.gallery-container .row{
+
+.card-landscape {
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-.modal-lanscape{
-  
+
+.card-landscape-terbaru {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
+
 .card-img-top {
-  height: 190px; 
+  height: 190px;
   object-fit: cover;
   cursor: pointer !important;
 }
-.card-video{
+
+.img-landscape-populer {
+  width: 490px;
+  height: 230px;
+  border-radius: 10px;
+}
+.card-video {
   width: 50px;
 }
 .nav-link.active {
@@ -83,49 +98,122 @@
   animation: fadeInUp 0.5s ease-in-out;
 }
 /* pop-up */
-.modal-header{
+.modal-header {
   border: none !important;
 }
-#modalImage{
-  border-radius: 10px!important;
-  width:  600px;
+#modalImage {
+  border-radius: 10px !important;
+  width: 600px;
   height: auto;
 }
-.modal-body{
-  background-color: #161616;
-}
-#modalDescription{
-  color: #ffffff;
-  font-size: 1rem;
+
+#modalImage_landscape {
+  border-radius: 10px !important;
+  width: 730px;
+  height: 250px;
 }
 
-.button-header{
+.modal-body {
+  background-color: #161616;
+  position: relative;
+}
+#modalDescription {
+  width: 35rem;
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+#modalDescriptionLandscape {
+  width: 20rem;
+  color: #ffffff;
+  text-align: justify;
+}
+#modalDescriptionLandscape p {
+  font-size: 14px;
+}
+
+.button-header {
   width: 100% !important;
 }
-.close-btn{
+.close-btn {
   float: right;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 20px;
 }
-.uk-yt{
+.uk-yt {
   width: 474px;
   height: 300px;
 }
-.margin-start{
+.margin-start {
   margin-left: 47px;
 }
 
-@media (max-width: 500px){
-  #modalImage{
+@media only screen and (max-width: 4300px) {
+  #modalImage {
     border-radius: 10px !important;
-    width: 30px;
+    width: 260px;
   }
-  #modalDescription{
+
+  #modalImage_landscape {
+    border-radius: 10px !important;
+    width: 350px;
+    height: 250px;
+  }
+  #modalDescriptionLandscape {
+    width: 28rem;
+    color: #ffffff;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  #modalImage {
+    border-radius: 10px !important;
+    width: 300px;
+  }
+  #modalDescription {
+    width: 29rem;
+    color: #ffffff;
+    font-size: 12px;
+  }
+  .uk-yt {
+    width: 351px;
+  }
+  .margin-start {
+    margin-left: 0px;
+  }
+  .modal-body {
+    background-color: #161616;
+    flex-wrap: wrap;
+  }
+  .button-header {
+    margin-top: 1rem;
+  }
+
+  #modalImage_landscape {
+    border-radius: 10px !important;
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  #modalDescription {
+    width: 32rem;
     color: #ffffff;
     font-size: 1rem;
   }
-  .uk-yt{
-    width: 351px;
+  #modalDescriptionLandscape {
+    width: 30rem;
+    color: #ffffff;
+    text-align: justify;
   }
-  .margin-start{
-    margin-left: 0px;
+  #modalDescriptionLandscape p {
+    font-size: 14px;
   }
 }

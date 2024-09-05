@@ -65,12 +65,12 @@
 }
 
 /* Active link style */
-.navbar-nav .nav-link.active {
+.navbar-nav .nav-link.activeNavbar {
   color: #ffffff; /* Active link color */
 }
 
 /* Underline for active link */
-.navbar-nav .nav-link.active::after {
+.navbar-nav .nav-link.activeNavbar::after {
   content: "";
   position: absolute;
   left: 0;

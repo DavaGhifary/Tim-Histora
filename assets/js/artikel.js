@@ -1,7 +1,7 @@
 const articles = [
   {
     author: "Rafli Insan Karim",
-    date: "24 Mar 2024",
+    date: "2 Sep 2024",
     title: "Peristiwa rengasdengklok",
     description: "Peristiwa Rengasdengklok adalah peristiwa penculikan Soekarno dan Hatta oleh pemuda-pemuda dari perkumpulan 'Menteng 31' pada 16 Agustus 1945 pukul 03.00 WIB. Mereka dibawa ke Rengasdengklok, Karawang, untuk mendesak percepatan proklamasi kemerdekaan Indonesia",
     likes: "99800",
@@ -19,7 +19,7 @@ const articles = [
     date: "17 Jul 2024",
     title: "Kedatangan Bangsa Eropa",
     description: "Belanda baru datang ke Banten pada 1596 dalam ekspedisi Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602, terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil alih kekuasaan Portugis.",
-    likes: "12400",
+    likes: "19000",
     dislikes: "5",
     imgSrc: "kedatanganBangsaEropa.png",
     path: "bangsaEropa",
@@ -31,10 +31,10 @@ const articles = [
   },
   {
       author: "Rafli Insan Karim",
-      date: "2 Feb 2024",
+      date: "10 Sep 2024",
       title: "Bandung Lautan Api",
       description: "Peristiwa kebakaran besar yang terjadi di Bandung, provinsi Jawa Barat, Indonesia pada 24 Maret 1946. Sekitar 200.000 penduduk Bandung membakar kediaman mereka sendiri dalam peristiwa tersebut, kemudian meninggalkan kota menuju pegunungan di daerah selatan Bandung.",
-      likes: "19000",
+      likes: "12400",
       dislikes: "18",
       imgSrc: "bdgLautanApi.jpeg",
       path: "BandungLautanApi",
@@ -46,7 +46,7 @@ const articles = [
   },
   {
       author: "Rafli Insan Karim",
-      date: "4 Sep 2024",
+      date: "8 Sep 2024",
       title: "G30SPKI",
       description: "Gerakan 30 September (G30S) adalah sebuah peristiwa berlatar belakang kudeta yang terjadi selama satu malam pada tanggal 30 September hingga 1 Oktober 1965",
       likes: "12400",
@@ -76,7 +76,7 @@ const articles = [
   },
   {
     author: "Rafli Insan Karim",
-      date: "8 Sep 2024",
+      date: "2 Sep 2024",
       title: "Lahirnya Boedi Oetomo",
       description: "Budi Utomo, didirikan pada 20 Mei 1908 oleh Dr. Soetomo dan mahasiswa STOVIA di Batavia, adalah organisasi pergerakan nasional pertama di Indonesia. Organisasi ini bertujuan memajukan pendidikan, kebudayaan, dan kesejahteraan rakyat. Pendirian Budi Utomo menjadi tonggak awal kebangkitan nasional Indonesia, yang kini diperingati sebagai Hari Kebangkitan Nasional setiap 20 Mei.",
       likes: "101",
@@ -144,7 +144,7 @@ const articles = [
         <div class="container mt-4 border-bottom border-succes p-5">
           <div class="row">
             ${isOdd ? `
-              <div class="d-flex">
+              <div class="d-flex A${article.path}">
               <div id="${article.path}" class="goyang">
                 <a href="#" class="text-decoration-none text-color" onclick="showArticleDetails('${article.path}')">
                   <div class="col">
@@ -181,16 +181,16 @@ const articles = [
               </div>
               <div class="col">
                 <a href="#" onclick="showArticleDetails('${article.path}')">
-                  <img src="../assets/img/img-artikel/${article.imgSrc}" alt="" class="konten-img">
+                  <img src="../assets/img/img-artikel/${article.imgSrc}" alt="" class="konten-img ${article.path}">
                 </a>
               </div>
             </div>
           ` : `
             <div class="col">
-              <div class="d-flex">
+              <div class="d-flex A${article.path}">
                 <div id="${article.path}" class="goyang">
                   <a href="#" onclick="showArticleDetails('${article.path}')">
-                    <img src="../assets/img/img-artikel/${article.imgSrc}" alt="" class="konten-img">
+                    <img src="../assets/img/img-artikel/${article.imgSrc}" alt="" class="konten-img ${article.path}">
                   </a>
                 </div>
                 <div class="col">
@@ -306,8 +306,8 @@ function updateUI(path) {
     showMore = !showMore;
     renderArticles(articles);
     articleSeeMore.innerHTML = showMore ? 
-      `<button class="btn btn-dark" onclick="toggleShowMore()">Tampilkan lebih sedikit</button>` : 
-      `<button class="btn btn-dark" onclick="toggleShowMore()">Tampilkan lebih banyak</button>`;
+      `<button class="btn btn-see btn-dark" onclick="toggleShowMore()">Tampilkan lebih sedikit</button>` : 
+      `<button class="btn btn-see btn-dark" onclick="toggleShowMore()">Tampilkan lebih banyak</button>`;
   }
 
   function showArticleDetails(path) {

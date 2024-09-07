@@ -4,70 +4,80 @@
         "deskripsi": "Perang Banjar terjadi di Kalimantan Selatan antara kerajaan Banjar yang dipimpin oleh Pangeran Antasari melawan kolonial Belanda. Perang ini berlangsung dari tahun 1859 hingga awal 1860-an.",
         "tahun": 1859,
         "tokoh": ["Pangeran Antasari"],
-        "koordinat": [-3.316667, 114.583333]
+        "koordinat": [-3.316667, 114.583333],
+        "image": "assets/img/img-map/1850-1885/perangBanjar.jpeg"
       },
       {
         "judul": "Perang Aceh Dimulai",
         "deskripsi": "Perang Aceh dimulai ketika Belanda mencoba menguasai Kesultanan Aceh yang strategis. Perang ini berlangsung sangat lama dan memakan banyak korban di kedua belah pihak.",
         "tahun": 1873,
         "tokoh": ["Sultan Alauddin Mahmud Syah II"],
-        "koordinat": [5.554167, 95.317500]
+        "koordinat": [5.554167, 95.317500],
+        "image": "assets/img/img-map/1850-1885/perangAceh.jpeg"
       },
       {
         "judul": "Penemuan Minyak Pertama di Sumatra",
         "deskripsi": "Penemuan ladang minyak pertama di Sumatra oleh perusahaan minyak Belanda, Royal Dutch Shell, yang menandai awal eksploitasi sumber daya alam di Indonesia.",
         "tahun": 1885,
         "tokoh": ["Aeilko Jans Zijlker"],
-        "koordinat": [3.783333, 98.700000]
+        "koordinat": [3.783333, 98.700000],
+        "image": "assets/img/img-map/1850-1885/penemuanMinyak.jpg"
       },
       {
         "judul": "Perjanjian Siak 1858",
         "deskripsi": "Perjanjian Siak antara Kesultanan Siak dan Belanda yang memberikan Belanda hak kontrol atas wilayah Siak di Sumatra, memperkuat kekuasaan kolonial Belanda di wilayah tersebut.",
         "tahun": 1858,
         "tokoh": ["Sultan Syarif Kasim II"],
-        "koordinat": [0.783333, 100.766667]
+        "koordinat": [0.783333, 100.766667],
+        "image": "assets/img/img-map/1850-1885/perjanjianSiak.jpg"
       },
       {
         "judul": "Pembangunan Jalur Kereta Api Pertama",
         "deskripsi": "Pembangunan jalur kereta api pertama di Indonesia yang menghubungkan Semarang dengan Tanggung di Jawa Tengah oleh pemerintah kolonial Belanda.",
         "tahun": 1867,
         "tokoh": ["Jan Willem Idenburg"],
-        "koordinat": [-6.966667, 110.416667]
+        "koordinat": [-6.966667, 110.416667],
+        "image": "assets/img/img-map/1850-1885/jalurKeretaApi.jpeg"
       },
       {
         "judul": "Pemberontakan Rakyat Tanjung Karang",
         "deskripsi": "Pemberontakan rakyat di Tanjung Karang, Lampung, melawan pemerintah kolonial Belanda yang diakibatkan oleh ketidakadilan dan penindasan.",
         "tahun": 1850,
         "tokoh": ["Rakyat Tanjung Karang"],
-        "koordinat": [-5.433333, 105.250000]
+        "koordinat": [-5.433333, 105.250000],
+        "image": "assets/img/img-map/1850-1885/tanjungKarang.png"
       },
       {
         "judul": "Perlawanan Rakyat Makassar",
         "deskripsi": "Perlawanan rakyat Makassar terhadap kekuasaan Belanda yang berusaha menguasai wilayah tersebut dengan kekuatan militer.",
         "tahun": 1855,
         "tokoh": ["Abdul Kadir"],
-        "koordinat": [5.133333, 119.416667]
+        "koordinat": [5.133333, 119.416667],
+        "image":"assets/img/img-map/1850-1885/rakyatMakassar.jpeg"
       },
       {
         "judul": "Perlawanan di Bali Selatan",
         "deskripsi": "Perlawanan rakyat Bali Selatan melawan upaya Belanda untuk menguasai pulau Bali, dipimpin oleh pemimpin lokal.",
         "tahun": 1858,
         "tokoh": ["I Gusti Ngurah Rai"],
-        "koordinat": [-8.750000, 115.233333]
+        "koordinat": [-8.750000, 115.233333],
+        "image":"assets/img/img-map/1850-1885/baliSelatan.jpg"
       },
       {
         "judul": "Pemberontakan Banten",
         "deskripsi": "Pemberontakan Banten, juga dikenal sebagai Perang Banten, terjadi sebagai upaya melawan kolonialisme Belanda yang mencoba menguasai wilayah Banten di Jawa Barat.",
         "tahun": 1850,
         "tokoh": ["Sultan Banten"],
-        "koordinat": [-6.100000, 106.150000]
+        "koordinat": [-6.100000, 106.150000],
+        "image":"assets/img/img-map/1850-1885/banten.png"
       },
       {
         "judul": "Perlawanan di Pidie",
         "deskripsi": "Perlawanan rakyat Pidie di Aceh melawan upaya Belanda untuk menguasai wilayah tersebut.",
         "tahun": 1859,
         "tokoh": ["Teuku Umar"],
-        "koordinat": [5.350000, 95.350000]
+        "koordinat": [5.350000, 95.350000],
+        "image":"assets/img/img-map/1850-1885/pidie.jpg"
       }
     ]
 

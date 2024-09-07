@@ -4,69 +4,79 @@
           "deskripsi": "Eugène Dubois menemukan fosil Homo erectus di Trinil, Jawa Timur, yang merupakan salah satu penemuan penting dalam studi evolusi manusia.",
           "tahun": 1891,
           "tokoh": ["Eugène Dubois"],
-          "koordinat": [-7.433333, 111.350000]
+          "koordinat": [-7.433333, 111.350000],
+          "image":"assets/img/img-map/1885-1920/homoErectus.jpg"
         },
         {
           "judul": "Intervensi Belanda di Lombok",
           "deskripsi": "Ekspedisi militer Belanda ke Lombok berakhir dengan penaklukan Kerajaan Mataram, memperkuat kekuasaan Belanda di kepulauan Nusa Tenggara.",
           "tahun": 1894,
           "tokoh": ["Pietro Carlo Alberto van Ham"],
-          "koordinat": [-8.566667, 116.100000]
+          "koordinat": [-8.566667, 116.100000],
+          "image":"assets/img/img-map/1885-1920/intervensiLombok.jpg"
         },
         {
           "judul": "Berdirinya Boedi Oetomo",
           "deskripsi": "Organisasi pergerakan nasional pertama di Indonesia yang memperjuangkan kemajuan pendidikan dan kebangkitan nasional.",
           "tahun": 1908,
           "tokoh": ["Dr. Soetomo"],
-          "koordinat": [-6.200000, 106.816667]
+          "koordinat": [-6.200000, 106.816667],
+          "image":"assets/img/img-map/1885-1920/boediOetomo.jpeg"
         },
         {
           "judul": "Pemberontakan Rakyat Tolitoli",
           "deskripsi": "Perlawanan rakyat Tolitoli di Sulawesi terhadap penguasa lokal dan Belanda sebagai protes atas ketidakadilan.",
           "tahun": 1919,
           "tokoh": ["Haji Muhammad Said"],
-          "koordinat": [-1.333333, 120.833333]
+          "koordinat": [-1.333333, 120.833333],
+          "image":"assets/img/img-map/1885-1920/tolitoli.jpg"
         },
         {
           "judul": "Pendudukan Belanda di Papua Barat",
           "deskripsi": "Belanda memperluas kekuasaannya ke Papua Barat, menandai penguasaan penuh atas seluruh wilayah Indonesia modern.",
           "tahun": 1898,
           "tokoh": ["Gubernur Jenderal Hindia Belanda"],
-          "koordinat": [-2.500000, 140.700000]
+          "koordinat": [-2.500000, 140.700000],
+          "image":"assets/img/img-map/1885-1920/belandaDiPapua.png"
         },
         {
           "judul": "Pendudukan Belanda di Bali Utara",
           "deskripsi": "Setelah penaklukan Kerajaan Klungkung, Belanda secara efektif menguasai seluruh Bali.",
           "tahun": 1908,
           "tokoh": ["Gubernur Jenderal Idenburg"],
-          "koordinat": [-8.400000, 115.266667]
+          "koordinat": [-8.400000, 115.266667],
+          "image":"assets/img/img-map/1885-1920/belandaDiBali.jpg"
         },
         {
           "judul": "Pergerakan Muhammadiyah",
           "deskripsi": "Muhammadiyah didirikan oleh KH Ahmad Dahlan sebagai organisasi Islam yang fokus pada pendidikan dan sosial.",
           "tahun": 1912,
           "tokoh": ["KH Ahmad Dahlan"],
-          "koordinat": [-7.800000, 110.366667]
+          "koordinat": [-7.800000, 110.366667],
+          "image":"assets/img/img-map/1885-1920/KHAhmadDahlan.jpg"
         },
         {
           "judul": "Pembentukan Volksraad",
           "deskripsi": "Pembentukan Volksraad (Dewan Rakyat) oleh Belanda, yang memberikan sedikit perwakilan politik bagi rakyat Indonesia.",
           "tahun": 1918,
           "tokoh": ["Gubernur Jenderal Johan Paul van Limburg Stirum"],
-          "koordinat": [-6.166667, 106.816667]
+          "koordinat": [-6.166667, 106.816667],
+          "image":"assets/img/img-map/1885-1920/volksraad.jpg"
         },
         {
           "judul": "Perang Bali III",
           "deskripsi": "Perang Bali III melibatkan perlawanan Kerajaan Klungkung di Bali terhadap Belanda yang mencoba menundukkan seluruh Bali.",
           "tahun": 1906,
           "tokoh": ["I Gusti Ngurah Made Agung"],
-          "koordinat": [-8.650000, 115.200000]
+          "koordinat": [-8.650000, 115.200000],
+          "image":"assets/img/img-map/1885-1920/perangBali.jpg"
         },
         {
           "judul": "Perang Lombok",
           "deskripsi": "Perang Lombok terjadi ketika Kerajaan Mataram Lombok melakukan perlawanan terhadap ekspansi Belanda ke Nusa Tenggara.",
           "tahun": 1894,
           "tokoh": ["Anak Agung Ketut Karangasem"],
-          "koordinat": [-8.500000, 116.000000]
+          "koordinat": [-8.500000, 116.000000],
+          "image": "assets/img/img-map/1885-1920/perangLombok.jpeg"
         }
       ]  

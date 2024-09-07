@@ -5,7 +5,7 @@
         "tahun": 1859,
         "tokoh": ["Pangeran Antasari"],
         "koordinat": [-3.316667, 114.583333],
-        "image": "assets/img/img-map/1850-1885/perangBanjar.jpeg"
+        "image": "../assets/img/img-map/1850-1885/perangBanjar.jpeg"
       },
       {
         "judul": "Perang Aceh Dimulai",
@@ -13,7 +13,7 @@
         "tahun": 1873,
         "tokoh": ["Sultan Alauddin Mahmud Syah II"],
         "koordinat": [5.554167, 95.317500],
-        "image": "assets/img/img-map/1850-1885/perangAceh.jpeg"
+        "image": "../assets/img/img-map/1850-1885/perangAceh.jpeg"
       },
       {
         "judul": "Penemuan Minyak Pertama di Sumatra",
@@ -21,7 +21,7 @@
         "tahun": 1885,
         "tokoh": ["Aeilko Jans Zijlker"],
         "koordinat": [3.783333, 98.700000],
-        "image": "assets/img/img-map/1850-1885/penemuanMinyak.jpg"
+        "image": "../assets/img/img-map/1850-1885/penemuanMinyak.jpg"
       },
       {
         "judul": "Perjanjian Siak 1858",
@@ -29,7 +29,7 @@
         "tahun": 1858,
         "tokoh": ["Sultan Syarif Kasim II"],
         "koordinat": [0.783333, 100.766667],
-        "image": "assets/img/img-map/1850-1885/perjanjianSiak.jpg"
+        "image": "../assets/img/img-map/1850-1885/perjanjianSiak.jpg"
       },
       {
         "judul": "Pembangunan Jalur Kereta Api Pertama",
@@ -37,7 +37,7 @@
         "tahun": 1867,
         "tokoh": ["Jan Willem Idenburg"],
         "koordinat": [-6.966667, 110.416667],
-        "image": "assets/img/img-map/1850-1885/jalurKeretaApi.jpeg"
+        "image": "../assets/img/img-map/1850-1885/jalurKeretaApi.jpeg"
       },
       {
         "judul": "Pemberontakan Rakyat Tanjung Karang",
@@ -45,7 +45,7 @@
         "tahun": 1850,
         "tokoh": ["Rakyat Tanjung Karang"],
         "koordinat": [-5.433333, 105.250000],
-        "image": "assets/img/img-map/1850-1885/tanjungKarang.png"
+        "image": "../assets/img/img-map/1850-1885/tanjungKarang.png"
       },
       {
         "judul": "Perlawanan Rakyat Makassar",
@@ -53,7 +53,7 @@
         "tahun": 1855,
         "tokoh": ["Abdul Kadir"],
         "koordinat": [5.133333, 119.416667],
-        "image":"assets/img/img-map/1850-1885/rakyatMakassar.jpeg"
+        "image":"../assets/img/img-map/1850-1885/rakyatMakassar.jpeg"
       },
       {
         "judul": "Perlawanan di Bali Selatan",
@@ -61,7 +61,7 @@
         "tahun": 1858,
         "tokoh": ["I Gusti Ngurah Rai"],
         "koordinat": [-8.750000, 115.233333],
-        "image":"assets/img/img-map/1850-1885/baliSelatan.jpg"
+        "image":"../assets/img/img-map/1850-1885/baliSelatan.jpg"
       },
       {
         "judul": "Pemberontakan Banten",
@@ -69,7 +69,7 @@
         "tahun": 1850,
         "tokoh": ["Sultan Banten"],
         "koordinat": [-6.100000, 106.150000],
-        "image":"assets/img/img-map/1850-1885/banten.png"
+        "image":"../assets/img/img-map/1850-1885/banten.png"
       },
       {
         "judul": "Perlawanan di Pidie",
@@ -77,7 +77,7 @@
         "tahun": 1859,
         "tokoh": ["Teuku Umar"],
         "koordinat": [5.350000, 95.350000],
-        "image":"assets/img/img-map/1850-1885/pidie.jpg"
+        "image":"../assets/img/img-map/1850-1885/pidie.jpg"
       }
     ]
 

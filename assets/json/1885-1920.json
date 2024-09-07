@@ -5,7 +5,7 @@
           "tahun": 1891,
           "tokoh": ["Eugène Dubois"],
           "koordinat": [-7.433333, 111.350000],
-          "image":"assets/img/img-map/1885-1920/homoErectus.jpg"
+          "image":"../assets/img/img-map/1885-1920/homoErectus.jpg"
         },
         {
           "judul": "Intervensi Belanda di Lombok",
@@ -13,7 +13,7 @@
           "tahun": 1894,
           "tokoh": ["Pietro Carlo Alberto van Ham"],
           "koordinat": [-8.566667, 116.100000],
-          "image":"assets/img/img-map/1885-1920/intervensiLombok.jpg"
+          "image":"../assets/img/img-map/1885-1920/intervensiLombok.jpg"
         },
         {
           "judul": "Berdirinya Boedi Oetomo",
@@ -21,7 +21,7 @@
           "tahun": 1908,
           "tokoh": ["Dr. Soetomo"],
           "koordinat": [-6.200000, 106.816667],
-          "image":"assets/img/img-map/1885-1920/boediOetomo.jpeg"
+          "image":"../assets/img/img-map/1885-1920/boediOetomo.jpeg"
         },
         {
           "judul": "Pemberontakan Rakyat Tolitoli",
@@ -29,7 +29,7 @@
           "tahun": 1919,
           "tokoh": ["Haji Muhammad Said"],
           "koordinat": [-1.333333, 120.833333],
-          "image":"assets/img/img-map/1885-1920/tolitoli.jpg"
+          "image":"../assets/img/img-map/1885-1920/tolitoli.jpg"
         },
         {
           "judul": "Pendudukan Belanda di Papua Barat",
@@ -37,7 +37,7 @@
           "tahun": 1898,
           "tokoh": ["Gubernur Jenderal Hindia Belanda"],
           "koordinat": [-2.500000, 140.700000],
-          "image":"assets/img/img-map/1885-1920/belandaDiPapua.png"
+          "image":"../assets/img/img-map/1885-1920/belandaDiPapua.png"
         },
         {
           "judul": "Pendudukan Belanda di Bali Utara",
@@ -45,7 +45,7 @@
           "tahun": 1908,
           "tokoh": ["Gubernur Jenderal Idenburg"],
           "koordinat": [-8.400000, 115.266667],
-          "image":"assets/img/img-map/1885-1920/belandaDiBali.jpg"
+          "image":"../assets/img/img-map/1885-1920/belandaDiBali.jpg"
         },
         {
           "judul": "Pergerakan Muhammadiyah",
@@ -53,7 +53,7 @@
           "tahun": 1912,
           "tokoh": ["KH Ahmad Dahlan"],
           "koordinat": [-7.800000, 110.366667],
-          "image":"assets/img/img-map/1885-1920/KHAhmadDahlan.jpg"
+          "image":"../assets/img/img-map/1885-1920/KHAhmadDahlan.jpg"
         },
         {
           "judul": "Pembentukan Volksraad",
@@ -61,7 +61,7 @@
           "tahun": 1918,
           "tokoh": ["Gubernur Jenderal Johan Paul van Limburg Stirum"],
           "koordinat": [-6.166667, 106.816667],
-          "image":"assets/img/img-map/1885-1920/volksraad.jpg"
+          "image":"../assets/img/img-map/1885-1920/volksraad.jpg"
         },
         {
           "judul": "Perang Bali III",
@@ -69,7 +69,7 @@
           "tahun": 1906,
           "tokoh": ["I Gusti Ngurah Made Agung"],
           "koordinat": [-8.650000, 115.200000],
-          "image":"assets/img/img-map/1885-1920/perangBali.jpg"
+          "image":"../assets/img/img-map/1885-1920/perangBali.jpg"
         },
         {
           "judul": "Perang Lombok",
@@ -77,6 +77,6 @@
           "tahun": 1894,
           "tokoh": ["Anak Agung Ketut Karangasem"],
           "koordinat": [-8.500000, 116.000000],
-          "image": "assets/img/img-map/1885-1920/perangLombok.jpeg"
+          "image": "../assets/img/img-map/1885-1920/perangLombok.jpeg"
         }
       ]  

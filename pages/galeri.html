@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Histora</title>
+  <title>Galeri</title>
   <link rel="stylesheet" href="../assets/css/index.css" />
   <link rel="stylesheet" href="../assets/css/navbar.css" />
   <link rel="stylesheet" href="../assets/css/artikel.css" />
@@ -30,7 +30,7 @@
       <button class="navbar-toggler background-color-toggle" type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <img src="../assets/icon/bars-solid.svg" width="20" alt="" />
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -49,11 +49,13 @@
           </li> -->
         </ul>
         <div class="navbar-text text-link d-flex gap-3 justify-content-between">
-          <button class="write gap-1" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
+          <button class="write gap-2 pe-3 border-end border-0 border-light" data-bs-toggle="modal"
+            data-bs-target="#fullscreenModal">
             <img src="../assets/icon/Vector-write.png" width="19" class="ms-2 opacity-icon-write" alt="" />
             <p class="text-write fw-light fs-6">Write</p>
           </button>
-          <button class="ButtonSign fw-light fs-6"><img src="../assets/icon/avatar.png" width="40" alt=""></button>
+          <a class="ButtonSign fw-light fs-6" href="./profile.html"><img src="../assets/icon/avatar.png" width="40"
+              alt=""></a>
         </div>
       </div>
     </div>
@@ -61,7 +63,8 @@
   <!-- End Navbar -->
 
   <!-- Image Gallery (Carousel) -->
-  <div id="galleryCarousel" class="carousel slide container text-center margin-bottom-navbar" data-bs-ride="carousel"  data-bs-interval="2000">
+  <div id="galleryCarousel" class="carousel slide container text-center margin-bottom-navbar" data-bs-ride="carousel"
+    data-bs-interval="2000">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="gallery-section">
@@ -162,7 +165,7 @@
                 data-image="../assets/img/img-gallery/musso.jpg" />
             </div>
             <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
-              data-id="5" >
+              data-id="5">
               <img src="../assets/img/img-gallery/Bung_Tomo.jpg" class="img-fluid" alt="Modal Image"
                 style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Sutomo
               (Bung Tomo)"
@@ -170,7 +173,7 @@
                 data-image="../assets/img/img-gallery/popup-tomo.jpg" />
             </div>
             <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
-              data-id="6" >
+              data-id="6">
               <img src="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg" class="img-fluid" alt="Modal Image"
                 style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
                 data-title="Abdul Haris Nasution"
@@ -178,14 +181,14 @@
                 data-image="../assets/img/img-gallery/popup-nasution.jpg" />
             </div>
             <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
-              data-id="7" >
+              data-id="7">
               <img src="../assets/img/img-gallery/hatta.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
                 data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Mohammad Hatta"
                 data-description="Dr. (H.C.) Drs. H. Mohammad Hatta, akrab oleh teman seperjuangannya dengan sapaan Bung Hatta, adalah seorang negarawan dan ekonom yang berperan dalam perjuangan kemerdekaan Indonesia. Ia sebagai Proklamator Kemerdekaan bersama Soekarno memainkan peranan sentra."
                 data-image="../assets/img/img-gallery/hatta.jpg" />
             </div>
             <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
-              data-id="8" >
+              data-id="8">
               <img src="../assets/img/img-gallery/sudirman.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
                 data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Jendral Soedirman"
                 data-description="Jenderal Besar TNI (Anumerta) Raden Soedirman (24 Januari 1916 – 29 Januari 1950) adalah perwira tinggi Indonesia dan Panglima Besar pertama Tentara Nasional Indonesia. Lahir di Purbalingga dan diadopsi oleh pamannya yang seorang priyayi, Soedirman menunjukkan bakat kepemimpinan sejak muda. Ia aktif dalam organisasi Muhammadiyah dan memimpin Kelompok Pemuda Muhammadiyah pada 1937. Setelah Jepang menduduki Hindia Belanda, Soedirman bergabung dengan tentara Pembela Tanah Air (PETA) dan menjadi komandan batalion di Banyumas. Ia pernah memimpin pemberontakan dan kemudian diasingkan ke Bogor."
@@ -209,16 +212,14 @@
                   data-image="../assets/img/img-gallery/popup-goa.webp" />
               </div>
               <!-- Card 3 -->
-              <div class="" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
-                >
+              <div class="" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1">
                 <img src="../assets/img/img-gallery/maritim.jpg" class="img-landscape-populer" alt="Landscape 2"
                   data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Sejarah maritim"
                   data-description="Sejarah maritim adalah kajian tentang aktivitas manusia di laut. Subjeknya mencakup berbagai aspek seperti memancing, perburuan paus, hukum maritim internasional, sejarah angkatan laut, sejarah perkapalan, desain kapal, dan pembuatan kapal. Selain itu, sejarah maritim juga meliputi sejarah navigasi, berbagai ilmu pengetahuan yang berkaitan dengan maritim seperti oseanografi, kartografi, dan hidrografi, serta eksplorasi laut. Aspek lainnya termasuk perdagangan dan ekonomi maritim, pelayaran, sanggraloka pinggir laut, sejarah mercusuar, serta sastra dan seni bertemakan maritim. Tidak kalah penting, sejarah sosial pelaut dan komunitas yang berkaitan dengan laut juga merupakan bagian dari sejarah maritim."
                   data-image="../assets/img/img-gallery/popup-maritim.jpg" />
               </div>
               <!-- Card 4 -->
-              <div class="mb-4" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
-                 >
+              <div class="mb-4" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1">
                 <img src="../assets/img/img-gallery/dakota.jpg" class="img-landscape-populer" alt="Landscape 2"
                   data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Dakota VT-CLA"
                   data-description="Dakota VT-CLA adalah sebuah pesawat Douglas DC-3 yang ditembak jatuh oleh P-40 Kittyhawk Belanda pada tanggal 29 Juli 1947 di Dusun Pandeyan, Kelurahan Bangunharjo, Kecamatan Sewon, Kabupaten Bantul dalam perjalanan pulang dari Singapura membawa bantuan obat-obatan dari Palang Merah Malaya menuju pangkalan udara Maguwo."
@@ -236,32 +237,28 @@
           <div class="container gallery-container">
             <div class="card-landscape-terbaru mt-4">
               <!-- Card 1 -->
-              <div class="mb-2" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
-                 >
+              <div class="mb-2" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1">
                 <img src="../assets/img/img-gallery/djong.jpg" class="img-landscape-populer" alt="Landscape 2"
                   data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Djong (kapal)"
                   data-description="Djong (atau jong) adalah kapal layar kuno dari Jawa, digunakan oleh pelaut Jawa, Sunda, dan kemudian oleh pelaut Pegu dan Melayu. Kapal ini awalnya digunakan sebagai kapal penumpang dan kargo, mampu membawa muatan 40 hingga 2000 ton. Pada masa Majapahit, jong sering digunakan untuk transportasi, meski juga berfungsi sebagai kapal perang. Kerajaan seperti Majapahit, Demak, dan Kalinyamat memanfaatkan jong untuk keperluan militer, sementara Kesultanan Mataram menggunakannya lebih banyak untuk perdagangan."
                   data-image="../assets/img/img-gallery/popup-djong.jpg" />
               </div>
               <!-- Card 2 -->
-              <div class="mb-2" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
-                 >
+              <div class="mb-2" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1">
                 <img src="../assets/img/img-gallery/sumedang.jpg" class="img-landscape-populer" alt="Landscape 2"
                   data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Kerajaan Sumedang"
                   data-description="Kerajaan Sumedang Larang (aksara Sunda: ᮊᮛᮏᮃᮔ᮪ ᮞᮥᮙᮨᮓᮀ ᮜᮛᮀ) adalah salah satu kerajaan Islam di pulau Jawa bagian barat yang berdiri pada tahun 721 M. Meskipun kerajaan ini sudah ada sejak abad ke-8 Masehi, statusnya sebagai negara berdaulat baru tercapai pada abad ke-16 Masehi. Popularitasnya tidak setinggi Kerajaan Demak, Mataram, Banten, atau Cirebon dalam literatur sejarah, tetapi keberadaannya memiliki peranan penting dalam penyebaran agama Islam di kalangan masyarakat Sunda, mirip dengan pengaruh yang dilakukan oleh Kerajaan Cirebon dan Kesultanan Banten."
                   data-image="../assets/img/img-gallery/sumedang.jpg" />
               </div>
               <!-- Card 3 -->
-              <div class="mb-2" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
-                 >
+              <div class="mb-2" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1">
                 <img src="../assets/img/img-gallery/pki.jpg" class="img-landscape-populer" alt="Landscape 2"
                   data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Pemberontakan PKI 1948"
                   data-description="Pemberontakan PKI 1948 adalah konflik bersenjata antara pemerintah Republik Indonesia dan kelompok oposisi sayap kiri yaitu Front Demokrasi Rakyat (FDR) selama Revolusi Nasional Indonesia.[4] Front Demokrasi Rakyat terdiri atas Partai Komunis Indonesia, Partai Sosialis, Partai Buruh Indonesia, SOBSI dan Pesindo. Konflik ini dimulai pada tanggal 18 September 1948 di Madiun, Jawa Timur, dan berakhir tiga bulan kemudian ketika sebagian besar pemimpin dan anggota FDR ditahan dan dieksekusi oleh pasukan TNI."
                   data-image="../assets/img/img-gallery/popup-pki.jpg" />
               </div>
               <!-- card 4 -->
-              <div class="mb-4" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
-                 >
+              <div class="mb-4" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1">
                 <img src="../assets/img/img-gallery/mei.jpg" class="img-landscape-populer" alt="Landscape 2"
                   data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Djong (kapal)"
                   data-description="Kerusuhan Mei 1998 adalah peristiwa kerusuhan massa, demonstrasi anti-pemerintah, dan pembangkangan sipil di Indonesia pada bulan Mei 1998. Peristiwa ini terutama terjadi di kota Medan, Jakarta, Bandung dan Surakarta, dengan insiden-insiden kecil di wilayah lain di Indonesia.Kerusuhan tersebut dipicu oleh korupsi, masalah ekonomi, termasuk kekurangan pangan dan pengangguran massal. Kerusuhan ini akhirnya berujung pada pengunduran diri Presiden Soeharto dan jatuhnya pemerintahan Orde Baru yang telah berkuasa selama 32 tahun. Target utama dari kerusuhan tersebut adalah etnis Tionghoa Indonesia, namun sebagian besar korban jiwa disebabkan oleh kebakaran besar dan terjadi di antara para penjarah."
@@ -304,7 +301,7 @@
               data-image="../assets/img/img-gallery/popup-fatmawati.jpg" />
           </div>
           <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
-            data-id="5" >
+            data-id="5">
             <img src="../assets/img/img-gallery/Mas-Agustinus-Adisoetjipto.jpg" class="img-fluid" alt="Modal Image"
               style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
               data-title="Agustinus Adisoetjipto"
@@ -431,7 +428,7 @@
             <div class="col-md-6 mb-4">
               <div class="card">
                 <iframe class="card-img-top" width="100%" height="300"
-                  src="https://youtu.be/cNjKtVwKZqo?si=DtH0XOe13FiL4Q4G" frameborder="0" allowfullscreen></iframe>
+                  src="https://youtube/cNjKtVwKZqo?si=DtH0XOe13FiL4Q4G" frameborder="0" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-md-6 mb-4">
@@ -547,16 +544,16 @@
       </div>
       <div class="body_footer">
         <div class="isi_footer_1">
-          <img src="../assets/icon/icon-telp.png" class="p-2" alt="" />
-          0878-1284-5006
+          <img src="../assets/icon/icon-telp.png" class="p-2" width="35" alt="" />
+          <p class="m-0">0878-1284-5006</p>
         </div>
         <div class="isi_footer_1">
-          <img src="../assets/icon/icon-message.png" class="p-2" alt="" />
-          itclubsmk5bdg@gmail.com
+          <img src="../assets/icon/icon-message.png" class="p-2" width="35" height="30" alt="" />
+          <p class="m-0">itclubsmk5bdg@gmail.com</p>
         </div>
       </div>
       <div class="footer_footer">
-        <p class="text-white">© copyright 2024 Histora.itclub5.my.id</p>
+        <p class="text-white m-0">© copyright 2024 Histora.itclub5.my.id</p>
       </div>
     </div>
   </footer>
@@ -567,7 +564,7 @@
     crossorigin="anonymous"></script>
   <script src="../assets/js/index.js"></script>
 
- 
+
 
   <!-- Navbar -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

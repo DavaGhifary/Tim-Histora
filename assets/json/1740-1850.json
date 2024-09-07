@@ -29,24 +29,13 @@
     "koordinat": [-7.7972, 110.3695]
   },
   {
-    "judul": "Pembubaran VOC",
-    "deskripsi": "Pada tahun 1799, Vereenigde Oost-Indische Compagnie (VOC) atau Perusahaan Hindia Timur Belanda dibubarkan. VOC, yang didirikan pada tahun 1602, merupakan salah satu perusahaan dagang pertama yang memiliki monopoli perdagangan di Asia Tenggara, termasuk Indonesia. Faktor-faktor yang menyebabkan pembubaran VOC termasuk masalah keuangan yang parah, korupsi internal, dan persaingan bisnis yang semakin ketat. Pembubaran VOC menandai akhir dari era kolonial Belanda yang dikuasai oleh perusahaan dagang, dan memulai era baru di bawah pemerintahan langsung Belanda melalui pemerintah kolonial.",
-    "tahun": 1799,
-    "tokoh": [
-      "Gubernur Jenderal Pieter J. van Hoorn, Gubernur Jenderal Daendels"
-    ],
-    "image": "../../",
-    "image_tokoh": "../../",
-    "koordinat": [-6.2088, 106.8456]
-  },
-  {
-    "judul": "Pengambilalihan Kepulauan Nusantara oleh Pemerintah Belanda",
-    "deskripsi": "Pada tahun 1800, Pemerintah Belanda mengambil alih kepemilikan Kepulauan Nusantara dari VOC dan menamakannya sebagai Hindia Belanda. Pengambilalihan ini dilakukan setelah VOC dibubarkan pada tahun 1799. Pemerintah Belanda kemudian memerintah wilayah ini secara langsung. Gubernur Jenderal Herman Willem Daendels adalah salah satu tokoh penting yang memimpin administrasi kolonial pada masa awal Hindia Belanda. Penamaan Hindia Belanda menandai era baru dalam sejarah kolonial Indonesia, dengan struktur administrasi dan kebijakan yang lebih terpusat dari pemerintah Belanda.",
+    "judul": "Ekspedisi Pemerintah Belanda ke Papua",
+    "deskripsi": "Pada tahun 1800, setelah pengambilalihan wilayah Hindia Belanda dari VOC, Pemerintah Belanda mulai menjelajahi dan memperluas pengaruhnya ke wilayah timur Nusantara, termasuk Papua. Ekspedisi ini bertujuan untuk mengeksplorasi sumber daya alam dan memperkuat kekuasaan Belanda di daerah yang belum sepenuhnya dikuasai. Namun, kondisi geografis yang sulit dan perlawanan dari penduduk setempat membuat pengaruh Belanda di Papua pada masa itu masih terbatas. Ekspedisi ini menjadi awal dari upaya Belanda untuk mengklaim Papua sebagai bagian dari Hindia Belanda.",
     "tahun": 1800,
     "image": "../../",
     "image_tokoh": "../../",
-    "tokoh": ["Gubernur Jenderal Herman Willem Daendels"],
-    "koordinat": [-6.2088, 106.8456]
+    "tokoh": ["Ekspedisi Belanda"],
+    "koordinat": [-4.269928, 138.080353]
   },
   {
     "judul": "Perang Padri",

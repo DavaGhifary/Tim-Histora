@@ -36,22 +36,22 @@
     "koordinat": [5.55, 95.3167]
   },
   {
-    "judul": "Perjanjian Raffles",
-    "deskripsi": "Perjanjian Raffles, ditandatangani pada 1814, mengakhiri kekuasaan Inggris di Indonesia dan mengembalikannya ke Belanda. Perjanjian ini, hasil perundingan antara Inggris dan Belanda, menandai berakhirnya periode singkat kekuasaan Inggris di bawah Sir Thomas Stamford Raffles dan memperkuat kendali Belanda di Indonesia.",
-    "tahun": 1814,
-    "image": "../../",
+    "judul": "Pemberontakan Dayak di Kalimantan",
+    "deskripsi": "Pada abad ke-19, terjadi beberapa pemberontakan di Kalimantan, yang dipimpin oleh suku Dayak melawan penjajah Belanda. Salah satu pemberontakan terkenal terjadi pada tahun 1859, yaitu Pemberontakan Dayak di Barito, Kalimantan Selatan. Perlawanan ini dipicu oleh ketidakpuasan atas kebijakan Belanda yang memaksakan monopoli perdagangan dan eksploitasi sumber daya alam Kalimantan, serta perlakuan tidak adil terhadap penduduk pribumi. Meskipun akhirnya berhasil ditumpas, perlawanan ini menjadi simbol dari perlawanan rakyat Kalimantan terhadap penjajahan Belanda.",
+    "tahun": 1859,
+    "tokoh": ["Panglima Wangkang, Pangeran Antasari"],
+    "image": "../assets/img/img-map/1859-1894/pemberontakan_suku_dayak.jpg",
     "image_tokoh": "../../",
-    "tokoh": ["Sir Thomas Stamford Raffles"],
-    "koordinat": [1.2903, 103.8519]
+    "koordinat": [-2.215, 115.363]
   },
   {
-    "judul": "Pendirian Koninklijk Instituut voor de Tropen",
-    "deskripsi": "Pendirian Koninklijk Instituut voor de Tropen (KIT) pada tahun 1851 di Amsterdam adalah langkah penting dalam penelitian mengenai wilayah tropis, termasuk ekonomi, budaya, dan kesehatan. Lembaga ini mendukung kebijakan kolonial Belanda dan didirikan dengan peran penting dari Jan Pieter Marie.",
-    "tahun": 1851,
-    "image": "../../",
+    "judul": "Perlawanan Kerajaan Luwu",
+    "deskripsi": "Perlawanan Kerajaan Luwu terhadap kekuasaan kolonial Belanda berlangsung dari tahun 1861 hingga 1890. Kerajaan Luwu, yang merupakan salah satu kerajaan tertua di Sulawesi Selatan, menolak pengaruh Belanda dan berusaha mempertahankan kedaulatannya. Meskipun akhirnya kerajaan tersebut harus menerima kekuasaan Belanda, perlawanan ini mencerminkan semangat perjuangan rakyat Sulawesi.",
+    "tahun": 1861,
+    "image": "../assets/img/img-map/1859-1894/Perlawanan_Kerajaan_Luwu.jpeg",
     "image_tokoh": "../../",
-    "tokoh": ["Jan Pieter Marie"],
-    "koordinat": [52.3731, 4.8922]
+    "tokoh": ["Raja Luwu"],
+    "koordinat": [-2.5099, 120.1545]
   },
   {
     "judul": "Penerapan Sistem Tanam Paksa di Jawa",
@@ -63,13 +63,13 @@
     "koordinat": [-7.7972, 110.3705]
   },
   {
-    "judul": "Kedatangan Belanda di Minangkabau",
-    "deskripsi": "Kedatangan Belanda di Minangkabau pada tahun 1821, dipimpin oleh J.H. van Roijen, menandai awal pendudukan kolonial di Sumatra Barat. Pendudukan ini dihadapkan pada perlawanan dari masyarakat lokal, mempengaruhi struktur sosial dan politik serta memperkuat kontrol Belanda di wilayah tersebut.",
-    "tahun": 1821,
-    "image": "../../",
+    "judul": "Penjajahan Inggris di Kalimantan",
+    "deskripsi": "Penjajahan Inggris di Kalimantan pada tahun 1860-an menandai periode baru dalam sejarah kolonial di Indonesia. Selama periode ini, Inggris memperkuat posisinya di Kalimantan dengan mendirikan stasiun perdagangan dan memperluas pengaruhnya di wilayah tersebut. Penduduk lokal menghadapi berbagai tantangan akibat kebijakan kolonial ini, yang memengaruhi ekonomi dan struktur sosial mereka.",
+    "tahun": 1860,
+    "image": "../assets/img/img-map/1859-1894/Penjajahan_Inggris.jpg",
     "image_tokoh": "../../",
-    "tokoh": ["J.H. van Roijen"],
-    "koordinat": [-0.964, 100.418]
+    "tokoh": ["James Brooke"],
+    "koordinat": [-1.564, 114.633]
   },
   {
     "judul": "Perang Lombok",

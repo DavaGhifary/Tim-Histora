@@ -1,25 +1,36 @@
 body {
   background: transparent;
 }
+
+.content_map {
+  width: 70vw;
+}
+
+.container_map {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 #map {
-  height: 78vh !important;
-  width: 81%;
-  margin: 0 auto;
+  height: 400px !important;
+  width: 99%;
   border-radius: 10px;
 }
 
 .popup {
   position: absolute;
-  bottom: 118px;
-  right: 116px;
-  padding: 30px 40px 40px 40px;
+  top: 249px;
+  right: 200px;
+  padding: 20px 40px 40px 40px;
   border-radius: 10px;
-  z-index: 1000;
-  width: 990px;
-  height: 34.9vw;
+  z-index: 1100;
+  width: 943px;
+  height: 30.6vw;
   background-color: #252424;
   display: none;
 }
+
 .popup_header {
   height: 2rem;
   display: flex;
@@ -29,7 +40,7 @@ body {
 
 .text_tahun {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -48,11 +59,17 @@ body {
 .popup_text {
   width: 580px;
 }
+
+.popup_text h2 {
+  font-size: 30px;
+}
+
 .popup_desc {
   color: white;
   text-align: justify;
   font-size: 0.9rem;
-  padding-top: 40px;
+  padding-top: 20px;
+  width: 32rem;
 }
 
 .popup_img img {
@@ -64,22 +81,35 @@ body {
   body {
     background: transparent;
   }
-  #map {
-    height: 90vh !important;
+
+  .content_map {
+    width: 95vw;
+    height: 400px;
+  }
+
+  .container_map {
     width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #map {
+    height: 60vh !important;
+    width: 95%;
     margin: 0 auto;
     border-radius: 10px;
   }
 
   .popup {
     position: absolute;
-    bottom: 32px;
-    right: 0;
+    top: 237px;
+    right: 38px;
     padding: 20px 30px 30px 30px;
     border-radius: 10px;
-    z-index: 1000;
-    width: 720px;
-    height: 40vw;
+    z-index: 1100;
+    width: 724px;
+    height: 59.9vw;
     background-color: #252424;
     display: none;
   }
@@ -105,7 +135,7 @@ body {
   .popup_body {
     display: flex;
     justify-content: space-between;
-    padding-top: 25px;
+    padding-top: 100px;
   }
 
   .popup_text {
@@ -116,10 +146,11 @@ body {
     text-align: justify;
     font-size: 0.7rem;
     padding-top: 20px;
+    width: 400px;
   }
 
   .popup_img img {
-    width: 180px;
+    width: 240px;
     height: 180px;
   }
 }
@@ -128,8 +159,21 @@ body {
   body {
     background: transparent;
   }
+
+  .content_map {
+    width: 95vw;
+    height: 400px;
+  }
+
+  .container_map {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+
   #map {
-    height: 100vh !important;
+    height: 400px !important;
     width: 100%;
     margin: 0 auto;
     border-radius: 10px;
@@ -137,13 +181,13 @@ body {
 
   .popup {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 244px;
+    right: 12px;
     padding: 5px 10px 30px 15px;
     border-radius: 10px;
-    z-index: 1000;
-    width: 451px;
-    height: 44.5vw;
+    z-index: 1100;
+    width: 476px;
+    height: 81vw;
     background-color: #252424;
     display: none;
   }
@@ -169,7 +213,7 @@ body {
   .popup_body {
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 90px;
   }
 
   .popup_text {
@@ -184,11 +228,92 @@ body {
     text-align: justify;
     font-size: 8px;
     padding-top: 10px;
-    width: 18rem;
+    width: 16rem;
   }
 
   .popup_img img {
-    width: 130px;
-    height: 130px;
+    width: 170px;
+    height: 135px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  body {
+    background: transparent;
+  }
+
+  .content_map {
+    width: 95vw;
+    height: 400px;
+  }
+
+  .container_map {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #map {
+    height: 400px !important;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .popup {
+    position: absolute;
+    top: 262px;
+    right: 10px;
+    padding: 5px 10px 30px 15px;
+    border-radius: 10px;
+    z-index: 1100;
+    width: 410px;
+    height: 93vw;
+    background-color: #252424;
+    display: none;
+  }
+  .popup_header {
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text_tahun {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .popup_close {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .popup_body {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+  }
+
+  .popup_text {
+    width: 440px;
+  }
+  .popup_text h2 {
+    font-size: 18px;
+  }
+
+  .popup_desc {
+    color: white;
+    text-align: justify;
+    font-size: 8px;
+    padding-top: 10px;
+    width: 12rem;
+  }
+
+  .popup_img img {
+    width: 170px;
+    height: 135px;
   }
 }

@@ -45,6 +45,7 @@ body {
 .artikel-bg {
   width: 1300px;
   height: 192px;
+  object-fit: fill contain;
 }
 
 .artikel-profil {
@@ -154,6 +155,7 @@ body {
   height: 260px;
   position: relative;
 }
+
 .bg-footer img {
   margin-inline: 180px;
   height: 250px;
@@ -237,6 +239,122 @@ body {
 #article-container .container {
   padding: 20px;
 }
+
+.bg-peta{
+  display: block;
+}
+
+/* modal */
+.btnClose {
+  width: 3rem !important;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.labelUpload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  border: 1px solid #272727;
+  color: white;
+  padding: 8px;
+  width: 11rem;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.form-control-artikel {
+  background-color: transparent;
+  border: 1px solid #272727;
+  border-radius: 10px;
+  color: white;
+  width: 50rem;
+}
+
+.form_top_left {
+  width: 25rem;
+}
+.form_top_right {
+  width: 25rem;
+}
+
+.form_top {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 8rem;
+}
+
+.form-control-input {
+  display: block;
+  width: 25rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 1px solid #272727;
+  border-radius: 30px;
+  color: white;
+  padding-inline: 5px;
+}
+
+.Btn_Upload {
+  width: 50rem;
+  height: 3rem;
+  background-color: #272727;
+  border: 1px solid #272727;
+  border-radius: 30px;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .form_top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form_top_left {
+    width: 10rem;
+  }
+  .form_top_right {
+    width: 10rem;
+  }
+  .form_top {
+    display: block;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 3rem;
+  }
+  .Btn_Upload {
+    width: 20rem;
+    height: 3rem;
+    background-color: #272727;
+    border: 1px solid #272727;
+    border-radius: 30px;
+    color: white;
+  }
+  .form-control-input {
+    display: block;
+    width: 20rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid #272727;
+    border-radius: 30px;
+    color: white;
+    padding-inline: 5px;
+  }
+  .form-control-artikel {
+    background-color: transparent;
+    border: 1px solid #272727;
+    border-radius: 10px;
+    color: white;
+    width: 20rem;
+  }
+}   
+
+/* end modal */
 
 @media (max-width: 480px) {
   .userProfil{
@@ -444,6 +562,7 @@ body {
     font-size: 10px;
   }
 
+
   
     /* Navbar */
     .navbar {
@@ -512,12 +631,16 @@ body {
     #footer {
       padding: 10px;
       text-align: center;
-      display: none;
+      display: block;
     }
   
     .bg-footer img {
       width: 100%;
       height: auto;
+    }
+
+    .bg-peta{
+      display: none;
     }
   
     .container_footer {
@@ -529,29 +652,30 @@ body {
     }
   
     .header_footer p {
-      font-size: 14px;
+      font-size: 10px;
     }
   
     .body_footer {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      margin-left: -5%;
     }
   
     .isi_footer_1 {
-      display: flex;
-      align-items: center;
+      display: flex;;
+      font-size: 8px;
       margin-bottom: 10px;
     }
   
     .isi_footer_1 img {
       width: 25px;
       height: 25px;
+      font-size: 8px;
       margin-right: 10px;
     }
   
     .footer_footer p {
-      font-size: 12px;
+      font-size: 10px;
     }
 
 
@@ -664,4 +788,109 @@ body {
     margin-top: 580px;
     margin-left: 150px;
   }
+}
+
+/* animasi */
+
+
+.hidden{
+  display: none;
+}
+.show {
+  display: block;
+}
+
+/* konten artkel */
+
+.asd {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.asd.show {
+  opacity: 1;
+}
+.item-animate {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item-animate.show {
+  opacity: 1;
+}
+
+.increase {
+  animation: increaseAnimation 0.3s ease-in-out;
+}
+
+.decrease {
+  animation: decreaseAnimation 0.3s ease-in-out;
+}
+
+@keyframes increaseAnimation {
+  from { transform: scale(1); }
+  to { transform: scale(1.2); }
+}
+
+@keyframes decreaseAnimation {
+  from { transform: scale(1); }
+  to { transform: scale(0.8); }
+}
+
+/* artikel(klik) */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+
+/* like */
+
+.img-like {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.img-like.active {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+.img-like:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.like-dislike-change {
+  transition: transform 0.3s ease;
+}
+
+.like-dislike-change.increase {
+  transform: scale(1.1);
+}
+
+.like-dislike-change.decrease {
+  transform: scale(0.9);
 }

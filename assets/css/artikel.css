@@ -196,6 +196,48 @@ body {
   padding: 0px;
 }
 
+.rengasdengklok{
+  margin: 0px;
+}
+.bangsaEropa{
+  margin: 0px;
+}
+.BandungLautanApi{
+  margin: 0px;
+}
+.g30spki{
+  margin: 0px;
+}
+.indonesiaDikuasaiJepang{
+  margin: 0px;
+}
+.lahirnyaBoediOetomo{
+  margin: 0px;
+}
+
+.Arengasdengklok{
+  display: block;
+}
+.AbangsaEropa{
+  display: block;
+}
+.ABandungLautanApi{
+  display: block;
+}
+.Ag30spki{
+  display: block;
+}
+.AindonesiaDikuasaiJepang{
+  display: block;
+}
+.AlahirnyaBoediOetomo{
+  display: block;
+}
+
+#article-container .container {
+  padding: 20px;
+}
+
 @media (max-width: 480px) {
   .userProfil{
     border: none;
@@ -286,6 +328,235 @@ body {
     text-align: center;
     font-size: 0.9rem;
   }
+
+  /* tampilan awal */
+  #article-container .container {
+    padding: 10px;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .goyang {
+    margin-bottom: 15px;
+  }
+
+  .avatar-artikel {
+    width: 30px; /* Adjust as needed */
+    height: auto;
+  }
+
+  .author-artikel,
+  .ukuran {
+    font-size: 12px;
+  }
+
+  .title-artikel {
+    font-size: 16px;
+  }
+
+  .description-artikel {
+    font-size: 14px;
+  }
+
+  .konten-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-like {
+    width: 20px;
+    height: auto;
+  }
+
+  .uk-font {
+    font-size: 12px;
+  }
+
+  .text-break {
+    word-break: break-word;
+  }
+
+  .konten-img{
+    max-width: 100%;
+    object-fit: contain;
+    
+  }
+  .Arengasdengklok{
+    margin-left: 25%;
+    width: 224px;
+  }
+  .rengasdengklok{
+    margin-left: -20%;
+  }
+  .ABandungLautanApi{
+    margin-left: 25%;
+    width: 224px;
+  }
+  .BandungLautanApi{
+    margin-left: -20%;
+  }
+  .AbangsaEropa{
+    margin-left: 15%;
+    width: 224px;
+  }
+  .bangsaEropa{
+    margin-left: 10%;
+  }
+  .Ag30spki{
+    margin-left: 15%;
+    width: 224px;
+  }
+  .g30spki{
+    margin-left: 10%;
+  }
+  .AindonesiaDikuasaiJepang{
+    margin-left: 25%;
+    width: 224px;
+  }
+  .indonesiaDikuasaiJepang{
+    margin-left: -20%;
+  }
+  .AlahirnyaBoediOetomo{
+    margin-left: 15%;
+    width: 224px;
+  }
+  .lahirnyaBoediOetomo{
+    margin-left: 10%;
+  }
+  .btn-see {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+
+  #filter{
+    margin-top: 80px;
+    margin-left: 10%;
+    
+  }
+
+  #filter-populer{
+    font-size: 10px;
+  }
+  #filter-terbaru{
+    font-size: 10px;
+  }
+
+  
+    /* Navbar */
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar-brand {
+      font-size: 14px;
+    }
+  
+    .navbar-toggler {
+      border: none;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .nav-link {
+      font-size: 12px;
+    }
+  
+    .navbar-text {
+      font-size: 12px;
+    }
+  
+    .write img {
+      width: 15px;
+    }
+  
+    .text-write {
+      font-size: 12px;
+    }
+  
+    .ButtonSign {
+      font-size: 12px;
+    }
+  
+    /* Modal */
+    .modal-content {
+      background-color: #0f0f0f;
+    }
+  
+    .modal-body {
+      padding: 20px;
+    }
+  
+    .form_artikel h2 {
+      font-size: 18px;
+    }
+  
+    .form-label {
+      font-size: 14px;
+    }
+  
+    .form-control-input, .form-control-artikel {
+      font-size: 14px;
+    }
+  
+    .Btn_Upload {
+      font-size: 14px;
+    }
+  
+  
+    /* Footer */
+    #footer {
+      padding: 10px;
+      text-align: center;
+      display: none;
+    }
+  
+    .bg-footer img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .container_footer {
+      padding: 10px;
+    }
+  
+    .header_footer h2 {
+      font-size: 18px;
+    }
+  
+    .header_footer p {
+      font-size: 14px;
+    }
+  
+    .body_footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .isi_footer_1 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  
+    .isi_footer_1 img {
+      width: 25px;
+      height: 25px;
+      margin-right: 10px;
+    }
+  
+    .footer_footer p {
+      font-size: 12px;
+    }
+
+
+ 
+  
 }
 @media (max-width: 820px) {
   .artikel-bg {
@@ -377,6 +648,7 @@ body {
     width: 18px;
     height: 14px;
   }
+
   
 }
 

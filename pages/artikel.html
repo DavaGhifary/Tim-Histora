@@ -39,14 +39,11 @@
               <a class="nav-link text-link opacity-75 fs-6" href="galeri.html">GALERI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-link text-decoration-underline fs-6" href="#">ARTIKEL</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-link opacity-75 fs-6" href="#">TIMELINE</a>
+              <a class="nav-link text-link fs-6" href="#">ARTIKEL</a>
             </li>
           </ul>
           <div class="navbar-text text-link d-flex gap-3 justify-content-between">
-            <button class="write gap-1">
+            <button class="write gap-1" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
               <img src="../assets/icon/Vector-write.png" width="19" class="ms-2 opacity-icon-write" alt=""/>
               <p class="text-write fw-light fs-6">Write</p>
             </button>
@@ -55,6 +52,45 @@
         </div>
       </div>
     </nav>
+
+    <div class="modal fade" id="fullscreenModal" tabindex="-1" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content" style="background-color: #0f0f0f;">
+          <button type="button" class="btn btnClose m-3" data-bs-dismiss="modal" aria-label="Close"><img
+              src="../assets/icon/close.svg" width="30" height="30" class="imgClose" alt=""></button>
+          <div class="modal-body" style="height: 100vh; display: flex; align-items: center; justify-content: center;"">
+          <div class=" form_artikel">
+            <h2 class="text-white text-center">Bagikan Pengetahuan Anda</h2>
+            <div class="form_top">
+              <div class="form_top_left">
+                <div class="mb-3 FormInput">
+                  <label for="exampleFormControlInput1" class="form-label text-white">Judul Sejarah</label>
+                  <input type="email" class="form-control-input" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3 FormInput">
+                  <label for="exampleFormControlInput1" class="form-label text-white">Nama Penulis</label>
+                  <input type="email" class="form-control-input" id="exampleFormControlInput1">
+                </div>
+              </div>
+              <div class="form_top_right">
+                <div class="m-0">
+                  <p class="text-white">Upload Gambar/video</p>
+                  <input type="file" id="uploadBtn">
+                  <label for="uploadBtn" class="labelUpload"><img src="./assets/icon/upload.svg" width="18" height="15"
+                      alt="">Click Upload file</label>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label text-white">Konten Artikel</label>
+              <textarea class="form-control-artikel d-block" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="button" class="Btn_Upload">Upload</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
   
     <!-- <nav class="navbar blur navbar-header fixed-top navbar-expand-lg mx-4">
       <div class="container-fluid">

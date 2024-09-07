@@ -102,87 +102,155 @@
     ]
   },
   {
-    "periode": "1850 - 1885",
-    "sejarah": [
-      {
-        "judul": "Perang Banjar",
-        "deskripsi": "Pangeran Antasari menjadi simbol perlawanan dan memimpin serangan-serangan gerilya terhadap pos-pos Belanda. Perlawanan ini berlangsung selama beberapa dekade, meskipun pada akhirnya Belanda berhasil menguasai wilayah tersebut sepenuhnya. Perang Banjar meninggalkan dampak signifikan terhadap sejarah perjuangan rakyat Kalimantan melawan penjajahan kolonial.",
-        "tahun": 1859,
-        "image": "../../",
-        "image_tokoh": "../../",
-        "tokoh": ["Pangeran Antasari"],
-        "koordinat": [-3.316667, 114.583333]
-      },
-      {
-        "judul": "Perang Aceh",
-        "deskripsi": "Perang Aceh dipicu oleh keinginan Belanda untuk menguasai seluruh Nusantara, termasuk Aceh yang merupakan wilayah strategis dengan kekayaan alam melimpah dan posisinya di jalur perdagangan internasional. Aceh menolak untuk tunduk pada kekuasaan Belanda dan mempertahankan kemerdekaannya. Perang Aceh meninggalkan dampak yang signifikan terhadap sejarah Indonesia, menjadi simbol perlawanan terhadap kolonialisme dan inspirasi bagi perjuangan kemerdekaan Indonesia di masa berikutnya.",
-        "tahun": 1873,
-        "image": "../../",
-        "image_tokoh": "../../",
-        "tokoh": ["Sultan Alauddin Mahmud Syah II"],
-        "koordinat": [5.554167, 95.317500]
-      }
-    ]
-  },
-  {
-    "periode": "1885 - 1920",
-    "sejarah": [
-      {
-        "judul": "Penemuan fosil dan artefak Pithecanthropus Erectus",
-        "deskripsi": "Pithecanthropus erectus, yang berarti 'manusia kera yang berdiri tegak.' Nama ini kemudian diubah menjadi Homo erectus. Penemuan ini memberikan bukti awal tentang keberadaan manusia purba yang bisa berjalan tegak dan merupakan salah satu temuan penting dalam studi evolusi manusia. Homo erectus dianggap sebagai nenek moyang langsung dari Homo sapiens. Penemuan ini membantu memajukan pemahaman tentang evolusi manusia dan menunjukkan bahwa manusia purba telah menyebar di wilayah Asia Tenggara jauh sebelum manusia modern muncul.",
-        "tahun": 1891,
-        "image": "../../",
-        "image_tokoh": "../../",
-        "tokoh": ["Eugène Dubois"],
-        "koordinat": [-7.433333, 111.350000]
+      "periode": "1850 - 1885",
+      "sejarah": [
+        {
+          "judul": "Perang Banjar",
+          "deskripsi": "Perang Banjar terjadi di Kalimantan Selatan antara kerajaan Banjar yang dipimpin oleh Pangeran Antasari melawan kolonial Belanda. Perang ini berlangsung dari tahun 1859 hingga awal 1860-an.",
+          "tahun": 1859,
+          "tokoh": ["Pangeran Antasari"],
+          "koordinat": "3°19' S, 114°35' E"
+        },
+        {
+          "judul": "Perang Aceh Dimulai",
+          "deskripsi": "Perang Aceh dimulai ketika Belanda mencoba menguasai Kesultanan Aceh yang strategis. Perang ini berlangsung sangat lama dan memakan banyak korban di kedua belah pihak.",
+          "tahun": 1873,
+          "tokoh": ["Sultan Alauddin Mahmud Syah II"],
+          "koordinat": "5°33'15\" N, 95°19'3\" E"
+        },
+        {
+          "judul": "Penemuan Minyak Pertama di Sumatra",
+          "deskripsi": "Penemuan ladang minyak pertama di Sumatra oleh perusahaan minyak Belanda, Royal Dutch Shell, yang menandai awal eksploitasi sumber daya alam di Indonesia.",
+          "tahun": 1885,
+          "tokoh": ["Aeilko Jans Zijlker"],
+          "koordinat": "3°47' N, 98°42' E"
+        },
+        {
+          "judul": "Perjanjian Siak 1858",
+          "deskripsi": "Perjanjian Siak antara Kesultanan Siak dan Belanda yang memberikan Belanda hak kontrol atas wilayah Siak di Sumatra, memperkuat kekuasaan kolonial Belanda di wilayah tersebut.",
+          "tahun": 1858,
+          "tokoh": ["Sultan Syarif Kasim II"],
+          "koordinat": "0°47' N, 100°46' E"
+        },
+        {
+          "judul": "Pembangunan Jalur Kereta Api Pertama",
+          "deskripsi": "Pembangunan jalur kereta api pertama di Indonesia yang menghubungkan Semarang dengan Tanggung di Jawa Tengah oleh pemerintah kolonial Belanda.",
+          "tahun": 1867,
+          "tokoh": ["Jan Willem Idenburg"],
+          "koordinat": "6°58' S, 110°25' E"
+        },
+        {
+          "judul": "Pemberontakan Rakyat Tanjung Karang",
+          "deskripsi": "Pemberontakan rakyat di Tanjung Karang, Lampung, melawan pemerintah kolonial Belanda yang diakibatkan oleh ketidakadilan dan penindasan.",
+          "tahun": 1850,
+          "tokoh": ["Rakyat Tanjung Karang"],
+          "koordinat": "5°26' S, 105°15' E"
+        },
+        {
+          "judul": "Perlawanan Rakyat Makassar",
+          "deskripsi": "Perlawanan rakyat Makassar terhadap kekuasaan Belanda yang berusaha menguasai wilayah tersebut dengan kekuatan militer.",
+          "tahun": 1855,
+          "tokoh": ["Abdul Kadir"],
+          "koordinat": "5°8' S, 119°25' E"
+        },
+        {
+          "judul": "Perlawanan di Bali Selatan",
+          "deskripsi": "Perlawanan rakyat Bali Selatan melawan upaya Belanda untuk menguasai pulau Bali, dipimpin oleh pemimpin lokal.",
+          "tahun": 1858,
+          "tokoh": ["I Gusti Ngurah Rai"],
+          "koordinat": "8°45' S, 115°14' E"
+        },
+        {
+          "judul": "Pemberontakan Banten",
+          "deskripsi": "Pemberontakan Banten, juga dikenal sebagai Perang Banten, terjadi sebagai upaya melawan kolonialisme Belanda yang mencoba menguasai wilayah Banten di Jawa Barat.",
+          "tahun": 1850,
+          "tokoh": ["Sultan Banten"],
+          "koordinat": "6°6' S, 106°9' E"
+        },
+        {
+          "judul": "Perlawanan di Pidie",
+          "deskripsi": "Perlawanan rakyat Pidie di Aceh melawan upaya Belanda untuk menguasai wilayah tersebut.",
+          "tahun": 1859,
+          "tokoh": ["Teuku Umar"],
+          "koordinat": "5°21' N, 95°21' E"
+        }
+      ]
     },
     {
-        "judul": "Intervensi Belanda di Lombok",
-        "deskripsi": " Pulau Lombok dikuasai oleh kerajaan lokal, yaitu Kerajaan Mataram, yang diperintah oleh raja-raja Sasak dan Bali. Ketegangan antara kerajaan lokal dan Belanda meningkat karena perlawanan terhadap kontrol dan pajak yang diberlakukan oleh Belanda. Pada tahun 1894, Belanda melancarkan ekspedisi militer besar-besaran ke Lombok. Ekspedisi ini dipimpin oleh Jenderal Vetter dan berakhir dengan penaklukan Mataram. Banyak korban jiwa, termasuk di kalangan penduduk sipil. Kerajaan Mataram dihancurkan, dan Lombok jatuh di bawah kontrol langsung Belanda.",
-        "tahun": 1894,
-        "image": "../../",
-        "image_tokoh": "../../",
-        "tokoh": ["Pietro Carlo Alberto van Ham"],
-        "koordinat": [-8.566667, 116.100000]
+      "periode": "1885 - 1920",
+      "sejarah": [
+        {
+          "judul": "Penemuan Fosil Homo Erectus di Trinil",
+          "deskripsi": "Eugène Dubois menemukan fosil Homo erectus di Trinil, Jawa Timur, yang merupakan salah satu penemuan penting dalam studi evolusi manusia.",
+          "tahun": 1891,
+          "tokoh": ["Eugène Dubois"],
+          "koordinat": "7°26' S, 111°21' E"
+        },
+        {
+          "judul": "Intervensi Belanda di Lombok",
+          "deskripsi": "Ekspedisi militer Belanda ke Lombok berakhir dengan penaklukan Kerajaan Mataram, memperkuat kekuasaan Belanda di kepulauan Nusa Tenggara.",
+          "tahun": 1894,
+          "tokoh": ["Pietro Carlo Alberto van Ham"],
+          "koordinat": "8°34' S, 116°6' E"
+        },
+        {
+          "judul": "Berdirinya Boedi Oetomo",
+          "deskripsi": "Organisasi pergerakan nasional pertama di Indonesia yang memperjuangkan kemajuan pendidikan dan kebangkitan nasional.",
+          "tahun": 1908,
+          "tokoh": ["Dr. Soetomo"],
+          "koordinat": "6°12' S, 106°49' E"
+        },
+        {
+          "judul": "Pemberontakan Rakyat Tolitoli",
+          "deskripsi": "Perlawanan rakyat Tolitoli di Sulawesi terhadap penguasa lokal dan Belanda sebagai protes atas ketidakadilan.",
+          "tahun": 1919,
+          "tokoh": ["Haji Muhammad Said"],
+          "koordinat": "1°20' S, 120°50' E"
+        },
+        {
+          "judul": "Pendudukan Belanda di Papua Barat",
+          "deskripsi": "Belanda memperluas kekuasaannya ke Papua Barat, menandai penguasaan penuh atas seluruh wilayah Indonesia modern.",
+          "tahun": 1898,
+          "tokoh": ["Gubernur Jenderal Hindia Belanda"],
+          "koordinat": "2°30' S, 140°42' E"
+        },
+        {
+          "judul": "Pendudukan Belanda di Bali Utara",
+          "deskripsi": "Setelah penaklukan Kerajaan Klungkung, Belanda secara efektif menguasai seluruh Bali.",
+          "tahun": 1908,
+          "tokoh": ["Gubernur Jenderal Idenburg"],
+          "koordinat": "8°24' S, 115°16' E"
+        },
+        {
+          "judul": "Pergerakan Muhammadiyah",
+          "deskripsi": "Muhammadiyah didirikan oleh KH Ahmad Dahlan sebagai organisasi Islam yang fokus pada pendidikan dan sosial.",
+          "tahun": 1912,
+          "tokoh": ["KH Ahmad Dahlan"],
+          "koordinat": "7°48' S, 110°22' E"
+        },
+        {
+          "judul": "Pembentukan Volksraad",
+          "deskripsi": "Pembentukan Volksraad (Dewan Rakyat) oleh Belanda, yang memberikan sedikit perwakilan politik bagi rakyat Indonesia.",
+          "tahun": 1918,
+          "tokoh": ["Gubernur Jenderal Johan Paul van Limburg Stirum"],
+          "koordinat": "6°10' S, 106°49' E"
+        },
+        {
+          "judul": "Perang Bali III",
+          "deskripsi": "Perang Bali III melibatkan perlawanan Kerajaan Klungkung di Bali terhadap Belanda yang mencoba menundukkan seluruh Bali.",
+          "tahun": 1906,
+          "tokoh": ["I Gusti Ngurah Made Agung"],
+          "koordinat": "8°39' S, 115°12' E"
+        },
+        {
+          "judul": "Perang Lombok",
+          "deskripsi": "Perang Lombok terjadi ketika Kerajaan Mataram Lombok melakukan perlawanan terhadap ekspansi Belanda ke Nusa Tenggara.",
+          "tahun": 1894,
+          "tokoh": ["Anak Agung Ketut Karangasem"],
+          "koordinat": "8°30' S, 116°0' E"
+        }
+      ] 
     },
-    {
-        "judul": "Organisasi 'Boedi Oetomo' berdiri",
-        "deskripsi": "Organisasi ini didirikan dengan tujuan untuk memajukan pendidikan dan kesejahteraan rakyat pribumi, serta meningkatkan kesadaran dan rasa nasionalisme di kalangan masyarakat Indonesia. Organisasi ini berperan penting dalam membangkitkan kesadaran nasional dan menjadi salah satu pelopor pergerakan nasional di Indonesia. Meskipun awalnya lebih bersifat kultural dan pendidikan, Boedi Oetomo membuka jalan bagi organisasi-organisasi pergerakan nasionalis lainnya yang kemudian menjadi lebih politis. Boedi Oetomo merupakan tonggak awal pergerakan kemerdekaan Indonesia dan memainkan peran kunci dalam sejarah perjuangan nasional untuk meraih kemerdekaan dari kolonialisme.",
-        "tahun": 1908,
-        "image": "../../",
-        "image_tokoh": "../../",
-        "tokoh": ["Soetomo"],
-        "koordinat": [-6.200000, 106.816667]
-    },
-    {
-        "judul": "Pemberontakan Rakyat Tolitoli",
-        "deskripsi": "Pemberontakan ini mencerminkan ketidakadilan yang dialami rakyat dan ditujukan melawan penguasa lokal yang bekerja sama dengan Belanda. Pemerintah Belanda merespons dengan tindakan represif, mengerahkan pasukan untuk menindak pemberontakan, dan menghukum peserta dengan berat. Meskipun pemberontakan ini berhasil dipadamkan, dampaknya memperkuat kesadaran nasional dan semangat anti-kolonial di Indonesia, serta berkontribusi pada perjuangan menuju kemerdekaan.",
-        "tahun": 1919,
-        "image": "../../",
-        "image_tokoh": "../../",
-        "tokoh": ["Haji Muhammad Said"],
-        "koordinat": [-1.333333, 120.833333]
-    },
-    {
-        "judul": "Perang Banjar",
-        "deskripsi": "Pangeran Antasari menjadi simbol perlawanan dan memimpin serangan-serangan gerilya terhadap pos-pos Belanda. Perlawanan ini berlangsung selama beberapa dekade, meskipun pada akhirnya Belanda berhasil menguasai wilayah tersebut sepenuhnya. Perang Banjar meninggalkan dampak signifikan terhadap sejarah perjuangan rakyat Kalimantan melawan penjajahan kolonial.",
-        "tahun": 1859,
-        "image": "../../",
-        "image_tokoh": "../../",
-        "tokoh": ["Pangeran Antasari"],
-        "koordinat": [-3.316667, 114.583333]
-    },
-    {
-        "judul": "Perang Aceh",
-        "deskripsi": "Perang Aceh dipicu oleh keinginan Belanda untuk menguasai seluruh Nusantara, termasuk Aceh yang merupakan wilayah strategis dengan kekayaan alam melimpah dan posisinya di jalur perdagangan internasional. Aceh menolak untuk tunduk pada kekuasaan Belanda dan mempertahankan kemerdekaannya. Perang Aceh meninggalkan dampak yang signifikan terhadap sejarah Indonesia, menjadi simbol perlawanan terhadap kolonialisme dan inspirasi bagi perjuangan kemerdekaan Indonesia di masa berikutnya.",
-        "tahun": 1873,
-        "image": "../../",
-        "image_tokoh": "../../",
-        "tokoh": ["Sultan Alauddin Mahmud Syah II"],
-        "koordinat": [5.554167, 95.317500]
-    }
-    ]
-  },
   {
     "periode": "1859 - 1894",
     "sejarah": [

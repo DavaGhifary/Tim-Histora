@@ -1,1617 +1,580 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Histora</title>
-    <link rel="stylesheet" href="../assets/css/index.css" />
-    <link rel="stylesheet" href="../assets/css/navbar.css" />
-    <link rel="stylesheet" href="../assets/css/artikel.css" />
-    <link rel="stylesheet" href="../assets/css/gallery.css" />
-    <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-  </head>
 
-  <body>
-    <!-- Navbar Page Gallery -->
-    <nav class="navbar navbar-blur fixed-top navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand text-color fs-6" href="../index.html">HISTORA</a>
-        <button
-          class="navbar-toggler background-color-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Histora</title>
+  <link rel="stylesheet" href="../assets/css/index.css" />
+  <link rel="stylesheet" href="../assets/css/navbar.css" />
+  <link rel="stylesheet" href="../assets/css/artikel.css" />
+  <link rel="stylesheet" href="../assets/css/gallery.css" />
+  <link rel="stylesheet" href="../assets/css/footer.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto mx-auto gap-2">
-            <li class="nav-item">
-              <a
-                class="nav-link text-link opacity-75 fs-6"
-                aria-current="page"
-                href="../index.html"
-                >BERANDA</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-link activeNavbar fs-6" href="galeri.html"
-                >GALERI</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-link opacity-75 fs-6"
-                href="./artikel.html"
-                >ARTIKEL</a
-              >
-            </li>
-            <!-- <li class="nav-item">
+<body>
+  <!-- Navbar Page Gallery -->
+  <nav class="navbar navbar-blur fixed-top navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand text-color fs-6" href="../index.html">HISTORA</a>
+      <button class="navbar-toggler background-color-toggle" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mx-auto gap-2">
+          <li class="nav-item">
+            <a class="nav-link text-link opacity-75 fs-6" aria-current="page" href="../index.html">BERANDA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-link activeNavbar fs-6" href="galeri.html">GALERI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-link opacity-75 fs-6" href="./artikel.html">ARTIKEL</a>
+          </li>
+          <!-- <li class="nav-item">
             <a class="nav-link text-link opacity-75 fs-6" href="#">TIMELINE</a>
           </li> -->
-          </ul>
-          <div
-            class="navbar-text text-link d-flex gap-3 justify-content-between"
-          >
-            <button
-              class="write gap-1"
-              data-bs-toggle="modal"
-              data-bs-target="#fullscreenModal"
-            >
-              <img
-                src="../assets/icon/Vector-write.png"
-                width="19"
-                class="ms-2 opacity-icon-write"
-                alt=""
-              />
-              <p class="text-write fw-light fs-6">Write</p>
-            </button>
-            <button class="ButtonSign fw-light fs-6"><img src="../assets/icon/avatar.png" width="40" alt=""></button>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- End Navbar -->
-
-    <!-- Image Gallery -->
-    <div class="container text-center margin-bottom-navbar">
-      <div class="row">
-        <div class="col align-self-center">
-          <div class="gallery-section">
-            <img
-              src="../assets/img/img-gallery/img-gallery.jpg"
-              alt="Gallery Image"
-            />
-            <div class="gallery-text">GALLERY SEJARAH INDONESIA</div>
-          </div>
+        </ul>
+        <div class="navbar-text text-link d-flex gap-3 justify-content-between">
+          <button class="write gap-1" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
+            <img src="../assets/icon/Vector-write.png" width="19" class="ms-2 opacity-icon-write" alt="" />
+            <p class="text-write fw-light fs-6">Write</p>
+          </button>
+          <button class="ButtonSign fw-light fs-6"><img src="../assets/icon/avatar.png" width="40" alt=""></button>
         </div>
       </div>
     </div>
-    <!-- End Image Gallery -->
+  </nav>
+  <!-- End Navbar -->
 
-    <!-- Filter Start -->
-    <div class="container mt-4">
-      <div class="row row-cols-auto">
-        <div class="col">
-          <ul class="nav nav-underline" id="myTab" role="tablist">
-            <li>
-              <img
-                src="../assets/img/img-artikel/filter-vector.png"
-                class="mt-3"
-                alt="Filter Icon"
-                width="20"
-                height="16"
-              />
-            </li>
-            <li class="nav-item" role="presentation">
-              <a
-                class="nav-link active text-color fw-normal"
-                id="populer-tab"
-                data-bs-toggle="tab"
-                href="#populer"
-                role="tab"
-                aria-controls="populer"
-                aria-selected="true"
-                >Populer</a
-              >
-            </li>
-            <li class="nav-item" role="presentation">
-              <a
-                class="nav-link text-color"
-                id="terbaru-tab"
-                data-bs-toggle="tab"
-                href="#terbaru"
-                role="tab"
-                aria-controls="terbaru"
-                aria-selected="false"
-                >Terbaru</a
-              >
-            </li>
-            <li class="nav-item" role="presentation">
-              <a
-                class="nav-link text-color"
-                id="foto-tab"
-                data-bs-toggle="tab"
-                href="#foto"
-                role="tab"
-                aria-controls="foto"
-                aria-selected="false"
-                >Foto</a
-              >
-            </li>
-            <li class="nav-item" role="presentation">
-              <a
-                class="nav-link text-color"
-                id="video-tab"
-                data-bs-toggle="tab"
-                href="#video"
-                role="tab"
-                aria-controls="video"
-                aria-selected="false"
-                >Video</a
-              >
-            </li>
-          </ul>
+  <!-- Image Gallery (Carousel) -->
+  <div id="galleryCarousel" class="carousel slide container text-center margin-bottom-navbar" data-bs-ride="carousel"  data-bs-interval="2000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="gallery-section">
+          <img src="../assets/img/img-gallery/img-gallery.jpg" class="d-block w-100" alt="Gallery Image 1" />
+          <div class="gallery-text">Galleri Sejarah Indonesia</div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="gallery-section">
+          <img src="../assets/img/img-gallery/prambanan.jpg" class="d-block w-100" alt="Gallery Image 2" />
+          <div class="gallery-text">Setiap gambar menyimpan cerita perjuangan bangsa!</div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="gallery-section">
+          <img src="../assets/img/img-gallery/tirta-ganga.jpg" class="d-block w-100" alt="Gallery Image 3" />
+          <div class="gallery-text">Lihat dokumentasi asli peristiwa-peristiwa bersejarah bangsa kita!</div>
         </div>
       </div>
     </div>
-    <!-- Filter End -->
+    <!-- Carousel indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  </div>
+  <!-- End Image Gallery (Carousel) -->
 
-    <!-- Content Section -->
-    <div class="container mt-2">
-      <div class="tab-content">
-        <div
-          class="tab-pane active"
-          id="populer"
-          role="tabpanel"
-          aria-labelledby="populer-tab"
-        >
-          <!-- Populer Content -->
-          <div class="container mt-2">
-            <div class="container-card">
-              <div
-                class="card card-img"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-id="2"
-              >
-                <img
-                  src="../assets/img/img-gallery/sudirman.jpg"
-                  class="img-fluid"
-                  alt="Modal Image"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-title="Jenderal Soedirman"
-                  data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                  data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-                />
-              </div>
-              <div
-                class="card card-img"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-id="1"
-              >
-                <img
-                  src="../assets/img/img-gallery/img-gallery-5.jpeg"
-                  class="img-fluid"
-                  alt="Modal Image"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-title="Pejuang Kemerdekaan"
-                  data-description="Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal besar dan politikus Indonesia. Ia berperan penting dalam militer selama Revolusi Nasional Indonesia dan terus aktif dalam militer selama periode demokrasi parlementer dan Demokrasi Terpimpin."
-                  data-image="../assets/img/img-gallery/img-gallery-5.jpeg"
-                />
-              </div>
-              <div
-                class="card card-img"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-id="3"
-              >
-                <img
-                  src="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg"
-                  class="img-fluid"
-                  alt="Modal Image"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-title="Jenderal Soedirman"
-                  data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                  data-image="../assets/img/img-gallery/popup-nasution.jpg"
-                />
-              </div>
-              <div
-                class="card card-img"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-id="4"
-              >
-                <img
-                  src="../assets/img/img-gallery/Fatmawati_Soekarno.jpg"
-                  class="img-fluid"
-                  alt="Modal Image"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-title="Fatmawati"
-                  data-description="Fatmawati Soekarno (5 Februari 1923 – 14 Mei 1980) adalah istri ketiga dari Presiden pertama Indonesia, Soekarno, dan Ibu Negara pertama dari tahun 1945 hingga 1967. Ia dikenal atas jasanya dalam menjahit Bendera Pusaka Sang Saka Merah Putih, yang dikibarkan saat Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945. Fatmawati juga merupakan ibu dari presiden kelima Indonesia, Megawati Soekarnoputri."
-                  data-image="../assets/img/img-gallery/popup-fatmawati.jpg"
-                />
-              </div>
-              <div
-                class="card card-img"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-id="5"
-              >
-                <img
-                  src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                  class="img-fluid"
-                  alt="Modal Image"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-title="Sutomo
-              (Bung Tomo)"
-                  data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                  data-image="../assets/img/img-gallery/popup-tomo.jpg"
-                />
-              </div>
-              <div
-                class="card card-img"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-id="5"
-              >
-                <img
-                  src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                  class="img-fluid"
-                  alt="Modal Image"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-title="Sutomo
-              (Bung Tomo)"
-                  data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                  data-image="../assets/img/img-gallery/popup-tomo.jpg"
-                />
-              </div>
-              <div
-                class="card card-img"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-id="5"
-              >
-                <img
-                  src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                  class="img-fluid"
-                  alt="Modal Image"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-title="Sutomo
-              (Bung Tomo)"
-                  data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                  data-image="../assets/img/img-gallery/popup-tomo.jpg"
-                />
-              </div>
-              <div
-                class="card card-img"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-id="5"
-              >
-                <img
-                  src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                  class="img-fluid"
-                  alt="Modal Image"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-title="Sutomo
-              (Bung Tomo)"
-                  data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                  data-image="../assets/img/img-gallery/popup-tomo.jpg"
-                />
-              </div>
+
+
+  <!-- Filter Start -->
+  <div class="container mt-4">
+    <div class="row row-cols-auto">
+      <div class="col">
+        <ul class="nav nav-underline" id="myTab" role="tablist">
+          <li>
+            <img src="../assets/img/img-artikel/filter-vector.png" class="mt-3" alt="Filter Icon" width="20"
+              height="16" />
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active text-color fw-normal" id="populer-tab" data-bs-toggle="tab" href="#populer"
+              role="tab" aria-controls="populer" aria-selected="true">Populer</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-color" id="terbaru-tab" data-bs-toggle="tab" href="#terbaru" role="tab"
+              aria-controls="terbaru" aria-selected="false">Terbaru</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-color" id="foto-tab" data-bs-toggle="tab" href="#foto" role="tab"
+              aria-controls="foto" aria-selected="false">Profile Tokoh</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-color" id="video-tab" data-bs-toggle="tab" href="#video" role="tab"
+              aria-controls="video" aria-selected="false">Video</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Filter End -->
+
+  <!-- Content Section -->
+  <div class="container mt-2">
+    <div class="tab-content">
+      <div class="tab-pane active" id="populer" role="tabpanel" aria-labelledby="populer-tab">
+        <!-- Populer Content -->
+        <div class="container mt-2">
+          <div class="container-card">
+            <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="2">
+              <img src="../assets/img/img-gallery/cokroaminoto.jpg" class="img-fluid" alt="Modal Image"
+                style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-title="Oemar Said Tjokroaminoto"
+                data-description="Raden Mas Haji Oemar Said Tjokroaminoto (lahir di Ponorogo, 16 Agustus 1882 – meninggal 17 Desember 1934), lebih dikenal di Indonesia sebagai H.O.S. Tjokroaminoto, adalah seorang nasionalis Indonesia. Ia merupakan salah satu pemimpin Sarekat Islam, yang awalnya didirikan sebagai Sarekat Dagang Islam oleh Samanhudi. Bersama Tjokroaminoto, organisasi ini berkembang menjadi Sarekat Islam, salah satu organisasi pergerakan pertama di Indonesia.Tjokroaminoto tercatat sebagai salah satu tokoh penting dalam sejarah Indonesia, dan peranannya diakui dalam berbagai catatan resmi, termasuk Arsip Nasional Republik Indonesia dan Direktorat Pahlawan Nasional Kementerian Sosial Republik Indonesia."
+                data-image="../assets/img/img-gallery/popup-cokro.jpg" />
             </div>
-            <div class="container gallery-container">
-              <div class="card-landscape mt-2">
-                <!-- Card 1 -->
-                <div
-                  class=""
-                  data-bs-toggle="modal"
-                  data-bs-target="#modalImageLandscape"
-                  data-id="1"
+            <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="1">
+              <img src="../assets/img/img-gallery/soekarno.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+                data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Soekarno"
+                data-description="Dr. (H.C.) Ir. H. Soekarno (Ejaan Republik: Sukarno, bahasa Jawa: ꦯꦸꦑꦂꦟ, pengucapan bahasa Jawa: [suːˈkarnɔ]; 6 Juni 1901 – 21 Juni 1970), yang lebih dikenal sebagai Bung Karno, adalah seorang politikus berpengaruh dalam Revolusi Nasional Indonesia. Bersama Mohammad Hatta, ia memproklamasikan Kemerdekaan Indonesia pada 17 Agustus 1945. Soekarno adalah orang pertama yang mencetuskan konsep Pancasila sebagai dasar negara Indonesia dan menamainya."
+                data-image="../assets/img/img-gallery/popup-sukarno.jpg" />
+            </div>
+            <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="3">
+              <img src="../assets/img/img-gallery/suwirjo.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+                data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Sekarmadji Maridjan Kartosoewirjo"
+                data-description="Sekarmadji Maridjan Kartosoewirjo (7 Januari 1905 – 5 September 1962) adalah seorang tokoh Islam Indonesia yang mendirikan gerakan Darul Islam. Dari tahun 1949 hingga 1962, ia memimpin gerakan ini dengan tujuan mendirikan Negara Islam Indonesia berdasarkan hukum syariah. Kartosoewirjo berupaya untuk menggantikan pemerintahan Republik Indonesia yang ada dengan sistem pemerintahan yang mengacu pada prinsip-prinsip Islam. Gerakannya berfokus pada pembentukan negara yang sepenuhnya berdasarkan hukum Islam dan sering kali terlibat dalam konflik dengan pemerintah Indonesia yang sah. Upaya dan perjuangannya memiliki dampak signifikan pada politik dan sejarah Islam di Indonesia."
+                data-image="../assets/img/img-gallery/popup-suwirjo.webp" />
+            </div>
+            <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="4">
+              <img src="../assets/img/img-gallery/musso.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+                data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Musso"
+                data-description="Musso (atau Paul Mussotte; nama lengkap: Muso Manowar; 12 Agustus 1897 – 31 Oktober 1948) adalah seorang pemimpin Partai Komunis Indonesia (PKI) dan salah satu tokoh kunci dalam pemberontakan Madiun 1948. Sebagai salah satu pemimpin PKI, Musso memainkan peran penting dalam upaya untuk menggulingkan pemerintahan Republik Indonesia yang baru berdiri melalui pemberontakan tersebut. Pemberontakan Madiun, yang terjadi pada tahun 1948, merupakan salah satu konflik politik besar di Indonesia pasca kemerdekaan dan berakhir dengan penumpasan oleh pemerintah."
+                data-image="../assets/img/img-gallery/musso.jpg" />
+            </div>
+            <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="5" >
+              <img src="../assets/img/img-gallery/Bung_Tomo.jpg" class="img-fluid" alt="Modal Image"
+                style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Sutomo
+              (Bung Tomo)"
+                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
+                data-image="../assets/img/img-gallery/popup-tomo.jpg" />
+            </div>
+            <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="6" >
+              <img src="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg" class="img-fluid" alt="Modal Image"
+                style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-title="Abdul Haris Nasution"
+                data-description="Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal besar dan politikus Indonesia. Ia berperan penting dalam militer selama Revolusi Nasional Indonesia dan terus aktif dalam militer selama periode demokrasi parlementer dan Demokrasi Terpimpin."
+                data-image="../assets/img/img-gallery/popup-nasution.jpg" />
+            </div>
+            <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="7" >
+              <img src="../assets/img/img-gallery/hatta.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+                data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Mohammad Hatta"
+                data-description="Dr. (H.C.) Drs. H. Mohammad Hatta, akrab oleh teman seperjuangannya dengan sapaan Bung Hatta, adalah seorang negarawan dan ekonom yang berperan dalam perjuangan kemerdekaan Indonesia. Ia sebagai Proklamator Kemerdekaan bersama Soekarno memainkan peranan sentra."
+                data-image="../assets/img/img-gallery/hatta.jpg" />
+            </div>
+            <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-id="8" >
+              <img src="../assets/img/img-gallery/sudirman.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+                data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Jendral Soedirman"
+                data-description="Jenderal Besar TNI (Anumerta) Raden Soedirman (24 Januari 1916 – 29 Januari 1950) adalah perwira tinggi Indonesia dan Panglima Besar pertama Tentara Nasional Indonesia. Lahir di Purbalingga dan diadopsi oleh pamannya yang seorang priyayi, Soedirman menunjukkan bakat kepemimpinan sejak muda. Ia aktif dalam organisasi Muhammadiyah dan memimpin Kelompok Pemuda Muhammadiyah pada 1937. Setelah Jepang menduduki Hindia Belanda, Soedirman bergabung dengan tentara Pembela Tanah Air (PETA) dan menjadi komandan batalion di Banyumas. Ia pernah memimpin pemberontakan dan kemudian diasingkan ke Bogor."
+                data-image="../assets/img/img-gallery/popup-sudirman.jpg" />
+            </div>
+          </div>
+          <div class="container gallery-container">
+            <div class="card-landscape mt-2">
+              <!-- Card 1 -->
+              <div class="" data-bs-toggxle="modal" data-bs-target="#modalImageLandscape" data-id="1">
+                <img src="../assets/img/img-gallery/borobudur.jpg" class="img-landscape-populer" alt="Landscape 2"
+                  data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Borobudur"
+                  data-description="Candi Borobudur (bahasa Jawa: ꦕꦟ꧀ꦝꦶꦧꦫꦧꦸꦝꦸꦂ, translit. Candhi Båråbudhur) adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi dengan banyak stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra. Borobudur adalah candi atau kuil Buddha terbesar di dunia,sekaligus salah satu monumen Buddha terbesar di dunia."
+                  data-image="../assets/img/img-gallery/popup-borobudur.jpg" />
+              </div>
+              <!-- Card 2 -->
+              <div class="" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1">
+                <img src="../assets/img/img-gallery/gua_belanda.jpg" class="img-landscape-populer" alt="Landscape 2"
+                  data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Goa Belanda"
+                  data-description="Gua Belanda, yang dibangun pada tahun 1923 di pegunungan Dago, awalnya berfungsi sebagai tempat penyimpanan dan perlindungan bagi warga sipil serta personel militer Belanda dari serangan udara dan militer. Proses pembangunannya melibatkan teknik peledakan dan pemahatan batu, dengan dinding yang dilapisi beton untuk menjaga kekuatan dan keamanan. Setelah Indonesia merdeka pada tahun 1945, peran gua sebagai fasilitas militer berakhir, dan kemudian dialihkan kepada Pemerintah Kota Bandung. Saat ini, Gua Belanda telah diubah menjadi objek wisata yang terbuka bagi masyarakat."
+                  data-image="../assets/img/img-gallery/popup-goa.webp" />
+              </div>
+              <!-- Card 3 -->
+              <div class="" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
                 >
-                  <img
-                    src="../assets/img/img-gallery/img-gallery-7.jpg"
-                    class="img-landscape-populer"
-                    alt="Landscape 2"
-                    data-bs-toggle="modal"
-                    data-bs-target="#modalImageLandscape"
-                    data-title="Sutomo(Bung Tomo)"
-                    data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                    data-image="../assets/img/img-gallery/img-gallery-7.jpg"
-                  />
-                </div>
-                <!-- Card 2 -->
-                <div class="">
-                  <img
-                    src="../assets/img/img-gallery/img-gallery-7.jpg"
-                    class="img-landscape-populer"
-                    alt="Landscape 2"
-                  />
-                </div>
-                <!-- Card 3 -->
-                <div class="">
-                  <img
-                    src="../assets/img/img-gallery/img-gallery-7.jpg"
-                    class="img-landscape-populer"
-                    alt="Landscape 2"
-                  />
-                </div>
-                <div class="">
-                  <img
-                    src="../assets/img/img-gallery/img-gallery-7.jpg"
-                    class="img-landscape-populer"
-                    alt="Landscape 2"
-                  />
-                </div>
-                <!-- video 1-->
-                <!-- <div class="col-md-6 mb-4 mt-2">
-                  <div class="card uk-yt margin-start">
-                    <iframe
-                      class="card-img-top"
-                      src="https://www.youtube.com/embed/UelElSP-pAk"
-                      frameborder="0"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div> -->
-                <!-- video 2 -->
-                <!-- <div class="col-md-6 mb-4 mt-2">
-                  <div class="card uk-yt">
-                    <iframe
-                      class="card-img-top"
-                      src="https://www.youtube.com/embed/cNjKtVwKZqo"
-                      frameborder="0"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div> -->
-                <!-- video 3 -->
-                <!-- <div class="col-md-6 mb-4">
-                  <div class="card uk-yt margin-start">
-                    <iframe
-                      class="card-img-top"
-                      src="https://www.youtube.com/embed/cNjKtVwKZqo"
-                      frameborder="0"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div> -->
-                <!-- video 4 -->
-                <!-- <div class="col-md-6 mb-4">
-                  <div class="card uk-yt">
-                    <iframe
-                      class="card-img-top"
-                      src="https://www.youtube.com/embed/cNjKtVwKZqo"
-                      frameborder="0"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div> -->
+                <img src="../assets/img/img-gallery/maritim.jpg" class="img-landscape-populer" alt="Landscape 2"
+                  data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Sejarah maritim"
+                  data-description="Sejarah maritim adalah kajian tentang aktivitas manusia di laut. Subjeknya mencakup berbagai aspek seperti memancing, perburuan paus, hukum maritim internasional, sejarah angkatan laut, sejarah perkapalan, desain kapal, dan pembuatan kapal. Selain itu, sejarah maritim juga meliputi sejarah navigasi, berbagai ilmu pengetahuan yang berkaitan dengan maritim seperti oseanografi, kartografi, dan hidrografi, serta eksplorasi laut. Aspek lainnya termasuk perdagangan dan ekonomi maritim, pelayaran, sanggraloka pinggir laut, sejarah mercusuar, serta sastra dan seni bertemakan maritim. Tidak kalah penting, sejarah sosial pelaut dan komunitas yang berkaitan dengan laut juga merupakan bagian dari sejarah maritim."
+                  data-image="../assets/img/img-gallery/popup-maritim.jpg" />
+              </div>
+              <!-- Card 4 -->
+              <div class="mb-4" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
+                 >
+                <img src="../assets/img/img-gallery/dakota.jpg" class="img-landscape-populer" alt="Landscape 2"
+                  data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Dakota VT-CLA"
+                  data-description="Dakota VT-CLA adalah sebuah pesawat Douglas DC-3 yang ditembak jatuh oleh P-40 Kittyhawk Belanda pada tanggal 29 Juli 1947 di Dusun Pandeyan, Kelurahan Bangunharjo, Kecamatan Sewon, Kabupaten Bantul dalam perjalanan pulang dari Singapura membawa bantuan obat-obatan dari Palang Merah Malaya menuju pangkalan udara Maguwo."
+                  data-image="../assets/img/img-gallery/popup-dakota.jpg" />
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Terbaru Content -->
-        <div
-          class="tab-pane fade"
-          id="terbaru"
-          role="tabpanel"
-          aria-labelledby="terbaru-tab"
-        >
-          <div class="container mb-4">
-            <!-- lanscape -->
-            <div class="container gallery-container">
-              <div class="card-landscape-terbaru mt-4">
-                <!-- Card 1 -->
-                <div class="">
-                  <img
-                    src="../assets/img/img-gallery/img-gallery-7.jpg"
-                    class="img-landscape-populer"
-                    alt="Landscape 2"
-                  />
-                </div>
-                <!-- Card 2 -->
-                <div class="">
-                  <img
-                    src="../assets/img/img-gallery/img-gallery-7.jpg"
-                    class="img-landscape-populer"
-                    alt="Landscape 2"
-                  />
-                </div>
-                <!-- Card 3 -->
-                <div class="">
-                  <img
-                    src="../assets/img/img-gallery/img-gallery-7.jpg"
-                    class="img-landscape-populer"
-                    alt="Landscape 2"
-                  />
-                </div>
-                <div class="">
-                  <img
-                    src="../assets/img/img-gallery/img-gallery-7.jpg"
-                    class="img-landscape-populer"
-                    alt="Landscape 2"
-                  />
-                </div>
+      <!-- Terbaru Content -->
+      <div class="tab-pane fade" id="terbaru" role="tabpanel" aria-labelledby="terbaru-tab">
+        <div class="container">
+          <!-- lanscape -->
+          <div class="container gallery-container">
+            <div class="card-landscape-terbaru mt-4">
+              <!-- Card 1 -->
+              <div class="mb-2" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
+                 >
+                <img src="../assets/img/img-gallery/djong.jpg" class="img-landscape-populer" alt="Landscape 2"
+                  data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Djong (kapal)"
+                  data-description="Djong (atau jong) adalah kapal layar kuno dari Jawa, digunakan oleh pelaut Jawa, Sunda, dan kemudian oleh pelaut Pegu dan Melayu. Kapal ini awalnya digunakan sebagai kapal penumpang dan kargo, mampu membawa muatan 40 hingga 2000 ton. Pada masa Majapahit, jong sering digunakan untuk transportasi, meski juga berfungsi sebagai kapal perang. Kerajaan seperti Majapahit, Demak, dan Kalinyamat memanfaatkan jong untuk keperluan militer, sementara Kesultanan Mataram menggunakannya lebih banyak untuk perdagangan."
+                  data-image="../assets/img/img-gallery/popup-djong.jpg" />
               </div>
-            </div>
-            <div class="container mt-2">
-              <div class="container-card">
-                <div
-                  class="card card-img"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-id="2"
-                >
-                  <img
-                    src="../assets/img/img-gallery/sudirman.jpg"
-                    class="img-fluid"
-                    alt="Modal Image"
-                    style="width: 15rem"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                    data-title="Jenderal Soedirman"
-                    data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                    data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-                  />
-                </div>
-                <div
-                  class="card card-img"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-id="2"
-                >
-                  <img
-                    src="../assets/img/img-gallery/sudirman.jpg"
-                    class="img-fluid"
-                    alt="Modal Image"
-                    style="width: 15rem"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                    data-title="Jenderal Soedirman"
-                    data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                    data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-                  />
-                </div>
-                <div
-                  class="card card-img"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-id="2"
-                >
-                  <img
-                    src="../assets/img/img-gallery/sudirman.jpg"
-                    class="img-fluid"
-                    alt="Modal Image"
-                    style="width: 15rem"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                    data-title="Jenderal Soedirman"
-                    data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                    data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-                  />
-                </div>
-                <div
-                  class="card card-img"
-                  style="width: 15rem"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  data-id="2"
-                >
-                  <img
-                    src="../assets/img/img-gallery/sudirman.jpg"
-                    class="img-fluid"
-                    alt="Modal Image"
-                    style="width: 15rem"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                    data-title="Jenderal Soedirman"
-                    data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                    data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-                  />
-                </div>
+              <!-- Card 2 -->
+              <div class="mb-2" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
+                 >
+                <img src="../assets/img/img-gallery/sumedang.jpg" class="img-landscape-populer" alt="Landscape 2"
+                  data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Kerajaan Sumedang"
+                  data-description="Kerajaan Sumedang Larang (aksara Sunda: ᮊᮛᮏᮃᮔ᮪ ᮞᮥᮙᮨᮓᮀ ᮜᮛᮀ) adalah salah satu kerajaan Islam di pulau Jawa bagian barat yang berdiri pada tahun 721 M. Meskipun kerajaan ini sudah ada sejak abad ke-8 Masehi, statusnya sebagai negara berdaulat baru tercapai pada abad ke-16 Masehi. Popularitasnya tidak setinggi Kerajaan Demak, Mataram, Banten, atau Cirebon dalam literatur sejarah, tetapi keberadaannya memiliki peranan penting dalam penyebaran agama Islam di kalangan masyarakat Sunda, mirip dengan pengaruh yang dilakukan oleh Kerajaan Cirebon dan Kesultanan Banten."
+                  data-image="../assets/img/img-gallery/sumedang.jpg" />
+              </div>
+              <!-- Card 3 -->
+              <div class="mb-2" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
+                 >
+                <img src="../assets/img/img-gallery/pki.jpg" class="img-landscape-populer" alt="Landscape 2"
+                  data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Pemberontakan PKI 1948"
+                  data-description="Pemberontakan PKI 1948 adalah konflik bersenjata antara pemerintah Republik Indonesia dan kelompok oposisi sayap kiri yaitu Front Demokrasi Rakyat (FDR) selama Revolusi Nasional Indonesia.[4] Front Demokrasi Rakyat terdiri atas Partai Komunis Indonesia, Partai Sosialis, Partai Buruh Indonesia, SOBSI dan Pesindo. Konflik ini dimulai pada tanggal 18 September 1948 di Madiun, Jawa Timur, dan berakhir tiga bulan kemudian ketika sebagian besar pemimpin dan anggota FDR ditahan dan dieksekusi oleh pasukan TNI."
+                  data-image="../assets/img/img-gallery/popup-pki.jpg" />
+              </div>
+              <!-- card 4 -->
+              <div class="mb-4" data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-id="1"
+                 >
+                <img src="../assets/img/img-gallery/mei.jpg" class="img-landscape-populer" alt="Landscape 2"
+                  data-bs-toggle="modal" data-bs-target="#modalImageLandscape" data-title="Djong (kapal)"
+                  data-description="Kerusuhan Mei 1998 adalah peristiwa kerusuhan massa, demonstrasi anti-pemerintah, dan pembangkangan sipil di Indonesia pada bulan Mei 1998. Peristiwa ini terutama terjadi di kota Medan, Jakarta, Bandung dan Surakarta, dengan insiden-insiden kecil di wilayah lain di Indonesia.Kerusuhan tersebut dipicu oleh korupsi, masalah ekonomi, termasuk kekurangan pangan dan pengangguran massal. Kerusuhan ini akhirnya berujung pada pengunduran diri Presiden Soeharto dan jatuhnya pemerintahan Orde Baru yang telah berkuasa selama 32 tahun. Target utama dari kerusuhan tersebut adalah etnis Tionghoa Indonesia, namun sebagian besar korban jiwa disebabkan oleh kebakaran besar dan terjadi di antara para penjarah."
+                  data-image="../assets/img/img-gallery/popup-mei.jpg" />
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Foto Content -->
-        <div
-          class="tab-pane fade"
-          id="foto"
-          role="tabpanel"
-          aria-labelledby="foto-tab"
-        >
-          <div class="container-card">
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="2"
-            >
-              <img
-                src="../assets/img/img-gallery/sudirman.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="1"
-            >
-              <img
-                src="../assets/img/img-gallery/img-gallery-5.jpeg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Pejuang Kemerdekaan"
-                data-description="Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal besar dan politikus Indonesia. Ia berperan penting dalam militer selama Revolusi Nasional Indonesia dan terus aktif dalam militer selama periode demokrasi parlementer dan Demokrasi Terpimpin."
-                data-image="../assets/img/img-gallery/img-gallery-5.jpeg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="3"
-            >
-              <img
-                src="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-nasution.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="4"
-            >
-              <img
-                src="../assets/img/img-gallery/Fatmawati_Soekarno.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Fatmawati"
-                data-description="Fatmawati Soekarno (5 Februari 1923 – 14 Mei 1980) adalah istri ketiga dari Presiden pertama Indonesia, Soekarno, dan Ibu Negara pertama dari tahun 1945 hingga 1967. Ia dikenal atas jasanya dalam menjahit Bendera Pusaka Sang Saka Merah Putih, yang dikibarkan saat Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945. Fatmawati juga merupakan ibu dari presiden kelima Indonesia, Megawati Soekarnoputri."
-                data-image="../assets/img/img-gallery/popup-fatmawati.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
+      <!-- Foto Content -->
+      <div class="tab-pane fade" id="foto" role="tabpanel" aria-labelledby="foto-tab">
+        <div class="container-card">
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="1">
+            <img src="../assets/img/img-gallery/Prof-Moh-Yamin.jpg" class="img-fluid" alt="Modal Image"
+              style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Mohammad Yamin"
+              data-description="Prof. Mr. Mohammad Yamin, S.H. (24 Agustus 1903 – 17 Oktober 1962) adalah seorang sastrawan, sejarawan, budayawan, politikus, dan ahli hukum yang dihormati sebagai pahlawan nasional Indonesia. Ia merupakan salah satu perintis puisi modern Indonesia dan pelopor Sumpah Pemuda. Yamin dikenal sebagai 'pencipta imaji keindonesiaan' yang berpengaruh dalam sejarah persatuan Indonesia. Kontribusinya dalam berbagai bidang telah meninggalkan jejak yang mendalam dalam pembentukan identitas dan persatuan bangsa."
+              data-image="../assets/img/img-gallery/popup-yamin.jpg" />
           </div>
-          <div class="container-card">
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="2"
-            >
-              <img
-                src="../assets/img/img-gallery/sudirman.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="1"
-            >
-              <img
-                src="../assets/img/img-gallery/img-gallery-5.jpeg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Pejuang Kemerdekaan"
-                data-description="Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal besar dan politikus Indonesia. Ia berperan penting dalam militer selama Revolusi Nasional Indonesia dan terus aktif dalam militer selama periode demokrasi parlementer dan Demokrasi Terpimpin."
-                data-image="../assets/img/img-gallery/img-gallery-5.jpeg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="3"
-            >
-              <img
-                src="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-nasution.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="4"
-            >
-              <img
-                src="../assets/img/img-gallery/Fatmawati_Soekarno.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Fatmawati"
-                data-description="Fatmawati Soekarno (5 Februari 1923 – 14 Mei 1980) adalah istri ketiga dari Presiden pertama Indonesia, Soekarno, dan Ibu Negara pertama dari tahun 1945 hingga 1967. Ia dikenal atas jasanya dalam menjahit Bendera Pusaka Sang Saka Merah Putih, yang dikibarkan saat Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945. Fatmawati juga merupakan ibu dari presiden kelima Indonesia, Megawati Soekarnoputri."
-                data-image="../assets/img/img-gallery/popup-fatmawati.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="1">
+            <img src="../assets/img/img-gallery/darso.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Pejuang Kemerdekaan"
+              data-description="Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal besar dan politikus Indonesia. Ia berperan penting dalam militer selama Revolusi Nasional Indonesia dan terus aktif dalam militer selama periode demokrasi parlementer dan Demokrasi Terpimpin."
+              data-image="../assets/img/img-gallery/darso.jpg" />
           </div>
-          <div class="container-card">
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="2"
-            >
-              <img
-                src="../assets/img/img-gallery/sudirman.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="1"
-            >
-              <img
-                src="../assets/img/img-gallery/img-gallery-5.jpeg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Pejuang Kemerdekaan"
-                data-description="Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal besar dan politikus Indonesia. Ia berperan penting dalam militer selama Revolusi Nasional Indonesia dan terus aktif dalam militer selama periode demokrasi parlementer dan Demokrasi Terpimpin."
-                data-image="../assets/img/img-gallery/img-gallery-5.jpeg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="3"
-            >
-              <img
-                src="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-nasution.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="4"
-            >
-              <img
-                src="../assets/img/img-gallery/Fatmawati_Soekarno.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Fatmawati"
-                data-description="Fatmawati Soekarno (5 Februari 1923 – 14 Mei 1980) adalah istri ketiga dari Presiden pertama Indonesia, Soekarno, dan Ibu Negara pertama dari tahun 1945 hingga 1967. Ia dikenal atas jasanya dalam menjahit Bendera Pusaka Sang Saka Merah Putih, yang dikibarkan saat Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945. Fatmawati juga merupakan ibu dari presiden kelima Indonesia, Megawati Soekarnoputri."
-                data-image="../assets/img/img-gallery/popup-fatmawati.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="3">
+            <img src="../assets/img/img-gallery/natsir.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Mohammad Natsir"
+              data-description="Dr. (H.C.) H. Mohammad Natsir adalah seorang ulama, politikus, dan pejuang kemerdekaan Indonesia. Ia merupakan pendiri sekaligus pemimpin partai politik Masyumi, dan tokoh Islam terkemuka Indonesia. Di dalam negeri, ia pernah menjabat menteri dan Perdana Menteri Indonesia, sedangkan di kancah internasional, ia pernah menjabat sebagai presiden Liga Muslim Dunia (World Muslim League) dan ketua Dewan Masjid se-Dunia. "
+              data-image="../assets/img/img-gallery/natsir.jpg" />
           </div>
-          <div class="container-card">
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="2"
-            >
-              <img
-                src="../assets/img/img-gallery/sudirman.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="1"
-            >
-              <img
-                src="../assets/img/img-gallery/img-gallery-5.jpeg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Pejuang Kemerdekaan"
-                data-description="Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal besar dan politikus Indonesia. Ia berperan penting dalam militer selama Revolusi Nasional Indonesia dan terus aktif dalam militer selama periode demokrasi parlementer dan Demokrasi Terpimpin."
-                data-image="../assets/img/img-gallery/img-gallery-5.jpeg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="3"
-            >
-              <img
-                src="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-nasution.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="4"
-            >
-              <img
-                src="../assets/img/img-gallery/Fatmawati_Soekarno.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Fatmawati"
-                data-description="Fatmawati Soekarno (5 Februari 1923 – 14 Mei 1980) adalah istri ketiga dari Presiden pertama Indonesia, Soekarno, dan Ibu Negara pertama dari tahun 1945 hingga 1967. Ia dikenal atas jasanya dalam menjahit Bendera Pusaka Sang Saka Merah Putih, yang dikibarkan saat Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945. Fatmawati juga merupakan ibu dari presiden kelima Indonesia, Megawati Soekarnoputri."
-                data-image="../assets/img/img-gallery/popup-fatmawati.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="4">
+            <img src="../assets/img/img-gallery/Fatmawati_Soekarno.jpg" class="img-fluid" alt="Modal Image"
+              style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Fatmawati"
+              data-description="Fatmawati Soekarno (5 Februari 1923 – 14 Mei 1980) adalah istri ketiga dari Presiden pertama Indonesia, Soekarno, dan Ibu Negara pertama dari tahun 1945 hingga 1967. Ia dikenal atas jasanya dalam menjahit Bendera Pusaka Sang Saka Merah Putih, yang dikibarkan saat Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945. Fatmawati juga merupakan ibu dari presiden kelima Indonesia, Megawati Soekarnoputri."
+              data-image="../assets/img/img-gallery/popup-fatmawati.jpg" />
           </div>
-          <div class="container-card">
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="2"
-            >
-              <img
-                src="../assets/img/img-gallery/sudirman.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-sudirman.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="1"
-            >
-              <img
-                src="../assets/img/img-gallery/img-gallery-5.jpeg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Pejuang Kemerdekaan"
-                data-description="Abdul Haris Nasution (3 Desember 1918 – 6 September 2000) adalah seorang jenderal besar dan politikus Indonesia. Ia berperan penting dalam militer selama Revolusi Nasional Indonesia dan terus aktif dalam militer selama periode demokrasi parlementer dan Demokrasi Terpimpin."
-                data-image="../assets/img/img-gallery/img-gallery-5.jpeg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="3"
-            >
-              <img
-                src="../assets/img/img-gallery/Abdul_Haris_Nasution.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Jenderal Soedirman"
-                data-description="Jenderal Sudirman adalah putra dari pasangan Karsid Kartawiraji dan Siyem yang lahir pada tanggal 24 Januari 1916 di Bodas Karangjati, Rembang, Purbalingga. Ia lahir dirumah saudara Ibunya yang bernama Tarsem. Tarsem merupakan Istri dari Raden Cokrosunaryo yang merupakan paman dari Jenderal Sudirman. Nama Soedirman merupakan nama yang diberikan oleh pamannya."
-                data-image="../assets/img/img-gallery/popup-nasution.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="4"
-            >
-              <img
-                src="../assets/img/img-gallery/Fatmawati_Soekarno.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Fatmawati"
-                data-description="Fatmawati Soekarno (5 Februari 1923 – 14 Mei 1980) adalah istri ketiga dari Presiden pertama Indonesia, Soekarno, dan Ibu Negara pertama dari tahun 1945 hingga 1967. Ia dikenal atas jasanya dalam menjahit Bendera Pusaka Sang Saka Merah Putih, yang dikibarkan saat Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945. Fatmawati juga merupakan ibu dari presiden kelima Indonesia, Megawati Soekarnoputri."
-                data-image="../assets/img/img-gallery/popup-fatmawati.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
-            <div
-              class="card card-img"
-              style="width: 15rem"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              data-id="5"
-            >
-              <img
-                src="../assets/img/img-gallery/Bung_Tomo.jpg"
-                class="img-fluid"
-                alt="Modal Image"
-                style="width: 15rem"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-                data-title="Sutomo
-              (Bung Tomo)"
-                data-description="Sutomo dilahirkan di Kampung Blauran, Surabaya. Ayahnya bernama Kartawan Tjiptowidjojo, priyayi golongan menengah yang pernah bekerja sebagai pegawai pemerintah, staf perusahaan swasta, asisten kantor pajak, hingga pegawai perusahan ekspor-impor Belanda. Kartawan mengaku mempunyai pertalian darah dengan beberapa pengikut dekat Pangeran Diponegoro. "
-                data-image="../assets/img/img-gallery/popup-tomo.jpg"
-              />
-            </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="5" >
+            <img src="../assets/img/img-gallery/Mas-Agustinus-Adisoetjipto.jpg" class="img-fluid" alt="Modal Image"
+              style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-title="Agustinus Adisoetjipto"
+              data-description="Komodor Muda Udara (Anumerta) dr. Agustinus Adisoetjipto adalah seorang pahlawan nasional beragama Katolik Roma dan seorang komodor udara Indonesia. Ia merupakan Bapak Penerbang Indonesia."
+              data-image="../assets/img/img-gallery/Mas-Agustinus-Adisoetjipto.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="5">
+            <img src="../assets/img/img-gallery/amir.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Mohammad Amir"
+              data-description="dr. Mohammad Amir merupakan politikus dan menjabat sebagai menteri di Indonesia. Dia menjabat sebagi menteri negara pada Kabinet Presidensial pada tahun 1945. Ia juga menjadi Wakil Gubernur Sumatera mendampingi Teuku Mohammad Hasan pada Desember 1945."
+              data-image="../assets/img/img-gallery/amir.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="5">
+            <img src="../assets/img/img-gallery/antasari.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Pangeran Antasari"
+              data-description="Pangeran Antasari (lahir di Kayu Tangi, Kesultanan Banjar, 1797 atau 1809 – meninggal di Bayan Begok, Hindia Belanda, 11 Oktober 1862 pada usia 53 tahun) adalah seorang pemimpin dan tokoh penting dalam Perang Banjar. Sebagai Sultan Banjar, pada 14 Maret 1862, ia dinobatkan sebagai pimpinan tertinggi di Kesultanan Banjar dengan gelar Panembahan Amiruddin Khalifatul Mukminin di hadapan para kepala suku Dayak dan adipati (gubernur) yang menguasai wilayah Dusun Atas, Kapuas, dan Kahayan, termasuk Tumenggung Surapati atau Tumenggung Yang Pati Jaya Raja."
+              data-image="../assets/img/img-gallery/popup-antasari.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="5">
+            <img src="../assets/img/img-gallery/nyak.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Cut Nyak Dhien"
+              data-description="Cut Nyak Dhien adalah seorang Pahlawan Nasional Indonesia dari Aceh yang berjuang melawan Belanda pada masa Perang Aceh. Setelah wilayah VI Mukim diserang, ia mengungsi, sementara suaminya Ibrahim Lamnga bertempur melawan Belanda."
+              data-image="../assets/img/img-gallery/nyak.jpg" />
           </div>
         </div>
+        <div class="container-card">
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="2">
+            <img src="../assets/img/img-gallery/urip.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Oerip Soemohardjo"
+              data-description="Jenderal TNI (Anumerta) Raden Oerip Soemohardjo adalah seorang jenderal dan kepala staf umum Tentara Nasional Indonesia pertama pada masa Revolusi Nasional Indonesia. Lahir di Purworejo, Hindia Belanda, Oerip kecil adalah anak nakal yang sudah memperlihatkan kemampuan memimpin."
+              data-image="../assets/img/img-gallery/popup-urip.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="1">
+            <img src="../assets/img/img-gallery/barjo.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Achmad Soebardjo"
+              data-description="Mr Raden Achmad Soebardjo Djojoadisoerjo (23 Maret 1896 – 15 Desember 1978) adalah tokoh pejuang kemerdekaan Indonesia, diplomat, dan seorang Pahlawan Nasional Indonesia. Ia adalah Menteri Luar Negeri Indonesia yang pertama. Achmad Soebardjo memiliki gelar Meester in de Rechten, yang diperoleh di Universitas Leiden Belanda pada tahun 1933. "
+              data-image="../assets/img/img-gallery/popup-barjo.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="3">
+            <img src="../assets/img/img-gallery/kartini.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-title="Raden Ayu Adipati Kartini Djojoadhiningrat "
+              data-description="Raden Ayu Adipati Kartini Djojoadhiningrat (21 April 1879 – 17 September 1904), yang lebih dikenal dengan gelarnya sebelum menikah, Raden Ajeng Kartini, adalah seorang tokoh Jawa dan Pahlawan Nasional Indonesia. Kartini dikenal sebagai pejuang untuk kemerdekaan dan hak-hak kaum perempuan, khususnya perempuan Jawa pada masanya. Ia memperjuangkan kesetaraan dan pendidikan bagi kaum perempuan, yang kemudian menjadi inspirasi bagi gerakan emansipasi di Indonesia. Menariknya, Kartini memiliki tanggal lahir yang sama dengan dr. Radjiman Wedyodiningrat, yaitu 21 April 1879."
+              data-image="../assets/img/img-gallery/popup-kartini.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="4">
+            <img src="../assets/img/img-gallery/sutomo.webp" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Soetomo"
+              data-description="dr. Soetomo (30 Juli 1888 – 30 Mei 1938), yang lahir dengan nama Soebroto, adalah pendiri Budi Utomo, organisasi pergerakan pertama di Indonesia. Ia menempuh pendidikan kedokteran di STOVIA dan mendirikan Budi Utomo pada tahun 1908 bersama rekan-rekannya. Setelah lulus, ia bekerja sebagai dokter di Jawa dan Sumatra, serta melanjutkan studi di Universitas Amsterdam. Sekembalinya ke Indonesia, Soetomo mendirikan Indonesian Study Club pada 1924, yang kemudian menjadi Partai Bangsa Indonesia dan berkembang menjadi Parindra pada tahun 1935."
+              data-image="../assets/img/img-gallery/popup-sutomo.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="5">
+            <img src="../assets/img/img-gallery/supomo.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Soepomo"
+              data-description="Prof. Dr. Mr. Soepomo (Ejaan Soewandi: Supomo; 22 Januari 1903 – 12 September 1958) adalah seorang politikus dan pengacara Indonesia yang menjabat sebagai Menteri Kehakiman pertama dari Agustus hingga November 1945, dan kembali menjabat dari Desember 1949 hingga 6 September 1950. Dikenal sebagai Bapak Konstitusi Indonesia, ia secara anumerta dinyatakan sebagai Pahlawan Nasional Indonesia oleh Presiden Soekarno pada tahun 1965. Soepomo dikenal sebagai salah satu perancang Undang-Undang Dasar 1945, bersama dengan Muhammad Yamin dan Soekarno."
+              data-image="../assets/img/img-gallery/popup-supomo.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="5">
+            <img src="../assets/img/img-gallery/darsono.jpeg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Darsono"
+              data-description="Raden Darsono Notosudirdjo (1 Desember 1897 – 31 Desember 1976) adalah seorang politikus Indonesia dan salah satu pendiri awal Partai Komunis Indonesia (PKI) pada tahun 1920. Sebelumnya, ia bekerja sebagai wartawan dan penulis artikel yang mengkritik pemerintahan kolonial Belanda. Darsono berperan penting dalam hubungan antara PKI dan Partai Komunis Belanda. Namun, setelah pemberontakan PKI tahun 1926, ia menghilang dari dunia politik Indonesia."
+              data-image="../assets/img/img-gallery/popup-darsono.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="5">
+            <img src="../assets/img/img-gallery/semaun.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Semaoen"
+              data-description="Semaoen (EYD: Semaun; 1899 – 7 April 1971) adalah Ketua Umum Pertama Partai Komunis Indonesia (PKI). Ia lahir dari keluarga sederhana, anak dari Prawiroatmodjo, seorang tukang batu yang bekerja di jawatan kereta api. Meskipun bukan berasal dari keluarga kaya atau priyayi, Semaoen berhasil bersekolah di Tweede Klas, sekolah bumiputra kelas dua, dan mengikuti kursus tambahan bahasa Belanda. Setelah menyelesaikan pendidikan dasarnya, ia tidak dapat melanjutkan ke jenjang pendidikan yang lebih tinggi, sehingga memilih bekerja di Staatsspoor (SS) Surabaya sebagai juru tulis (klerk) kecil."
+              data-image="../assets/img/img-gallery/popup-semaun.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="5">
+            <img src="../assets/img/img-gallery/aidit.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="D.N. Aidit"
+              data-description="Dipa Nusantara Aidit (30 Juli 1923 – 22 November 1965) adalah seorang politikus komunis Indonesia yang menjabat sebagai Sekretaris Jenderal Partai Komunis Indonesia (PKI) dari tahun 1951 hingga eksekusi kilatnya dalam peristiwa pembantaian di Indonesia pada 1965-1966. Lahir dengan nama Achmad Aidit di Pulau Belitung, ia akrab dipanggil 'Amat' dan mendapatkan pendidikan melalui sistem kolonial Belanda."
+              data-image="../assets/img/img-gallery/popup-aidit.jpg" />
+          </div>
+        </div>
+        <div class="container-card">
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="2">
+            <img src="../assets/img/img-gallery/hasan.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Sultan Hasanuddin"
+              data-description="Sultan Hasanuddin (12 Januari 1631 – 12 Juni 1670), dijuluki 'Ayam Jantan dari Timur' oleh Belanda, adalah Sultan Gowa ke-16 dan Pahlawan Nasional Indonesia. Terlahir dengan nama Muhammad Bakir I Mallombasi Daeng Mattawang Karaeng Bonto Mangape, ia mengambil gelar Sultan Hasanuddin setelah menaiki takhta. Setelah wafat, ia diberi gelar Tumenanga Ri Balla Pangkana. Karena keberaniannya melawan Belanda, ia dijuluki De Haantjes van Het Oosten yang berarti 'Ayam Jantan dari Timur.' Sultan Hasanuddin dimakamkan di Katangka, Kabupaten Gowa, dan diangkat sebagai Pahlawan Nasional melalui Keputusan Presiden No. 087/TK/1973 pada 6 November 1973."
+              data-image="../assets/img/img-gallery/popup-hasan.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="1">
+            <img src="../assets/img/img-gallery/nazir.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Mohammad Nazir"
+              data-description="Laksamana Muda TNI (Purn.) Mohammad Nazir Isa, gelar Datuk Basa Nan Balimo (10 Juli 1910 – 30 Agustus 1982), adalah seorang tokoh militer, menteri, dan diplomat Indonesia. Ia pernah menjabat sebagai Kepala Staf TNI Angkatan Laut (1946–1948) dan Menteri Pelayaran Republik Indonesia (1957–1959). Selain itu, ia juga dipercaya sebagai Duta Besar RI di Swiss dan Vatikan. Namanya kini diabadikan sebagai nama jalan di depan markas Pangkalan Utama TNI Angkatan Laut V."
+              data-image="../assets/img/img-gallery/nazir.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="3">
+            <img src="../assets/img/img-gallery/husen.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Ahmad Husein"
+              data-description="Kolonel (Purn.) Ahmad Husein (1 April 1925 – 28 November 1998) adalah seorang pejuang kemerdekaan Indonesia dan pemimpin militer Pemerintahan Revolusioner Republik Indonesia (PRRI). Pada 15 Februari 1958, di Padang, ia membentuk PRRI dengan Syafruddin Prawiranegara sebagai Perdana Menteri. PRRI bertujuan untuk mengoreksi pemerintahan otoriter Soekarno yang dianggap inkonstitusional dan mengabaikan pembangunan serta kesejahteraan daerah. Tindakan ini memicu aksi militer dari pemerintah pusat di Jakarta, yang akhirnya menyebabkan perang saudara di Sumatera Barat."
+              data-image="../assets/img/img-gallery/husen.jpg" />
+          </div>
+          <div class="card card-img" style="width: 15rem" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-id="4">
+            <img src="../assets/img/img-gallery/toha.jpg" class="img-fluid" alt="Modal Image" style="width: 15rem"
+              data-bs-toggle="modal" data-bs-target="#exampleModal" data-title="Mohammad Toha"
+              data-description="Mohammad Toha (Bandung, 1927 – Bandung, 11 Juli 1946) adalah seorang komandan Barisan Rakjat Indonesia, sebuah kelompok milisi pejuang yang aktif selama Perang Kemerdekaan Indonesia. Toha gugur dalam misi penghancuran gudang amunisi milik Tentara Sekutu. Ia dan rekannya meledakkan dinamit di gudang amunisi tersebut, yang menyebabkan kebakaran besar dan mengorbankan nyawanya."
+              data-image="../assets/img/img-gallery/toha.jpg" />
+          </div>
+        </div>
+      </div>
 
-        <!-- Video Content -->
-        <div
-          class="tab-pane fade"
-          id="video"
-          role="tabpanel"
-          aria-labelledby="video-tab"
-        >
-          <div class="container mt-4">
-            <div class="row row-cols-auto">
-              <div class="col-md-6 mb-4">
-                <div class="card">
-                  <iframe
-                    class="card-img-top"
-                    width="100%"
-                    height="300"
-                    src="https://youtu.be/cNjKtVwKZqo?si=DtH0XOe13FiL4Q4G"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+      <!-- Video Content -->
+      <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+        <div class="container mt-4">
+          <div class="row row-cols-auto">
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300"
+                  src="https://youtu.be/cNjKtVwKZqo?si=DtH0XOe13FiL4Q4G" frameborder="0" allowfullscreen></iframe>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card">
-                  <iframe
-                    class="card-img-top"
-                    width="100%"
-                    height="300"
-                    src="https://www.youtube.com/embed/your-video-id"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card">
-                  <iframe
-                    class="card-img-top"
-                    width="100%"
-                    height="300"
-                    src="https://www.youtube.com/embed/your-video-id"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card">
-                  <iframe
-                    class="card-img-top"
-                    width="100%"
-                    height="300"
-                    src="https://www.youtube.com/embed/your-video-id"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card">
-                  <iframe
-                    class="card-img-top"
-                    width="100%"
-                    height="300"
-                    src="https://www.youtube.com/embed/your-video-id"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card">
-                  <iframe
-                    class="card-img-top"
-                    width="100%"
-                    height="300"
-                    src="https://www.youtube.com/embed/your-video-id"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card">
-                  <iframe
-                    class="card-img-top"
-                    width="100%"
-                    height="300"
-                    src="https://www.youtube.com/embed/your-video-id"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
               </div>
-              <div class="col-md-6 mb-4">
-                <div class="card">
-                  <iframe
-                    class="card-img-top"
-                    width="100%"
-                    height="300"
-                    src="https://www.youtube.com/embed/your-video-id"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <iframe class="card-img-top" width="100%" height="300" src="https://www.youtube.com/embed/your-video-id"
+                  frameborder="0" allowfullscreen></iframe>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Content Section -->
+  </div>
+  <!-- End Content Section -->
 
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" style="max-width: 800px">
-        <div class="modal-content">
-          <div class="modal-body d-flex">
-            <button
-              type="button"
-              class="close-btn"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              <img src="../assets/icon/close.svg" alt="" />
-            </button>
-            <div class="row">
-              <div
-                class="modal-left col-md-4 col-lg-3 d-flex justify-content-center"
-              >
-                <img
-                  id="modalImage"
-                  src=""
-                  class="img-fluid"
-                  alt="Modal Image"
-                />
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 800px">
+      <div class="modal-content">
+        <div class="modal-body d-flex">
+          <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+            <img src="../assets/icon/close.svg" alt="" />
+          </button>
+          <div class="row">
+            <div class="modal-left col-md-4 col-lg-3 d-flex justify-content-center">
+              <img id="modalImage" src="" class="img-fluid" alt="Modal Image" />
+            </div>
+            <div id="modalDescription" class="col-md-7 col-lg-8 mx-1">
+              <div class="c-badges start-0 mt-2 ms-3">
+                <span class="badge text-bg-light">Profil Tokoh</span>
               </div>
-              <div id="modalDescription" class="col-md-7 col-lg-8 mx-1">
-                <div class="button-header mb-4">
-                  <span class="badge text-bg-light">Profil Tokoh</span>
-                </div>
-                <h5
-                  class="modal-title text-center pb-2"
-                  id="exampleModalLabel"
-                ></h5>
-                <p></p>
-              </div>
+              <h5 class="modal-title text-center pb-2" id="exampleModalLabel"></h5>
+              <p></p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- modals landscape -->
-    <div
-      class="modal fade"
-      id="modalImageLandscape"
-      tabindex="-1"
-      aria-labelledby="modalImageLandscape"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" style="max-width: 840px">
-        <div class="modal-content">
-          <div class="modal-body d-flex">
-            <button
-              type="button"
-              class="close-btn"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              <img src="../assets/icon/close.svg" alt="" />
-            </button>
-            <div class="row">
-              <div
-                class="modal-left col-md-4 col-lg-5 d-flex justify-content-center"
-              >
-                <img
-                  id="modalImage_landscape"
-                  src=""
-                  class="img-fluid"
-                  alt="Landscape 2"
-                />
-              </div>
-              <div
-                id="modalDescriptionLandscape"
-                class="col-md-4 col-lg-7 mx-1"
-              >
-                <div class="button-header mb-4">
-                  <span class="badge text-bg-light">Dokumentasi Sejarah</span>
-                </div>
-                <h5
-                  class="modal-title text-center pb-2"
-                  id="modalImageLandscape"
-                ></h5>
-                <p></p>
-              </div>
+  <!-- modals landscape -->
+  <div class="modal fade" id="modalImageLandscape" tabindex="-1" aria-labelledby="modalImageLandscape"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 840px">
+      <div class="modal-content">
+        <div class="modal-body d-flex">
+          <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+            <img src="../assets/icon/close.svg" alt="" />
+          </button>
+          <div class="row">
+            <div class="button-header mb-4">
+              <span class="badge text-bg-light">Dokumentasi Sejarah</span>
+            </div>
+            <div class="modal-left col-md-4 col-lg-5 d-flex justify-content-center align-items-center">
+              <img id="modalImage_landscape" src="" class="img-fluid" alt="Landscape 2" />
+            </div>
+            <div id="modalDescriptionLandscape" class="col-md-4 col-lg-7 mx-1">
+              <h5 class="modal-title text-center pb-2" id="modalImageLandscape"></h5>
+              <p></p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Modal -->
+  </div>
+  <!-- End Modal -->
 
-    <!-- footer -->
-    <!-- <footer class="footer">
-        <div class="bg-footer">
-          <img src="../assets/img/peta_footer.png" alt="" />
+  <!-- footer -->
+  <footer class="footer">
+    <div class="bg-footer">
+      <img src="../assets/img/peta_footer.png" alt="" />
+    </div>
+    <div class="container_footer">
+      <div class="header_footer">
+        <h2 class="text-white">HISTORA</h2>
+        <p class="text-white">Mempertemukan Masa Lalu dan Masa Kini</p>
+      </div>
+      <div class="body_footer">
+        <div class="isi_footer_1">
+          <img src="../assets/icon/icon-telp.png" class="p-2" alt="" />
+          0878-1284-5006
         </div>
-        <div class="container_footer">
-          <div class="header_footer">
-            <h2 class="text-white">HISTORA</h2>
-            <p class="text-white">Mempertemukan Masa Lalu dan Masa Kini</p>
-          </div>
-          <div class="body_footer">
-            <div class="isi_footer_1">
-              <img src="../assets/icon/icon-telp.png" class="p-2" alt="" />
-              0878-1284-5006
-            </div>
-            <div class="isi_footer_1">
-              <img src="../assets/icon/icon-message.png" class="p-2" alt="" />
-              itclubsmk5bdg@gmail.com
-            </div>
-          </div>
-          <div class="footer_footer">
-            <p class="text-white">© copyright 2024 Histora.itclub5.my.id</p>
-          </div>
+        <div class="isi_footer_1">
+          <img src="../assets/icon/icon-message.png" class="p-2" alt="" />
+          itclubsmk5bdg@gmail.com
         </div>
-      </footer> -->
-    <!-- end footer -->
+      </div>
+      <div class="footer_footer">
+        <p class="text-white">© copyright 2024 Histora.itclub5.my.id</p>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../assets/js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="../assets/js/index.js"></script>
 
-    <!-- Navbar -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  </body>
+ 
+
+  <!-- Navbar -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
 </html>

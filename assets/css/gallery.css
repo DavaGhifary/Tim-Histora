@@ -2,6 +2,16 @@
   opacity: 0.8;
 }
 
+.galleryCarousel{
+  
+}
+
+.carousel-indicators button{
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+}
+
 .gallery-section {
   width: 100%;
   max-width: 1717px;
@@ -86,6 +96,7 @@
   width: 490px;
   height: 230px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .card-video {
   width: 50px;
@@ -102,7 +113,6 @@
   border: none !important;
 }
 #modalImage {
-  border-radius: 10px !important;
   width: 600px;
   height: auto;
 }
@@ -125,12 +135,12 @@
 }
 
 #modalDescriptionLandscape {
-  width: 20rem;
+  width: 28rem;
   color: #ffffff;
   text-align: justify;
 }
 #modalDescriptionLandscape p {
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .button-header {
@@ -145,15 +155,15 @@
   position: absolute;
   right: 20px;
 }
-.uk-yt {
+/* .uk-yt {
   width: 474px;
   height: 300px;
 }
 .margin-start {
   margin-left: 47px;
-}
+} */
 
-@media only screen and (max-width: 4300px) {
+@media only screen and (max-width: 430px) {
   #modalImage {
     border-radius: 10px !important;
     width: 260px;
@@ -173,8 +183,9 @@
 
 @media only screen and (min-width: 500px) and (max-width: 800px) {
   #modalImage {
-    border-radius: 10px !important;
+    /* border-radius: 10px !important; */
     width: 300px;
+    padding-top: 2rem;
   }
   #modalDescription {
     width: 29rem;
@@ -190,10 +201,19 @@
   .modal-body {
     background-color: #161616;
     flex-wrap: wrap;
+    position: relative;
   }
-  .button-header {
-    margin-top: 1rem;
+  .c-badges {
+    font-size: 1rem;
+    top: 5px;
+    position: absolute;
+    left: 100px;
   }
+
+  /* .badge{
+    position: absolute;
+    top: 20px;
+  } */
 
   #modalImage_landscape {
     border-radius: 10px !important;
@@ -215,5 +235,8 @@
   }
   #modalDescriptionLandscape p {
     font-size: 14px;
+  }
+  .c-badges{
+    position: absolute;
   }
 }

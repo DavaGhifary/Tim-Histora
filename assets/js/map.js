@@ -1,4 +1,4 @@
-// Initialize the map
+// Inisialisasi peta
 var map = L.map("map").setView([3, 100], 4);
 var bounds = [
   [-11, 94],
@@ -8,90 +8,95 @@ map.setMaxBounds(bounds);
 map.on("drag", function () {
   map.panInsideBounds(bounds, { animate: false });
 });
-
+// Atur tiles dari OpenStreetMap
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution:
-    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  attribution: "&copy; OpenStreetMap contributors",
 }).addTo(map);
 
-var iconGempa = L.divIcon({
-  html: '<img src="../assets/icon/Vector-lokasi.png" style="width:25px;"/>',
-  className: "wave-div-icon",
-  iconSize: [20, 20],
-  iconAnchor: [10, 10],
-});
+// Custom icons untuk marker
+const icons = {
+  icon1: L.icon({
+    iconUrl: "../assets/icon/time.png", // URL icon pertama
+    iconSize: [30, 34], // Ukuran icon (lebar, tinggi)
+  }),
+};
 
-var markers = [];
+// Array untuk menyimpan semua marker yang ditambahkan ke peta
+let markers = [];
 
-// Function to load map data
-function loadMapData(jsonFile) {
-  console.log("Fetching data from:", "../assets/json/" + jsonFile);
-  fetch("../assets/json/" + jsonFile)
-    .then((res) => {
-      if (!res.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return res.json();
-    })
-    .then((data) => {
-      console.log("Data loaded:", data);
-
-      // Remove existing markers
-      markers.forEach((marker) => map.removeLayer(marker));
-      markers = [];
-
-      // Add new markers
-      data.forEach((event) => {
-        if (event.koordinat && event.koordinat.length > 0) {
-          var marker = L.marker(event.koordinat, { icon: iconGempa })
-            .addTo(map)
-            .on("click", function () {
-              document.getElementById("popup").style.display = "block";
-              document.querySelector(".popup_header .text_tahun").innerText =
-                event.tahun;
-              document.querySelector(".popup_body .popup_text h2").innerText =
-                event.judul;
-              document.querySelector(".popup_body .popup_desc").innerText =
-                event.deskripsi;
-              document.querySelector(".popup_body .popup_img img").src =
-                event.image;
-            });
-          markers.push(marker);
-        }
-      });
-    })
-    .catch((error) => console.error("Ada masalah saat mengambil data:", error));
+// Fungsi untuk menghapus semua marker dari peta
+function clearMarkers() {
+  markers.forEach((marker) => {
+    map.removeLayer(marker); // Hapus marker dari peta
+  });
+  markers = []; // Kosongkan array markers
 }
 
-// Update the button click handlers
-let buttons = document.querySelectorAll(".group-button button"); // Change 'const' to 'let'
+// Fungsi untuk menambahkan titik koordinat ke peta dengan custom icon
+function addPointsToMap(points, icon) {
+  clearMarkers(); // Hapus marker sebelumnya sebelum menambahkan yang baru
+  points.forEach((point) => {
+    if (point.koordinat && point.koordinat.length === 2) {
+      // Validasi apakah koordinat ada dan valid
+      const [lat, lng] = point.koordinat; // Pecah koordinat jadi lat dan lng
+      const marker = L.marker([lat, lng], { icon: icon }).addTo(map);
 
-buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    // Remove active classes from all buttons
-    buttons.forEach((btn) => {
-      btn.querySelector(".tahun").classList.remove("tahun-active");
-      btn.querySelector(".line").classList.remove("line-active");
-    });
+      // Event listener untuk marker
+      marker.on("click", () => {
+        showPopup(point); // Tampilkan popup dengan data saat marker diklik
+      });
 
-    // Add active classes to the clicked button
-    button.querySelector(".tahun").classList.add("tahun-active");
-    button.querySelector(".line").classList.add("line-active");
-
-    // Retrieve the data-key from the clicked button
-    const jsonFile = button.getAttribute("data-key");
-    console.log("Loading data from:", jsonFile);
-    if (jsonFile) {
-      loadMapData(jsonFile); // Load new data based on the button's data-key
+      markers.push(marker); // Tambahkan marker ke array markers
     } else {
-      console.error("No data-key found on the button");
+      console.error("Invalid point data:", point); // Log kesalahan jika data tidak valid
     }
   });
+}
+
+// Fungsi untuk mengambil data JSON dan menambahkan marker ke peta
+function loadJsonData(url, icon = icons.icon1) {
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
+      addPointsToMap(data, icon);
+    })
+    .catch((error) => console.error("Error loading JSON data:", error));
+}
+
+// Fungsi utama untuk menangani semua tombol
+function handleButtonClick(event) {
+  const jsonUrl = event.target.getAttribute("data-json"); // Ambil URL JSON dari atribut data-json
+  const iconType = event.target.getAttribute("data-icon"); // Ambil jenis icon dari atribut data-icon
+  const icon = icons[iconType]; // Pilih ikon berdasarkan jenis
+
+  if (jsonUrl && icon) {
+    loadJsonData(jsonUrl, icon); // Panggil fungsi untuk memuat data JSON dan menambahkan marker ke peta
+  }
+}
+
+// Event listener untuk semua tombol dengan class loadPointsBtn
+document.querySelectorAll(".loadPointsBtn").forEach((button) => {
+  button.addEventListener("click", handleButtonClick);
 });
 
+// Memuat data JSON default ketika halaman pertama kali dimuat
+document.addEventListener("DOMContentLoaded", () => {
+  loadJsonData("../assets/json/1740-1850.json", icons.icon1); // Panggil fungsi untuk memuat data default
+});
 
-// Popup close event listener
+// Fungsi untuk menampilkan popup dengan data dari JSON
+function showPopup(data) {
+  console.log("Popup data:", data);
+  // Isi elemen-elemen popup dengan data dari JSON
+  document.querySelector(".text_tahun").textContent = data.tahun;
+  document.querySelector(".popup_text h2").textContent = data.judul;
+  document.querySelector(".popup_desc").textContent = data.deskripsi;
+  document.querySelector(".popup_img img").src = data.image; // Path image dari JSON
+
+  // Tampilkan popup
+  document.querySelector(".popup").style.display = "block";
+}
 document.querySelector(".popup_close").addEventListener("click", (e) => {
-  e.preventDefault(); // Prevent default anchor behavior
+  e.preventDefault();
   document.getElementById("popup").style.display = "none";
 });

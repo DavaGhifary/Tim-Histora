@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Histora</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /> -->
+
+  <!-- aos animasi -->
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-
-     <!-- Leaflet CSS -->
-     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    
 
   <!-- css -->
   <link rel="stylesheet" href="./assets/css/index.css" />
   <link rel="stylesheet" href="./assets/css/navbar.css" />
   <link rel="stylesheet" href="./assets/css/footer.css" />
+  <link rel="stylesheet" href="./assets/css/map.css">
 
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,6 +28,18 @@
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet" />
 </head>
+<style>
+  @media only screen and (max-width: 500px) {
+    .teks_gambar_highlight.show {
+      animation: none;
+    }
+
+    .gambar_highlight_2.show {
+      animation: none;
+    }
+  }
+</style>
+
 <body>
   <!-- homepage -->
   <header id="header">
@@ -31,13 +48,13 @@
         <a class="navbar-brand text-color fs-6" href="#">HISTORA</a>
         <button class="navbar-toggler background-color-toggle ButtonNavbar" type="button" data-toggle="collapse"
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+          aria-label="Toggle navigation"><img src="../assets/icon/bars-solid.svg" width="20" alt="" />
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto mx-auto gap-2">
             <li class="nav-item">
-              <a class="nav-link text-link fs-6 active" aria-current="page" href="#">BERANDA</a>
+              <a class="nav-link text-link fs-6 activeNavbar" aria-current="page" href="#">BERANDA</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-link opacity-75" href="./pages/galeri.html">GALERI</a>
@@ -117,24 +134,22 @@
   <div id="highlight">
     <div class="highlight_page">
       <div class="highlight_page_artikel">
-        <h2 class="text-white text-center pb-2">
-          Persahabatan Soekarno dan Kartosoewirjo
+        <h2 class="text-white text-center pb-2 text_proklamasi">
+          Proklamasi Kemerdekaan Indonesia
         </h2>
         <div class="gambar_teks">
           <div class="gambar_highlight_1">
-            <img src="./assets/img/img-landingPage/imagePage2_1.png" alt="" />
+            <img src="./assets/img/img-landingPage/Indonesia_17_August_1945.jpg" alt="" />
           </div>
           <div class="gambar_highlight_2">
             <img src="./assets/img/img-landingPage/imageSoekarno.png" alt="" />
           </div>
           <div class="teks_gambar_highlight">
             <p class="text-desc-highlight">
-              Soekarno dan Kartosoewirjo adalah dua tokoh penting dalam
-              sejarah Indonesia yang awalnya bersahabat erat. Mereka bertemu
-              di Bandung pada 1920-an, di mana Soekarno sebagai mahasiswa dan
-              aktivis nasionalis, serta Kartosoewirjo sebagai aktivis Islam,
-              sering bekerja sama dan saling bertukar ide untuk meraih
-              kemerdekaan dari penjajahan Belanda.
+              Proklamasi Kemerdekaan Indonesia dilaksanakan pada hari Jumat, 17 Agustus 1945 tahun Masehi, atau tanggal
+              17 Agustus 2605 menurut tahun Jepang (kōki) (17 Agustus Shōwa 20 dalam penanggalan Jepang itu sendiri)
+              pukul 10:00 waktu Jepang, yang dibacakan oleh Soekarno dengan didampingi oleh Mohammad Hatta di sebuah
+              rumah di Jalan Pegangsaan Timur No. 56, Jakarta Pusat.
             </p>
           </div>
         </div>
@@ -153,24 +168,25 @@
       </div>
       <div class="group-button">
         <div class="d-flex justify-content-center">
-          <button class="LoadMapData" data-key="1740-1850.json">
-            <p class="tahun tahun-active">1780 - 1815</p>
+          <button class="loadPointsBtn" data-json="./assets/json/1740-1850.json" data-icon="icon1">
+            <p class="tahun tahun-active loadPointsBtn" data-json="./assets/json/1740-1850.json" data-icon="icon1">1740
+              - 1850</p>
             <div class="line line-active""></div>
             </button>
-            <button class=" LoadMapData" data-key="1859-1894.json">
-              <p class="tahun">1815 - 1850</p>
+            <button class=" loadPointsBtn" data-json="./assets/json/1859-1894.json" data-icon="icon1">
+              <p class="tahun loadPointsBtn" data-json="./assets/json/1859-1894.json" data-icon="icon1">1859 - 1894</p>
               <div class="line"></div>
           </button>
           <button class="LoadMapData" data-key="">
-            <p class="tahun">1850 - 1885</p>
+            <p class="tahun loadPointsBtn" data-json="./assets/json/1859-1894.json" data-icon="icon1">1850 - 1885</p>
             <div class="line"></div>
           </button>
           <button class="LoadMapData" data-key="">
             <p class="tahun">1885 - 1920</p>
             <div class="line"></div>
           </button>
-          <button class="LoadMapData" data-key="1920-1955.json">
-            <p class="tahun">1920 - 1955</p>
+          <button>
+            <p class="tahun loadPointsBtn" data-json="./assets/json/1920-1955.json" data-icon="icon1">1920 - 1955</p>
             <div class="line"></div>
           </button>
           <button class="LoadMapData" data-key="">
@@ -180,20 +196,52 @@
         </div>
       </div>
     </div>
-    <!-- Map -->
-    <section class="infografis bg-transparent" id="Infografis" style="border-radius: 10px">
-      <div class="main bg-transparent">
-        <div class="d-flex justify-content-center bg-transparent">
-          <iframe src="./pages/map.html" frameborder="0" style="width: 90vw; height: 40vw"></iframe>
+
+
+    <div class="popup" id="popup" style="display: none">
+      <div class="popup_content">
+        <div class="popup_header">
+          <p class="text_tahun">1946</p>
+          <a href="#" class="popup_close">&times;</a>
+        </div>
+        <div class="popup_body">
+          <div class="popup_text">
+            <h2 class="text-white">Perjanjian Linggarjati</h2>
+            <p class="popup_desc">
+              Perjanjian yang ditandatangani pada 15 November 1946 antara
+              Indonesia dan Belanda dikenal sebagai Perjanjian Linggarjati.
+              Perjanjian ini merupakan langkah penting dalam pengakuan
+              kemerdekaan Indonesia oleh Belanda setelah proklamasi kemerdekaan
+              pada 17 Agustus 1945. Dalam perjanjian ini, Belanda mengakui de
+              facto pemerintahan Republik Indonesia yang meliputi Jawa, Madura,
+              dan Sumatera, serta menyetujui pembentukan negara federal
+              Indonesia. Selain itu, perjanjian ini menetapkan batas wilayah dan
+              mengatur hubungan diplomatik dan kerjasama ekonomi antara kedua
+              negara.
+            </p>
+          </div>
+          <div class="popup_img">
+            <img src="../assets/img/img-landingPage/sukarno-dan-kartosuwiryo 2.png" alt="" />
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+
+    <!-- Map -->
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="content_map">
+        <section class="container_map">
+          <div id="map"></div>
+        </section>
+      </div>
+    </div>
     <!-- End Map -->
   </section>
 
   <section id="frame_barang_sejarah">
     <div class="barang_bersejarah">
       <div class="container_barang">
+        <h5 class="text-white text_barang_sejarah">Barang Bersejarah</h5>
         <div class="tab_box">
           <button class="tab_btn active">Senjata</button>
           <button class="tab_btn">Artefac Kerajaan</button>
@@ -1059,7 +1107,7 @@
             <button type="button"
               class="d-flex justify-content-center align-items-center rounded-pill border-0 ps-4 pe-5 py-3">
               <img src="./assets/icon/fb 1.png" style="width: 1.5rem;" class="me-5" alt="">
-              <p class="mb-0 me-5">Masuk Melalui Google</p>
+              <p class="mb-0 me-5">Masuk Melalui Facebook</p>
             </button>
             <p class="mb-0 mx-auto mt-2 text-white">Butuh Bantuan? <a href=""
                 class="link-underline link-underline-opacity-0">Hubungi kami</a></p>
@@ -1076,11 +1124,18 @@
 
 
 
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
 </body>
 
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-   
+<!-- <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script> -->
+
+<!-- aos animasi -->
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+<script src="./assets/js/map.js"></script>
+<script src="./assets/js/index.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -1092,8 +1147,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 
-<script src="./assets/js/map.js"></script>
-<script src="./assets/js/index.js"></script>
 
 
 

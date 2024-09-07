@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navbar = document.querySelector(".navbar");
-
-  // Load initial map data
-  loadMapData("1859-1894.json");
-
   window.addEventListener("scroll", function () {
     if (window.scrollY > 50) {
       navbar.classList.add("navbar-blur");
@@ -28,17 +24,17 @@ buttonsTImeLine.forEach((button) => {
   });
 });
 
-const loadMapBtn = document.getElementsByClassName("LoadMapData");
-console.log(loadMapBtn);
-if (loadMapBtn.length > 0) {
-  for (let btn = 0; btn < loadMapBtn.length; btn++) {
-    const elementBtn = loadMapBtn[btn];
-    elementBtn.addEventListener("click", function (e) {
-      const fileJson = elementBtn.getAttribute("data-key");
-      loadMapData(fileJson);
-    });
-  }
-}
+// const loadMapBtn = document.getElementsByClassName("LoadMapData");
+// console.log(loadMapBtn);
+// if (loadMapBtn.length > 0) {
+//   for (let btn = 0; btn < loadMapBtn.length; btn++) {
+//     const elementBtn = loadMapBtn[btn];
+//     elementBtn.addEventListener("click", function (e) {
+//       const fileJson = elementBtn.getAttribute("data-key");
+//       loadMapData(fileJson);
+//     });
+//   }
+// }
 
 // barang sejarah
 const tabs = document.querySelectorAll(".tab_btn");
@@ -116,5 +112,31 @@ document.addEventListener("DOMContentLoaded", function () {
     modalImage.src = image.getAttribute("data-image");
     modalTitle.textContent = image.getAttribute("data-title");
     modalDescription.textContent = image.getAttribute("data-description");
+  });
+});
+
+window.addEventListener("scroll", function () {
+  const elements = [
+    document.querySelector(".nusantara"),
+    document.querySelector(".dulu"),
+    document.querySelector(".sekarang"),
+    document.querySelector(".text_proklamasi"),
+    document.querySelector(".gambar_highlight_1"),
+    document.querySelector(".gambar_highlight_2"),
+    document.querySelector(".teks_gambar_highlight"),
+    document.querySelector(".judul_timeline"),
+    document.querySelector(".deskripsi"),
+    document.querySelector(".group-button"),
+    document.querySelector(".text_barang_sejarah"),
+    document.querySelector(".tab_box"),
+    document.querySelector(".nav_galeri"),
+  ];
+
+  elements.forEach((element) => {
+    if (element.getBoundingClientRect().top < window.innerHeight) {
+      element.classList.add("show");
+    } else {
+      element.classList.remove("show");
+    }
   });
 });

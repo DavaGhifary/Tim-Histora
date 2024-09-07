@@ -120,7 +120,7 @@ body {
 }
 
 .img-sekarang {
-  width: 23rem;
+  width: 25rem;
 }
 
 /* end page nusantara */
@@ -147,6 +147,7 @@ body {
 .gambar_highlight_1 img {
   width: 910px;
   height: 350px;
+  border-radius: 1rem;
 }
 
 .gambar_highlight_2 img {
@@ -664,7 +665,7 @@ input[type="file"] {
   }
 
   .img-dulu {
-    width: 25rem;
+    width: 24rem;
     display: flex;
     justify-content: center;
   }
@@ -680,7 +681,7 @@ input[type="file"] {
   }
 
   .img-sekarang {
-    width: 23rem;
+    width: 21rem;
   }
 
   /* end page nusantara */
@@ -736,7 +737,8 @@ input[type="file"] {
 
   /* Timeline */
   .timeline {
-    height: 100vh;
+    position: relative;
+    height: 110vh;
     margin-top: 7vh;
   }
   .timeline .main .judul_timeline {
@@ -1575,10 +1577,10 @@ input[type="file"] {
   .gambar_highlight_2 img {
     width: 180px;
     height: 240px;
-    /* position: absolute; */
+    position: absolute;
     top: 70%;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     z-index: 1000;
   }
 
@@ -1596,16 +1598,17 @@ input[type="file"] {
     top: 79%;
     left: 50%;
     margin-top: 12rem;
-    /* transform: translate(-50%, -50%);
-    z-index: 1; */
+    transform: translate(-50%, -50%);
+    z-index: 1;
     border-radius: 3%;
   }
   /* end higliht artikel */
 
   /* Timeline */
   .timeline {
-    height: 100vh;
+    height: 160vh;
     margin-top: 7vh;
+    position: relative;
   }
   .timeline .main .judul_timeline {
     color: white;
@@ -2350,4 +2353,119 @@ input[type="file"] {
     justify-content: center;
     width: 430px;
   }
+}
+
+/* Awal animasi (tidak terlihat) */
+.scroll-animation {
+  opacity: 0;
+  transform: translateY(20px); /* Misalnya, muncul dari bawah */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Ketika elemen masuk (terlihat) */
+.scroll-animation.visible {
+  opacity: 1;
+  transform: translateY(0); /* Kembali ke posisi normal */
+}
+
+/* Ketika elemen keluar (tidak terlihat) */
+.scroll-animation.hidden {
+  opacity: 0;
+  transform: translateY(20px); /* Pergi ke bawah saat keluar */
+}
+
+/* Muncul dari kiri dan keluar ke kiri */
+.scroll-animation.from-left {
+  transform: translateX(-20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.scroll-animation.from-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.scroll-animation.from-left.hidden {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+@keyframes fadeLeft {
+  from {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeRight {
+  from {
+    transform: translateX(30%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeRightText {
+  from {
+    transform: translate(0, -50%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeTop {
+  from {
+    transform: translateY(-30%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.nusantara.show {
+  animation: fadeTop 0.8s ease-in forwards;
+}
+
+.dulu.show {
+  animation: fadeLeft 0.8s ease-in forwards;
+}
+.sekarang.show {
+  animation: fadeRight 0.8s ease-in forwards;
+}
+.text_proklamasi.show {
+  animation: fadeTop 0.8s ease-in forwards;
+}
+.gambar_highlight_1.show {
+  animation: fadeTop 0.8s ease-in forwards;
+}
+.gambar_highlight_2.show {
+  animation: fadeLeft 0.8s ease-in forwards;
+}
+.teks_gambar_highlight.show {
+  animation: fadeRightText 0.8s ease-in forwards;
+}
+.judul_timeline.show {
+  animation: fadeTop 0.8s ease-in forwards;
+}
+.deskripsi.show {
+  animation: fadeTop 0.8s ease-in forwards;
+}
+.group-button.show {
+  animation: fadeTop 0.8s ease-in forwards;
+}
+.text_barang_sejarah.show {
+  animation: fadeTop 0.8s ease-in forwards;
+}
+.tab_box.show {
+  animation: fadeTop 0.8s ease-in forwards;
+}
+.nav_galeri.show {
+  animation: fadeTop 0.8s ease-in forwards;
 }

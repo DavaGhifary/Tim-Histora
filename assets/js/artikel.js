@@ -97,6 +97,7 @@ const articles = [
   const filter = document.getElementById('filter');
   const articleSeeMore = document.getElementById('see-more-article');
 
+
   // filter
   document.getElementById('filter-populer').addEventListener('click', function(event) {
     event.preventDefault();
@@ -130,177 +131,152 @@ const articles = [
   });
 
   // list data
+
+  let showMore = false;
+
   function renderArticles(articleList) {
     container.innerHTML = '';
-  articleList.forEach((article, index) => {
-    const isOdd = index % 2 === 0;
-    const isBoediOetomo = article.title === "Lahirnya Boedi Oetomo";
-    
-    if (isBoediOetomo && !showMore) {
-      return;
-    }
+    articleList.forEach((article, index) => {
+      const isOdd = index % 2 === 0;
+      const isBoediOetomo = article.title === "Lahirnya Boedi Oetomo";
+      
+      if (isBoediOetomo && !showMore && index >= 5) {
+        return; // Skip rendering "Lahirnya Boedi Oetomo" if not showing more
+      }
+  
+      const isAnimated = showMore && index === 5; // Apply animation only to the 6th item when showing more
   
       container.innerHTML += `
-        <div class="container mt-4 border-bottom border-succes p-5">
-          <div class="row">
+        <div class="container mt-4 border-bottom border-success border-dark p-5">
+          <div class="row article-item ${isAnimated ? 'item-animate' : ''}">
             ${isOdd ? `
-              <div class="d-flex A${article.path}">
-              <div id="${article.path}" class="goyang">
-                <a href="#" class="text-decoration-none text-color" onclick="showArticleDetails('${article.path}')">
+              <div id="animate-div" class="d-flex asd A${article.path}">
+                <div id="${article.path}" class="goyang">
+                  <a href="#" class="text-decoration-none text-color" onclick="showArticleDetails('${article.path}')">
+                    <div class="col">
+                      <div class="row row-cols-auto">
+                        <div class="col">
+                          <img src="../assets/img/img-artikel/avatar.png" alt="" class="avatar-artikel">
+                        </div>
+                        <h6 class="col mt-1 author-artikel">${article.author}</h6>
+                        <p class="garis">|</p>
+                        <p class="ukuran mt-1">${article.date}</p>
+                      </div>
+                      <div class="row">
+                        <h3 class="title-artikel">${article.title}</h3>
+                      </div>
+                      <div class="row">
+                        <p class="mt-1 text-break line-spacing text-justify fw-light description-artikel">${article.description}</p>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="row row-cols-auto">
+                    <div class="col">
+                      <img class="img-like ${article.userReaction.like ? 'active' : ''}" src="../assets/img/img-artikel/like.png" alt="Like" onclick="toggleLike('${article.path}')">
+                    </div>
+                    <div class="col">
+                      <p class="uk-font mt-1 fw-light" id="likes-${article.path}">${article.likes}</p>
+                    </div>
+                    <div class="col">
+                      <img class="img-like ${article.userReaction.dislike ? 'active' : ''}" src="../assets/img/img-artikel/dislike.png" alt="Dislike" onclick="toggleDislike('${article.path}')">
+                    </div>
+                    <div class="col">
+                      <p class="uk-font mt-1 fw-light" id="dislikes-${article.path}">${article.dislikes}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <a href="#" onclick="showArticleDetails('${article.path}')">
+                    <img src="../assets/img/img-artikel/${article.imgSrc}" alt="" class="konten-img ${article.path}">
+                  </a>
+                </div>
+              </div>
+            ` : `
+              <div class="col">
+                <div id="animate-divv" class="asd d-flex A${article.path}">
+                  <div id="${article.path}" class="goyang">
+                    <a href="#" onclick="showArticleDetails('${article.path}')">
+                      <img src="../assets/img/img-artikel/${article.imgSrc}" alt="" class="konten-img ${article.path}">
+                    </a>
+                  </div>
                   <div class="col">
                     <div class="row row-cols-auto">
                       <div class="col">
-                        <img src="../assets/img/img-artikel/avatar.png" alt="" class="avatar-artikel">
+                        <img src="../assets/img/img-artikel/avatar.png" class="avatar-artikel" alt="">
                       </div>
                       <h6 class="col mt-1 author-artikel">${article.author}</h6>
                       <p class="garis">|</p>
                       <p class="ukuran mt-1">${article.date}</p>
                     </div>
                     <div class="row">
-                      <h3 class="title-artikel">${article.title}</h3>
+                      <a href="#" onclick="showArticleDetails('${article.path}')" class="text-decoration-none text-color">
+                        <h3 class="title-artikel">${article.title}</h3>
+                      </a>
                     </div>
                     <div class="row">
-                      <p class="mt-1 text-break line-spacing text-justify fw-light description-artikel">${article.description}</p>
+                      <a href="#" onclick="showArticleDetails('${article.path}')" class="text-decoration-none text-color">
+                        <p class="mt-1 text-break line-spacing text-justify fw-light description-artikel">${article.description}</p>
+                      </a>
+                    </div>
+                    <div class="row row-cols-auto">
+                      <div class="col">
+                        <img class="img-like ${article.userReaction.like ? 'active' : ''}" src="../assets/img/img-artikel/like.png" alt="Like" onclick="toggleLike('${article.path}')">
+                      </div>
+                      <div class="col">
+                        <p class="uk-font mt-1 fw-light" id="likes-${article.path}">${article.likes}</p>
+                      </div>
+                      <div class="col">
+                        <img class="img-like ${article.userReaction.dislike ? 'active' : ''}" src="../assets/img/img-artikel/dislike.png" alt="Dislike" onclick="toggleDislike('${article.path}')">
+                      </div>
+                      <div class="col">
+                        <p class="uk-font mt-1 fw-light" id="dislikes-${article.path}">${article.dislikes}</p>
+                      </div>
                     </div>
                   </div>
-                </a>
-                <div class="row row-cols-auto">
-                  <div class="col">
-            <img class="img-like ${article.userReaction.like ? 'active' : ''}" src="../assets/img/img-artikel/like.png" alt="Like" onclick="toggleLike('${article.path}')">
-          </div>
-          <div class="col">
-            <p class="uk-font mt-1 fw-light" id="likes-${article.path}">${article.likes}</p>
-          </div>
-          <div class="col">
-            <img class="img-like ${article.userReaction.dislike ? 'active' : ''}" src="../assets/img/img-artikel/dislike.png" alt="Dislike" onclick="toggleDislike('${article.path}')">
-          </div>
-          <div class="col">
-            <p class="uk-font mt-1 fw-light" id="dislikes-${article.path}">${article.dislikes}</p>
-          </div>
                 </div>
               </div>
-              <div class="col">
-                <a href="#" onclick="showArticleDetails('${article.path}')">
-                  <img src="../assets/img/img-artikel/${article.imgSrc}" alt="" class="konten-img ${article.path}">
-                </a>
-              </div>
-            </div>
-          ` : `
-            <div class="col">
-              <div class="d-flex A${article.path}">
-                <div id="${article.path}" class="goyang">
-                  <a href="#" onclick="showArticleDetails('${article.path}')">
-                    <img src="../assets/img/img-artikel/${article.imgSrc}" alt="" class="konten-img ${article.path}">
-                  </a>
-                </div>
-                <div class="col">
-                  <div class="row row-cols-auto">
-                    <div class="col">
-                      <img src="../assets/img/img-artikel/avatar.png" class="avatar-artikel" alt="">
-                    </div>
-                    <h6 class="col mt-1 author-artikel">${article.author}</h6>
-                    <p class="garis">|</p>
-                    <p class="ukuran mt-1">${article.date}</p>
-                  </div>
-                  <div class="row">
-                    <a href="#" onclick="showArticleDetails('${article.path}')" class="text-decoration-none text-color">
-                      <h3 class="title-artikel">${article.title}</h3>
-                    </a>
-                  </div>
-                  <div class="row">
-                    <a href="#" onclick="showArticleDetails('${article.path}')" class="text-decoration-none text-color">
-                      <p class="mt-1 text-break line-spacing text-justify fw-light description-artikel">${article.description}</p>
-                    </a>
-                  </div>
-                  <div class="row row-cols-auto">
-                    <div class="col">
-            <img class="img-like ${article.userReaction.like ? 'active' : ''}" src="../assets/img/img-artikel/like.png" alt="Like" onclick="toggleLike('${article.path}')">
+            `}
           </div>
-          <div class="col">
-            <p class="uk-font mt-1 fw-light" id="likes-${article.path}">${article.likes}</p>
-          </div>
-          <div class="col">
-            <img class="img-like ${article.userReaction.dislike ? 'active' : ''}" src="../assets/img/img-artikel/dislike.png" alt="Dislike" onclick="toggleDislike('${article.path}')">
-          </div>
-          <div class="col">
-            <p class="uk-font mt-1 fw-light" id="dislikes-${article.path}">${article.dislikes}</p>
-          </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          `}
         </div>
-      </div>
-    `;
-  });
-}
+      `;
 
-function toggleLike(path) {
-  const article = articles.find(a => a.path === path);
-  if (article) {
-    const hasLiked = article.userReaction[path]?.like;
-    const hasDisliked = article.userReaction[path]?.dislike;
-
-    if (hasLiked) {
-      article.likes--;
-      article.userReaction[path].like = false;
-    } else {
-      if (hasDisliked) {
-        article.dislikes--;
-        article.userReaction[path].dislike = false;
+      const articleItemss = document.querySelector(`.article-item[data-path="${article.path}"]`);
+      if (articleItemss) {
+        articleItemss.addEventListener('click', () => animateItemss(article.path));
       }
-      article.likes++;
-      article.userReaction[path] = { like: true, dislike: false };
+    });
+  
+    // Apply animation only if showing more
+    if (showMore) {
+      applyAnimation();
     }
-    updateUI(path);
-  }
-}
-
-function toggleDislike(path) {
-  const article = articles.find(a => a.path === path);
-  if (article) {
-    const hasLiked = article.userReaction[path]?.like;
-    const hasDisliked = article.userReaction[path]?.dislike;
-
-    if (hasDisliked) {
-      article.dislikes--;
-      article.userReaction[path].dislike = false;
-    } else {
-      if (hasLiked) {
-        article.likes--;
-        article.userReaction[path].like = false;
-      }
-      article.dislikes++;
-      article.userReaction[path] = { like: false, dislike: true };
-    }
-    updateUI(path);
-  }
-}
-
-
-function updateUI(path) {
-  const article = articles.find(a => a.path === path);
-  if (article) {
-    document.getElementById(`likes-${path}`).textContent = article.likes;
-    document.getElementById(`dislikes-${path}`).textContent = article.dislikes;
-    
-    const likeImg = document.querySelector(`#${path} .img-like[src$="like.png"]`);
-    const dislikeImg = document.querySelector(`#${path} .img-like[src$="dislike.png"]`);
-    
-    if (likeImg) {
-      likeImg.classList.toggle('active', article.userReaction.like);
-    }
-    if (dislikeImg) {
-      dislikeImg.classList.toggle('active', article.userReaction.dislike);
+    if (!showMore) {
+      applyAnimation();
     }
   }
-}
+  
+  function applyAnimation() {
+    const animatedItems = document.querySelectorAll('.item-animate');
+    animatedItems.forEach(item => {
+      item.classList.remove('show');
+      void item.offsetWidth; // Trigger reflow
+      item.classList.add('show');
+    });
+    const animatedItem = document.querySelectorAll('.asd');
+    animatedItem.forEach(item => {
+      item.classList.remove('show');
+      void item.offsetWidth; // Trigger reflow
+      item.classList.add('show');
+    });
+  }
 
-
-
-
-  let showMore = false;
+  function animateItemss(path) {
+    const item = document.querySelector(`.article-item[data-path="${path}"]`);
+    if (item) {
+      item.classList.add('item-clicked');
+      setTimeout(() => item.classList.remove('item-clicked'), 1000); // Remove class after animation ends
+    }
+  }
   
   function toggleShowMore() {
     showMore = !showMore;
@@ -309,60 +285,143 @@ function updateUI(path) {
       `<button class="btn btn-see btn-dark" onclick="toggleShowMore()">Tampilkan lebih sedikit</button>` : 
       `<button class="btn btn-see btn-dark" onclick="toggleShowMore()">Tampilkan lebih banyak</button>`;
   }
-
-  function showArticleDetails(path) {
-    const article = articles.find(article => article.path === path);
   
+  document.addEventListener('DOMContentLoaded', function() {
+    renderArticles(articles);
+    articleSeeMore.innerHTML = `<button class="btn btn-see btn-dark" onclick="toggleShowMore()">Tampilkan lebih banyak</button>`;
+  });
+  
+  
+  function toggleLike(path) {
+    const article = articles.find(a => a.path === path);
     if (article) {
-      container.style.display = 'none';
-      detailContainer.style.display = 'block';
-      articleSeeMore.style.display = 'none'
-      footer.style.display = 'none';
-      filter.style.display = 'none';
+      const hasLiked = article.userReaction[path]?.like;
+      const hasDisliked = article.userReaction[path]?.dislike;
   
-      detailContainer.innerHTML = `
-
-        <div class="position-relative container margin-bottom-navbar flex-grow-1 pb-5">
-      <div class="position-relative">
-
-        <img src="../assets/img/img-artikel/${article.imgBg}"" alt=""  class="img-fluid artikel-bg"> 
-
-        <div class="row position-absolute profil">
-            <div class="col d-block padding">
-
-                <img src="../assets/img/img-artikel/${article.imgTokoh}" class="img-fluid artikel-profil" alt=""> 
-
-                <div class="mt-2 text-center">
-                    <h4 class="namaTokoh">${article.tokoh}</h4>
-                </div>
-            </div>
-        </div>
-        <div class="position-absolute mt-5">
-            <div class="row justify-content-center padding">
-                <div class="col-6 text-justify">
-                    <h1 class="text-center line-spacing title-artikel2 width">${article.title}</h1>
-                    <p class="descriptionArtikel">
-                        ${article.isi}
-                    </p>
-                </div>
-            </div><button class=" button-back btn btn-dark  mt-4 mb-3" onclick="goBack()">Kembali</button>
-        </div>
-        <div class="userProfil">
-            <div class="">
-                <img src="../assets/img/img-artikel/avatar.png" class="avatar" alt="" />
-            </div>
-            <div class="userNameProfil">
-                <p class="nameProfil text-size">${article.author}</p>
-                <p class="date-profil text-size">${article.date}</p>
-            </div>
-        </div>
-    </div>
-    </div>
-
-      `;
+      if (hasLiked) {
+        article.likes--;
+        article.userReaction[path].like = false;
+      } else {
+        if (hasDisliked) {
+          article.dislikes--;
+          article.userReaction[path].dislike = false;
+        }
+        article.likes++;
+        article.userReaction[path] = { like: true, dislike: false };
+      }
+      updateUI(path, 'like');
     }
   }
   
+  function toggleDislike(path) {
+    const article = articles.find(a => a.path === path);
+    if (article) {
+      const hasLiked = article.userReaction[path]?.like;
+      const hasDisliked = article.userReaction[path]?.dislike;
+  
+      if (hasDisliked) {
+        article.dislikes--;
+        article.userReaction[path].dislike = false;
+      } else {
+        if (hasLiked) {
+          article.likes--;
+          article.userReaction[path].like = false;
+        }
+        article.dislikes++;
+        article.userReaction[path] = { like: false, dislike: true };
+      }
+      updateUI(path, 'dislike');
+    }
+  }
+  
+  function updateUI(path, action) {
+    const article = articles.find(a => a.path === path);
+    if (article) {
+      const likesElement = document.getElementById(`likes-${path}`);
+      const dislikesElement = document.getElementById(`dislikes-${path}`);
+  
+      likesElement.textContent = article.likes;
+      dislikesElement.textContent = article.dislikes;
+  
+      const likeImg = document.querySelector(`#${path} .img-like[src$="like.png"]`);
+      const dislikeImg = document.querySelector(`#${path} .img-like[src$="dislike.png"]`);
+  
+      if (likeImg) {
+        likeImg.classList.toggle('active', article.userReaction.like);
+      }
+      if (dislikeImg) {
+        dislikeImg.classList.toggle('active', article.userReaction.dislike);
+      }
+  
+      if (action === 'like') {
+        likesElement.classList.add('increase');
+        setTimeout(() => likesElement.classList.remove('increase'), 300);
+      } else if (action === 'dislike') {
+        dislikesElement.classList.add('decrease');
+        setTimeout(() => dislikesElement.classList.remove('decrease'), 300);
+      }
+    }
+  }
+  let isAnimating = false;
+
+  function showArticleDetails(path) {
+    if (isAnimating) return;
+    isAnimating = true;
+  
+    const article = articles.find(article => article.path === path);
+  
+    if (article) {
+      container.classList.add('fade-in');
+      setTimeout(() => {
+        container.style.display = 'none';
+        detailContainer.style.display = 'block';
+        detailContainer.classList.add('fade-in');
+        articleSeeMore.style.display = 'none';
+        footer.style.display = 'none';
+        filter.style.display = 'none';
+    
+        detailContainer.innerHTML = `
+          <div class="position-relative container margin-bottom-navbar flex-grow-1 pb-5">
+            <div class="position-relative">
+              <img src="../assets/img/img-artikel/${article.imgBg}" alt="" class="img-fluid artikel-bg">
+              <div class="row position-absolute profil">
+                <div class="col d-block padding">
+                  <img src="../assets/img/img-artikel/${article.imgTokoh}" class="img-fluid artikel-profil" alt="">
+                  <div class="mt-2 text-center">
+                    <h4 class="namaTokoh">${article.tokoh}</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="position-absolute mt-5">
+                <div class="row justify-content-center padding">
+                  <div class="col-6 text-justify">
+                    <h1 class="text-center line-spacing title-artikel2 width">${article.title}</h1>
+                    <p class="descriptionArtikel">${article.isi}</p>
+                  </div>
+                </div>
+                <button class="button-back btn btn-dark mt-4 mb-3" onclick="goBack()">Kembali</button>
+              </div>
+              <div class="userProfil">
+                <div class="">
+                  <img src="../assets/img/img-artikel/avatar.png" class="avatar" alt="" />
+                </div>
+                <div class="userNameProfil">
+                  <p class="nameProfil text-size">${article.author}</p>
+                  <p class="date-profil text-size">${article.date}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+ 
+        setTimeout(() => {
+          detailContainer.classList.remove('fade-in');
+          isAnimating = false;
+        }, 500);
+      }, 500);
+    }
+  }
+ 
   function goBack() {
     container.style.display = 'block';
     detailContainer.style.display = 'none';
@@ -370,6 +429,3 @@ function updateUI(path) {
     footer.style.display = 'block';
     filter.style.display = 'block';
   }
-
-    renderArticles(articles);
-    articleSeeMore.innerHTML = `<button class="btn btn-dark justify-content-center" onclick="toggleShowMore()">Tampilkan lebih banyak</button>`;

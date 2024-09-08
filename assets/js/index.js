@@ -24,18 +24,6 @@ buttonsTImeLine.forEach((button) => {
   });
 });
 
-// const loadMapBtn = document.getElementsByClassName("LoadMapData");
-// console.log(loadMapBtn);
-// if (loadMapBtn.length > 0) {
-//   for (let btn = 0; btn < loadMapBtn.length; btn++) {
-//     const elementBtn = loadMapBtn[btn];
-//     elementBtn.addEventListener("click", function (e) {
-//       const fileJson = elementBtn.getAttribute("data-key");
-//       loadMapData(fileJson);
-//     });
-//   }
-// }
-
 // barang sejarah
 const tabs = document.querySelectorAll(".tab_btn");
 const all_content = document.querySelectorAll(".content");
@@ -56,25 +44,6 @@ tabs.forEach((tab, index) => {
   });
 });
 
-// // wrong
-// document.addEventListener('DOMContentLoaded', function () {
-//   var modalElement = document.getElementById('exampleModal');
-//   modalElement.addEventListener('show.bs.modal', function (event) {
-//     var button = event.relatedTarget;
-//     var imgSrc = button.getAttribute('data-img-src');
-//     var title = button.getAttribute('data-title');
-//     var description = button.getAttribute('data-description');
-
-//     var modalTitle = modalElement.querySelector('.modal-title');
-//     var modalImage = modalElement.querySelector('#modalImage');
-//     var modalDescription = modalElement.querySelector('#modalDescription');
-
-//     modalTitle.textContent = title;
-//     modalImage.src = imgSrc;
-//     modalDescription.textContent = description;
-//   });
-// });
-
 function setActiveTab(tab) {
   const tabs = document.querySelectorAll(".tabs-profile .nav-link");
   tabs.forEach((t) => t.classList.remove("active"));
@@ -88,10 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var modalDescription = modal.querySelector("#modalDescription p");
 
   modal.addEventListener("show.bs.modal", function (event) {
-    // Get the clicked image element
     var image = event.relatedTarget;
 
-    // Update modal content
     modalImage.src = image.getAttribute("data-image");
     modalTitle.textContent = image.getAttribute("data-title");
     modalDescription.textContent = image.getAttribute("data-description");
@@ -105,10 +72,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var modalDescription = modal.querySelector("#modalDescriptionLandscape p");
 
   modal.addEventListener("show.bs.modal", function (event) {
-    // Get the clicked image element
     var image = event.relatedTarget;
 
-    // Update modal content
     modalImage.src = image.getAttribute("data-image");
     modalTitle.textContent = image.getAttribute("data-title");
     modalDescription.textContent = image.getAttribute("data-description");

@@ -41,7 +41,6 @@
 }
 
 .footer_footer {
-  
   display: flex;
   justify-content: center;
   padding-top: 100px;
@@ -173,7 +172,6 @@
   }
 
   .footer_footer {
-    background-color: #242424;
     display: flex;
     justify-content: center;
     padding-top: 80px;

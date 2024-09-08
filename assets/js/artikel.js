@@ -156,7 +156,7 @@ const articles = [
                     <div class="col">
                       <div class="row row-cols-auto">
                         <div class="col">
-                          <img src="../assets/img/img-artikel/avatar.png" alt="" class="avatar-artikel">
+                          <img src="../assets/icon/3135768.png" alt="" class="avatar-artikel">
                         </div>
                         <h6 class="col mt-1 author-artikel">${article.author}</h6>
                         <p class="garis">|</p>
@@ -202,7 +202,7 @@ const articles = [
                   <div class="col">
                     <div class="row row-cols-auto">
                       <div class="col">
-                        <img src="../assets/img/img-artikel/avatar.png" class="avatar-artikel" alt="">
+                        <img src="../assets/icon/3135768.png" class="avatar-artikel" alt="">
                       </div>
                       <h6 class="col mt-1 author-artikel">${article.author}</h6>
                       <p class="garis">|</p>
@@ -403,7 +403,7 @@ const articles = [
               </div>
               <div class="userProfil">
                 <div class="">
-                  <img src="../assets/img/img-artikel/avatar.png" class="avatar" alt="" />
+                  <img src="../assets/icon/3135768.png" class="avatar" alt="" />
                 </div>
                 <div class="userNameProfil">
                   <p class="nameProfil text-size">${article.author}</p>

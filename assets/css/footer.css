@@ -41,9 +41,21 @@
 }
 
 .footer_footer {
+  
   display: flex;
   justify-content: center;
   padding-top: 100px;
+}
+
+.text-footer{
+  display: block;
+}
+
+.img-massage{
+  display: block;
+}
+.img-telp{
+  display: block;
 }
 
 @media only screen and (min-width: 500px) and (max-width: 800px) {
@@ -146,14 +158,22 @@
   }
 
   .isi_footer_1 img {
-    width: 3rem;
+    width: 2rem !important;
   }
 
-  .isi_footer_1 p {
-    font-size: 14px;
+  .img-massage{
+    height: 1.5rem !important;
+  }
+  .img-telp{
+    height: 1.8rem !important;
+  }
+
+  .text-footer {
+    font-size: 12px !important;
   }
 
   .footer_footer {
+    background-color: #242424;
     display: flex;
     justify-content: center;
     padding-top: 80px;

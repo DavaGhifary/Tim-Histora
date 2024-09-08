@@ -141,10 +141,10 @@ const articles = [
       const isBoediOetomo = article.title === "Lahirnya Boedi Oetomo";
       
       if (isBoediOetomo && !showMore && index >= 5) {
-        return; // Skip rendering "Lahirnya Boedi Oetomo" if not showing more
+        return;
       }
   
-      const isAnimated = showMore && index === 5; // Apply animation only to the 6th item when showing more
+      const isAnimated = showMore && index === 5;
   
       container.innerHTML += `
         <div class="container mt-4 border-bottom border-success border-dark p-5">
@@ -246,7 +246,7 @@ const articles = [
       }
     });
   
-    // Apply animation only if showing more
+
     if (showMore) {
       applyAnimation();
     }
@@ -265,7 +265,7 @@ const articles = [
     const animatedItem = document.querySelectorAll('.asd');
     animatedItem.forEach(item => {
       item.classList.remove('show');
-      void item.offsetWidth; // Trigger reflow
+      void item.offsetWidth;
       item.classList.add('show');
     });
   }
@@ -274,7 +274,7 @@ const articles = [
     const item = document.querySelector(`.article-item[data-path="${path}"]`);
     if (item) {
       item.classList.add('item-clicked');
-      setTimeout(() => item.classList.remove('item-clicked'), 1000); // Remove class after animation ends
+      setTimeout(() => item.classList.remove('item-clicked'), 1000);
     }
   }
   

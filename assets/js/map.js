@@ -81,7 +81,7 @@ document.querySelectorAll(".loadPointsBtn").forEach((button) => {
 
 // Memuat data JSON default ketika halaman pertama kali dimuat
 document.addEventListener("DOMContentLoaded", () => {
-  loadJsonData("../assets/json/1740-1850.json", icons.icon1); // Panggil fungsi untuk memuat data default
+  loadJsonData("../assets/json/1780-1815.json", icons.icon1); // Panggil fungsi untuk memuat data default
 });
 
 // Fungsi untuk menampilkan popup dengan data dari JSON

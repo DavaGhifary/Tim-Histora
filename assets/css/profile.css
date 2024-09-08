@@ -41,9 +41,12 @@ body {
   padding-bottom: 2px;
 }
 
+.tabs-profile .nav-link.active {
+  color: #af8f6f;
+  /* border-bottom: 1px solid #af8f6f; */
+}
 .tabs-profile .line.active {
   color: #af8f6f;
-  border-bottom: 1px solid #af8f6f;
 }
 .nav {
   width: 97%;

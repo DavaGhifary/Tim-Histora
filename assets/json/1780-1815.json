@@ -2,64 +2,35 @@
   {
     "judul": "Pembantaian warga Tionghoa di Batavia",
     "deskripsi": "Pembantaian warga Tionghoa di Batavia terjadi pada tanggal 9 Oktober 1740, ketika pasukan Belanda menyerang dan membantai komunitas Tionghoa di Batavia (sekarang Jakarta). Peristiwa ini merupakan puncak dari ketegangan yang telah lama terjadi antara masyarakat Tionghoa dan pemerintah kolonial Belanda. Konflik ini berakar dari ketidakpuasan terhadap kebijakan ekonomi dan politik Belanda serta ketegangan sosial antara komunitas lokal dan pendatang Tionghoa.",
-    "tahun": 1740,
+    "tahun": 1780,
     "tokoh": ["Gustaaf Willem baron van Imhoff"],
-    "image": "../assets/img/img-map/1740-1850/Pembantaian_warga_Tionghoa _di_Batavia.jpg",
+    "image": "../assets/img/img-map/1780-1815/Pembantaian_warga_Tionghoa _di_Batavia.jpg",
     "image_tokoh": "../../",
     "koordinat": [-6.1377, 106.817]
   },
   {
     "judul": "Pendirian Kantor Pos Pertama di Batavia",
     "deskripsi": "Pada tahun 1746, Kantor Pos pertama didirikan di Batavia, yang kini dikenal sebagai Jakarta. Pendirian kantor pos ini merupakan langkah penting dalam pengembangan sistem komunikasi di wilayah Hindia Belanda. Kantor pos ini memungkinkan pengiriman surat dan paket dengan lebih efisien, yang mendukung administrasi kolonial dan perdagangan.",
-    "tahun": 1746,
+    "tahun": 1786,
     "tokoh": ["Gustaaf Willem baron van Imhoff"],
-    "image": "../assets/img/img-map/1740-1850/Pendirian_Kantor_Pos.jpg",
+    "image": "../assets/img/img-map/1780-1815/Pendirian_Kantor_Pos.jpg",
     "image_tokoh": "../../",
     "koordinat": [-6.137, 106.815]
-  },
-  {
-    "judul": "Perjanjian Giyanti",
-    "deskripsi": "Perjanjian Giyanti ditandatangani pada tahun 1755 antara pihak Kerajaan Mataram dan VOC. Perjanjian ini membagi Kerajaan Mataram menjadi dua kesultanan: Kasunanan Surakarta dan Kasultanan Ngayogyakarta. Pangeran Mangkubumi, yang kemudian dikenal sebagai Sultan Hamengkubuwono I, mendapatkan wilayah Yogyakarta, sementara wilayah Surakarta diberikan kepada Gusti Raden Mas Said, yang dikenal sebagai Sultan Susuhunan Pakubuwono III. Perjanjian ini merupakan bagian dari upaya VOC untuk mengendalikan dan memecah belah kekuatan lokal di Jawa.",
-    "tahun": 1755,
-    "tokoh": [
-      "Gusti Raden Mas Said, Pangeran Mangkubumi, dan Gubernur Jenderal Jacob Mossel"
-    ],
-    "image": "../../",
-    "image_tokoh": "../../",
-    "koordinat": [-7.7972, 110.3695]
-  },
-  {
-    "judul": "Ekspedisi Pemerintah Belanda ke Papua",
-    "deskripsi": "Pada tahun 1800, setelah pengambilalihan wilayah Hindia Belanda dari VOC, Pemerintah Belanda mulai menjelajahi dan memperluas pengaruhnya ke wilayah timur Nusantara, termasuk Papua. Ekspedisi ini bertujuan untuk mengeksplorasi sumber daya alam dan memperkuat kekuasaan Belanda di daerah yang belum sepenuhnya dikuasai. Namun, kondisi geografis yang sulit dan perlawanan dari penduduk setempat membuat pengaruh Belanda di Papua pada masa itu masih terbatas. Ekspedisi ini menjadi awal dari upaya Belanda untuk mengklaim Papua sebagai bagian dari Hindia Belanda.",
-    "tahun": 1800,
-    "image": "../../",
-    "image_tokoh": "../../",
-    "tokoh": ["Ekspedisi Belanda"],
-    "koordinat": [-4.269928, 138.080353]
   },
   {
     "judul": "Perang Padri",
     "deskripsi": "Perang Padri adalah konflik yang terjadi di Sumatera Barat dari tahun 1803 hingga 1837. Konflik ini melibatkan kaum Padri yang dipimpin oleh Tuanku Imam Bonjol melawan kekuasaan Belanda dan penguasa lokal. Kaum Padri memperjuangkan penerapan hukum Islam yang lebih ketat dan menolak penguasa adat yang dianggap tidak sesuai dengan syariat Islam. Perang ini merupakan bagian dari upaya Belanda untuk memperkuat kekuasaannya di Sumatera Barat.",
     "tahun": 1803,
-    "image": "../assets/img/img-map/1740-1850/Perang_Padri.jpg",
+    "image": "../assets/img/img-map/1780-1815/Perang_Padri.jpg",
     "image_tokoh": "../../",
     "tokoh": ["Tuanku Imam Bonjol", "Haji Abdul Malik Karim Amrullah (Hamka)"],
     "koordinat": [-0.845, 100.235]
   },
   {
-    "judul": "Pengangkatan Herman Willem Daendels sebagai Gubernur Jenderal Hindia Belanda",
-    "deskripsi": "Pada tahun 1808, Herman Willem Daendels resmi diangkat sebagai Gubernur Jenderal Hindia Belanda yang ke-36. Pengangkatan ini terjadi setelah Belanda mengambil alih kepemilikan Kepulauan Nusantara dari VOC dan menamakannya sebagai Hindia Belanda. Daendels dikenal karena kebijakan reformis dan upayanya untuk memperkuat administrasi kolonial serta membangun infrastruktur penting, termasuk Jalan Raya Pos, yang menghubungkan ujung barat dan timur Jawa.",
-    "tahun": 1808,
-    "image": "../../",
-    "image_tokoh": "../../",
-    "tokoh": ["Herman Willem Daendels"],
-    "koordinat": [-6.2088, 106.8456]
-  },
-  {
     "judul": "Pengangkatan Thomas Stamford Raffles sebagai Wakil Gubernur Jenderal",
     "deskripsi": "Pada tahun 1811, Thomas Stamford Raffles diangkat sebagai Wakil Gubernur Jenderal untuk wilayah Jawa dan Daerah Seberang. Pengangkatan ini terjadi setelah Inggris mengambil alih kendali atas Hindia Belanda dari Belanda selama periode pendudukan Inggris. Raffles dikenal karena kebijakan reformisnya yang meliputi pembaruan administratif, penghapusan perbudakan, dan pengembangan infrastruktur serta kebijakan ekonomi yang inovatif. Raffles juga terkenal dengan upayanya dalam pengumpulan dan pelestarian artefak budaya serta penelitiannya tentang sejarah dan kebudayaan lokal.",
     "tahun": 1811,
-    "image": "../assets/img/img-map/1740-1850/pengangkatan_thomas.jpg",
+    "image": "../assets/img/img-map/1780-1815/pengangkatan_thomas.jpg",
     "image_tokoh": "../../",
     "tokoh": ["Thomas Stamford Raffles"],
     "koordinat": [-6.2088, 106.8456]
@@ -68,7 +39,7 @@
     "judul": "Perang Diponegoro",
     "deskripsi": "Perang Diponegoro, yang berlangsung dari tahun 1825 hingga 1830, adalah salah satu konflik terbesar dan paling signifikan dalam sejarah perjuangan melawan kolonialisme Belanda di Indonesia. Dipimpin oleh Pangeran Diponegoro, seorang bangsawan Jawa dan pemimpin perlawanan, perang ini merupakan upaya untuk melawan ekspansi dan penindasan pemerintah kolonial Belanda di pulau Jawa. Konflik ini melibatkan berbagai taktik perang gerilya dan berhasil mendapatkan dukungan luas dari rakyat Jawa. Perang Diponegoro berakhir dengan penangkapan Pangeran Diponegoro pada tahun 1830, yang menandai berakhirnya perjuangan besar melawan kekuasaan kolonial Belanda di Jawa.",
     "tahun": 1825,
-    "image": "../assets/img/img-map/1740-1850/Perang_Diponegoro.jpg",
+    "image": "../assets/img/img-map/1780-1815/Perang_Diponegoro.jpg",
     "image_tokoh": "../../",
     "tokoh": ["Pangeran Diponegoro"],
     "koordinat": [-7.7956, 110.3695]
@@ -77,7 +48,7 @@
     "judul": "Penghapusan Hukum Adat Tawan Karang oleh Kerajaan Badung",
     "deskripsi": "Pada tahun 1842, Kerajaan Badung di Bali menyepakati penghapusan hukum adat Tawan Karang, yang sebelumnya memberi hak pada raja untuk menyita kapal yang terdampar di wilayah kekuasaannya. Penghapusan ini merupakan hasil dari intervensi Belanda yang menginginkan penghapusan praktik yang dianggap merugikan perdagangan dan kedaulatan kolonial. Kebijakan ini kemudian diikuti oleh kerajaan-kerajaan lain di Bali sebagai bagian dari penyesuaian terhadap kebijakan kolonial Belanda yang lebih luas di wilayah tersebut.",
     "tahun": 1842,
-    "image": "../../",
+    "image": "../assets/img/img-map/1780-1815/hukum_tawan.jpg",
     "image_tokoh": "../../",
     "tokoh": ["Raja Badung"],
     "koordinat": [-8.6547, 115.2167]

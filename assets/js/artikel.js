@@ -259,7 +259,7 @@ const articles = [
     const animatedItems = document.querySelectorAll('.item-animate');
     animatedItems.forEach(item => {
       item.classList.remove('show');
-      void item.offsetWidth; // Trigger reflow
+      void item.offsetWidth; 
       item.classList.add('show');
     });
     const animatedItem = document.querySelectorAll('.asd');

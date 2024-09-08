@@ -7,6 +7,8 @@
   <title>Profile</title>
   <link rel="stylesheet" href="../assets/css/index.css" />
   <link rel="stylesheet" href="../assets/css/navbar.css" />
+  <link rel="stylesheet" href="../assets/css/artikel.css" />
+  <link rel="stylesheet" href="../assets/css/gallery.css" />
   <link rel="stylesheet" href="../assets/css/footer.css" />
   <link rel="stylesheet" href="../assets/css/profile.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,7 +26,7 @@
   <!-- Navbar Page Gallery -->
   <nav class="navbar navbar-blur fixed-top navbar-expand-lg overflow-x-hidden">
     <div class="container">
-      <a class="navbar-brand text-color fs-6" href="/index.html">HISTORA</a>
+      <a class="navbar-brand text-color fs-6" href="#">HISTORA</a>
       <button class="navbar-toggler background-color-toggle ButtonNavbar" type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -49,8 +51,8 @@
             <img src="../assets/icon/Vector-write.png" width="19" class="ms-2 opacity-icon-write" alt="" />
             <p class="text-write fw-light fs-6">Write</p>
           </button>
-          <button class="ButtonSign fw-light fs-6">
-            <img src="../assets/icon/avatar.png" width="40" alt="" />
+          <button class="ButtonSign fw-light fs-6" data-bs-toggle="modal" data-bs-target="#fullscreenModalSign">
+            <img src="../assets/icon/3135768.png" width="40" alt="" />
           </button>
         </div>
       </div>
@@ -62,7 +64,7 @@
   <section class="profile">
     <div class="profile-background"></div>
     <div class="profile-avatar">
-      <img src="../assets/img/img-artikel/avatar.png" class="profile-img" alt="" />
+      <img src="../assets/icon/3135768.png" class="profile-img" alt="" />
     </div>
     <div class="profile-name">
       <p class="nama">Histora</p>
@@ -113,15 +115,17 @@
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Kedatangan Belanda di Bali</h4>
+                  <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
                   <p class="card-subtitle mt-2">
                     <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Pada tahun 1846, ekspedisi Belanda di Bali, dipimpin oleh J.P. Graaf van den Bosch, bertujuan
-                    menaklukkan pulau dan mengakhiri perlawanan lokal. Meskipun menghadapi perlawanan sengit dari
-                    penduduk Bali, ekspedisi ini berhasil menguasai sebagian besar wilayah, menandai awal periode
-                    kolonial Belanda yang lebih ketat di pulau tersebut.
+                    Ada 3 bangsa Eropa yang datang ke Indonesia. Bangsa
+                    pertama adalah bangsa Portugis yang mendarat di Malaka
+                    tahun 1511, terus lanjut ke Maluku tahun 1512. Lalu,
+                    bangsa Eropa yang kedua adalah bangsa Spanyol yang
+                    mendarat di Maluku pada tahun 1521. Terakhir adalah bangsa
+                    Belanda yang mendarat di Banten tahun 1596.
                   </p>
                 </div>
               </div>
@@ -130,7 +134,7 @@
                   <div class="icon-rejected"></div>
                   <p class="rejected mb-0 ms-2">Rejected</p>
                 </div>
-                <img src="../assets/img/img-map/1815-1850/Kedatangan_Belanda_di_Bali.jpg" class="prof-img" />
+                <img src="../assets/img/img-profile/bangsa-eropa.png" class="prof-img" />
               </div>
             </div>
           </div>
@@ -140,16 +144,17 @@
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                  <h4 class="card-title mt-4">Majapahit</h4>
                   <p class="card-subtitle mt-2">
-                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
+                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Khulika Nurdafiqin | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Belanda baru datang ke Banten pada 1596 dalam ekspedisi
-                    Cornelis de Houtman. Mereka membawa banyak rempah-rempah
-                    ke Belanda. Pada 1602, terbentuklah Vereenigde Oost
-                    Indische Compagnie (VOC) yang kemudian mengambil alih
-                    kekuasaan Portugis.
+                    Majapahit (bahasa Jawa: ꧋ꦩꦙꦥꦲꦶꦠ꧀; pengucapan bahasa Jawa: [madʒapaɪt]; Sanskerta: Vilvatikta; Kawi:
+                    Wilwatikta)adalah sebuah kemaharajaan yang berpusat di Mojokerto, Jawa Timur, Indonesia,
+                    yang pernah berdiri tahun 1293–1527 M. Kemaharajaan ini didirikan oleh Raden Wijaya menantu
+                    Kertanagara, maharaja Singhasari terakhir, dan mencapai puncak kejayaannya menjadi kemaharajaan raya
+                    yang menguasai wilayah yang luas di Nusantara pada masa kekuasaan raja Hayam Wuruk, yang berkuasa
+                    dari tahun 1350–1389.
                   </p>
                 </div>
               </div>
@@ -158,7 +163,7 @@
                   <div class="icon-pending"></div>
                   <p class="pending mb-0 ms-2">Pending</p>
                 </div>
-                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img" />
+                <img src="../assets/img/img-profile/majapahit.jpg" class="prof-img" />
               </div>
             </div>
           </div>
@@ -169,16 +174,18 @@
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Pembantaian warga Tionghoa di Batavia</h4>
+                  <h4 class="card-title mt-4">Kerajaan Kutai Martapura</h4>
                   <p class="card-subtitle mt-2">
-                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
+                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Mochammad Dava Ghifary | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Pembantaian warga Tionghoa di Batavia terjadi pada tanggal 9 Oktober 1740, ketika pasukan Belanda
-                    menyerang dan membantai komunitas Tionghoa di Batavia (sekarang Jakarta). Peristiwa ini merupakan
-                    puncak dari ketegangan yang telah lama terjadi antara masyarakat Tionghoa dan pemerintah kolonial
-                    Belanda. Konflik ini berakar dari ketidakpuasan terhadap kebijakan ekonomi dan politik Belanda serta
-                    ketegangan sosial antara komunitas lokal dan pendatang Tionghoa.
+                    Kerajaan Kutai Martapura adalah kerajaan bercorak Hindu di Nusantara yang memiliki bukti sejarah
+                    tertua berupa prasasti Yupa dan berdiri sekitar abad ke-4 Masehi.Pusat kerajaan ini terletak di
+                    Muara Kaman, yang saat ini adalah sebuah kecamatan di Kabupaten Kutai Kartanegara, Provinsi
+                    Kalimantan Timur. Nama Kutai diberikan oleh para ahli mengambil dari nama tempat ditemukannya
+                    prasasti yang menunjukkan eksistensi kerajaan tersebut. Informasi nama Martapura diperoleh dari
+                    kitab Salasilah Raja dalam Negeri Kutai Kertanegara yang menceritakan pasukan Kerajaan Kutai
+                    Kertanegara dari Kutai Lama menyerang ibu kota kerajaan ini.
                   </p>
                 </div>
               </div>
@@ -187,8 +194,7 @@
                   <div class="icon-accepted"></div>
                   <p class="accepted mb-0 ms-2">Accepted</p>
                 </div>
-                <img src="../assets/img/img-map/1780-1815/Pembantaian_warga_Tionghoa _di_Batavia.jpg"
-                  class="prof-img" />
+                <img src="../assets/img/img-profile/pura.jpg" class="prof-img" />
               </div>
             </div>
           </div>
@@ -202,16 +208,15 @@
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Pembantaian warga Tionghoa di Batavia</h4>
+                  <h4 class="card-title mt-4">Kerajaan Gianyar</h4>
                   <p class="card-subtitle mt-2">
-                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
+                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Khulika Nurdafiqin | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Pembantaian warga Tionghoa di Batavia terjadi pada tanggal 9 Oktober 1740, ketika pasukan Belanda
-                    menyerang dan membantai komunitas Tionghoa di Batavia (sekarang Jakarta). Peristiwa ini merupakan
-                    puncak dari ketegangan yang telah lama terjadi antara masyarakat Tionghoa dan pemerintah kolonial
-                    Belanda. Konflik ini berakar dari ketidakpuasan terhadap kebijakan ekonomi dan politik Belanda serta
-                    ketegangan sosial antara komunitas lokal dan pendatang Tionghoa.
+                    Kerajaan Gianyar adalah salah satu kerajaan yang pernah didirikan di Pulau Bali pada awal abad ke-18
+                    Masehi.Pendiri Kerajaan Gianyar adalah I Dewa Manggis Kuning.[2] Kerajaan ini menjalin
+                    persahabatan dengan Kerajaan Badung dan Kerajaan Tabanan serta bermusuhan dengan Kerajaan Klungkung,
+                    Kerajaan Bangli, dan Kerajaan Mengwi.
                   </p>
                 </div>
               </div>
@@ -220,8 +225,7 @@
                   <div class="icon-accepted"></div>
                   <p class="accepted mb-0 ms-2">Accepted</p>
                 </div>
-                <img src="../assets/img/img-map/1780-1815/Pembantaian_warga_Tionghoa _di_Batavia.jpg"
-                  class="prof-img" />
+                <img src="../assets/img/img-profile/bali.webp" class="prof-img" />
               </div>
             </div>
           </div>
@@ -231,17 +235,16 @@
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Penghapusan Hukum Adat Tawan Karang oleh Kerajaan Badung</h4>
+                  <h4 class="card-title mt-4">Kerajaan Salakanagara</h4>
                   <p class="card-subtitle mt-2">
                     <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Pada tahun 1842, Kerajaan Badung di Bali menyepakati penghapusan hukum adat Tawan Karang, yang
-                    sebelumnya memberi hak pada raja untuk menyita kapal yang terdampar di wilayah kekuasaannya.
-                    Penghapusan ini merupakan hasil dari intervensi Belanda yang menginginkan penghapusan praktik yang
-                    dianggap merugikan perdagangan dan kedaulatan kolonial. Kebijakan ini kemudian diikuti oleh
-                    kerajaan-kerajaan lain di Bali sebagai bagian dari penyesuaian terhadap kebijakan kolonial Belanda
-                    yang lebih luas di wilayah tersebut.
+                    Kerajaan Salakanagara atau Kerajaan Rajatapura atau (Kota Perak) tercantum dalam Naskhah Wangsakerta
+                    buatan tahun 1800 M ,sebagai kota tertua di Pulau Jawa. Tokoh awal yang berkuasa di sini adalah Aki
+                    Tirem. Konon, kota inilah yang disebut Argyre oleh Ptolemeus dalam tahun 150 M, terletak di daerah
+                    Teluk Lada Pandeglang (Pada masa kini ia terletak di bagian barat propinsi Banten). Kota ini sampai
+                    tahun 362 menjadi pusat pemerintahan Raja-Raja Dewawarman (dari Dewawarman I - VIII).
                   </p>
                 </div>
               </div>
@@ -250,25 +253,24 @@
                   <div class="icon-accepted"></div>
                   <p class="accepted mb-0 ms-2">Accepted</p>
                 </div>
-                <img src="../assets/img/img-map/1780-1815/hukum_tawan.jpg" class="prof-img" />
+                <img src="../assets/img/img-profile/sunda.webp" class="prof-img" />
               </div>
             </div>
           </div>
         </div>
-        <div class="profile-container py-3">
+        <div class="profile-container py-3 mb-4">
           <div class="profile-card">
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Perang Aceh</h4>
+                  <h4 class="card-title mt-4">Pendudukan Jepang di Hindia-Belanda</h4>
                   <p class="card-subtitle mt-2">
                     <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Perang Aceh adalah konflik antara Belanda dan Kesultanan Aceh yang berlangsung dari 1873 hingga
-                    1904. Belanda berusaha menguasai Aceh, sementara Sultan Aceh dan pasukannya, termasuk Teuku Umar,
-                    bertahan keras melawan penjajahan, mengakibatkan pertarungan sengit dan dampak besar bagi kedua
-                    belah pihak.
+                    Masa pendudukan Jepang di Nusantara yang saat itu masih bernama Hindia Belanda dimulai pada tahun
+                    1942 dan berakhir pada tanggal 17 Agustus 1945 seiring dengan Proklamasi Kemerdekaan Indonesia oleh
+                    Soekarno dan M. Hatta.
                   </p>
                 </div>
               </div>
@@ -277,7 +279,7 @@
                   <div class="icon-accepted"></div>
                   <p class="accepted mb-0 ms-2">Accepted</p>
                 </div>
-                <img src="../assets/img/img-map/1815-1850/perang_aceh.jpg" class="prof-img" />
+                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img" />
               </div>
             </div>
           </div>
@@ -293,16 +295,16 @@
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Kedatangan Bangsa Eropa</h4>
+                  <h4 class="card-title mt-4">Hindia Belanda</h4>
                   <p class="card-subtitle mt-2">
                     <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Belanda baru datang ke Banten pada 1596 dalam ekspedisi
-                    Cornelis de Houtman. Mereka membawa banyak rempah-rempah
-                    ke Belanda. Pada 1602, terbentuklah Vereenigde Oost
-                    Indische Compagnie (VOC) yang kemudian mengambil alih
-                    kekuasaan Portugis.
+                    Hindia Belanda atau Hindia Timur Belanda (bahasa Belanda: Nederlands(ch)-Indië) (bahasa Inggris:
+                    Dutch East Indies) adalah sebuah daerah pendudukan Belanda yang wilayahnya saat ini dikenal dengan
+                    nama Republik Indonesia. Berdasarkan Perjanjian Inggris-Belanda 1824, Belanda telah menyerahkan
+                    Melaka Belanda kepada Inggris, yang dulunya merupakan kegubernuran di Hindia Belanda. Hal ini telah
+                    mengkonsolidasikan pemerintahan modern ke negara bagian Melaka di Malaysia.
                   </p>
                 </div>
               </div>
@@ -311,7 +313,7 @@
                   <div class="icon-pending"></div>
                   <p class="pending mb-0 ms-2">Pending</p>
                 </div>
-                <img src="../assets/img/img-gallery/img-gallery-7.jpg" class="prof-img" />
+                <img src="../assets/img/img-profile/hindia.jpg" class="prof-img" />
               </div>
             </div>
           </div>
@@ -322,18 +324,14 @@
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Dimulainya Perang Banjar</h4>
+                  <h4 class="card-title mt-4">Lahirnya Budi Utomo</h4>
                   <p class="card-subtitle mt-2">
-                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
+                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Mochammad Dava Ghifary | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Perang Banjar dimulai pada tahun 1859 dan berlangsung hingga tahun 1863. Perang ini adalah konflik
-                    antara Kerajaan Banjar di Kalimantan Selatan dan pemerintah kolonial Belanda. Dipimpin oleh Pangeran
-                    Antasari, perlawanan ini muncul sebagai reaksi terhadap penindasan dan kebijakan ekspansi Belanda
-                    yang merugikan Kerajaan Banjar. Perang Banjar melibatkan pertempuran sengit dan strategi gerilya
-                    yang dilakukan oleh pasukan Kerajaan Banjar. Konflik ini menandai salah satu periode penting dalam
-                    perjuangan melawan kolonialisme Belanda di Kalimantan.
-                  </p>
+                    Boedi Oetomo (EYD: Budi Utomo) adalah organisasi pemuda yang didirikan oleh Soetomo dan para pelajar
+                    School tot Opleiding van Inlandsche Artsen (STOVIA), pada tanggal 20 Mei 1908. Organisasi ini
+                    digagas oleh Wahidin Soedirohoesodo untuk bergerak di bidang sosial, ekonomi, budaya, dan politik.
                 </div>
               </div>
               <div class="col-md-4 px-3 position-relative">
@@ -341,7 +339,7 @@
                   <div class="icon-pending"></div>
                   <p class="pending mb-0 ms-2">Pending</p>
                 </div>
-                <img src="../assets/img/img-map/1815-1850/perang_banjar.jpg" class="prof-img" />
+                <img src="../assets/img/img-profile/budi.jpg" class="prof-img" />
               </div>
             </div>
           </div>
@@ -355,15 +353,14 @@
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Kedatangan Belanda di Bali</h4>
+                  <h4 class="card-title mt-4">Lahirnya Budi Utomo</h4>
                   <p class="card-subtitle mt-2">
                     <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Pada tahun 1846, ekspedisi Belanda di Bali, dipimpin oleh J.P. Graaf van den Bosch, bertujuan
-                    menaklukkan pulau dan mengakhiri perlawanan lokal. Meskipun menghadapi perlawanan sengit dari
-                    penduduk Bali, ekspedisi ini berhasil menguasai sebagian besar wilayah, menandai awal periode
-                    kolonial Belanda yang lebih ketat di pulau tersebut.
+                    Boedi Oetomo (EYD: Budi Utomo) adalah organisasi pemuda yang didirikan oleh Soetomo dan para pelajar
+                    School tot Opleiding van Inlandsche Artsen (STOVIA), pada tanggal 20 Mei 1908. Organisasi ini
+                    digagas oleh Wahidin Soedirohoesodo untuk bergerak di bidang sosial, ekonomi, budaya, dan politik.
                   </p>
                 </div>
               </div>
@@ -372,7 +369,7 @@
                   <div class="icon-rejected"></div>
                   <p class="rejected mb-0 ms-2">Rejected</p>
                 </div>
-                <img src="../assets/img/img-map/1815-1850/Kedatangan_Belanda_di_Bali.jpg" class="prof-img" />
+                <img src="../assets/img/img-profile/budi.jpg" class="prof-img" />
               </div>
             </div>
           </div>
@@ -382,15 +379,16 @@
             <div class="row">
               <div class="col-md-8 px-4">
                 <div class="card-block px-3 gap-1 profile-text">
-                  <h4 class="card-title mt-4">Penjajahan Inggris di Kalimantan</h4>
+                  <h4 class="card-title mt-4">Hindia Belanda</h4>
                   <p class="card-subtitle mt-2">
-                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Rafi Insan Karim | 24 Maret 2024
+                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Mochammad Dava Ghifary | 24 Maret 2024
                   </p>
                   <p class="card-text mt-4">
-                    Penjajahan Inggris di Kalimantan pada tahun 1860-an menandai periode baru dalam sejarah kolonial di
-                    Indonesia. Selama periode ini, Inggris memperkuat posisinya di Kalimantan dengan mendirikan stasiun
-                    perdagangan dan memperluas pengaruhnya di wilayah tersebut. Penduduk lokal menghadapi berbagai
-                    tantangan akibat kebijakan kolonial ini, yang memengaruhi ekonomi dan struktur sosial mereka.
+                    Hindia Belanda atau Hindia Timur Belanda (bahasa Belanda: Nederlands(ch)-Indië) (bahasa Inggris:
+                    Dutch East Indies) adalah sebuah daerah pendudukan Belanda yang wilayahnya saat ini dikenal dengan
+                    nama Republik Indonesia. Berdasarkan Perjanjian Inggris-Belanda 1824, Belanda telah menyerahkan
+                    Melaka Belanda kepada Inggris, yang dulunya merupakan kegubernuran di Hindia Belanda. Hal ini telah
+                    mengkonsolidasikan pemerintahan modern ke negara bagian Melaka di Malaysia.
                   </p>
                 </div>
               </div>
@@ -399,7 +397,34 @@
                   <div class="icon-rejected"></div>
                   <p class="rejected mb-0 ms-2">Rejected</p>
                 </div>
-                <img src="../assets/img/img-map/1815-1850/Penjajahan_Inggris.jpg" class="prof-img" />
+                <img src="../assets/img/img-profile/hindia.jpg" class="prof-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="profile-container py-3">
+          <div class="profile-card">
+            <div class="row">
+              <div class="col-md-8 px-4">
+                <div class="card-block px-3 gap-1 profile-text">
+                  <h4 class="card-title mt-4">Kerajaan Gianyar</h4>
+                  <p class="card-subtitle mt-2">
+                    <img src="../assets/img/img-artikel/avatar.png" alt="" />Khulika Nurdafiqin | 24 Maret 2024
+                  </p>
+                  <p class="card-text mt-4">
+                    Kerajaan Gianyar adalah salah satu kerajaan yang pernah didirikan di Pulau Bali pada awal abad ke-18
+                    Masehi.Pendiri Kerajaan Gianyar adalah I Dewa Manggis Kuning.[2] Kerajaan ini menjalin
+                    persahabatan dengan Kerajaan Badung dan Kerajaan Tabanan serta bermusuhan dengan Kerajaan Klungkung,
+                    Kerajaan Bangli, dan Kerajaan Mengwi.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 px-3 position-relative">
+                <div class="d-flex align-items-center mb-2 icon-request">
+                  <div class="icon-rejected"></div>
+                  <p class="rejected mb-0 ms-2">Rejected</p>
+                </div>
+                <img src="../assets/img/img-profile/bali.webp" class="prof-img" />
               </div>
             </div>
           </div>
@@ -408,6 +433,22 @@
     </div>
   </div>
   <!-- end tabs profile -->
+
+  <!-- card profile -->
+  <!-- <div class="profile-container">
+        <div class="profile-card">
+            <div class="card-body">
+                <h5 class="card-title">Kedatangan Bangsa Eropa</h5>
+                <p class="card-author">oleh Kisara Kartan | 24 Maret 2024</p>
+                <p class="card-text">Belanda baru datang ke Banten pada 1596 dalam ekspedisi Cornelis de Houtman. Mereka membawa banyak rempah-rempah ke Belanda. Pada 1602, terbentuklah Vereenigde Oost Indische Compagnie (VOC) yang kemudian mengambil alih kekuasaan Portugis.</p>
+            </div>
+            <div class="card-image">
+                <img src="../assets/img/img-artikel/g30spki.png" alt="Image description">
+            </div>
+        </div>
+    </div> -->
+
+  <!-- end card profile -->
 
   <!-- footer -->
   <footer class="footer">
@@ -436,46 +477,6 @@
   </footer>
   <!-- end footer -->
 
-  <!-- Fullscreen Modal -->
-  <div class="modal fade" id="fullscreenModal" tabindex="-1" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-      <div class="modal-content" style="background-color: #0f0f0f;">
-        <button type="button" class="btn btnClose m-3" data-bs-dismiss="modal" aria-label="Close"><img
-            src="/assets/icon/close.svg" width="30" height="30" class="imgClose" alt=""></button>
-        <div class="modal-body" style="height: 100vh; display: flex; align-items: center; justify-content: center;"">
-        <div class=" form_artikel">
-          <h2 class="text-white text-center">Bagikan Pengetahuan Anda</h2>
-          <div class="form_top">
-            <div class="form_top_left">
-              <div class="mb-3 FormInput">
-                <label for="exampleFormControlInput1" class="form-label text-white">Judul Sejarah</label>
-                <input type="email" class="form-control-input" id="exampleFormControlInput1">
-              </div>
-              <div class="mb-3 FormInput">
-                <label for="exampleFormControlInput1" class="form-label text-white">Nama Penulis</label>
-                <input type="email" class="form-control-input" id="exampleFormControlInput1">
-              </div>
-            </div>
-            <div class="form_top_right">
-              <div class="m-0">
-                <p class="text-white">Upload Gambar/video</p>
-                <input type="file" id="uploadBtn">
-                <label for="uploadBtn" class="labelUpload"><img src="./assets/icon/upload.svg" width="18" height="15"
-                    alt="">Click Upload file</label>
-              </div>
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label text-white">Konten Artikel</label>
-            <textarea class="form-control-artikel d-block" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button type="button" class="Btn_Upload">Upload</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
@@ -485,6 +486,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 

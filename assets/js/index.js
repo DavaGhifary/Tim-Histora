@@ -105,3 +105,84 @@ window.addEventListener("scroll", function () {
     }
   });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.card-img');
+  const Lcards = document.querySelectorAll('.card-landscape');
+  const terbaru = document.querySelectorAll('.card-landscape-terbaru');
+  const videoCards = document.querySelectorAll('.video-card');
+
+  const checkVisibility = () => {
+    const viewportHeight = window.innerHeight;
+    const offset = 100; // Jarak dari bawah viewport untuk memulai animasi
+
+    // Cek visibilitas untuk .card-img
+    cards.forEach((card, index) => {
+      const rect = card.getBoundingClientRect();
+      if (rect.top < viewportHeight - offset) {
+        // Tambahkan delay berdasarkan urutan kartu
+        card.style.animationDelay = `${index * 0.02}s`; // Kurangi delay untuk animasi lebih cepat
+        card.classList.add('visible');
+      } else {
+        // Kartu belum terlihat
+        card.classList.remove('visible');
+        card.style.animationDelay = '0s'; // Reset delay jika kartu keluar dari viewport
+      }
+    });
+
+    // Cek visibilitas untuk .card-landscape
+    Lcards.forEach((card, index) => {
+      const rect = card.getBoundingClientRect();
+      if (rect.top < viewportHeight - offset) {
+        // Tambahkan delay berdasarkan urutan kartu
+        card.style.animationDelay = `${index * 0.02}s`; // Kurangi delay untuk animasi lebih cepat
+        card.classList.add('visible');
+      } else {
+        // Kartu belum terlihat
+        card.classList.remove('visible');
+        card.style.animationDelay = '0s'; // Reset delay jika kartu keluar dari viewport
+      }
+    });
+
+    // Cek visibilitas untuk .card-video
+    videoCards.forEach((card, index) => {
+      const rect = card.getBoundingClientRect();
+      if (rect.top < viewportHeight - offset) {
+        // Tambahkan delay berdasarkan urutan kartu
+        card.style.animationDelay = `${index * 0.02}s`; // Kurangi delay untuk animasi lebih cepat
+        card.classList.add('visible');
+      } else {
+        // Kartu belum terlihat
+        card.classList.remove('visible');
+        card.style.animationDelay = '0s'; // Reset delay jika kartu keluar dari viewport
+      }
+    });
+
+    // Cek visibilitas untuk .card-landscape-terbaru
+    terbaru.forEach((card, index) => {
+      const rect = card.getBoundingClientRect();
+      if (rect.top < viewportHeight - offset) {
+        // Tambahkan delay berdasarkan urutan kartu
+        card.style.animationDelay = `${index * 0.02}s`; // Kurangi delay untuk animasi lebih cepat
+        card.classList.add('visible');
+      } else {
+        // Kartu belum terlihat
+        card.classList.remove('visible');
+        card.style.animationDelay = '0s'; // Reset delay jika kartu keluar dari viewport
+      }
+    });
+  };
+
+  // Fungsi yang membungkus checkVisibility dengan requestAnimationFrame
+  const optimizedCheckVisibility = () => {
+    requestAnimationFrame(checkVisibility);
+  };
+
+  // Cek visibilitas saat halaman dimuat
+  optimizedCheckVisibility();
+
+  // Tambahkan event listener scroll dengan throttle
+  window.addEventListener('scroll', optimizedCheckVisibility);
+});

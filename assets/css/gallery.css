@@ -143,6 +143,34 @@
   font-size: 1rem;
 }
 
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Gaya untuk kartu */
+.card-img,
+.card-landscape,
+.video-card,
+.card-landscape-terbaru {
+  opacity: 0; /* Mulai dengan opacity 0 untuk animasi */
+  transform: translateY(20%); /* Mulai dengan posisi di bawah */
+}
+
+/* Kelas yang diterapkan saat kartu masuk ke viewport */
+.card-img.visible,
+.card-landscape.visible,
+.video-card.visible,
+.card-landscape-terbaru.visible { /* Tambahkan koma di sini */
+  animation: slide-up 0.5s ease-out forwards; /* Ubah durasi animasi */
+}
+
 .button-header {
   width: 100% !important;
 }

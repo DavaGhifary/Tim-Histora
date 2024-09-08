@@ -1,82 +1,72 @@
 [
-        {
-          "judul": "Penemuan Fosil Homo Erectus di Trinil",
-          "deskripsi": "Eugène Dubois menemukan fosil Homo erectus di Trinil, Jawa Timur, yang merupakan salah satu penemuan penting dalam studi evolusi manusia.",
-          "tahun": 1891,
-          "tokoh": ["Eugène Dubois"],
-          "koordinat": [-7.433333, 111.350000],
-          "image":"../assets/img/img-map/1885-1920/homoErectus.jpg"
-        },
-        {
-          "judul": "Intervensi Belanda di Lombok",
-          "deskripsi": "Ekspedisi militer Belanda ke Lombok berakhir dengan penaklukan Kerajaan Mataram, memperkuat kekuasaan Belanda di kepulauan Nusa Tenggara.",
-          "tahun": 1894,
-          "tokoh": ["Pietro Carlo Alberto van Ham"],
-          "koordinat": [-8.566667, 116.100000],
-          "image":"../assets/img/img-map/1885-1920/intervensiLombok.jpg"
-        },
-        {
-          "judul": "Berdirinya Boedi Oetomo",
-          "deskripsi": "Organisasi pergerakan nasional pertama di Indonesia yang memperjuangkan kemajuan pendidikan dan kebangkitan nasional.",
-          "tahun": 1908,
-          "tokoh": ["Dr. Soetomo"],
-          "koordinat": [-6.200000, 106.816667],
-          "image":"../assets/img/img-map/1885-1920/boediOetomo.jpeg"
-        },
-        {
-          "judul": "Pemberontakan Rakyat Tolitoli",
-          "deskripsi": "Perlawanan rakyat Tolitoli di Sulawesi terhadap penguasa lokal dan Belanda sebagai protes atas ketidakadilan.",
-          "tahun": 1919,
-          "tokoh": ["Haji Muhammad Said"],
-          "koordinat": [-1.333333, 120.833333],
-          "image":"../assets/img/img-map/1885-1920/tolitoli.jpg"
-        },
-        {
-          "judul": "Pendudukan Belanda di Papua Barat",
-          "deskripsi": "Belanda memperluas kekuasaannya ke Papua Barat, menandai penguasaan penuh atas seluruh wilayah Indonesia modern.",
-          "tahun": 1898,
-          "tokoh": ["Gubernur Jenderal Hindia Belanda"],
-          "koordinat": [-2.500000, 140.700000],
-          "image":"../assets/img/img-map/1885-1920/belandaDiPapua.png"
-        },
-        {
-          "judul": "Pendudukan Belanda di Bali Utara",
-          "deskripsi": "Setelah penaklukan Kerajaan Klungkung, Belanda secara efektif menguasai seluruh Bali.",
-          "tahun": 1908,
-          "tokoh": ["Gubernur Jenderal Idenburg"],
-          "koordinat": [-8.400000, 115.266667],
-          "image":"../assets/img/img-map/1885-1920/belandaDiBali.jpg"
-        },
-        {
-          "judul": "Pergerakan Muhammadiyah",
-          "deskripsi": "Muhammadiyah didirikan oleh KH Ahmad Dahlan sebagai organisasi Islam yang fokus pada pendidikan dan sosial.",
-          "tahun": 1912,
-          "tokoh": ["KH Ahmad Dahlan"],
-          "koordinat": [-7.800000, 110.366667],
-          "image":"../assets/img/img-map/1885-1920/KHAhmadDahlan.jpg"
-        },
-        {
-          "judul": "Pembentukan Volksraad",
-          "deskripsi": "Pembentukan Volksraad (Dewan Rakyat) oleh Belanda, yang memberikan sedikit perwakilan politik bagi rakyat Indonesia.",
-          "tahun": 1918,
-          "tokoh": ["Gubernur Jenderal Johan Paul van Limburg Stirum"],
-          "koordinat": [-6.166667, 106.816667],
-          "image":"../assets/img/img-map/1885-1920/volksraad.jpg"
-        },
-        {
-          "judul": "Perang Bali III",
-          "deskripsi": "Perang Bali III melibatkan perlawanan Kerajaan Klungkung di Bali terhadap Belanda yang mencoba menundukkan seluruh Bali.",
-          "tahun": 1906,
-          "tokoh": ["I Gusti Ngurah Made Agung"],
-          "koordinat": [-8.650000, 115.200000],
-          "image":"../assets/img/img-map/1885-1920/perangBali.jpg"
-        },
-        {
-          "judul": "Perang Lombok",
-          "deskripsi": "Perang Lombok terjadi ketika Kerajaan Mataram Lombok melakukan perlawanan terhadap ekspansi Belanda ke Nusa Tenggara.",
-          "tahun": 1894,
-          "tokoh": ["Anak Agung Ketut Karangasem"],
-          "koordinat": [-8.500000, 116.000000],
-          "image": "../assets/img/img-map/1885-1920/perangLombok.jpeg"
-        }
-      ]  
+  {
+    "judul": "Penemuan Fosil Homo Erectus di Trinil",
+    "deskripsi": "Pada tahun 1891, Eugène Dubois, seorang paleoantropolog Belanda, melakukan ekspedisi di Trinil, Jawa Timur, dan menemukan fosil yang kemudian dikenal sebagai Homo erectus. Penemuan ini adalah salah satu penemuan paling penting dalam studi evolusi manusia. Fosil ini terdiri dari tengkorak, rahang, dan tulang-tulang lainnya yang memberikan bukti penting mengenai evolusi manusia purba. Dubois, yang awalnya mencari fosil manusia purba di Asia, secara tidak sengaja menemukan fosil ini saat melakukan penelitian di area tersebut. Penemuan ini tidak hanya menambah pemahaman ilmuwan tentang evolusi manusia, tetapi juga memperkuat posisi Indonesia sebagai situs penting dalam penelitian paleontologi dan antropologi.",
+    "tahun": 1891,
+    "tokoh": ["Eugène Dubois"],
+    "koordinat": [-7.433333, 111.350000]
+  },
+  {
+    "judul": "Intervensi Belanda di Lombok",
+    "deskripsi": "Ekspedisi militer Belanda ke Lombok pada tahun 1894 berakhir dengan penaklukan Kerajaan Mataram, yang merupakan bagian dari upaya Belanda untuk memperluas kekuasaan mereka di kepulauan Nusa Tenggara. Penaklukan ini dipimpin oleh Jenderal Pieter Carlo Alberto van Ham, yang memimpin pasukan Belanda dalam kampanye militer untuk menaklukkan Mataram. Penaklukan ini merupakan bagian dari kebijakan ekspansi kolonial Belanda untuk menguasai seluruh wilayah Indonesia, dan menandai penguatan kekuasaan Belanda di daerah tersebut. Proses penaklukan ini melibatkan konflik bersenjata yang sengit dan mengakibatkan perubahan signifikan dalam struktur politik dan sosial di Lombok.",
+    "tahun": 1894,
+    "tokoh": ["Pietro Carlo Alberto van Ham"],
+    "koordinat": [-8.566667, 116.100000]
+  },
+  {
+    "judul": "Berdirinya Boedi Oetomo",
+    "deskripsi": "Boedi Oetomo, didirikan pada tahun 1908 oleh Dr. Soetomo dan rekan-rekannya, adalah organisasi pergerakan nasional pertama di Indonesia yang memiliki tujuan utama untuk memajukan pendidikan dan kebangkitan nasional. Organisasi ini muncul sebagai respons terhadap keterbelakangan sosial dan ekonomi yang dialami oleh masyarakat Indonesia di bawah penjajahan kolonial. Boedi Oetomo berfokus pada peningkatan kesadaran politik, pendidikan, dan pengembangan nasionalisme di kalangan rakyat Indonesia. Meskipun awalnya terbatas pada lingkup elit intelektual, Boedi Oetomo memainkan peran penting dalam memotivasi gerakan-gerakan nasionalis berikutnya dan membentuk dasar bagi perjuangan kemerdekaan Indonesia.",
+    "tahun": 1908,
+    "tokoh": ["Dr. Soetomo"],
+    "koordinat": [-6.200000, 106.816667]
+  },
+  {
+    "judul": "Pemberontakan Rakyat Tolitoli",
+    "deskripsi": "Pemberontakan Rakyat Tolitoli, yang terjadi pada tahun 1919, adalah bentuk perlawanan rakyat di Sulawesi terhadap penguasa lokal yang didukung oleh Belanda. Perlawanan ini dipimpin oleh Haji Muhammad Said dan merupakan respons terhadap ketidakadilan sosial dan ekonomi yang dirasakan oleh masyarakat Tolitoli di bawah pemerintahan kolonial. Masyarakat lokal melawan penguasa yang dianggap menindas dan eksploitatif. Meskipun pemberontakan ini pada akhirnya berhasil ditekan oleh pasukan Belanda, semangat perjuangan rakyat Tolitoli mencerminkan ketidakpuasan yang meluas di kalangan penduduk pribumi terhadap kekuasaan kolonial dan penguasa lokal yang korup.",
+    "tahun": 1919,
+    "tokoh": ["Haji Muhammad Said"],
+    "koordinat": [-1.333333, 120.833333]
+  },
+  {
+    "judul": "Pendudukan Belanda di Papua Barat",
+    "deskripsi": "Pada tahun 1898, Belanda melanjutkan ekspansi kolonialnya dengan memperluas kekuasaannya ke Papua Barat. Penaklukan ini menandai penguasaan penuh Belanda atas seluruh wilayah Indonesia modern. Gubernur Jenderal Hindia Belanda memimpin operasi militer dan diplomatik untuk menguasai Papua Barat, yang sebelumnya merupakan wilayah yang hanya sedikit terjamah oleh kekuasaan kolonial. Penguasaan Belanda di Papua Barat melibatkan penaklukan wilayah-wilayah yang dikuasai oleh kelompok etnis lokal dan penegakan pemerintahan kolonial yang ketat. Proses ini menandai akhir dari kedaulatan lokal di Papua Barat dan integrasi penuh wilayah tersebut ke dalam sistem kolonial Belanda.",
+    "tahun": 1898,
+    "tokoh": ["Gubernur Jenderal Hindia Belanda"],
+    "koordinat": [-2.500000, 140.700000]
+  },
+  {
+    "judul": "Pendudukan Belanda di Bali Utara",
+    "deskripsi": "Pendudukan Belanda di Bali Utara pada tahun 1908 terjadi setelah penaklukan Kerajaan Klungkung, yang merupakan langkah terakhir dalam usaha Belanda untuk menguasai seluruh pulau Bali. Dengan Gubernur Jenderal Idenburg sebagai penguasa kolonial, Belanda berhasil menguasai Bali secara keseluruhan setelah perjuangan keras melawan perlawanan lokal. Penaklukan ini membawa perubahan besar dalam struktur politik, sosial, dan budaya di Bali. Belanda menerapkan sistem pemerintahan kolonial yang lebih terpusat dan melakukan reformasi untuk mengendalikan ekonomi dan administrasi Bali. Meskipun penguasaan Belanda membawa sejumlah infrastruktur dan reformasi, proses ini juga menyebabkan penurunan kekuasaan dan pengaruh struktur sosial dan budaya tradisional Bali.",
+    "tahun": 1908,
+    "tokoh": ["Gubernur Jenderal Idenburg"],
+    "koordinat": [-8.400000, 115.266667]
+  },
+  {
+    "judul": "Pergerakan Muhammadiyah",
+    "deskripsi": "Muhammadiyah didirikan pada tahun 1912 oleh KH Ahmad Dahlan sebagai organisasi Islam yang berfokus pada pendidikan dan reformasi sosial. Organisasi ini muncul sebagai tanggapan terhadap kebutuhan akan modernisasi dalam sistem pendidikan Islam dan respon terhadap pengaruh Barat yang meningkat di Indonesia. Muhammadiyah berusaha untuk memperbaiki kualitas pendidikan dan sosial dengan mengadopsi metode-metode modern dalam pendidikan, kesehatan, dan pelayanan sosial. Dengan pendekatan reformis dan progresif, Muhammadiyah memainkan peran penting dalam pengembangan intelektual dan sosial di Indonesia, serta menjadi salah satu kekuatan utama dalam pergerakan Islam dan nasionalisme Indonesia.",
+    "tahun": 1912,
+    "tokoh": ["KH Ahmad Dahlan"],
+    "koordinat": [-7.800000, 110.366667]
+  },
+  {
+    "judul": "Pembentukan Volksraad",
+    "deskripsi": "Pembentukan Volksraad (Dewan Rakyat) pada tahun 1918 oleh Belanda adalah salah satu langkah awal menuju perwakilan politik bagi rakyat Indonesia dalam sistem kolonial. Volksraad dibentuk sebagai tanggapan terhadap tuntutan akan lebih banyak perwakilan politik dan partisipasi dalam pemerintahan kolonial. Meskipun terdiri dari anggota yang sebagian besar diangkat oleh pemerintah kolonial, Dewan ini memberikan platform bagi beberapa wakil Indonesia untuk menyuarakan kepentingan mereka. Pembentukan Volksraad merupakan langkah awal menuju reformasi politik dan meningkatkan kesadaran politik di kalangan rakyat Indonesia, meskipun kekuasaan dan pengaruhnya sangat terbatas.",
+    "tahun": 1918,
+    "tokoh": ["Gubernur Jenderal Johan Paul van Limburg Stirum"],
+    "koordinat": [-6.166667, 106.816667]
+  },
+  {
+    "judul": "Perang Bali III",
+    "deskripsi": "Perang Bali III yang terjadi pada tahun 1906 adalah bagian dari rangkaian konflik antara Kerajaan Klungkung di Bali dan Belanda. Perang ini merupakan usaha terakhir Belanda untuk menaklukkan seluruh pulau Bali setelah serangkaian konflik sebelumnya. Dipimpin oleh I Gusti Ngurah Made Agung, perlawanan Bali melibatkan pertarungan sengit dengan Belanda, yang berusaha menegakkan kekuasaan kolonial mereka secara penuh. Meskipun perjuangan keras oleh pasukan Bali, perlawanan ini pada akhirnya dikalahkan oleh kekuatan militer Belanda, yang membawa perubahan signifikan dalam struktur pemerintahan dan kekuasaan di Bali.",
+    "tahun": 1906,
+    "tokoh": ["I Gusti Ngurah Made Agung"],
+    "koordinat": [-8.650000, 115.200000]
+  },
+  {
+    "judul": "Perang Lombok",
+    "deskripsi": "Perang Lombok, yang terjadi pada tahun 1894, adalah konflik militer antara Kerajaan Mataram Lombok dan Belanda yang berusaha menguasai Nusa Tenggara. Kerajaan Mataram Lombok, di bawah kepemimpinan Anak Agung Ketut Karangasem, melakukan perlawanan terhadap ekspansi kolonial Belanda yang ingin menguasai wilayah tersebut. Perang ini melibatkan serangkaian pertempuran sengit dan strategi gerilya oleh pasukan Lombok untuk melawan kekuatan Belanda yang lebih besar dan lebih terlatih. Meskipun perlawanan ini menunjukkan keberanian dan tekad rakyat Lombok, Belanda akhirnya berhasil menaklukkan wilayah tersebut dan memperkuat pengaruhnya di Nusa Tenggara.",
+    "tahun": 1894,
+    "tokoh": ["Anak Agung Ketut Karangasem"],
+    "koordinat": [-8.500000, 116.000000]
+  }
+]

@@ -1,83 +1,72 @@
 [
-      {
-        "judul": "Perang Banjar",
-        "deskripsi": "Perang Banjar terjadi di Kalimantan Selatan antara kerajaan Banjar yang dipimpin oleh Pangeran Antasari melawan kolonial Belanda. Perang ini berlangsung dari tahun 1859 hingga awal 1860-an.",
-        "tahun": 1859,
-        "tokoh": ["Pangeran Antasari"],
-        "koordinat": [-3.316667, 114.583333],
-        "image": "../assets/img/img-map/1850-1885/perangBanjar.jpeg"
-      },
-      {
-        "judul": "Perang Aceh Dimulai",
-        "deskripsi": "Perang Aceh dimulai ketika Belanda mencoba menguasai Kesultanan Aceh yang strategis. Perang ini berlangsung sangat lama dan memakan banyak korban di kedua belah pihak.",
-        "tahun": 1873,
-        "tokoh": ["Sultan Alauddin Mahmud Syah II"],
-        "koordinat": [5.554167, 95.317500],
-        "image": "../assets/img/img-map/1850-1885/perangAceh.jpeg"
-      },
-      {
-        "judul": "Penemuan Minyak Pertama di Sumatra",
-        "deskripsi": "Penemuan ladang minyak pertama di Sumatra oleh perusahaan minyak Belanda, Royal Dutch Shell, yang menandai awal eksploitasi sumber daya alam di Indonesia.",
-        "tahun": 1885,
-        "tokoh": ["Aeilko Jans Zijlker"],
-        "koordinat": [3.783333, 98.700000],
-        "image": "../assets/img/img-map/1850-1885/penemuanMinyak.jpg"
-      },
-      {
-        "judul": "Perjanjian Siak 1858",
-        "deskripsi": "Perjanjian Siak antara Kesultanan Siak dan Belanda yang memberikan Belanda hak kontrol atas wilayah Siak di Sumatra, memperkuat kekuasaan kolonial Belanda di wilayah tersebut.",
-        "tahun": 1858,
-        "tokoh": ["Sultan Syarif Kasim II"],
-        "koordinat": [0.783333, 100.766667],
-        "image": "../assets/img/img-map/1850-1885/perjanjianSiak.jpg"
-      },
-      {
-        "judul": "Pembangunan Jalur Kereta Api Pertama",
-        "deskripsi": "Pembangunan jalur kereta api pertama di Indonesia yang menghubungkan Semarang dengan Tanggung di Jawa Tengah oleh pemerintah kolonial Belanda.",
-        "tahun": 1867,
-        "tokoh": ["Jan Willem Idenburg"],
-        "koordinat": [-6.966667, 110.416667],
-        "image": "../assets/img/img-map/1850-1885/jalurKeretaApi.jpeg"
-      },
-      {
-        "judul": "Pemberontakan Rakyat Tanjung Karang",
-        "deskripsi": "Pemberontakan rakyat di Tanjung Karang, Lampung, melawan pemerintah kolonial Belanda yang diakibatkan oleh ketidakadilan dan penindasan.",
-        "tahun": 1850,
-        "tokoh": ["Rakyat Tanjung Karang"],
-        "koordinat": [-5.433333, 105.250000],
-        "image": "../assets/img/img-map/1850-1885/tanjungKarang.png"
-      },
-      {
-        "judul": "Perlawanan Rakyat Makassar",
-        "deskripsi": "Perlawanan rakyat Makassar terhadap kekuasaan Belanda yang berusaha menguasai wilayah tersebut dengan kekuatan militer.",
-        "tahun": 1855,
-        "tokoh": ["Abdul Kadir"],
-        "koordinat": [5.133333, 119.416667],
-        "image":"../assets/img/img-map/1850-1885/rakyatMakassar.jpeg"
-      },
-      {
-        "judul": "Perlawanan di Bali Selatan",
-        "deskripsi": "Perlawanan rakyat Bali Selatan melawan upaya Belanda untuk menguasai pulau Bali, dipimpin oleh pemimpin lokal.",
-        "tahun": 1858,
-        "tokoh": ["I Gusti Ngurah Rai"],
-        "koordinat": [-8.750000, 115.233333],
-        "image":"../assets/img/img-map/1850-1885/baliSelatan.jpg"
-      },
-      {
-        "judul": "Pemberontakan Banten",
-        "deskripsi": "Pemberontakan Banten, juga dikenal sebagai Perang Banten, terjadi sebagai upaya melawan kolonialisme Belanda yang mencoba menguasai wilayah Banten di Jawa Barat.",
-        "tahun": 1850,
-        "tokoh": ["Sultan Banten"],
-        "koordinat": [-6.100000, 106.150000],
-        "image":"../assets/img/img-map/1850-1885/banten.png"
-      },
-      {
-        "judul": "Perlawanan di Pidie",
-        "deskripsi": "Perlawanan rakyat Pidie di Aceh melawan upaya Belanda untuk menguasai wilayah tersebut.",
-        "tahun": 1859,
-        "tokoh": ["Teuku Umar"],
-        "koordinat": [5.350000, 95.350000],
-        "image":"../assets/img/img-map/1850-1885/pidie.jpg"
-      }
-    ]
-
+  {
+    "judul": "Perang Banjar",
+    "deskripsi": "Perang Banjar merupakan salah satu perlawanan besar terhadap kolonial Belanda yang terjadi di Kalimantan Selatan. Dimulai pada tahun 1859, perang ini dipimpin oleh Pangeran Antasari, seorang pemimpin kharismatik yang menolak dominasi Belanda atas kerajaan Banjar. Latar belakang perang ini berakar pada ketidakpuasan masyarakat Banjar terhadap intervensi Belanda dalam urusan internal kerajaan, termasuk pengangkatan raja yang dianggap sebagai boneka Belanda. Pangeran Antasari berhasil memobilisasi rakyat Banjar dan suku-suku Dayak untuk berjuang bersama dalam perlawanan sengit yang berlangsung hingga awal 1860-an. Meski pada akhirnya kekuatan militer Belanda berhasil menekan perlawanan ini, perang ini menjadi simbol perlawanan gigih rakyat Kalimantan terhadap kolonialisme.",
+    "tahun": 1859,
+    "tokoh": ["Pangeran Antasari"],
+    "koordinat": [-3.316667, 114.583333]
+  },
+  {
+    "judul": "Perang Aceh Dimulai",
+    "deskripsi": "Perang Aceh, yang dimulai pada tahun 1873, adalah salah satu perang terpanjang dalam sejarah kolonialisme di Indonesia. Perang ini dipicu oleh upaya Belanda untuk menguasai Kesultanan Aceh yang terletak di ujung utara pulau Sumatra. Aceh merupakan wilayah strategis yang memiliki posisi penting dalam jalur perdagangan internasional. Sultan Alauddin Mahmud Syah II memimpin perlawanan sengit melawan pasukan Belanda yang ingin memperluas kekuasaan mereka di Nusantara. Perang ini memakan banyak korban di kedua belah pihak dan berlangsung selama beberapa dekade, melibatkan perang gerilya yang sulit dikalahkan oleh Belanda. Meskipun Belanda akhirnya menguasai sebagian besar wilayah Aceh, perlawanan rakyat Aceh tidak pernah sepenuhnya padam hingga masa kemerdekaan Indonesia.",
+    "tahun": 1873,
+    "tokoh": ["Sultan Alauddin Mahmud Syah II"],
+    "koordinat": [5.554167, 95.317500]
+  },
+  {
+    "judul": "Penemuan Minyak Pertama di Sumatra",
+    "deskripsi": "Penemuan ladang minyak pertama di Sumatra pada tahun 1885 menandai awal eksploitasi besar-besaran sumber daya alam di Indonesia. Penemuan ini dilakukan oleh Aeilko Jans Zijlker, seorang pengusaha Belanda, yang menemukan cadangan minyak di daerah Pangkalan Brandan, Sumatra Utara. Peristiwa ini tidak hanya membuka era baru dalam perekonomian kolonial, tetapi juga menandai munculnya Royal Dutch Shell, perusahaan minyak raksasa yang kemudian memainkan peran penting dalam perekonomian global. Penemuan minyak ini meningkatkan minat Belanda untuk lebih mengontrol dan mengeksploitasi sumber daya alam Indonesia, yang berdampak pada meningkatnya kekayaan kolonial, namun di sisi lain juga memperparah ketidakadilan sosial dan ekonomi di kalangan penduduk pribumi.",
+    "tahun": 1885,
+    "tokoh": ["Aeilko Jans Zijlker"],
+    "koordinat": [3.783333, 98.700000]
+  },
+  {
+    "judul": "Perjanjian Siak 1858",
+    "deskripsi": "Perjanjian Siak yang ditandatangani pada tahun 1858 antara Kesultanan Siak dan Belanda menjadi salah satu langkah penting dalam memperluas kekuasaan kolonial Belanda di Sumatra. Dalam perjanjian ini, Sultan Syarif Kasim II menyerahkan kontrol atas wilayah Siak kepada Belanda, yang memperkuat posisi Belanda di wilayah tersebut. Meskipun perjanjian ini memberikan keuntungan ekonomi bagi Belanda, terutama dalam hal eksploitasi sumber daya alam, perjanjian ini juga menandai awal dari hilangnya kedaulatan Siak sebagai entitas politik yang merdeka. Seperti banyak perjanjian kolonial lainnya, perjanjian ini sering dianggap sebagai bentuk penindasan dan penguasaan yang tidak adil oleh kekuatan asing terhadap kerajaan lokal.",
+    "tahun": 1858,
+    "tokoh": ["Sultan Syarif Kasim II"],
+    "koordinat": [0.783333, 100.766667]
+  },
+  {
+    "judul": "Pembangunan Jalur Kereta Api Pertama",
+    "deskripsi": "Pembangunan jalur kereta api pertama di Indonesia pada tahun 1867 merupakan tonggak penting dalam perkembangan infrastruktur transportasi kolonial. Jalur ini menghubungkan Semarang dengan Tanggung di Jawa Tengah dan dibangun oleh pemerintah kolonial Belanda untuk memudahkan transportasi hasil bumi dari pedalaman ke pelabuhan. Kereta api menjadi sarana vital dalam mendukung ekonomi kolonial, mempercepat pengangkutan komoditas seperti gula, kopi, dan hasil pertanian lainnya. Meskipun pembangunan jalur kereta api ini memberikan manfaat ekonomi bagi Belanda, bagi masyarakat pribumi, proyek ini sering kali diiringi dengan pengabaian kesejahteraan rakyat, termasuk eksploitasi tenaga kerja yang dilakukan secara paksa.",
+    "tahun": 1867,
+    "tokoh": ["Jan Willem Idenburg"],
+    "koordinat": [-6.966667, 110.416667]
+  },
+  {
+    "judul": "Pemberontakan Rakyat Tanjung Karang",
+    "deskripsi": "Pemberontakan rakyat Tanjung Karang yang terjadi pada tahun 1850 adalah salah satu bentuk perlawanan lokal di Lampung terhadap pemerintah kolonial Belanda. Pemberontakan ini dipicu oleh ketidakpuasan masyarakat terhadap kebijakan Belanda yang dianggap tidak adil, terutama terkait dengan pajak yang sangat memberatkan dan penindasan yang dialami rakyat. Meskipun pemberontakan ini berhasil ditumpas oleh pasukan kolonial, semangat perlawanan rakyat Tanjung Karang menjadi simbol penting dari perjuangan melawan penindasan dan eksploitasi oleh kekuatan asing. Pemberontakan ini juga menjadi inspirasi bagi perjuangan rakyat di daerah lain untuk melawan kekuasaan kolonial.",
+    "tahun": 1850,
+    "tokoh": ["Rakyat Tanjung Karang"],
+    "koordinat": [-5.433333, 105.250000]
+  },
+  {
+    "judul": "Perlawanan Rakyat Makassar",
+    "deskripsi": "Perlawanan rakyat Makassar pada tahun 1855 merupakan salah satu contoh perjuangan lokal melawan dominasi Belanda di wilayah Sulawesi. Dipimpin oleh Abdul Kadir, rakyat Makassar melakukan serangkaian aksi perlawanan terhadap upaya Belanda yang semakin memperketat cengkeraman mereka di wilayah tersebut. Perlawanan ini bukan hanya didorong oleh ketidakpuasan terhadap kebijakan ekonomi Belanda, tetapi juga oleh kebanggaan lokal dan keinginan untuk mempertahankan identitas budaya Makassar. Meskipun pada akhirnya perlawanan ini berhasil ditumpas oleh kekuatan militer Belanda yang superior, semangat juang rakyat Makassar terus hidup dan menjadi bagian dari sejarah panjang perlawanan terhadap kolonialisme.",
+    "tahun": 1855,
+    "tokoh": ["Abdul Kadir"],
+    "koordinat": [5.133333, 119.416667]
+  },
+  {
+    "judul": "Perlawanan di Bali Selatan",
+    "deskripsi": "Perlawanan di Bali Selatan pada tahun 1858 merupakan salah satu dari serangkaian upaya rakyat Bali untuk mempertahankan kemerdekaan mereka dari kekuasaan Belanda. Perlawanan ini dipimpin oleh pemimpin lokal yang berjuang untuk melindungi tanah leluhur mereka dari penjajahan. Meskipun Belanda berhasil menguasai sebagian besar wilayah Bali, rakyat Bali Selatan melakukan perlawanan sengit yang menunjukkan keteguhan mereka dalam mempertahankan kemerdekaan. Perlawanan ini mencerminkan semangat kedaulatan dan keberanian yang menjadi ciri khas masyarakat Bali dalam menghadapi ancaman kolonialisme.",
+    "tahun": 1858,
+    "tokoh": ["I Gusti Ngurah Rai"],
+    "koordinat": [-8.750000, 115.233333]
+  },
+  {
+    "judul": "Pemberontakan Banten",
+    "deskripsi": "Pemberontakan Banten, juga dikenal sebagai Perang Banten, terjadi pada tahun 1850 sebagai reaksi terhadap kebijakan kolonial Belanda yang semakin menindas rakyat Banten. Dipimpin oleh Sultan Banten, rakyat melakukan perlawanan untuk mempertahankan kedaulatan dan hak-hak mereka atas tanah dan sumber daya lokal. Belanda, yang berusaha memperluas pengaruhnya di Jawa Barat, menggunakan kekuatan militer untuk menekan pemberontakan ini. Meskipun pemberontakan ini pada akhirnya gagal, peristiwa ini menjadi simbol dari semangat perlawanan rakyat Banten dan menjadi inspirasi bagi gerakan-gerakan perlawanan di masa mendatang.",
+    "tahun": 1850,
+    "tokoh": ["Sultan Banten"],
+    "koordinat": [-6.100000, 106.150000]
+  },
+  {
+    "judul": "Perlawanan di Pidie",
+    "deskripsi": "Perlawanan di Pidie pada tahun 1859 merupakan bagian dari perlawanan besar rakyat Aceh terhadap kolonialisme Belanda. Dipimpin oleh Teuku Umar, rakyat Pidie melakukan perlawanan sengit untuk mempertahankan tanah mereka dari upaya Belanda untuk menguasai wilayah tersebut. Teuku Umar, dengan kecerdasan militernya, berhasil mengorganisir serangan-serangan gerilya yang membuat Belanda kesulitan untuk menaklukkan wilayah Pidie. Perlawanan ini merupakan bagian penting dari sejarah panjang perlawanan Aceh yang terkenal gigih melawan kolonialisme Belanda hingga Aceh berhasil mempertahankan kemerdekaannya selama bertahun-tahun sebelum akhirnya jatuh ke tangan Belanda.",
+    "tahun": 1859,
+    "tokoh": ["Teuku Umar"],
+    "koordinat": [5.350000, 95.350000]
+  }
+]
